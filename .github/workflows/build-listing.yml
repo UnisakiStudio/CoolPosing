@@ -6,12 +6,9 @@ env:
   
 on: 
   workflow_dispatch:
-  workflow_run:
-    workflows: [Build Release]
-    types:
-      - completed
-  release:
-     types: [published, created, edited, unpublished, deleted, released]
+  push:
+    branches: main
+    paths: source.json
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -32,7 +29,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       
       # Checkout Local Repository
@@ -58,9 +55,12 @@ jobs:
       
       # Build Package Version Listing with Nuke
       - name: Build Package Version Listing
-        run: ${{ env.pathToCi }}/build.cmd BuildRepoListing --root ${{ env.pathToCi }} --list-publish-directory $GITHUB_WORKSPACE/${{ env.listPublishDirectory }} --current-package-name ${{ vars.PACKAGE_NAME }}
+        run: ${{ env.pathToCi }}/build.cmd BuildMultiPackageListing --root ${{ env.pathToCi }} --list-publish-directory $GITHUB_WORKSPACE/${{ env.listPublishDirectory }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Delete index.html
+        run: rm $GITHUB_WORKSPACE/${{ env.listPublishDirectory }}/index.html
 
       # Prepare for GitHub Pages deployment
       - name: Setup Pages
