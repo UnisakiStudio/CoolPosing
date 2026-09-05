@@ -4,9 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>VCC Listing</title>
-  <script type="module" src="https://unpkg.com/@fluentui/web-components@2.6.1"></script>
+  <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="./favicon.ico">
 </head>
 <body>
   <div class="col align-items-center content">
@@ -149,7 +148,7 @@
         </div>
         <h5 class="m-0 mb-2">Listing URL</h5>
         <div class="row align-items-center">
-          <fluent-text-field aria-readonly="true" id="packageInfoVccUrlField" class="vccUrlField" readonly value="{{ listingInfo.Url }}">
+          <fluent-text-field aria-readonly="true" id="packageInfoVccUrlField" class="vccUrlField" readonly value="https://unisakistudio.github.io/CoolPosing/index.json">
           </fluent-text-field>
           <fluent-button class="ms-2" id="packageInfoVccUrlFieldCopy">
             <svg slot="start" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

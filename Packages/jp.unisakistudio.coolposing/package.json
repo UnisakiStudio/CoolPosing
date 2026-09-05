@@ -1,0 +1,25 @@
+{
+  "name": "jp.unisakistudio.coolposing",
+  "version": "1.0.0-alpha.1",
+  "displayName": "カッコいいポーズツール",
+  "description": "カッコいいポーズツールは3点トラッキングやデスクトップモードでもカッコいいポーズが撮れるようにするVRChatアバター向けギミックの設定ツールです",
+  "author": {
+    "name": "UnisakiStudio",
+    "email": "unisaki.studio@gmail.com",
+    "url": "https://yunisaki.booth.pm/"
+  },
+  "unity": "2022.3",
+  "unityRelease": "22f1",
+  "documentationUrl": "https://docs.unisakistudio.jp/coolposing/manual/",
+  "keywords": [
+    "VRChat"
+  ],
+  "url": "https://github.com/UnisakiStudio/CoolPosing/releases/download/1.0.0-alpha.1/jp.unisakistudio.coolposing-1.0.0-alpha.1.zip",
+  "repo": "https://github.com/UnisakiStudio/CoolPosing",
+  "dependencies": {
+    "jp.unisakistudio.posingsystem": "3.0.13"
+  },
+  "vpmDependencies": {
+    "jp.unisakistudio.posingsystem": "^3.0.13"
+  }
+}

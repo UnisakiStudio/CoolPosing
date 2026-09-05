@@ -1,0 +1,20 @@
+{
+    "name":"カッコいいポーズツール",
+    "id":"jp.unisakistudio.coolposing",
+    "url":"https://UnisakiStudio.github.io/CoolPosing/index.json",
+    "author":{
+        "email":"unisaki.studio@gmail.com",
+        "name":"UnisakiStudio",
+        "url":"https://yunisaki.booth.pm/"
+    },
+    "description":"カッコいいポーズツールは3点トラッキングやデスクトップモードでもカッコいいポーズが撮れるようにするVRChatアバター向けギミックの設定ツールです",
+    "infoLink":{
+        "url":"https://github.com/UnisakiStudio/CoolPosing",
+        "text":"View on GitHub"
+    },
+    "bannerUrl":"banner.png",
+    "githubRepos":[
+        "UnisakiStudio/CoolPosing",
+	"UnisakiStudio/PosingSystem"
+    ]
+}
