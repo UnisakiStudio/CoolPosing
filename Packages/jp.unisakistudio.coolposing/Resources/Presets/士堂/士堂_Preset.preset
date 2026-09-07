@@ -1,0 +1,3323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u58EB\u5802_Preset"
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: e1a693c84821498bb70e4a95a57a838a, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: developmentMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: settingName
+    value: "\u30AB\u30C3\u30B3\u3044\u3044\u30DD\u30FC\u30BA\u30C4\u30FC\u30EB\u8A2D\u5B9A"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: isIconDisabled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: isIconSmall
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mergeTrackingControl
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: autoImportAvatarAnimations
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].menuName
+    value: "\u7ACB\u3061\u59FF\u52E2"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].description
+    value: "\uFF08\u666E\u901A\u306B\u7ACB\u3063\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].stateMachineName
+    value: SitStand
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].paramName
+    value: SitStand
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].icon
+    value: 
+    objectReference: {fileID: 2800000, guid: c7d85ae85b4a43ae9db6bc9b368dc4aa, type: 3}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].locomotionTypeValue
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.size
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 70ed07d6208c8194d9d720a38b953540, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].displayName
+    value: "\u5F85\u3061\u307C\u3046\u3051"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].typeParameterValue
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[0].syncdParameterValue
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: d8575e9824a83e34586ca9acddb22930, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 28a52adb793ac7c45bd1620d4f7d1e70, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].displayName
+    value: "\u601D\u8003\u4E2D"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].typeParameterValue
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[1].syncdParameterValue
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 88629a76ceb3b164d8a8136d4bab5119, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: be6f97ac7b1395a439a3c0c8dbb8a717, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].displayName
+    value: "\u7167\u308C"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].typeParameterValue
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[2].syncdParameterValue
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: e1b5aef6ac050114a89e4e86bd654bd1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 197611567a06b3946adeb3bfdf1843e0, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].displayName
+    value: "\u8098\u30D1\u30F3\u30C1"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].typeParameterValue
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[3].syncdParameterValue
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 291b8f531d52dfb4d966aaacbc1825f9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].displayName
+    value: "\u30E2\u30C7\u30EB"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].typeParameterValue
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[4].syncdParameterValue
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: a0a36d388ab10094e8a6d21770ebbe5d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 05be1fd4c585eaa459977456f0020fdc, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].displayName
+    value: "\u7570\u5909\u7121\u3057"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].typeParameterValue
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[5].syncdParameterValue
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: afe6926d6f61ecc49b79b9d04429def0, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].displayName
+    value: "\u57F9\u990A\u4E2D"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].typeParameterValue
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[6].syncdParameterValue
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: ec0776ea40b265949a2e004a9938602b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].displayName
+    value: "\u9B54\u738B\u964D\u81E8"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].typeParameterValue
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[7].syncdParameterValue
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: a85dc7bfcb0b0c04ca77fe96faf13305, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 4dce2a4e4eb95704aaf94cb98cb7477d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].displayName
+    value: "\u58C1\u30C9\u30F3"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].typeParameterValue
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[8].syncdParameterValue
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: abc0d021305569845a7c41a68bd91846, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].displayName
+    value: "\u5236\u6B62"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].typeParameterValue
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[9].syncdParameterValue
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 0cd7a682825ab094d9ba1b2d51a80fdc, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].displayName
+    value: "\u30B1\u30F3\u30AB"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].typeParameterValue
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[0].animations.Array.data[10].syncdParameterValue
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].menuName
+    value: "\u4E2D\u8170\u59FF\u52E2"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].description
+    value: "\uFF08\u6905\u5B50\u306B\u5EA7\u3063\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].stateMachineName
+    value: SitShallow
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].paramName
+    value: SitShallow
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].icon
+    value: 
+    objectReference: {fileID: 2800000, guid: 9806550c11814ddf821febe3533b8043, type: 3}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].locomotionTypeValue
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: d9221eb326a05364f9c653dae9d53b70, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 9548007f5fadf96488b10f61f5f6e90e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].displayName
+    value: "\u8003\u3048\u308B\u7537"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].typeParameterValue
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[0].syncdParameterValue
+    value: 12
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 7e26a554cf4c3dc47a82e090ce483a15, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: c67518016ce9e54448848f2d1fd84111, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].displayName
+    value: "\u5546\u8AC7"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].typeParameterValue
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[1].syncdParameterValue
+    value: 13
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 9d59a87264b4641428096acf82935317, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 716787ee801351f4783a567855b31467, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].displayName
+    value: "\u898B\u4E0B\u3057"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].typeParameterValue
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[2].syncdParameterValue
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: ebf4b23d93bb1a74392281431974f208, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 73e274c3772b8354686d7a84c4fb613a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].displayName
+    value: "\u4F11\u61A9\u4E2D"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].typeParameterValue
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[3].syncdParameterValue
+    value: 19
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 24732b1744cdc11469067689f71098da, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: d8a7bdf955b21624a9786d129b7a639b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].displayName
+    value: "\u4E8C\u4EBA\u5206\u5EA7\u308A"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].typeParameterValue
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[4].syncdParameterValue
+    value: 16
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: c0c1b85eff7f91e4ba4c5aaa8c230d84, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 38921baea73274a439388e55aa54199b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].displayName
+    value: "\u7761\u9B54"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].typeParameterValue
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[5].syncdParameterValue
+    value: 17
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 77a548cc32bc70b4b807ac4bde85da14, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].displayName
+    value: "\u30EA\u30AF\u30E9\u30A4\u30CB\u30F3\u30B0"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].typeParameterValue
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[6].syncdParameterValue
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: d34e6931d9640bd44a0137e825fea76b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 41792ee7eed4de2488adf4772f38291c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].displayName
+    value: "\u304A\u3059\u307E\u3057"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].typeParameterValue
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[7].syncdParameterValue
+    value: 18
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 79412d6920349f5408c8b1fc929f6a91, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 1de564e8d32a7ff4f974d8887e29e694, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].displayName
+    value: "\u9A0E\u58EB"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].typeParameterValue
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[1].animations.Array.data[8].syncdParameterValue
+    value: 19
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].menuName
+    value: "\u5EA7\u308A\u59FF\u52E2"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].description
+    value: "\uFF08\u5E8A\u306B\u5EA7\u3063\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].stateMachineName
+    value: SitDeep
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].paramName
+    value: SitDeep
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].icon
+    value: 
+    objectReference: {fileID: 2800000, guid: 7258cbdecb7c4c96b4aa72822baf3edb, type: 3}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].locomotionTypeValue
+    value: 22
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.size
+    value: 14
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 3a7500f9d7ca02e4c9fb7e44626bdfd3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 8ca8dcf337a2a01458249e153c133a96, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].displayName
+    value: "\u305F\u305F\u307F"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].typeParameterValue
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[0].syncdParameterValue
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: d9dfaea6d9ab0194aaaadf2246ef0ec2, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: b2bbd23e2527f9d43b8c4385b08732ed, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].displayName
+    value: "\u5EA7\u5E03\u56E3"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].typeParameterValue
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[1].syncdParameterValue
+    value: 29
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 55163ea2e7afc194488a0a469a72aba8, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 440f590319eeff04bab6924434d246de, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].displayName
+    value: "\u30B3\u30F3\u30D3\u30CB"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].typeParameterValue
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[2].syncdParameterValue
+    value: 28
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 034c3b3779408f54b9690752d855cf6d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: ee45c8d2d1323da49822647297b9e42e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].displayName
+    value: "\u6D77\u5CB8"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].typeParameterValue
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[3].syncdParameterValue
+    value: 22
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 35ad69bc89ba19743aa7a6452ced49fa, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 6c82559efbf78bf499503433e8f90b02, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].displayName
+    value: "\u697D\u5712"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].typeParameterValue
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[4].syncdParameterValue
+    value: 27
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 465e9bd963ffda94ba52ae359bdd90e9, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 3d9e12820bb65fe4982d5672b648991f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].displayName
+    value: "\u30DE\u30C3\u30C8\u30EC\u30B9"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].typeParameterValue
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[5].syncdParameterValue
+    value: 29
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 8ad1b69a402098d4d83dd9fb1aac9c59, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 87f225e0f381f3e4d9785063fb6d5b0e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].displayName
+    value: "\u7D68\u6BEF"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].typeParameterValue
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[6].syncdParameterValue
+    value: 25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: ad6e661374fbf184cb4c339b9a65a59f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: a90f58011804f2a4aad99133841396f6, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].displayName
+    value: "\u7802\u6D5C"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].typeParameterValue
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[7].syncdParameterValue
+    value: 23
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 1d0563ec7ac31b241b01050ac0610e26, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 00b3a452927fe2c4e9eb598f6037243a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].displayName
+    value: "\u5E03\u56E3"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].typeParameterValue
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[8].syncdParameterValue
+    value: 26
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 3280f506210733442add4d520da38343, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 72fc82984886ca84f90d0ece37950c62, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].displayName
+    value: "\u829D\u751F"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].typeParameterValue
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[9].syncdParameterValue
+    value: 24
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: ceda71aaacaf5a640b62283781ad3187, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 230e757c7c71d5e4f8f33311b2d303f5, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].displayName
+    value: "\u30D9\u30C3\u30C9"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].typeParameterValue
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[10].syncdParameterValue
+    value: 29
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 442062a3191b38e4ca2a2ce7cb83f20e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 3ab523a14a407ab489986105761e7b9c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].displayName
+    value: "\u904B\u52D5\u4F1A"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].typeParameterValue
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[11].syncdParameterValue
+    value: 21
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 7478f8d870bfdc94ebc47235ad459e2d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 19707a87883220c49953792d84058241, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].displayName
+    value: "\u548C\u5BA4"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].typeParameterValue
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[12].syncdParameterValue
+    value: 29
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 75d4fa3c0f693db49a02169546dc9b65, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: cf38fff19e6707544af92f376f07e144, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].displayName
+    value: "\u8A13\u7DF4\u5834"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].typeParameterValue
+    value: 11
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[2].animations.Array.data[13].syncdParameterValue
+    value: 29
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].menuName
+    value: "\u4EF0\u5411\u3051\u5BDD"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].description
+    value: "\uFF08\u4E0A\u3092\u5411\u3044\u3066\u5BDD\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].stateMachineName
+    value: SitSleepUp
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].paramName
+    value: SitSleepUp
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].icon
+    value: 
+    objectReference: {fileID: 2800000, guid: dbeb20037edd405b8b4c70499ac3f14e, type: 3}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].locomotionTypeValue
+    value: 32
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.size
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: be5b5c0c11b5780439f0e35e4e2ec035, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].displayName
+    value: "\u5730\u7403\u5BDD"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].typeParameterValue
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[0].syncdParameterValue
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: e0aa2fba05fdfe74e96e7c83789ad235, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].displayName
+    value: "\u5012\u3055\u308C\u5BDD"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].typeParameterValue
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[1].syncdParameterValue
+    value: 31
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: a0c90a8d6c983474f8052c6113378b59, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 4c6ef72835da1f04b87374392f36cf7f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].displayName
+    value: "\u8131\u529B\u5BDD"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].typeParameterValue
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[2].syncdParameterValue
+    value: 32
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 95dc834ffabeef646aa7a521612205a0, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].displayName
+    value: "\u6674\u5929\u5BDD"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].typeParameterValue
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[3].syncdParameterValue
+    value: 33
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 1990698809c230c4d943e4f7f44a1dfc, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 08275287bcfa69b4fb5b1c9f3a18735c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].displayName
+    value: "\u8155\u6795\u5BDD"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].typeParameterValue
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[4].syncdParameterValue
+    value: 34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: c39ba5817c31ff142a76bf33207f1f94, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: ee86b7d548b7e8c4288ffbba5a32fca3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].displayName
+    value: "\u6728\u306E\u4E0A\u5BDD"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].typeParameterValue
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[5].syncdParameterValue
+    value: 35
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 72493597981c3544ba232ce9facb8b7c, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 991ef41dcdc4bc2448630ba08f4abe5d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].displayName
+    value: "\u732B\u5BDD"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].typeParameterValue
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[6].syncdParameterValue
+    value: 36
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: a73f388fc230a774593377baa03a932a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 8de0e5ef64e82944bbcfea05afd195cd, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].displayName
+    value: "\u3044\u3058\u3051"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].typeParameterValue
+    value: 9
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[7].syncdParameterValue
+    value: 37
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 654935c84cb9e344ea2bf2207a55fc59, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: fd2d01d6b187b9b44867fa1250c17f25, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].displayName
+    value: "\u304A\u3044\u3067"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].typeParameterValue
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[3].animations.Array.data[8].syncdParameterValue
+    value: 38
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].menuName
+    value: "\u3046\u3064\u4F0F\u305B\u5BDD"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].description
+    value: "\uFF08\u4E0B\u3084\u6A2A\u3092\u5411\u3044\u3066\u5BDD\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].stateMachineName
+    value: SitSleepDown
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].paramName
+    value: SitSleepDown
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].icon
+    value: 
+    objectReference: {fileID: 2800000, guid: c8633dd0b07e4a4080e3c3db9607dd44, type: 3}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].locomotionTypeValue
+    value: 33
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.size
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: b5a455a7c53158a4d9b770551e12792a, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 0adabef09d60c1c4bb9438a462a99f3e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].displayName
+    value: "\u3080\u304D\u308A\u3087\u304F"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].typeParameterValue
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[0].syncdParameterValue
+    value: 41
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 6279da2c847fe8b41a0b212500ca6f58, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 8feb3d4dc92a7814d96c4e5e778aaaef, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].displayName
+    value: "\u3058\u3060\u3089\u304F"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].typeParameterValue
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[1].syncdParameterValue
+    value: 42
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: a37e2fd3ce9e5874c877a00279965673, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: e7ad61a728925f140b9d87bd37d6db5b, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].displayName
+    value: "\u304A\u3061\u3053\u307F"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].typeParameterValue
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[2].syncdParameterValue
+    value: 43
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: a3fbe3dd291c62f4592a17ea314500f6, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: b28eb31f06230594eab740499dc7b371, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].displayName
+    value: "\u306F\u3044\u305A\u308A"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].typeParameterValue
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[3].syncdParameterValue
+    value: 39
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: c4d7d5fff1d308842b5460b970300022, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 428cd98af4cf6094bb6de7e816367274, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].displayName
+    value: "\u304A\u304D\u3042\u304C\u308A"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].typeParameterValue
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[4].syncdParameterValue
+    value: 40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 2b83461fd8356f745ab52347b6180f1f, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 6c3c8efd6e0e7944890d68810c181ae3, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].displayName
+    value: "\u3056\u305B\u3064"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].typeParameterValue
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[5].syncdParameterValue
+    value: 43
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].animationClip
+    value: 
+    objectReference: {fileID: 7400000, guid: 9f9db30a0238b0542b86b0410714456d, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].adjustmentClip
+    value: 
+    objectReference: {fileID: 7400000, guid: a48a01aeb284013498119538a339b12e, type: 2}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].displayName
+    value: "\u3075\u304F\u3058\u3085\u3046"
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].initial
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].initialSet
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].isCustomIcon
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].icon
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].typeParameterValue
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: defines.Array.data[4].animations.Array.data[6].syncdParameterValue
+    value: 43
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.size
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[0].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[0].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[0].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[0].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[0].animationClip
+    value: 
+    objectReference: {fileID: 20600000, guid: f5a07735dcfbd1f43860524871563f13, type: 2}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[0].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[0].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[0].stateType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[1].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[1].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[1].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[1].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[1].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[1].animationClip
+    value: 
+    objectReference: {fileID: 20600000, guid: 17f317e701a3b4846b58321e40f72c82, type: 2}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[1].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[1].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[1].stateType
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[2].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[2].isRotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[2].rotate
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[2].isMotionTime
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[2].motionTimeParamName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[2].animationClip
+    value: 
+    objectReference: {fileID: 20600000, guid: 8a457f504ebc7184d9ef30f34924fbfb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[2].previewImage
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[2].adjustmentClip
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: overrideDefines.Array.data[2].stateType
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: SubmenuRoot
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: data
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: savedInstanceId
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: thumbnailPackObject
+    value: 
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

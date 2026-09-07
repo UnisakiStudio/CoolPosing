@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cf4bb8c6b157c4b941e7958f6ae8a6, type: 3}
+  m_Name: "\u58EB\u5802_PresetDefines"
+  m_EditorClassIdentifier: 
+  presetDefines:
+  - prefabs:
+    - {fileID: 3328649421508394140, guid: 84563ad9369145fa83c96027f436eec9, type: 3}
+    - {fileID: 7978952140411402290, guid: e21117159ebf40209c13ef86596f2a15, type: 3}
+    avatarName: "\u58EB\u5802"
+    preset: {fileID: 2655988077585873504, guid: 78fcd9313db1d044591d5fc51dd34fd2, type: 2}
+    prefabsHashes:
+    - 5f504b60890fe65b7a4fe2dd24799f40
+    - a1750c115a5cc1e6e9512bf95a4ec42d
+    - 17a9d437ab5735c7f5f3b80a6c1229c3
+    - 5b0c4559b02e583cc1c4cbe609eae552
+    - defaa4cb06c05ee59052a3dd97897e47
+    - bd1f23a6a1acbbb85bed0d4600c2b42f
+    prefabsNames:
+    - Shidou_Custom
+    - Shidou_Naked_Custom
+    - YoungShidou_Custom
+    - Shidou_Prefab
+    - YoungShidou_Prefab
