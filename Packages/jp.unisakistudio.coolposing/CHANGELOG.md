@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.0] - 2026-09-06
 
 - 正式リリース
+- アバタープリセットを追加（トネール、狛乃、士堂、真央）
 
 ## [1.0.0-alpha.1] - 2026-09-06
 

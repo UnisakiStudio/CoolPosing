@@ -18,6 +18,7 @@
 - 頭・腕・足のトラッキング固定
 - 左右反転、足の高さ調整
 - アバターに合わせたアニメーション調整とプレビュー
+- トネール、狛乃、士堂、真央向けの調整済みプリセットを同梱
 - 好きなアニメーションへの差し替え
 - Modular Avatar／NDMFを利用した非破壊導入
 
@@ -33,6 +34,17 @@
 | 合計 | 50 |
 
 商品には通常版と、足の高さ調整を省いた省メモリー版「カッコいいポーズ(8bit・足の高さなし)」の2種類のPrefabが含まれます。
+
+## 対応アバタープリセット
+
+以下の4体向けに、アバターへ合わせて姿勢を調整したプリセットを同梱しています。
+
+- [トネール](https://booth.pm/ja/items/5236104)
+- [狛乃](https://booth.pm/ja/items/5260363)
+- [士堂](https://booth.pm/ja/items/8086741)
+- [真央](https://booth.pm/ja/items/6846646)
+
+上記以外のアバターでも本ツールを使用できます。姿勢が崩れる場合は、アニメーション調整機能でアバターに合わせて調整してください。
 
 ## 動作環境・必要なもの
 
@@ -59,7 +71,7 @@
 - Playable LayersのBaseレイヤーに特殊な構成があるアバターでは、意図どおりに統合されない場合があります。
 - Space Drag機能を併用すると、自分のアバターを第三者視点で確認・撮影しやすくなります。
 - 不要な姿勢はPrefabのInspectorから無効化または削除できます。
-- 同梱するアバター別プリセットはありません。対応プリセットはリリース後の追加を予定しています。
+- 対応プリセットを使用した場合でも、アバターの改変内容や体型によって追加調整が必要になることがあります。
 
 ## 利用規約
 
@@ -75,4 +87,4 @@
 
 ## English
 
-Cool Posing is a VRChat avatar pose tool for desktop and 3-point tracking users. It includes 50 poses and lets you select poses from the Expressions menu. Please use machine translation for this guide. The Japanese terms of use are authoritative; translated VN3 PDFs, when supplied, are for reference.
+Cool Posing is a VRChat avatar pose tool for desktop and 3-point tracking users. It includes 50 poses, presets adjusted for four avatars, and pose selection from the Expressions menu. Please use machine translation for this guide. The Japanese terms of use are authoritative; translated VN3 PDFs, when supplied, are for reference.
