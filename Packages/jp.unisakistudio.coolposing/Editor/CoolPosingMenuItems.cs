@@ -25,11 +25,8 @@ namespace jp.unisakistudio.coolposingeditor
 
         [MenuItem("GameObject/ゆにさきスタジオ/カッコいいポーズツール追加", false, 20)]
         static public void AddPrefab01() { PosingSystemMenuItems.AddPrefab("カッコいいポーズ"); }
-        [MenuItem("GameObject/ゆにさきスタジオ/カッコいいポーズツール追加(8bit・足の高さなし)", false, 21)]
-        static public void AddPrefab10() { PosingSystemMenuItems.AddPrefab("カッコいいポーズ(8bit・足の高さなし)"); }
 
         [MenuItem("GameObject/ゆにさきスタジオ/カッコいいポーズツール追加", true)]
-        [MenuItem("GameObject/ゆにさきスタジオ/カッコいいポーズツール追加(8bit・足の高さなし)", true)]
         private static bool Validate()
         {
             if (!Selection.activeGameObject)
