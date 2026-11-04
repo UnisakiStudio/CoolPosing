@@ -1,0 +1,2418 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c68cd740f6c4ecda8d1aa85b6d8e921, type: 3}
+  m_Name: CoolPosingAutoPoseCatalog
+  m_EditorClassIdentifier: 
+  formatVersion: 2
+  productName: Cool Posing Tool
+  productionReady: 1
+  poses:
+  - poseKey: 
+    sourceAnimation: {fileID: 0}
+    solveIterations: 0
+    limbRules:
+    - coordinateSpaceVersion: 0
+      enabled: 0
+      label: 
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0, y: 0, z: 0}
+      targetRotationOffset: {x: 0, y: 0, z: 0, w: 0}
+      matchEndRotation: 0
+      positionWeight: 0
+      rotationWeight: 0
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0, y: 0, z: 0}
+  - poseKey: "\u7ACB\u3061\u59FF\u52E2_\u5F85\u3061\u307C\u3046\u3051"
+    sourceAnimation: {fileID: 7400000, guid: 70ed07d6208c8194d9d720a38b953540, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.049511064, y: -0.006304156, z: 0.09501969}
+      targetRotationOffset: {x: -0.17963462, y: 0.88379526, z: 0.40546393, w: 0.14911905}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.6595594, y: -0.4544857, z: 0.5986854}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.053519037, y: -0.055917956, z: 0.060035445}
+      targetRotationOffset: {x: 0.09959609, y: -0.706713, z: -0.67331886, w: -0.19307798}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.79766136, y: -0.52534205, z: 0.2962296}
+  - poseKey: "\u7ACB\u3061\u59FF\u52E2_\u601D\u8003\u4E2D"
+    sourceAnimation: {fileID: 7400000, guid: d8575e9824a83e34586ca9acddb22930, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.08141203, y: -0.05971126, z: 0.07141624}
+      targetRotationOffset: {x: -0.4282816, y: -0.8989005, z: 0.07985402, w: 0.04664784}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.41678262, y: -0.8534111, z: 0.31302038}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 16
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.021395355, y: -0.065012425, z: -0.026208568}
+      targetRotationOffset: {x: 0.83523524, y: -0.4258266, z: 0.024537075, w: -0.3470617}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.71499765, y: -0.6330097, z: 0.29677793}
+  - poseKey: "\u7ACB\u3061\u59FF\u52E2_\u7167\u308C"
+    sourceAnimation: {fileID: 7400000, guid: 88629a76ceb3b164d8a8136d4bab5119, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 1
+      lengthReference: 7
+      applyPositionX: 0
+      applyPositionY: 0
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.1539038, y: 0.1235575, z: 0.010292755}
+      targetRotationOffset: {x: 0.2562685, y: 0.88572776, z: -0.37545425, w: -0.09405749}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.9978001, y: 0.0065658125, z: 0.06596831}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.13703224, y: -0.03734158, z: -0.08463742}
+      targetRotationOffset: {x: -0.21339642, y: 0.30815512, z: 0.6307985, w: 0.6794083}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.9722495, y: 0.010839488, z: -0.23369502}
+  - poseKey: "\u7ACB\u3061\u59FF\u52E2_\u8098\u30D1\u30F3\u30C1"
+    sourceAnimation: {fileID: 7400000, guid: e1b5aef6ac050114a89e4e86bd654bd1, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.077120855, y: 0.0418005, z: 0.027213017}
+      targetRotationOffset: {x: -0.26759025, y: 0.43125165, z: -0.6587844, w: -0.5553564}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.8601988, y: 0.30146813, z: 0.41130897}
+  - poseKey: "\u7ACB\u3061\u59FF\u52E2_\u30E2\u30C7\u30EB"
+    sourceAnimation: {fileID: 7400000, guid: 291b8f531d52dfb4d966aaacbc1825f9, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.09492995, y: -0.03015298, z: 0.061119307}
+      targetRotationOffset: {x: -0.5267452, y: -0.8030588, z: 0.079138204, w: -0.26715747}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.68461984, y: -0.64336723, z: 0.34259915}
+  - poseKey: "\u7ACB\u3061\u59FF\u52E2_\u7570\u5909\u7121\u3057"
+    sourceAnimation: {fileID: 7400000, guid: a0a36d388ab10094e8a6d21770ebbe5d, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.13424335, y: -0.12414901, z: 0.03253627}
+      targetRotationOffset: {x: 0.004463689, y: 0.1797252, z: 0.6805919, w: 0.71026313}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.21581905, y: -0.06481761, z: -0.97427964}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.044696048, y: 0.025419872, z: 0.19888045}
+      targetRotationOffset: {x: -0.42954007, y: -0.33988154, z: -0.83047616, w: -0.101415835}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.37625626, y: -0.8186686, z: -0.4338351}
+  - poseKey: "\u7ACB\u3061\u59FF\u52E2_\u57F9\u990A\u4E2D"
+    sourceAnimation: {fileID: 7400000, guid: afe6926d6f61ecc49b79b9d04429def0, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.010036067, y: 0.112386055, z: 0.15265676}
+      targetRotationOffset: {x: 0.02247186, y: 0.8619654, z: 0.46646935, w: -0.19727427}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.6993834, y: -0.7106767, z: 0.07616729}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.026550032, y: 0.08094481, z: 0.13639131}
+      targetRotationOffset: {x: 0.02351349, y: -0.8470407, z: -0.4877902, w: -0.20983286}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.70165545, y: -0.71198255, z: 0.02757472}
+  - poseKey: "\u7ACB\u3061\u59FF\u52E2_\u58C1\u30C9\u30F3"
+    sourceAnimation: {fileID: 7400000, guid: a85dc7bfcb0b0c04ca77fe96faf13305, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.11678247, y: -0.0034257045, z: -0.009383527}
+      targetRotationOffset: {x: -0.2290126, y: 0.4533851, z: 0.56661075, w: 0.64880466}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.7786879, y: 0.026576795, z: -0.6268483}
+  - poseKey: "\u4E2D\u8170\u59FF\u52E2_\u8003\u3048\u308B\u7537"
+    sourceAnimation: {fileID: 7400000, guid: d9221eb326a05364f9c653dae9d53b70, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.09061556, y: 0.105543986, z: -0.2506274}
+      targetRotationOffset: {x: 0.19761257, y: 0.9251117, z: 0.00843602, w: 0.3241087}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.23442142, y: -0.5284521, z: -0.8159564}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 2
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.37118578, y: -0.16886431, z: 0.42960477}
+      targetRotationOffset: {x: -0.4996394, y: -0.8630637, z: -0.04211759, w: -0.060890034}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.39728394, y: -0.8881322, z: 0.23105544}
+  - poseKey: "\u4E2D\u8170\u59FF\u52E2_\u5546\u8AC7"
+    sourceAnimation: {fileID: 7400000, guid: 7e26a554cf4c3dc47a82e090ce483a15, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.06430273, y: -0.060569886, z: 0.33332148}
+      targetRotationOffset: {x: 0.15472704, y: -0.6546981, z: -0.54011935, w: -0.50566894}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.6827997, y: -0.56474936, z: -0.46351126}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.06545152, y: -0.06320087, z: 0.33414894}
+      targetRotationOffset: {x: 0.27582604, y: 0.57005054, z: 0.5402165, w: -0.5541917}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.7371365, y: -0.5299914, z: -0.41921237}
+  - poseKey: "\u4E2D\u8170\u59FF\u52E2_\u898B\u4E0B\u3057"
+    sourceAnimation: {fileID: 7400000, guid: 9d59a87264b4641428096acf82935317, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.12542872, y: 0.17068906, z: 0.00837436}
+      targetRotationOffset: {x: 0.36935166, y: 0.81361735, z: 0.23880577, w: 0.38023433}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.54038477, y: -0.5721774, z: -0.6169258}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.1254288, y: 0.17068806, z: 0.008374757}
+      targetRotationOffset: {x: 0.3693518, y: -0.813617, z: -0.23880632, w: 0.3802345}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.518525, y: -0.5721771, z: -0.6354094}
+  - poseKey: "\u4E2D\u8170\u59FF\u52E2_\u4F11\u61A9\u4E2D"
+    sourceAnimation: {fileID: 7400000, guid: ebf4b23d93bb1a74392281431974f208, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 1
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.00746012, y: -0.26349068, z: 0.25094736}
+      targetRotationOffset: {x: 0.23632088, y: 0.63596505, z: 0.7083012, w: 0.19496268}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.6388152, y: -0.7047133, z: -0.30869767}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 15
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.5937348, y: -0.18813743, z: 0.44337997}
+      targetRotationOffset: {x: 0.11415306, y: -0.38562393, z: -0.18643709, w: -0.8963841}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.8238096, y: -0.4247179, z: 0.37543628}
+  - poseKey: "\u4E2D\u8170\u59FF\u52E2_\u4E8C\u4EBA\u5206\u5EA7\u308A"
+    sourceAnimation: {fileID: 7400000, guid: 24732b1744cdc11469067689f71098da, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 11
+      useViewPosition: 0
+      positionSpace: 1
+      lengthReference: 4
+      applyPositionX: 0
+      applyPositionY: 1
+      applyPositionZ: 0
+      normalizedTargetOffset: {x: -1.0054789, y: 0.009149052, z: 0.67359716}
+      targetRotationOffset: {x: -0.2233682, y: -0.51959795, z: -0.40426177, w: -0.7188164}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.6432874, y: 0.071981266, z: -0.76223356}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 2
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.2783632, y: 0.025462862, z: -0.2881608}
+      targetRotationOffset: {x: 0.44019604, y: -0.6634547, z: 0.29255903, w: 0.52958894}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.7259386, y: -0.60075617, z: -0.33482105}
+  - poseKey: "\u4E2D\u8170\u59FF\u52E2_\u7761\u9B54"
+    sourceAnimation: {fileID: 7400000, guid: c0c1b85eff7f91e4ba4c5aaa8c230d84, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.29009977, y: 0.013393343, z: 0.30468655}
+      targetRotationOffset: {x: 0.79020196, y: -0.5229976, z: -0.18679808, w: 0.25915417}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.22306375, y: -0.8692589, z: 0.44117066}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 15
+      useViewPosition: 0
+      positionSpace: 1
+      lengthReference: 2
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 0
+      normalizedTargetOffset: {x: 0.5393664, y: -0.010683241, z: -0.40188727}
+      targetRotationOffset: {x: -0.23966445, y: -0.082676455, z: 0.81711084, w: 0.5177407}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.85535365, y: -0.41976568, z: -0.30359003}
+  - poseKey: "\u4E2D\u8170\u59FF\u52E2_\u30EA\u30AF\u30E9\u30A4\u30CB\u30F3\u30B0"
+    sourceAnimation: {fileID: 7400000, guid: 77a548cc32bc70b4b807ac4bde85da14, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 11
+      useViewPosition: 0
+      positionSpace: 1
+      lengthReference: 4
+      applyPositionX: 0
+      applyPositionY: 1
+      applyPositionZ: 0
+      normalizedTargetOffset: {x: -1.0134268, y: -0.029852586, z: 0.57412726}
+      targetRotationOffset: {x: 0.10163634, y: 0.11942425, z: 0.6235635, w: 0.7658828}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.5278618, y: 0.094485834, z: -0.8440583}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.38035187, y: -0.7285732, z: 1.0937759}
+      targetRotationOffset: {x: -0.40310115, y: 0.75771934, z: 0.31230262, w: -0.40723205}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.80362684, y: -0.57464397, z: -0.15481682}
+  - poseKey: "\u4E2D\u8170\u59FF\u52E2_\u304A\u3059\u307E\u3057"
+    sourceAnimation: {fileID: 7400000, guid: d34e6931d9640bd44a0137e825fea76b, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.07592972, y: -0.12871645, z: -0.40826073}
+      targetRotationOffset: {x: -0.36676458, y: 0.82135814, z: 0.06988639, w: 0.4312428}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.63286597, y: -0.2383439, z: -0.73666334}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.08488305, y: -0.1486876, z: -0.42675322}
+      targetRotationOffset: {x: -0.4595977, y: -0.79644525, z: -0.073927194, w: 0.38597897}
+      matchEndRotation: 0
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.329568, y: -0.26718858, z: -0.9055359}
+  - poseKey: "\u4E2D\u8170\u59FF\u52E2_\u9A0E\u58EB"
+    sourceAnimation: {fileID: 7400000, guid: 79412d6920349f5408c8b1fc929f6a91, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.085928164, y: 0.2169913, z: -0.31751496}
+      targetRotationOffset: {x: -0.044372212, y: 0.8492143, z: 0.17840022, w: 0.49501482}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.84699494, y: -0.46174094, z: -0.26342916}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.23192106, y: 0.17814225, z: -0.28030643}
+      targetRotationOffset: {x: -0.16278379, y: -0.90277255, z: -0.27759197, w: 0.28538743}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.75659364, y: -0.6316703, z: -0.1689932}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u305F\u305F\u307F"
+    sourceAnimation: {fileID: 7400000, guid: 3a7500f9d7ca02e4c9fb7e44626bdfd3, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 1
+      lengthReference: 5
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.61450255, y: -0.06830666, z: 0.0666658}
+      targetRotationOffset: {x: -0.5194567, y: -0.66757166, z: -0.3629875, w: -0.39083618}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.9767204, y: -0.08925304, z: 0.19506696}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 17
+      useViewPosition: 0
+      positionSpace: 1
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.2933784, y: 0.012250632, z: -0.01716012}
+      targetRotationOffset: {x: 0.04631865, y: -0.64654803, z: -0.280684, w: -0.7078465}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.9542206, y: -0.07891235, z: 0.28850642}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.016125536, y: 0.08698338, z: 0.5434127}
+      targetRotationOffset: {x: 0.050883062, y: 0.13400732, z: 0.60288256, w: 0.78484756}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.8071154, y: 0.56712925, z: 0.16410144}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.03457495, y: 0.10495107, z: 0.6188043}
+      targetRotationOffset: {x: 0.0065996274, y: -0.121901095, z: -0.5429426, w: 0.83084893}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.79973024, y: 0.57484204, z: 0.17317086}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u5EA7\u5E03\u56E3"
+    sourceAnimation: {fileID: 7400000, guid: d9dfaea6d9ab0194aaaadf2246ef0ec2, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.45232642, y: 0.03642398, z: -0.28682348}
+      targetRotationOffset: {x: -0.17328049, y: 0.63687104, z: -0.03867197, w: 0.75024915}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.28357863, y: 0.12574859, z: -0.9506684}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 2
+      targetBone: 8
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.51862407, y: 0.045729123, z: -0.31860277}
+      targetRotationOffset: {x: -0.20872319, y: -0.6309256, z: 0.0543163, w: 0.7452632}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.24469681, y: 0.14249276, z: -0.9590721}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.05061185, y: 0.064183705, z: 0.47958475}
+      targetRotationOffset: {x: -0.091485776, y: -0.07762616, z: 0.60297555, w: 0.7886856}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.71519, y: 0.6320959, z: 0.29825836}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.08316615, y: 0.10131731, z: 0.573356}
+      targetRotationOffset: {x: -0.106654294, y: 0.018337868, z: -0.53805524, w: 0.83593374}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.70610476, y: 0.65917885, z: 0.25864917}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u30B3\u30F3\u30D3\u30CB"
+    sourceAnimation: {fileID: 7400000, guid: 55163ea2e7afc194488a0a469a72aba8, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.19547087, y: 0.124753155, z: 0.25720754}
+      targetRotationOffset: {x: -0.0014559701, y: -0.06780651, z: 0.01166831, w: 0.9976292}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.32773748, y: 0.66110873, z: 0.67492473}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.1956074, y: 0.12475355, z: 0.2503817}
+      targetRotationOffset: {x: -0.0016594885, y: 0.08520715, z: -0.011641038, w: 0.9962939}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.35109052, y: 0.6611099, z: 0.66307545}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.41600803, y: -0.048523594, z: 0.16392116}
+      targetRotationOffset: {x: 0.5135951, y: 0.7873466, z: 0.13958763, w: 0.31116033}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.9540825, y: 0.12766986, z: 0.27097428}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.4160066, y: -0.048523832, z: 0.16392209}
+      targetRotationOffset: {x: 0.51359475, y: -0.78734666, z: -0.13958749, w: 0.31116092}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.9629581, y: 0.12767111, z: 0.23751149}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u6D77\u5CB8"
+    sourceAnimation: {fileID: 7400000, guid: 034c3b3779408f54b9690752d855cf6d, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.14045063, y: 0.13834772, z: 1.0448703}
+      targetRotationOffset: {x: -0.42828408, y: -0.02282255, z: 0.015082192, w: 0.90323}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.0027424498, y: 0.99926955, z: -0.03811573}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.18602681, y: 0.13365434, z: 0.6864901}
+      targetRotationOffset: {x: 0.033725888, y: 0.108114064, z: -0.0062798313, w: 0.9935464}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.0106544215, y: 0.9985482, z: -0.05280104}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.6945919, y: 0.06529703, z: -0.28525907}
+      targetRotationOffset: {x: -0.011334205, y: 0.22149706, z: 0.059887957, w: 0.9732544}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.16860808, y: -0.092881344, z: -0.9812973}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.023353567, y: 0.10664371, z: 0.057337288}
+      targetRotationOffset: {x: 0.3311954, y: -0.8911706, z: -0.29561377, w: 0.09347183}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.9564034, y: -0.23687115, z: 0.17083538}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u697D\u5712"
+    sourceAnimation: {fileID: 7400000, guid: 35ad69bc89ba19743aa7a6452ced49fa, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.19876121, y: 0.12731767, z: 0.96170497}
+      targetRotationOffset: {x: -0.13717708, y: -0.029770378, z: -0.030224415, w: 0.9896377}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.008961261, y: 0.99927145, z: -0.037099518}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.0895133, y: 0.07844307, z: 0.8236787}
+      targetRotationOffset: {x: -0.18066677, y: 0.19546881, z: -0.6466665, w: 0.71482444}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.9988531, y: 0.0019550633, z: -0.047839466}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.11166966, y: 0.16604938, z: 0.13434523}
+      targetRotationOffset: {x: 0.26814958, y: 0.72281235, z: 0.54236346, w: 0.33388638}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.9267738, y: -0.3745165, z: -0.028770382}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.7866442, y: -0.19610807, z: -0.09837925}
+      targetRotationOffset: {x: -0.15636706, y: -0.57333016, z: -0.5417209, w: 0.5944581}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.06299802, y: -0.99709916, z: -0.042714212}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u30DE\u30C3\u30C8\u30EC\u30B9"
+    sourceAnimation: {fileID: 7400000, guid: 465e9bd963ffda94ba52ae359bdd90e9, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.2075191, y: 0.17386985, z: 0.7761642}
+      targetRotationOffset: {x: -0.22503532, y: 0.2650447, z: 0.43309113, w: 0.83159035}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.7237425, y: 0.64958, z: 0.23290056}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.028271187, y: 0.1267276, z: 1.0640339}
+      targetRotationOffset: {x: -0.5410074, y: 0.03480151, z: -0.06165446, w: 0.8380326}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.029382264, y: 0.99901223, z: -0.033336427}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.13709563, y: 0.22272356, z: 0.0015758545}
+      targetRotationOffset: {x: 0.36813504, y: 0.67641735, z: 0.061298907, w: 0.6349635}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.17429563, y: -0.95728594, z: -0.23070477}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.46949294, y: 1.4790874, z: -0.19984204}
+      targetRotationOffset: {x: 0.67662066, y: -0.023299174, z: 0.13252187, w: 0.7239335}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.33172482, y: 0.028629983, z: -0.94294167}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u7D68\u6BEF"
+    sourceAnimation: {fileID: 7400000, guid: 8ad1b69a402098d4d83dd9fb1aac9c59, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.2666308, y: 0.14987071, z: 0.9333759}
+      targetRotationOffset: {x: -0.21526359, y: -0.042993713, z: -0.030881157, w: 0.97512025}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.039113555, y: 0.99760383, z: -0.057067666}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.095712, y: 0.13252467, z: 1.0247911}
+      targetRotationOffset: {x: -0.6242919, y: 0.022425529, z: 0.010649038, w: 0.78079665}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.048485726, y: 0.99845034, z: -0.02731391}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.003050243, y: 0.32169917, z: -0.15317363}
+      targetRotationOffset: {x: 0.17008168, y: 0.8274932, z: 0.41634312, w: 0.33613342}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.4716818, y: -0.8554641, z: -0.21376957}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 2
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.4954586, y: 0.07710102, z: -0.0768042}
+      targetRotationOffset: {x: 0.024359483, y: -0.21526268, z: -0.024504429, w: 0.9759447}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.009082691, y: -0.02627603, z: -0.9996135}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u7802\u6D5C"
+    sourceAnimation: {fileID: 7400000, guid: ad6e661374fbf184cb4c339b9a65a59f, type: 2}
+    solveIterations: 2
+    limbRules: []
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u5E03\u56E3"
+    sourceAnimation: {fileID: 7400000, guid: 1d0563ec7ac31b241b01050ac0610e26, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.25486842, y: 0.13798572, z: 0.717426}
+      targetRotationOffset: {x: -0.022098321, y: -0.10123301, z: -0.12081997, w: 0.9872518}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.23474833, y: 0.97178423, z: 0.022991061}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 5
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.24249698, y: 0.14131889, z: 2.3144853}
+      targetRotationOffset: {x: -0.6946353, y: 0.15028593, z: -0.10333347, w: 0.6958578}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.36077514, y: 0.93104297, z: -0.054774124}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.07732976, y: 0.11523533, z: -0.58263886}
+      targetRotationOffset: {x: 0.16100101, y: 0.59336954, z: 0.77505374, w: 0.14588705}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.96290344, y: 0.07665449, z: 0.25872985}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 2
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.7106554, y: 0.063975826, z: -0.06827636}
+      targetRotationOffset: {x: -0.5051344, y: -0.4941726, z: -0.3810766, w: 0.59616554}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.13783097, y: -0.68429184, z: -0.71606374}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u829D\u751F"
+    sourceAnimation: {fileID: 7400000, guid: 3280f506210733442add4d520da38343, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.15332669, y: 0.10203197, z: 1.0583832}
+      targetRotationOffset: {x: -0.5558224, y: 0.08676097, z: -0.11575198, w: 0.81861806}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.13914168, y: 0.99004513, z: -0.02121741}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.2586725, y: 0.12767863, z: 0.61215097}
+      targetRotationOffset: {x: 0.021315282, y: -0.009912123, z: 0.014823049, w: 0.9996138}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.07960977, y: 0.9941708, z: -0.0727102}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.32681826, y: 0.14227784, z: -1.2819102}
+      targetRotationOffset: {x: -0.062885396, y: -0.563359, z: 0.028069148, w: 0.82333726}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.011251231, y: 0.557092, z: -0.8303746}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.2834493, y: -0.12680517, z: 0.18395388}
+      targetRotationOffset: {x: 0.35437536, y: -0.8826947, z: -0.29837754, w: 0.07898723}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.93756497, y: 0.30464005, z: 0.16782877}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u30D9\u30C3\u30C9"
+    sourceAnimation: {fileID: 7400000, guid: ceda71aaacaf5a640b62283781ad3187, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 5
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.34636015, y: 0.068444364, z: 1.9669663}
+      targetRotationOffset: {x: -0.6720471, y: -0.07836619, z: -0.019821227, w: 0.73608327}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.095740706, y: 0.99445975, z: 0.043400146}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.2661188, y: 0.14956808, z: 0.74943054}
+      targetRotationOffset: {x: -0.28673106, y: -0.057003297, z: -0.0005272338, w: 0.9563136}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.088094674, y: 0.99443907, z: -0.057708547}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -1.1990818, y: 0.08771921, z: -0.7359314}
+      targetRotationOffset: {x: -0.036154635, y: 0.08067517, z: 0.06263617, w: 0.9941132}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.01925859, y: -0.31711268, z: -0.94819236}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.14866245, y: 0.31275016, z: -0.29007342}
+      targetRotationOffset: {x: 0.34799597, y: -0.8474255, z: -0.26346803, w: 0.30224746}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.75803465, y: -0.64603734, z: 0.08954981}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u904B\u52D5\u4F1A"
+    sourceAnimation: {fileID: 7400000, guid: 442062a3191b38e4ca2a2ce7cb83f20e, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.11180334, y: 0.16148773, z: 0.67599124}
+      targetRotationOffset: {x: -0.031384513, y: 0.08500221, z: 0.046402242, w: 0.99480474}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.0052390243, y: 0.9940231, z: -0.10904429}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.09010058, y: 0.16304566, z: 0.6779359}
+      targetRotationOffset: {x: -0.08787928, y: -0.091735184, z: 0.0049048015, w: 0.9918861}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.010201584, y: 0.9934446, z: -0.113858454}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.5745172, y: 0.11542892, z: -0.6585751}
+      targetRotationOffset: {x: -0.10999306, y: -0.18759054, z: -0.022234889, w: 0.9758161}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.008500539, y: 0.52349, z: -0.85198945}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.20611347, y: -0.030198408, z: 0.13349393}
+      targetRotationOffset: {x: 0.10996689, y: -0.90282696, z: -0.39655203, w: 0.12472857}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.92075396, y: 0.023569856, z: 0.3894311}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u548C\u5BA4"
+    sourceAnimation: {fileID: 7400000, guid: 7478f8d870bfdc94ebc47235ad459e2d, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.021864817, y: -0.63379633, z: -0.63303185}
+      targetRotationOffset: {x: -0.42538443, y: 0.6818431, z: -0.3539109, w: 0.47841948}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.70134217, y: -0.29884735, z: -0.6471549}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.021865126, y: -0.63379645, z: -0.6330305}
+      targetRotationOffset: {x: -0.42538404, y: -0.6818432, z: 0.35391113, w: 0.47841945}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.70134294, y: -0.29884732, z: -0.64715403}
+  - poseKey: "\u5EA7\u308A\u59FF\u52E2_\u8A13\u7DF4\u5834"
+    sourceAnimation: {fileID: 7400000, guid: 75d4fa3c0f693db49a02169546dc9b65, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.56166285, y: 0.14404657, z: -0.05388444}
+      targetRotationOffset: {x: 0.5224142, y: -0.4341582, z: -0.49231583, w: 0.54425657}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.18388782, y: -0.13191023, z: 0.97405595}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.5616622, y: 0.14404589, z: -0.053884163}
+      targetRotationOffset: {x: 0.5224141, y: 0.4341582, z: 0.49231544, w: 0.5442569}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.18388745, y: -0.13191032, z: 0.974056}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.1692204, y: 0.32777616, z: 0.8892583}
+      targetRotationOffset: {x: -0.07645799, y: 0.73183095, z: 0.010247508, w: 0.67710614}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.6635701, y: -0.4553655, z: -0.59356284}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 2
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.2008968, y: 0.34853837, z: 0.93312174}
+      targetRotationOffset: {x: 0.002368695, y: -0.7595821, z: -0.090528704, w: 0.64407605}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.6823893, y: -0.45879593, z: -0.56907916}
+  - poseKey: "\u4EF0\u5411\u3051\u5BDD_\u8131\u529B\u5BDD"
+    sourceAnimation: {fileID: 7400000, guid: a0c90a8d6c983474f8052c6113378b59, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 1
+      lengthReference: 2
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.32442024, y: 0.48422405, z: -0.3827851}
+      targetRotationOffset: {x: -0.11918342, y: -0.57638496, z: -0.80091566, w: 0.11004478}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.8659289, y: -0.29048845, z: 0.4071654}
+  - poseKey: "\u4EF0\u5411\u3051\u5BDD_\u6674\u5929\u5BDD"
+    sourceAnimation: {fileID: 7400000, guid: 95dc834ffabeef646aa7a521612205a0, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 3
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.544919, y: 0.24098025, z: -0.24192844}
+      targetRotationOffset: {x: -0.25795045, y: 0.61953825, z: -0.70405126, w: -0.23226243}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.98845875, y: 0.0025509163, z: -0.15146865}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 3
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.54491925, y: 0.24098021, z: -0.241929}
+      targetRotationOffset: {x: -0.25795063, y: -0.619538, z: 0.7040515, w: -0.23226228}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.99136215, y: 0.0025508706, z: -0.13112803}
+  - poseKey: "\u4EF0\u5411\u3051\u5BDD_\u8155\u6795\u5BDD"
+    sourceAnimation: {fileID: 7400000, guid: 1990698809c230c4d943e4f7f44a1dfc, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.006189586, y: 0.13538156, z: 0.79646313}
+      targetRotationOffset: {x: -0.59128, y: -0.015921041, z: 0.121176176, w: 0.7971517}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.20065893, y: 0.97873396, z: -0.042612992}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.25674552, y: 0.3261474, z: 0.61178726}
+      targetRotationOffset: {x: -0.29519236, y: -0.21797137, z: -0.093611255, w: 0.9255199}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.17183208, y: 0.9502274, z: -0.25988752}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 1
+      lengthReference: 8
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 1.4381982, y: 0.42234972, z: -2.0920632}
+      targetRotationOffset: {x: -0.03109187, y: -0.6474988, z: 0.7600441, w: -0.045951962}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.95039546, y: 0.22145754, z: -0.21841496}
+  - poseKey: "\u4EF0\u5411\u3051\u5BDD_\u6728\u306E\u4E0A\u5BDD"
+    sourceAnimation: {fileID: 7400000, guid: c39ba5817c31ff142a76bf33207f1f94, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 8
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 1.4680594, y: 1.515911, z: -2.0586035}
+      targetRotationOffset: {x: 0.016713679, y: -0.6361172, z: 0.7700408, w: -0.04596442}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.982996, y: -0.021308223, z: -0.1823865}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 3
+      targetSpace: 0
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.17908631, y: -0.9950478, z: 0.025345469}
+      targetRotationOffset: {x: 0.70525265, y: -0.05965832, z: -0.026306152, w: 0.70595145}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.14912294, y: 0.98512834, z: -0.08534949}
+  - poseKey: "\u4EF0\u5411\u3051\u5BDD_\u732B\u5BDD"
+    sourceAnimation: {fileID: 7400000, guid: 72493597981c3544ba232ce9facb8b7c, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 2
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -1.2600161, y: 0.2521328, z: 0.05853636}
+      targetRotationOffset: {x: 0.0924832, y: -0.99454564, z: -0.017571175, w: -0.044913605}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.2204428, y: 0.53578794, z: 0.81506824}
+  - poseKey: "\u4EF0\u5411\u3051\u5BDD_\u304A\u3044\u3067"
+    sourceAnimation: {fileID: 7400000, guid: 654935c84cb9e344ea2bf2207a55fc59, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 8
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 1.0685375, y: 0.8677456, z: -1.605792}
+      targetRotationOffset: {x: 0.2242994, y: 0.69831914, z: -0.657037, w: 0.1741911}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.23414555, y: -0.45424888, z: 0.8595544}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.7063841, y: 0.10646705, z: 1.3244085}
+      targetRotationOffset: {x: 0.06437792, y: -0.8327793, z: -0.11435132, w: -0.5378271}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.94622713, y: 0.23166968, z: -0.22579497}
+  - poseKey: "\u3046\u3064\u4F0F\u305B\u5BDD_\u3080\u304D\u308A\u3087\u304F"
+    sourceAnimation: {fileID: 7400000, guid: b5a455a7c53158a4d9b770551e12792a, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 8
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -1.0416863, y: 0.681087, z: -1.8065237}
+      targetRotationOffset: {x: -0.07204959, y: 0.6918955, z: -0.68795633, w: -0.20689508}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.54576, y: -0.61185145, z: 0.57252413}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 0
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 1.6131823, y: 0.12397024, z: 4.168189}
+      targetRotationOffset: {x: -0.16685897, y: -0.7331731, z: -0.008409731, w: 0.65919995}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.46932712, y: -0.43797776, z: -0.76675135}
+  - poseKey: "\u3046\u3064\u4F0F\u305B\u5BDD_\u3058\u3060\u3089\u304F"
+    sourceAnimation: {fileID: 7400000, guid: 6279da2c847fe8b41a0b212500ca6f58, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.117688395, y: -0.8241196, z: -4.044844}
+      targetRotationOffset: {x: 0.1026761, y: -0.089968614, z: 0.99023205, w: -0.028350431}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.77035826, y: -0.22118486, z: 0.5980178}
+  - poseKey: "\u3046\u3064\u4F0F\u305B\u5BDD_\u304A\u3061\u3053\u307F"
+    sourceAnimation: {fileID: 7400000, guid: a37e2fd3ce9e5874c877a00279965673, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 3
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.5953275, y: 0.3907646, z: 0.2028059}
+      targetRotationOffset: {x: -0.2998472, y: 0.76889676, z: -0.43161142, w: -0.36414418}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.7987235, y: -0.31920195, z: 0.51004976}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 0
+      targetBone: 10
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 3
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.16832174, y: 0.187255, z: 0.54569423}
+      targetRotationOffset: {x: 0.44066137, y: -0.78297937, z: 0.2990674, w: 0.32143384}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.65337783, y: -0.403398, z: 0.6405993}
+  - poseKey: "\u3046\u3064\u4F0F\u305B\u5BDD_\u306F\u3044\u305A\u308A"
+    sourceAnimation: {fileID: 7400000, guid: a3fbe3dd291c62f4592a17ea314500f6, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.3240935, y: 0.09876453, z: 1.8081546}
+      targetRotationOffset: {x: -0.21692379, y: 0.8102344, z: 0.52659667, w: 0.13841984}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.7865641, y: -0.53062296, z: -0.31584197}
+  - poseKey: "\u3046\u3064\u4F0F\u305B\u5BDD_\u304A\u304D\u3042\u304C\u308A"
+    sourceAnimation: {fileID: 7400000, guid: c4d7d5fff1d308842b5460b970300022, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 5
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.20432246, y: 0.5515748, z: -2.0094674}
+      targetRotationOffset: {x: 0.586081, y: -0.03297274, z: -0.042112358, w: 0.8084852}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.10312114, y: -0.9495507, z: 0.29617488}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 5
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.21597217, y: 0.40121466, z: -1.0214679}
+      targetRotationOffset: {x: 0.81210005, y: -0.016738703, z: 0.007125642, w: 0.58323467}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.032284535, y: -0.8088051, z: 0.58718985}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.7999334, y: 0.1517592, z: 0.8474077}
+      targetRotationOffset: {x: 0.017736396, y: 0.6021643, z: 0.19002393, w: 0.77522546}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.85928565, y: 0.5082078, z: -0.057904765}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 2
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 4
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.06540841, y: 0.021222074, z: 1.0324466}
+      targetRotationOffset: {x: -0.15457453, y: -0.53703046, z: -0.8291111, w: -0.016731054}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.62273204, y: -0.58694077, z: -0.51740247}
+  - poseKey: "\u3046\u3064\u4F0F\u305B\u5BDD_\u3056\u305B\u3064"
+    sourceAnimation: {fileID: 7400000, guid: 2b83461fd8356f745ab52347b6180f1f, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.13513777, y: 0.1755366, z: -0.59737426}
+      targetRotationOffset: {x: 0.8399308, y: 0.050922215, z: -0.024827447, w: 0.5397286}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.0019867301, y: -0.78653437, z: 0.61754334}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.13041344, y: 0.17889518, z: -0.5995328}
+      targetRotationOffset: {x: 0.8406817, y: -0.03590872, z: 0.024823815, w: 0.53976727}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.031912524, y: -0.78610593, z: 0.6172675}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.70421845, y: 0.103975885, z: 1.1943514}
+      targetRotationOffset: {x: -0.035000525, y: 0.55569327, z: 0.013523014, w: 0.83054024}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.95600414, y: 0.057767574, z: -0.28760916}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 2
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.75237244, y: 0.122398384, z: 1.1825132}
+      targetRotationOffset: {x: -0.028079344, y: -0.5493233, z: -0.002734216, w: 0.8351335}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.94943625, y: 0.08186664, z: -0.30309844}
+  - poseKey: "\u3046\u3064\u4F0F\u305B\u5BDD_\u3075\u304F\u3058\u3085\u3046"
+    sourceAnimation: {fileID: 7400000, guid: 9f9db30a0238b0542b86b0410714456d, type: 2}
+    solveIterations: 2
+    limbRules:
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u5DE6\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 2
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.43866023, y: 0.17615496, z: -0.5982837}
+      targetRotationOffset: {x: 0.86146545, y: -0.036828835, z: -0.086389236, w: 0.499057}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.6630334, y: -0.52015007, z: 0.53835905}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: "\u53F3\u8DB3\u30FB\u5E8A"
+      solveOrder: 0
+      limb: 3
+      targetSpace: 2
+      targetBone: 0
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 6
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.43866053, y: 0.17615458, z: -0.59828323}
+      targetRotationOffset: {x: 0.86146533, y: 0.036828507, z: 0.08638894, w: 0.49905717}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.663033, y: -0.52014977, z: 0.53835994}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 1
+      solveOrder: 0
+      limb: 0
+      targetSpace: 2
+      targetBone: 3
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: -0.50218225, y: 0.19597635, z: 2.147917}
+      targetRotationOffset: {x: -0.08154079, y: 0.8298032, z: 0.11287003, w: 0.5404055}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: -0.440118, y: -0.5991641, z: -0.66880375}
+    - coordinateSpaceVersion: 1
+      enabled: 1
+      label: IK 2
+      solveOrder: 0
+      limb: 1
+      targetSpace: 2
+      targetBone: 4
+      useViewPosition: 0
+      positionSpace: 0
+      lengthReference: 1
+      applyPositionX: 1
+      applyPositionY: 1
+      applyPositionZ: 1
+      normalizedTargetOffset: {x: 0.502181, y: 0.19597681, z: 2.1479177}
+      targetRotationOffset: {x: -0.08154089, y: -0.8298034, z: -0.11287025, w: 0.54040515}
+      matchEndRotation: 1
+      positionWeight: 1
+      rotationWeight: 1
+      bendDirectionMode: 0
+      poleDirectionInAvatarSpace: {x: 0.44011715, y: -0.5991648, z: -0.6688037}

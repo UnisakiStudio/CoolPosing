@@ -7,5 +7,6 @@ namespace jp.unisakistudio.coolposing
 {
     public class CoolPosing : PosingSystem
     {
+        public override string AvatarReferenceProfileResourceName => "CoolPosingAvatarReference";
     }
 }

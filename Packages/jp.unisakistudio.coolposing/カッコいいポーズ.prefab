@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: Control.icon
       value: 
       objectReference: {fileID: 2800000, guid: 9806550c11814ddf821febe3533b8043, type: 3}
+    - target: {fileID: 1725548514093773592, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1725548514093773592, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
     - target: {fileID: 2155765551288940111, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
       propertyPath: m_Name
       value: "\u59FF\u52E2\u30E1\u30CB\u30E5\u30FC"
@@ -32,6 +40,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
+    - target: {fileID: 3076672556827384202, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: Control.icon
+      value: 
+      objectReference: {fileID: 2800000, guid: 5a7b8b475e0f48a1b1dce31bc6a401be, type: 3}
     - target: {fileID: 3111512797015574386, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
       propertyPath: data
       value: test
@@ -1704,6 +1716,62 @@ PrefabInstance:
       propertyPath: Control.icon
       value: 
       objectReference: {fileID: 2800000, guid: 3962def2b2ba4d208906576ab0098d5a, type: 3}
+    - target: {fileID: 3900223117116628888, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900223117116628888, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[3].syncType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900223117116628888, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[3].nameOrPrefix
+      value: USSPS_FingerGestureDisable_Sync
+      objectReference: {fileID: 0}
+    - target: {fileID: 3900223117116628888, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[3].hasExplicitDefaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.size
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[26].saved
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[27].saved
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[26].syncType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[27].syncType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[26].nameOrPrefix
+      value: USSPS_Mirror
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[27].defaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[27].nameOrPrefix
+      value: USSPS_Breathing
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[26].hasExplicitDefaultValue
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4484946395121339899, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: parameters.Array.data[27].hasExplicitDefaultValue
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715016656173380896, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
       propertyPath: Control.icon
       value: 
@@ -1764,9 +1832,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6467650865787566582, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6467650865787566582, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
     - target: {fileID: 6832260626802651101, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
       propertyPath: m_Name
       value: "\u30AB\u30C3\u30B3\u3044\u3044\u30DD\u30FC\u30BA"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6968364246133046160, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6968364246133046160, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
       objectReference: {fileID: 0}
     - target: {fileID: 7370344902036433124, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
       propertyPath: Control.icon
@@ -1780,6 +1864,22 @@ PrefabInstance:
       propertyPath: Control.icon
       value: 
       objectReference: {fileID: 2800000, guid: 3962def2b2ba4d208906576ab0098d5a, type: 3}
+    - target: {fileID: 8151924153608007787, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8151924153608007787, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447216925551669078, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447216925551669078, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
+      propertyPath: m_TagString
+      value: EditorOnly
+      objectReference: {fileID: 0}
     - target: {fileID: 8628820031336232542, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
       propertyPath: Control.icon
       value: 
@@ -1833,12 +1933,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1a693c84821498bb70e4a95a57a838a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  developmentMode: 0
   settingName: "\u30AB\u30C3\u30B3\u3044\u3044\u30DD\u30FC\u30BA\u30C4\u30FC\u30EB\u8A2D\u5B9A"
   isIconDisabled: 0
   isIconSmall: 0
+  featureMenuIcons:
+    breathing: {fileID: 2800000, guid: 5a7b8b475e0f48a1b1dce31bc6a401be, type: 3}
+    rollover: {fileID: 2800000, guid: 1c6e774503c04e839f62cc2c67785f21, type: 3}
+    floorHeight: {fileID: 2800000, guid: 0d790ca6cf9c4d548c95090444e5cbe0, type: 3}
+    photoMode: {fileID: 2800000, guid: 5d35b9075906454b90ea7fada2e7c293, type: 3}
+    photoDistance: {fileID: 2800000, guid: 033c483bf7414ba1b9b06b297f833a9b, type: 3}
+    photoDirection: {fileID: 2800000, guid: 1247ddd30c4d4570b6154b13c713f9c8, type: 3}
+    photoExit: {fileID: 2800000, guid: 4dfad2d35b514c1f8dd15d57337c8bd5, type: 3}
   mergeTrackingControl: 1
   autoImportAvatarAnimations: 1
+  ignoredWarnings: 0
+  warningDisplayPosition: 0
+  hideHierarchyWarnings: 0
+  enableAvatarSpecificAdjustment: 1
+  avatarSpecificAdjustmentUsageInitialized: 1
+  enableReverseKneeSafetyClamp: 1
+  reverseKneeSafetyAngle: 0.5
+  avatarSpecificAdjustmentClip: {fileID: 0}
+  avatarSpecificAdjustmentSignature: 
+  avatarSpecificLeftKneeBendDegrees: 0
+  avatarSpecificRightKneeBendDegrees: 0
+  autoPoseCatalog: {fileID: 11400000, guid: 42bd8f60b6c4476997ddd979747d93b1, type: 2}
+  enablePoseIk: 1
+  additiveBreathing:
+    enabled: 0
+    disableDefaultIdle: 0
+    standingLevel: 0
+    sitShallowLevel: 0
+    sitDeepLevel: 0
+    sitSleepLevel: 0
+    virtualLoveLevel: 0
+    typeFixLevel: 0
+    standing: {fileID: 0}
+    sitShallow: {fileID: 0}
+    sitDeep: {fileID: 0}
+    sitSleep: {fileID: 0}
+    virtualLove: {fileID: 0}
+    typeFix: {fileID: 0}
+  isEightBitVersion: 0
+  features:
+    mirror: 0
+    footHeight: 0
+    footHeightBackend: 1
+    breathing: 0
+    breathingControl: 0
+    fingerGestureControl: 0
+    faceForward: 0
+    photography: 0
+    photographySynced: 1
+    photographyKeepHeadVisible: 0
+    floating: 0
+    rollover: 0
+    rolloverAnimation: {fileID: 0}
+    rolloverAngle: 60
+    rolloverDeadZone: 3
+    photographyBackend: 4
+    floatingBackend: 4
+    floatingPoseSpace: 7
+    movementWriteDefaults: 1
+  featureSettingsMigrated: 1
   defines:
   - menuName: "\u7ACB\u3061\u59FF\u52E2"
     description: "\uFF08\u666E\u901A\u306B\u7ACB\u3063\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
@@ -1855,6 +2012,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 70ed07d6208c8194d9d720a38b953540, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u5F85\u3061\u307C\u3046\u3051"
       initial: 0
       initialSet: 0
@@ -1870,6 +2031,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: d8575e9824a83e34586ca9acddb22930, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u601D\u8003\u4E2D"
       initial: 0
       initialSet: 0
@@ -1885,6 +2050,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 88629a76ceb3b164d8a8136d4bab5119, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u7167\u308C"
       initial: 0
       initialSet: 0
@@ -1900,6 +2069,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: e1b5aef6ac050114a89e4e86bd654bd1, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u8098\u30D1\u30F3\u30C1"
       initial: 0
       initialSet: 0
@@ -1915,6 +2088,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 291b8f531d52dfb4d966aaacbc1825f9, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u30E2\u30C7\u30EB"
       initial: 0
       initialSet: 0
@@ -1930,6 +2107,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: a0a36d388ab10094e8a6d21770ebbe5d, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u7570\u5909\u7121\u3057"
       initial: 0
       initialSet: 0
@@ -1945,6 +2126,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: afe6926d6f61ecc49b79b9d04429def0, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u57F9\u990A\u4E2D"
       initial: 0
       initialSet: 0
@@ -1960,6 +2145,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: ec0776ea40b265949a2e004a9938602b, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u9B54\u738B\u964D\u81E8"
       initial: 0
       initialSet: 0
@@ -1975,6 +2164,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: a85dc7bfcb0b0c04ca77fe96faf13305, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u58C1\u30C9\u30F3"
       initial: 0
       initialSet: 0
@@ -1990,6 +2183,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: abc0d021305569845a7c41a68bd91846, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u5236\u6B62"
       initial: 0
       initialSet: 0
@@ -2005,6 +2202,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 0cd7a682825ab094d9ba1b2d51a80fdc, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u30B1\u30F3\u30AB"
       initial: 0
       initialSet: 0
@@ -2027,6 +2228,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: d9221eb326a05364f9c653dae9d53b70, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u8003\u3048\u308B\u7537"
       initial: 0
       initialSet: 0
@@ -2042,6 +2247,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 7e26a554cf4c3dc47a82e090ce483a15, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u5546\u8AC7"
       initial: 0
       initialSet: 0
@@ -2057,6 +2266,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 9d59a87264b4641428096acf82935317, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u898B\u4E0B\u3057"
       initial: 0
       initialSet: 0
@@ -2072,6 +2285,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: ebf4b23d93bb1a74392281431974f208, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u4F11\u61A9\u4E2D"
       initial: 0
       initialSet: 0
@@ -2087,6 +2304,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 24732b1744cdc11469067689f71098da, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u4E8C\u4EBA\u5206\u5EA7\u308A"
       initial: 0
       initialSet: 0
@@ -2102,6 +2323,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: c0c1b85eff7f91e4ba4c5aaa8c230d84, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u7761\u9B54"
       initial: 0
       initialSet: 0
@@ -2117,6 +2342,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 77a548cc32bc70b4b807ac4bde85da14, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u30EA\u30AF\u30E9\u30A4\u30CB\u30F3\u30B0"
       initial: 0
       initialSet: 0
@@ -2132,6 +2361,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: d34e6931d9640bd44a0137e825fea76b, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u304A\u3059\u307E\u3057"
       initial: 0
       initialSet: 0
@@ -2147,6 +2380,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 79412d6920349f5408c8b1fc929f6a91, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u9A0E\u58EB"
       initial: 0
       initialSet: 0
@@ -2169,6 +2406,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 3a7500f9d7ca02e4c9fb7e44626bdfd3, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u305F\u305F\u307F"
       initial: 0
       initialSet: 0
@@ -2184,6 +2425,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: d9dfaea6d9ab0194aaaadf2246ef0ec2, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u5EA7\u5E03\u56E3"
       initial: 0
       initialSet: 0
@@ -2199,6 +2444,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 55163ea2e7afc194488a0a469a72aba8, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u30B3\u30F3\u30D3\u30CB"
       initial: 0
       initialSet: 0
@@ -2214,6 +2463,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 034c3b3779408f54b9690752d855cf6d, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u6D77\u5CB8"
       initial: 0
       initialSet: 0
@@ -2229,6 +2482,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 35ad69bc89ba19743aa7a6452ced49fa, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u697D\u5712"
       initial: 0
       initialSet: 0
@@ -2244,6 +2501,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 465e9bd963ffda94ba52ae359bdd90e9, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u30DE\u30C3\u30C8\u30EC\u30B9"
       initial: 0
       initialSet: 0
@@ -2259,6 +2520,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 8ad1b69a402098d4d83dd9fb1aac9c59, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u7D68\u6BEF"
       initial: 0
       initialSet: 0
@@ -2274,6 +2539,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: ad6e661374fbf184cb4c339b9a65a59f, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u7802\u6D5C"
       initial: 0
       initialSet: 0
@@ -2289,6 +2558,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 1d0563ec7ac31b241b01050ac0610e26, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u5E03\u56E3"
       initial: 0
       initialSet: 0
@@ -2304,6 +2577,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 3280f506210733442add4d520da38343, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u829D\u751F"
       initial: 0
       initialSet: 0
@@ -2319,6 +2596,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: ceda71aaacaf5a640b62283781ad3187, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u30D9\u30C3\u30C9"
       initial: 0
       initialSet: 0
@@ -2334,6 +2615,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 442062a3191b38e4ca2a2ce7cb83f20e, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u904B\u52D5\u4F1A"
       initial: 0
       initialSet: 0
@@ -2349,6 +2634,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 7478f8d870bfdc94ebc47235ad459e2d, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u548C\u5BA4"
       initial: 0
       initialSet: 0
@@ -2364,6 +2653,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 75d4fa3c0f693db49a02169546dc9b65, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u8A13\u7DF4\u5834"
       initial: 0
       initialSet: 0
@@ -2386,6 +2679,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: be5b5c0c11b5780439f0e35e4e2ec035, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u5730\u7403\u5BDD"
       initial: 0
       initialSet: 0
@@ -2401,6 +2698,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: e0aa2fba05fdfe74e96e7c83789ad235, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u5012\u3055\u308C\u5BDD"
       initial: 0
       initialSet: 0
@@ -2416,6 +2717,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: a0c90a8d6c983474f8052c6113378b59, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u8131\u529B\u5BDD"
       initial: 0
       initialSet: 0
@@ -2431,6 +2736,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 95dc834ffabeef646aa7a521612205a0, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u6674\u5929\u5BDD"
       initial: 0
       initialSet: 0
@@ -2446,6 +2755,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 1990698809c230c4d943e4f7f44a1dfc, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u8155\u6795\u5BDD"
       initial: 0
       initialSet: 0
@@ -2461,6 +2774,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: c39ba5817c31ff142a76bf33207f1f94, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u6728\u306E\u4E0A\u5BDD"
       initial: 0
       initialSet: 0
@@ -2476,6 +2793,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 72493597981c3544ba232ce9facb8b7c, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u732B\u5BDD"
       initial: 0
       initialSet: 0
@@ -2491,6 +2812,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: a73f388fc230a774593377baa03a932a, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u3044\u3058\u3051"
       initial: 0
       initialSet: 0
@@ -2506,6 +2831,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 654935c84cb9e344ea2bf2207a55fc59, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u304A\u3044\u3067"
       initial: 0
       initialSet: 0
@@ -2528,6 +2857,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: b5a455a7c53158a4d9b770551e12792a, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u3080\u304D\u308A\u3087\u304F"
       initial: 0
       initialSet: 0
@@ -2543,6 +2876,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 6279da2c847fe8b41a0b212500ca6f58, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u3058\u3060\u3089\u304F"
       initial: 0
       initialSet: 0
@@ -2558,6 +2895,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: a37e2fd3ce9e5874c877a00279965673, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u304A\u3061\u3053\u307F"
       initial: 0
       initialSet: 0
@@ -2573,6 +2914,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: a3fbe3dd291c62f4592a17ea314500f6, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u306F\u3044\u305A\u308A"
       initial: 0
       initialSet: 0
@@ -2588,6 +2933,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: c4d7d5fff1d308842b5460b970300022, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u304A\u304D\u3042\u304C\u308A"
       initial: 0
       initialSet: 0
@@ -2603,6 +2952,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 2b83461fd8356f745ab52347b6180f1f, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u3056\u305B\u3064"
       initial: 0
       initialSet: 0
@@ -2618,6 +2971,10 @@ MonoBehaviour:
       animationClip: {fileID: 7400000, guid: 9f9db30a0238b0542b86b0410714456d, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
       displayName: "\u3075\u304F\u3058\u3085\u3046"
       initial: 0
       initialSet: 0
@@ -2630,6 +2987,7 @@ MonoBehaviour:
   data: 
   savedInstanceId: 
   thumbnailPackObject: {fileID: 0}
+  presetCatalogObject: {fileID: 11400000, guid: 87dba9abaf5e0fd40a875a2d5ceffacf, type: 2}
 --- !u!1 &5094569379812538518 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3914514350218046423, guid: ecde0b1d67f9e854992715d64f778d8c, type: 3}
