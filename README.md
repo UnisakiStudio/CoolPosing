@@ -4,7 +4,7 @@ BOOTHで販売している「カッコいいポーズツール」のソースコ
 
 ## 使い方・変更履歴
 
-- [v1.1.0-alpha.1のREADME：導入・更新・設定方法](Packages/jp.unisakistudio.coolposing/README.md)
+- [README：導入・更新・設定方法](Packages/jp.unisakistudio.coolposing/README.md)
 - [変更履歴](Packages/jp.unisakistudio.coolposing/CHANGELOG.md)
 - [BOOTH商品ページ](https://yunisaki.booth.pm/items/8797334)
 
