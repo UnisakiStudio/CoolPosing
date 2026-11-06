@@ -80,9 +80,9 @@ namespace jp.unisakistudio.coolposingeditor
                 }
                 else
                 {
-                    EditorGUILayout.LabelField("カッコいいポーズツール", header1Label, GUILayout.Height(30));
+                    EditorGUILayout.LabelField(posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール"), header1Label, GUILayout.Height(30));
 
-                    EditorGUILayout.HelpBox("このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）", MessageType.Error);
+                    EditorGUILayout.HelpBox(posingsystemeditor.PosingSystemLocalization.Text("このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）"), MessageType.Error);
                     if (EditorGUILayout.LinkButton("カッコいいポーズツール（BOOTH）"))
                     {
                         Application.OpenURL("https://yunisaki.booth.pm/items/8797334");
