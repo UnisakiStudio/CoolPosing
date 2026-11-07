@@ -106,7 +106,7 @@ namespace jp.unisakistudio.coolposingeditor
         {
             if (!IsLicensed())
             {
-                EditorUtility.DisplayDialog(
+                posingsystemeditor.PosingSystemLocalization.Dialog(
                     "ライセンスの削除",
                     "カッコいいポーズツールのライセンスはインストールされていません。",
                     "OK"
@@ -114,7 +114,7 @@ namespace jp.unisakistudio.coolposingeditor
                 return;
             }
             
-            bool shouldUninstall = EditorUtility.DisplayDialog(
+            bool shouldUninstall = posingsystemeditor.PosingSystemLocalization.Dialog(
                 "ライセンス削除",
                 "カッコいいポーズツールのライセンスを削除しますか？\n\n" +
                 "削除すると、ツールの機能が制限されます。\n" +
@@ -208,7 +208,7 @@ namespace jp.unisakistudio.coolposingeditor
             }
 #endif
             
-            EditorUtility.DisplayDialog(
+            posingsystemeditor.PosingSystemLocalization.Dialog(
                 "ライセンス削除",
                 resultMessage,
                 "OK"
