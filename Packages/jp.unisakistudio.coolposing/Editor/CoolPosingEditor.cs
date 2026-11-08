@@ -22,6 +22,7 @@ namespace jp.unisakistudio.coolposingeditor
         public override void OnInspectorGUI()
         {
             CoolPosing coolPosing = target as CoolPosing;
+            using var language = UseInspectorLanguage(coolPosing);
 
             /*
              * このコメント分を含むここから先の処理はカッコいいポーズツールをゆにさきスタジオから購入した場合に変更することを許可します。
@@ -82,11 +83,12 @@ namespace jp.unisakistudio.coolposingeditor
                 {
                     EditorGUILayout.LabelField(posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール"), header1Label, GUILayout.Height(30));
 
-                    EditorGUILayout.HelpBox(posingsystemeditor.PosingSystemLocalization.Text("このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）"), MessageType.Error);
-                    if (EditorGUILayout.LinkButton("カッコいいポーズツール（BOOTH）"))
+                    EditorGUILayout.HelpBox(posingsystemeditor.PosingSystemLocalization.Text("このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。"), MessageType.Error);
+                    if (EditorGUILayout.LinkButton(posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール（BOOTH）")))
                     {
                         Application.OpenURL("https://yunisaki.booth.pm/items/8797334");
                     }
+                    if (EditorGUILayout.LinkButton(posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール(Gumroad)"))) Application.OpenURL("https://unisakistudio.gumroad.com/l/cool-posing");
                     return;
                 }
             }

@@ -1,5 +1,18 @@
 # 変更履歴
 
+## [1.2.0] - 2026-11-08
+
+### Added
+
+- English Inspector, editor actions, setup dialogs, standard pose names, and generated VRChat menu labels.
+- One language selector for the editor and in-game menu, with a shared per-user preference and OS-language default.
+- English offline manual, available from the Inspector.
+- Thirty selectable languages; translation coverage varies by language.
+
+### Compatibility
+
+- Existing avatar settings, custom names, asset references, parameter identifiers, and license storage are preserved.
+
 ## [1.1.0] - 2026-11-07
 
 - 収録50姿勢のうち43姿勢で、アバターの体格に合わせて手足をIKで自動調整します。残り7姿勢は従来の姿勢別調整を使用します。
