@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-Hant" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cool Posing Tool</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">繁體中文 · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">更新紀錄</a><a href="UserGuide.html">Cool Posing Tool — 繁體中文使用者指南</a></nav>
+<main><h1>Cool Posing Tool</h1>
+<p>這是一款面向VRChat的姿勢固定工具，即使使用3點追蹤或桌面模式，也能切換為帥氣姿勢。共收錄50種姿勢：站立11種、半蹲9種、坐姿14種、仰臥9種、俯臥7種。</p>
+<p>本README面向開發中的v1.2.0。正式發佈日期尚未確定。已安裝的版本可在Inspector頂部查看。</p>
+<ul>
+<li><a href="https://yunisaki.booth.pm/items/8797334">BOOTH商品頁面</a></li>
+<li><a href="CHANGELOG.html">更新紀錄</a></li>
+</ul>
+<h2>顯示語言與離線文件</h2>
+<p>在Inspector最上方的“Language / 言語”中選擇顯示語言。同一項選擇會同時套用於Inspector和產生的VRChat選單。要更改遊戲內的顯示語言，請重新上傳虛擬化身。</p>
+<p>未選擇語言時，使用電腦的語言；不支援該語言時使用英語。支援Windows、macOS和Linux。最後選擇的語言儲存在EditorPrefs中，同一臺電腦上同一個OS使用者的其他專案也會使用此設定。已明確儲存在虛擬化身中的語言選擇會予以保留。語言設定不會同步到其他電腦。授權的儲存方式不變。</p>
+<p>可通過隨附的<a href="../index.html">語言清單</a>選擇README、更新紀錄和使用說明。Inspector中的“使用說明”和“更新紀錄”也會遵循所選語言。原始使用條款和參考譯文仍按原有方式另行提供。</p>
+<h2>主要功能</h2>
+<ul>
+<li>手腳自動調整（IK）：43種姿勢可根據虛擬化身體型調整手腳的位置和朝向。</li>
+</ul>
+<ul>
+<li>拍照模式：可將虛擬化身向前移動，最遠達3m，並調整朝向。僅自己的畫面使用時為0 bit；向其他人同步位置和朝向時為16 bit。</li>
+<li>拍照時的頭部顯示：可僅在拍照模式中，防止靠近自己的虛擬化身頭部被隱藏。</li>
+<li>地面高度：可將包含頭部的整個身體上下移動，最遠3m。可與保持頭部位置、移動腳部一側的“腳部高度”分別使用。</li>
+<li>翻身：可用於自行設定對應動作的姿勢。附帶姿勢未收錄翻身動作。</li>
+<li>呼吸：可為胸部等新增呼吸動作。各姿勢分類可選擇“無、弱、中、強、急、自訂”。</li>
+<li>關閉VRChat預設站立搖擺：抑制預設待機搖擺，同時保留姿勢工具的呼吸和其他自訂動作。</li>
+<li>減輕頭部旋轉造成的姿勢變形：解除頸部固定時，減輕頭部朝向與原始姿勢不同造成的姿勢變形。</li>
+<li>功能選擇：僅新增所需遊戲內選單，並在Inspector中查看ExpressionParameters用量。</li>
+<li>姿勢搜尋、批次加入與排序：支援跨分類搜尋、匯入多個片段及指定目標順序。</li>
+<li>Scene簡易預覽：通過姿勢清單的“預覽”即可原地查看姿勢。</li>
+</ul>
+<ul>
+<li>新功能選單圖示：為呼吸、翻身、地面高度、拍照模式等提供與商品現有圖示風格相配的專用圖片。</li>
+</ul>
+<h3>設定翻身</h3>
+<p>在所需躺姿的“詳情”中啟用“啟用翻身”，並在“翻身側向姿勢”中指定動畫。啟用後無法使用一般MotionTime設定。另請啟用“功能 &gt; 選單功能 &gt; 翻身”再上傳，在VRChat中選擇支援的姿勢和“翻身”。使用時請解除頸部固定。</p>
+<p>此次附帶的姿勢未收錄用於翻身的動作，請為所需姿勢設定對應動畫。</p>
+<h2>適用虛擬化身預設與調整</h2>
+<p>附帶針對トネール、狛乃、士堂、真央調整好的預設。</p>
+<ul>
+<li><a href="https://booth.pm/ja/items/5236104">トネール</a></li>
+<li><a href="https://booth.pm/ja/items/5260363">狛乃</a></li>
+<li><a href="https://booth.pm/ja/items/8086741">士堂</a></li>
+<li><a href="https://booth.pm/ja/items/6846646">真央</a></li>
+</ul>
+<p>其他虛擬化身也可使用。請根據體型和修改內容，通過“動畫調整”整理姿勢。“虛擬化身設定”中也提供“防止膝蓋反折”，以及詳情中的“最小膝蓋彎曲角度（度）”。</p>
+<p>手腳自動調整（IK）初始啟用。收錄的50種姿勢中，43種使用IK，其餘7種使用原有的按姿勢調整。</p>
+<h2>安裝方法</h2>
+<ol>
+<li>從購買商品的商店頁面下載檔案。</li>
+<li>將隨附的“カッコいいポーズツール.unitypackage”匯入Unity，註冊授權和套件來源。</li>
+<li>在VCC或ALCOM中，向所用Unity專案加入Cool Posing Tool和Modular Avatar。共用的Unisaki Posing System和NDMF也會作為相依套件安裝。</li>
+<li>在Hierarchy中右鍵按一下目標虛擬化身，選擇“Unisaki Studio &gt; 加入Cool Posing”。</li>
+<li>選取新增到虛擬化身內的“カッコいいポーズ”，在Inspector中設定所需功能和姿勢。</li>
+<li>按一般流程上傳虛擬化身。</li>
+</ol>
+<p>所需環境為Unity 2022.3、VRChat Avatars SDK 3.10.4或更高版本、Modular Avatar 1.15.1或更高版本的1.x系列，以及NDMF 1.14.0或更高版本的1.x系列。請通過VCC或ALCOM一同更新所需套件。</p>
+<h2>從舊版本更新</h2>
+<p>請將本商品和Unisaki Posing System一同更新。已放置工具的設定會繼承。請在Inspector確認啟用功能和ExpressionParameters用量；如果使用過預先建置，重新上傳前請按一下“更新預先建置”。</p>
+<p>從v1.1.0起，新增物件統一使用一般“カッコいいポーズ”Prefab。在“功能”中關閉不需要的項目後，僅使用姿勢選擇的最小設定為8 bit。姿勢數量較多時，姿勢選擇可能需要額外的bit。</p>
+<p>為保留現有虛擬化身和預設的參照，舊8bit版Prefab仍儲存在“Editor/Legacy”中。無需刪除或替換現有Prefab。Unity新建選單不會顯示8bit版本。</p>
+<h2>設定位置</h2>
+<div class="table-scroll"><table><thead><tr><th>頁籤</th><th>可進行的操作</th></tr></thead><tbody>
+<tr><td>功能</td><td>新增遊戲內選單、便利功能、呼吸設定、圖示圖片和ExpressionParameters用量確認</td></tr>
+<tr><td>姿勢</td><td>選擇使用的姿勢、詳細設定、搜尋、批次加入、順序調整、預覽、動畫調整</td></tr>
+<tr><td>虛擬化身設定</td><td>虛擬化身專屬修正、膝部修正、匯入原始姿勢或自訂動作、更改預設</td></tr>
+</tbody></table></div>
+<p>按一下“開啟設定”，即可在該項目下方展開詳細設定。呼吸通過“功能 &gt; 便利功能 &gt; 啟用呼吸動畫”設定。</p>
+<p>“使用虛擬化身原有的站立、蹲下和俯臥姿勢”是自動匯入虛擬化身原始姿勢的功能。如需使用自己準備的動作，請通過單獨的“開啟匯入設定”，為站立、蹲下（Crouching）、俯臥（Prone）等各類型分別指定。</p>
+<p>預設位於“虛擬化身設定”的最下方。“套用此預設”會替換當前姿勢設定，因此切換前請儲存已有調整。</p>
+<h3>各功能用量</h3>
+<ul>
+<li>呼吸動作使用0 bit。只有使用可在遊戲內暫停和恢復的“選單功能 &gt; 呼吸”時，開關同步才使用1 bit。</li>
+<li>拍照模式僅在自己畫面中顯示時為0 bit。選擇“便利功能 &gt; 同步拍照模式”時使用16 bit。“拍照模式中保持頭部可見”為0 bit。</li>
+<li>“腳部高度”“地面高度”各使用8 bit。地面高度離開中央時，整個身體會上下移動，恢復至50%附近時結束。</li>
+<li>“翻身”單獨使用為10 bit。由於與“減輕頭部旋轉造成的姿勢變形”共用1 bit，兩者同時使用時合計仍為10 bit。</li>
+<li>“左右鏡像”“停用手勢”各使用1 bit。</li>
+</ul>
+<p>Inspector的合計值僅涵蓋安裝在虛擬化身中的姿勢工具，不包括服裝等其他功能元件。即使並用多個姿勢工具，共用設定也不會重複計數。</p>
+<h3>預覽與姿勢編輯</h3>
+<p>通過“姿勢”中各姿勢的“預覽”，可在Scene顯示姿勢。需要細調時，開啟“動畫調整”，一邊確認姿勢一邊調整並儲存。</p>
+<p>簡易預覽不會執行MA或NDMF的建置處理。建置時整合的服裝、地面位置修正等，也請在上傳前的建置結果中確認。</p>
+<p>左側的放大鏡頁籤可搜尋姿勢名。可在“詳情”的“順序”中選擇目標位置，也可通過上下按鈕排序。多個動畫可拖放到新增區域，或通過“匯入Project中選擇的片段”批次加入。</p>
+<p>“更新姿勢縮圖”會在確認對話框後產生圖片。“產生姿勢圖示”可讓遊戲內選單中的姿勢更容易辨認，但產生圖片會增加建置時間。如需降低容量，請選擇“減少圖示容量”。面向Android時不會產生姿勢圖示。</p>
+<h2>遊戲內基本操作</h2>
+<ul>
+<li>在Expressions選單中選擇各分類的姿勢。VR模式會根據頭部高度切換站立、半蹲、坐姿和躺姿。</li>
+<li>躺姿會根據面部朝向切換仰臥和俯臥。兩者都已選擇時，也可通過跳躍切換，並可在“功能 → 便利功能 → 跳躍切換躺姿”中關閉。分類切換高度可通過設定選單中的閾值調整。</li>
+<li>桌面模式使用C鍵、Z鍵切換姿勢。如果按Z鍵未進入躺姿，請在設定選單中提高“躺姿高度閾值”。</li>
+<li>啟用“停用手勢”後，會使用姿勢中設定的手型，代替控制器輸入的手指形狀。</li>
+<li>“腳部高度”保持頭部位置、調整腳部一側。“地面高度”上下移動包含頭部的整個身體。它們在設定選單中按此順序排列。</li>
+<li>在“拍照模式”中使用“距離”向前移動後，虛擬化身會朝向自己。通過“朝向”旋轉，並在需要時啟用“固定雙腳”。“結束拍照”會恢復距離、朝向並解除雙腳固定。</li>
+<li>“呼吸”僅在已啟用呼吸動作時可用。強度在Unity中設定，遊戲內僅切換開關。</li>
+</ul>
+<h2>預先建置與警告</h2>
+<p>“更新預先建置”通過重複使用產生資料，加快虛擬化身建置。即使不使用預先建置，一般建置時也會產生所需資料。</p>
+<p>更改設定後，會通過Inspector頂部的“檢查設定”和Hierarchy標記提示更新。“警告顯示設定”位於“檢查設定”區域內。隱藏提示並不意味著設定問題已解決，或產生資料已更新。</p>
+<h2>使用注意事項</h2>
+<ul>
+<li>不支援全身追蹤期間的姿勢固定。</li>
+<li>根據體型、服裝和虛擬化身修改內容，可能需要額外調整。</li>
+<li>可能無法與特殊Base層或其他姿勢切換元件按預期整合。固定功能不正常時，也請檢查“虛擬化身設定 &gt; 與其他工具整合追蹤鎖定”。</li>
+<li>拍照模式的移動、旋轉及地面高度，會修正工具姿勢以及未選擇工具姿勢時的預設和自訂動作。請在VRChat用戶端確認最終視點及動作替換後的表現。</li>
+<li>“關閉VRChat預設站立搖擺”針對預設待機動作，並非停止一切原因引起的搖擺。</li>
+</ul>
+<h2>使用說明與支援</h2>
+<p>可通過Inspector頂部的“說明 / 更新紀錄”開啟使用說明、諮詢頁面和更新紀錄。共用功能的詳細說明，也可在Unity的Project中查看“Packages &gt; Unisaki Posing System &gt; README”。</p>
+<ul>
+<li><a href="https://docs.unisakistudio.jp/coolposing/manual/">官方手冊</a></li>
+<li><a href="https://help.unisakistudio.jp/">諮詢與支援</a></li>
+</ul>
+<p>報告問題時，請提供本商品與Unisaki Posing System的版本、Unity、VRChat SDK、Modular Avatar、NDMF各自的版本、所用虛擬化身、重現步驟，以及Console中的錯誤內容。</p>
+<h2>使用條款</h2>
+<p>本商品隨附“ゆにさきスタジオ販売・配布データ利用規約（日本語版）Ver1.0.0.pdf”，這是統一適用於Unisaki Studio銷售、分發資料的VN3使用條款。使用前請務必閱讀。</p>
+<p>本儲存庫的原始碼和資源並非開源。僅向合法購買者授權在隨附使用條款範圍內使用。</p></main>
+</body></html>

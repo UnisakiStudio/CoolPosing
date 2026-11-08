@@ -1,0 +1,81 @@
+# Riwayat perubahan
+
+## [1.2.0] - Belum dirilis
+
+### Ditambahkan
+
+- Inspector, operasi penyuntingan, dialog pemasangan, nama pose standar, dan menu VRChat yang dihasilkan kini tersedia dalam 30 bahasa.
+- Pemilihan bahasa Inspector dan menu dalam permainan telah disatukan. Bahasa komputer digunakan pada awalnya, dan pilihan terakhir juga digunakan di proyek lain milik pengguna OS yang sama.
+- README, riwayat perubahan, dan panduan luring kini dapat dibuka dalam bahasa terpilih.
+- Nama tampilan 128 pose standar dan deskripsi setiap fitur disediakan sesuai istilah yang sudah ada.
+
+### Kompatibilitas
+
+- Pengaturan avatar yang ada, nama khusus, referensi aset, pengenal parameter, dan metode penyimpanan lisensi tetap dipertahankan.
+
+## [1.1.0] - 2026-11-07
+
+- Dari 50 pose bawaan, 43 menyesuaikan anggota tubuh dengan IK secara otomatis sesuai proporsi avatar. 7 sisanya menggunakan penyesuaian per pose yang sudah ada.
+- Mode foto memungkinkan penyesuaian posisi dan arah avatar. Sinkronisasi posisi dan arah serta tampilan kepala sendiri selama pemotretan juga dapat dipilih.
+- “Tinggi lantai” dapat menggerakkan seluruh tubuh hingga 3m ke atas dan ke bawah, terpisah dari “Tinggi kaki”.
+- Menambahkan animasi napas, pengaturan untuk menghentikan goyangan diam bawaan, serta pengurangan perubahan pose akibat arah leher.
+- Fitur yang digunakan dan penggunaan parameter dapat diperiksa di Inspector. Menambahkan pencarian pose, penambahan sekaligus, pengurutan, dan pratinjau sederhana di Scene.
+- Mempercepat peralihan berdiri, setengah jongkok, dan duduk dalam mode desktop.
+- Memperbaiki peringatan prabuild setelah perubahan pengaturan, beban pengguliran Inspector, dan jeda panjang saat membersihkan hasil yang dihasilkan.
+- Mendukung Unisaki Posing System 3.1.0.
+- Pose bawaan tidak mencakup gerakan berguling.
+
+## [1.1.0-beta.2] - Beta terbuka (2026-11-05)
+
+- Dari 50 pose bawaan, 43 diberi penyesuaian anggota tubuh otomatis (IK). 7 sisanya menggunakan penyesuaian per pose yang sudah ada.
+- Mendukung paket bersama 3.1.0-beta.2. Pose bawaan versi ini tidak mencakup gerakan berguling.
+
+## [1.1.0-beta.1] - Beta terbuka (2026-11-04)
+
+- Mendukung Unisaki Posing System 3.1.0-beta.1.
+- Mengubah peralihan pose normal dalam mode desktop menjadi satu evaluasi. Berlaku untuk build biasa dan prabuild; VR dan kondisi khusus tetap menggunakan jalur sebelumnya.
+- Prabuild dari alpha.3 atau versi sebelumnya kini dikenali sebagai perlu diperbarui.
+- Mempertahankan sudut pandang saat Tinggi lantai diubah selama pemotretan, lalu kembali ke Tinggi lantai terbaru setelah pemotretan selesai.
+- Menyertakan perbaikan hingga alpha.3 untuk impor otomatis, penyesuaian gerakan impor, dan pengelolaan Controller hasil.
+
+## [1.1.0-alpha.1] - Sebelum publikasi
+
+### Ditambahkan
+
+- Menambahkan berguling dan pengaturan animasi yang sesuai untuk setiap pose.
+- Menambahkan ikon menu khusus untuk Napas, Berguling, Tinggi lantai, Mode foto, Jarak, Arah, dan Keluar foto.
+- Menambahkan Mode foto untuk menyesuaikan perpindahan ke depan dan rotasi.
+- Menambahkan pengaturan sinkronisasi Mode foto. Hanya lokal menggunakan 0 bit; sinkronisasi menggunakan 16 bit.
+- Menambahkan pengaturan agar kepala avatar sendiri tetap terlihat selama Mode foto.
+- Menambahkan “Tinggi lantai” untuk mengangkat seluruh tubuh termasuk kepala.
+- Menambahkan animasi napas, pengaturan kekuatannya, dan menu ON/OFF dalam permainan.
+- Menambahkan pengaturan Nonaktifkan goyangan diam VRChat.
+- Menambahkan pengaturan Kurangi perubahan pose akibat rotasi kepala.
+- Menambahkan pencegahan lutut menekuk terbalik dan pengaturan sudut tekukan minimum.
+- Menambahkan ON/OFF per fitur dan tampilan penggunaan ExpressionParameters.
+- Menambahkan pratinjau sederhana di Scene, pencarian pose, penambahan sekaligus, dan penentuan posisi tujuan.
+- Menambahkan tampilan riwayat perubahan di Inspector.
+
+### Diubah
+
+- Menata Inspector dalam 3 tab: “Fitur”, “Pose”, dan “Pengaturan Avatar”.
+- Menata lokasi rincian napas, impor gerakan sendiri, dan pengaturan prasetel.
+- Mengurangi duplikasi animasi yang dihasilkan untuk penyesuaian Tinggi kaki.
+- Menambahkan dialog konfirmasi pembaruan gambar pose dan mengumpulkan pengaturan peringatan dalam “Periksa pengaturan”.
+- Menghapus menu penambahan baru versi 8bit dan menyatukannya dengan pilihan fitur pada Prefab biasa. Referensi yang ada dipertahankan.
+- Mendukung Unisaki Posing System 3.1.0-alpha.1. Mengubah versi minimum VRChat Avatars SDK menjadi 3.10.4.
+
+### Diperbaiki
+
+- Memperbaiki input nama pose yang berpindah ke pose lain dan rincian yang tertutup saat pengurutan ulang.
+- Memperbaiki pratinjau tumpang tindih, posisi penempatan bergeser, dan kesalahan pada avatar tertentu.
+- Memperbaiki pembaruan peringatan/status prabuild setelah perubahan pengaturan serta beberapa kesalahan build.
+
+## [1.0.0] - 2026-09-06
+
+- Rilis resmi.
+- Menambahkan prasetel avatar (トネール, 狛乃, 士堂, 真央).
+
+## [1.0.0-alpha.1] - 2026-09-06
+
+- Rilis.

@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="da" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Ændringshistorik</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Dansk · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Ændringshistorik</a><a href="UserGuide.html">Cool Posing Tool — Dansk brugervejledning</a></nav>
+<main><h1>Ændringshistorik</h1>
+<h2>[1.2.0] - Ikke udgivet</h2>
+<h3>Tilføjet</h3>
+<ul>
+<li>Inspector, redigeringshandlinger, installationsdialoger, standardpositurnavne og genererede VRChat-menuer kan vises på 30 sprog.</li>
+<li>Inspector og spilmenu bruger fælles sprogvalg. Først bruges computerens sprog, og seneste valg genbruges i andre projekter for samme OS-bruger.</li>
+<li>README, ændringshistorik og offlinevejledning kan åbnes på valgt sprog.</li>
+<li>Visningsnavne for 128 standardpositurer og funktionsbeskrivelser følger eksisterende terminologi.</li>
+</ul>
+<h3>Kompatibilitet</h3>
+<ul>
+<li>Eksisterende avatarindstillinger, egne navne, assetreferencer, parameteridentifikatorer og licenslagring bevares.</li>
+</ul>
+<h2>[1.1.0] - 2026-11-07</h2>
+<ul>
+<li>43 af 50 positurer tilpasser lemmer automatisk med IK efter kropsbygning; resterende 7 bruger hidtidige justeringer.</li>
+<li>Fototilstand justerer position/retning med valgfri synkronisering og eget hoved synligt.</li>
+<li>Gulvhøjde flytter hele kroppen 3m op/ned, separat fra Fodhøjde.</li>
+<li>Tilføjet vejrtrækning, stop af standardsvajen og reduceret forvrængning fra hovedrotation.</li>
+<li>Inspector viser funktioner/parameterforbrug. Søgning, massetilføjelse, omarrangering og Scene-forhåndsvisning understøttes.</li>
+<li>Hurtigere stående/hug/siddende-skift på skrivebordet.</li>
+<li>Forbedrede forberegningsadvarsler, Inspector-rulning og lange oprydningsstop.</li>
+<li>Understøtter Unisaki Posing System 3.1.0.</li>
+<li>Vendeanimationer til medfølgende positurer er ikke inkluderet.</li>
+</ul>
+<h2>[1.1.0-beta.2] - Åben beta (2026-11-05)</h2>
+<ul>
+<li>Automatisk lemjustering (IK) til 43 af 50 positurer; resterende 7 bruger hidtidige justeringer.</li>
+<li>Understøtter fællespakken 3.1.0-beta.2. Ingen vendeanimationer følger med positurerne.</li>
+</ul>
+<h2>[1.1.0-beta.1] - Åben beta (2026-11-04)</h2>
+<ul>
+<li>Understøtter Unisaki Posing System 3.1.0-beta.1.</li>
+<li>Normalt positurskift på skrivebordet bruger én evaluering ved almindelige builds og forberegning; VR og særlige forhold beholder tidligere vej.</li>
+<li>Forberegninger fra alpha.3 eller før skal opdateres.</li>
+<li>Synspunkt bevares ved gulvhøjdeændring i Fototilstand, og seneste gulvhøjde gendannes ved afslutning.</li>
+<li>Medtager forbedringer gennem alpha.3 af automatisk import, justering af importerede bevægelser og genererede Controllers.</li>
+</ul>
+<h2>[1.1.0-alpha.1] - Før offentlig udgivelse</h2>
+<h3>Tilføjet</h3>
+<ul>
+<li>Tilføjet Vend dig og animation pr. positur.</li>
+<li>Tilføjet ikoner til vejrtrækning, Vend dig, Gulvhøjde, Fototilstand, Afstand, Retning og Afslut foto.</li>
+<li>Tilføjet Fototilstand med fremadflytning og rotation.</li>
+<li>Fototilstand-synkronisering: kun lokalt 0 bit, synkroniseret 16 bit.</li>
+<li>Tilføjet eget hoved synligt i Fototilstand.</li>
+<li>Tilføjet Gulvhøjde til at hæve hele kroppen inklusive hovedet.</li>
+<li>Tilføjet vejrtrækningsbevægelse, styrke og til/fra-menu.</li>
+<li>Tilføjet stop af VRChats standardsvajen.</li>
+<li>Tilføjet reduceret forvrængning fra hovedrotation.</li>
+<li>Tilføjet beskyttelse mod bagudbøjede knæ og mindste bøjevinkel.</li>
+<li>Tilføjet til/fra pr. funktion og ExpressionParameters-forbrug.</li>
+<li>Tilføjet Scene-forhåndsvisning, søgning, massetilføjelse og målplacering i rækkefølge.</li>
+<li>Tilføjet historik i Inspector.</li>
+</ul>
+<h3>Ændret</h3>
+<ul>
+<li>Inspector opdelt i Funktioner, Positurer og Avataropsætning.</li>
+<li>Vejrtrækningsdetaljer, import af egne bevægelser og forudindstillinger omorganiseret.</li>
+<li>Færre dublerede Fodhøjde-animationer.</li>
+<li>Bekræftelse ved positurbilledopdatering og advarselsvalg samlet under Kontrollér indstillinger.</li>
+<li>Ny 8bit-tilføjelsesmenu afskaffet til fordel for almindeligt Prefab med funktionsvalg; eksisterende referencer bevares.</li>
+<li>Understøtter Unisaki Posing System 3.1.0-alpha.1. Mindste VRChat Avatars SDK-version er 3.10.4.</li>
+</ul>
+<h3>Rettet</h3>
+<ul>
+<li>Rettet navneinput, som flyttedes til anden positur, og detaljer, som lukkedes ved omarrangering.</li>
+<li>Rettet overlappende forhåndsvisninger, forkert placering og fejl på visse avatarer.</li>
+<li>Rettet opdatering af advarsler/forberegningsstatus efter ændringer samt visse buildfejl.</li>
+</ul>
+<h2>[1.0.0] - 2026-09-06</h2>
+<ul>
+<li>Endelig udgivelse.</li>
+<li>Tilføjet avatarforudindstillinger (トネール, 狛乃, 士堂, 真央).</li>
+</ul>
+<h2>[1.0.0-alpha.1] - 2026-09-06</h2>
+<ul>
+<li>Udgivelse.</li>
+</ul></main>
+</body></html>

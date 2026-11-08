@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Changelog</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">English · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Changelog</a><a href="UserGuide.html">Cool Posing Tool — English User Guide</a></nav>
+<main><h1>Changelog</h1>
+<h2>[1.2.0] - Unreleased</h2>
+<h3>Added</h3>
+<ul>
+<li>Added thirty-language display for the Inspector, editing actions, installation dialogs, standard pose names and generated VRChat menus.</li>
+<li>Unified language selection for the Inspector and in-game menu. The default follows the computer&#x27;s language, and the last choice is reused in other projects belonging to the same OS user.</li>
+<li>README, changelog and offline manuals can be opened in the selected language.</li>
+<li>Prepared display names for all 128 standard poses and feature descriptions using the established terminology.</li>
+</ul>
+<h3>Compatibility</h3>
+<ul>
+<li>Existing avatar settings, custom names, asset references, parameter identifiers and license storage are preserved.</li>
+</ul>
+<h2>[1.1.0] - 2026-11-07</h2>
+<ul>
+<li>43 of the 50 included poses use IK to fit limbs to the avatar&#x27;s body. The other 7 use existing per-pose adjustments.</li>
+<li>Photo Mode adjusts avatar position and rotation, with optional synchronization and visibility of your own head during photography.</li>
+<li>Floor Height moves the whole body up/down by 3m, separately from Foot Height.</li>
+<li>Added breathing motion, suppression of default idle sway and reduction of neck-orientation pose distortion.</li>
+<li>The Inspector shows enabled features and parameter usage. Added pose search, batch addition, reordering and quick Scene previews.</li>
+<li>Sped up standing/crouching/sitting switching in desktop mode.</li>
+<li>Improved stale-prebuild warnings, Inspector scrolling overhead and long stalls during generated-data cleanup.</li>
+<li>Added support for Unisaki Posing System 3.1.0.</li>
+<li>No roll-over motions are included with the supplied poses.</li>
+</ul>
+<h2>[1.1.0-beta.2] - Open beta (2026-11-05)</h2>
+<ul>
+<li>Configured automatic limb adjustment (IK) for 43 of the 50 included poses. The other 7 use existing per-pose adjustments.</li>
+<li>Added support for shared package 3.1.0-beta.2. The poses supplied in this version do not include roll-over motions.</li>
+</ul>
+<h2>[1.1.0-beta.1] - Open beta (2026-11-04)</h2>
+<ul>
+<li>Added support for Unisaki Posing System 3.1.0-beta.1.</li>
+<li>Changed normal desktop posture switching to a single-evaluation approach for regular builds and prebuilds; VR and special conditions retain existing paths.</li>
+<li>Prebuilds from alpha.3 or earlier are recognized as needing an update.</li>
+<li>Preserved the viewpoint when changing floor height during photography, then restored the latest floor height when photography ends.</li>
+<li>Included improvements through alpha.3 to automatic import, imported-motion adjustments and generated-Controller management.</li>
+</ul>
+<h2>[1.1.0-alpha.1] - Before publication</h2>
+<h3>Added</h3>
+<ul>
+<li>Added Roll Over and per-pose animation settings.</li>
+<li>Added dedicated menu icons for Breathing, Roll Over, Floor Height, Photo Mode, Distance, Rotation and Exit Photo Mode.</li>
+<li>Added Photo Mode with forward movement and rotation.</li>
+<li>Added optional Photo Mode synchronization: 0 bit locally, 16 bit synchronized.</li>
+<li>Added an option to keep your avatar&#x27;s head visible during Photo Mode.</li>
+<li>Added Floor Height to raise the whole body, including the head.</li>
+<li>Added breathing motion, intensity settings and an in-game ON/OFF menu.</li>
+<li>Added suppression of VRChat&#x27;s default idle sway.</li>
+<li>Added reduction of pose distortion caused by neck-orientation differences.</li>
+<li>Added prevention of backward knee bending and minimum knee angle settings.</li>
+<li>Added per-feature ON/OFF and ExpressionParameters usage display.</li>
+<li>Added quick Scene previews, pose search, batch addition and destination-order selection.</li>
+<li>Added changelogs in the Inspector.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li>Organized the Inspector into Features, Poses and Avatar Setup tabs.</li>
+<li>Reorganized breathing details, custom-motion imports and presets.</li>
+<li>Reduced duplicated animations generated for foot-height adjustment.</li>
+<li>Added confirmation for pose-image updates and grouped warning settings under Check settings.</li>
+<li>Removed the new-installation 8bit menu in favor of feature selection on regular Prefabs, preserving existing references.</li>
+<li>Added Unisaki Posing System 3.1.0-alpha.1 support and raised the minimum VRChat Avatars SDK version to 3.10.4.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li>Fixed pose-name input moving to another pose and details closing during reordering.</li>
+<li>Fixed overlapping/displaced previews and errors on some avatars.</li>
+<li>Fixed warning/prebuild status updates after settings changes and some build errors.</li>
+</ul>
+<h2>[1.0.0] - 2026-09-06</h2>
+<ul>
+<li>Official release.</li>
+<li>Added avatar presets (トネール, 狛乃, 士堂, 真央).</li>
+</ul>
+<h2>[1.0.0-alpha.1] - 2026-09-06</h2>
+<ul>
+<li>Release.</li>
+</ul></main>
+</body></html>

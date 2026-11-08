@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="tr" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Değişiklik geçmişi</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Türkçe · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Değişiklik geçmişi</a><a href="UserGuide.html">Cool Posing Tool — Türkçe kullanım kılavuzu</a></nav>
+<main><h1>Değişiklik geçmişi</h1>
+<h2>[1.2.0] - Yayınlanmadı</h2>
+<h3>Eklenenler</h3>
+<ul>
+<li>Inspector, düzenleme işlemleri, kurulum iletişimleri, standart poz adları ve oluşturulan VRChat menüleri 30 dilde görüntülenebilir.</li>
+<li>Inspector ve oyun menüsünün dil seçimi birleştirildi. Başlangıçta bilgisayarın dili kullanılır ve son seçim aynı işletim sistemi kullanıcısının diğer projelerinde de uygulanır.</li>
+<li>README, değişiklik geçmişi ve çevrimdışı kılavuz seçilen dilde açılabilir.</li>
+<li>128 standart pozun görüntüleme adları ve özellik açıklamaları mevcut terimlere göre hazırlandı.</li>
+</ul>
+<h3>Uyumluluk</h3>
+<ul>
+<li>Avatarın mevcut ayarları, özel adlar, varlık başvuruları, parametre kimlikleri ve lisans saklama yöntemi korunur.</li>
+</ul>
+<h2>[1.1.0] - 2026-11-07</h2>
+<ul>
+<li>50 hazır pozun 43’ünde uzuvlar IK ile vücut yapısına otomatik uydurulur. Kalan 7 poz önceki poz başına düzeltmeleri kullanır.</li>
+<li>Fotoğraf modunda avatarın konumu ve yönü ayarlanabilir. Konum/yön eşitlemesi ve fotoğraf sırasında kendi başınızın görünmesi seçilebilir.</li>
+<li>Zemin yüksekliği tüm vücudu en fazla 3m yukarı veya aşağı taşır; ayak yüksekliğinden ayrı amaçla kullanılabilir.</li>
+<li>Nefes hareketi, varsayılan bekleme sallanmasını kapatma ve baş yönünden kaynaklanan poz bozulmasını azaltma eklendi.</li>
+<li>Kullanılan özellikler ve parametre maliyeti Inspector’da görülebilir. Poz arama, toplu ekleme, sıralama ve Scene’de hafif önizleme eklendi.</li>
+<li>Masaüstünde ayakta, çömelme ve oturma geçişleri hızlandırıldı.</li>
+<li>Ayar değişikliği sonrası ön oluşturma uyarıları, Inspector kaydırma yükü ve oluşturulan verilerin temizliğindeki uzun durmalar iyileştirildi.</li>
+<li>Unisaki Posing System 3.1.0 desteği eklendi.</li>
+<li>Hazır pozlar için dönüş hareketleri eklenmemiştir.</li>
+</ul>
+<h2>[1.1.0-beta.2] - Açık beta (2026-11-05)</h2>
+<ul>
+<li>50 hazır pozun 43’üne otomatik uzuv düzeltmesi (IK) ayarlandı. Kalan 7 poz önceki poz başına düzeltmeleri kullanır.</li>
+<li>Ortak paket 3.1.0-beta.2 desteklendi. Bu sürümün hazır pozları dönüş hareketi içermez.</li>
+</ul>
+<h2>[1.1.0-beta.1] - Açık beta (2026-11-04)</h2>
+<ul>
+<li>Unisaki Posing System 3.1.0-beta.1 desteği eklendi.</li>
+<li>Masaüstünün normal poz geçişleri tek değerlendirme yöntemine geçirildi. Normal derlemede ve ön oluşturmada etkindir; VR ve özel koşullar önceki yolu korur.</li>
+<li>alpha.3 ve önceki ön oluşturmalar güncelleme gerektiren olarak tanınır.</li>
+<li>Fotoğraf sırasında zemin yüksekliği değişince bakış noktası korunur; fotoğraf bitince son zemin yüksekliğine dönülür.</li>
+<li>Otomatik içe aktarma, içe aktarılan hareket düzeltmesi ve oluşturulan Controller yönetiminde alpha.3’e kadarki iyileştirmeler eklendi.</li>
+</ul>
+<h2>[1.1.0-alpha.1] - Yayın öncesi</h2>
+<h3>Eklenenler</h3>
+<ul>
+<li>Dönüş ve poz başına ilgili animasyon ayarları eklendi.</li>
+<li>Nefes, dönüş, zemin yüksekliği, fotoğraf modu, mesafe, yön ve fotoğraftan çıkış için özel menü simgeleri eklendi.</li>
+<li>Öne taşıma ve dönüşü ayarlayan fotoğraf modu eklendi.</li>
+<li>Fotoğraf modu eşitlemesi eklendi: yalnızca yerel 0 bit, eşitlemede 16 bit.</li>
+<li>Fotoğraf modunda kendi avatarınızın başını gizlememe eklendi.</li>
+<li>Baş dâhil tüm vücudu yükselten Zemin yüksekliği eklendi.</li>
+<li>Nefes hareketi, güç ayarları ve oyun içi anahtar eklendi.</li>
+<li>VRChat’in varsayılan sallanmasını kapatma eklendi.</li>
+<li>Baş yönü farkından kaynaklanan poz bozulmasını azaltma eklendi.</li>
+<li>Dizin ters bükülmesini önleme ve en küçük açı eklendi.</li>
+<li>Özellik başına açma/kapatma ve ExpressionParameters göstergesi eklendi.</li>
+<li>Scene’de hafif önizleme, poz arama, toplu ekleme ve hedef sıra seçimi eklendi.</li>
+<li>Inspector içinde değişiklik geçmişi eklendi.</li>
+</ul>
+<h3>Değişenler</h3>
+<ul>
+<li>Inspector, Özellikler, Pozlar ve Avatar Kurulumu adlı 3 sekmeye ayrıldı.</li>
+<li>Nefes ayrıntıları, kendi hareketlerinizi içe aktarma ve ön ayarların yerleri düzenlendi.</li>
+<li>Ayak yüksekliği için oluşturulan animasyonların tekrarı azaltıldı.</li>
+<li>Poz görüntüsü yenilemeye onay eklendi; uyarı ayarları Ayarları kontrol et’te toplandı.</li>
+<li>8bit için yeni ekleme menüsü kaldırılıp normal Prefab’ın özellik seçimine geçildi. Mevcut başvurular korunur.</li>
+<li>Unisaki Posing System 3.1.0-alpha.1 desteklendi. VRChat Avatars SDK minimum sürümü 3.10.4 oldu.</li>
+</ul>
+<h3>Düzeltilenler</h3>
+<ul>
+<li>Poz adı girişinin başka poza kayması ve sıralamada ayrıntıların kapanması düzeltildi.</li>
+<li>Önizleme çakışması, yerleştirme konumunun sapması ve bazı avatar hataları düzeltildi.</li>
+<li>Ayar değişikliği sonrası uyarı/ön oluşturma durumunun güncellenmesi ve bazı derleme hataları düzeltildi.</li>
+</ul>
+<h2>[1.0.0] - 2026-09-06</h2>
+<ul>
+<li>Resmî yayın</li>
+<li>Avatar ön ayarları eklendi (トネール, 狛乃, 士堂, 真央)</li>
+</ul>
+<h2>[1.0.0-alpha.1] - 2026-09-06</h2>
+<ul>
+<li>Yayın</li>
+</ul></main>
+</body></html>

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="id" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cool Posing Tool</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Bahasa Indonesia · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Riwayat perubahan</a><a href="UserGuide.html">Cool Posing Tool — Panduan Pengguna Bahasa Indonesia</a></nav>
+<main><h1>Cool Posing Tool</h1>
+<p>Alat pengunci pose untuk VRChat yang memungkinkan Anda beralih ke pose keren, termasuk dengan pelacakan 3 titik dan desktop. Berisi total 50 pose: 11 berdiri, 9 setengah jongkok, 14 duduk, 9 tidur telentang, dan 7 tidur tengkurap.</p>
+<p>README ini ditujukan untuk v1.2.0 yang sedang dikembangkan. Tanggal rilis resmi belum ditentukan. Versi terpasang dapat diperiksa di bagian atas Inspector.</p>
+<ul>
+<li><a href="https://yunisaki.booth.pm/items/8797334">Halaman produk BOOTH</a></li>
+<li><a href="CHANGELOG.html">Riwayat perubahan</a></li>
+</ul>
+<h2>Bahasa tampilan dan dokumen offline</h2>
+<p>Pilih bahasa melalui “Language / 言語” di bagian atas Inspector. Satu pilihan berlaku untuk Inspector dan menu VRChat yang dibuat. Unggah ulang avatar untuk mengubah bahasa di dalam gim.</p>
+<p>Jika belum dipilih, bahasa komputer digunakan; bahasa yang tidak didukung memakai bahasa Inggris. Windows, macOS, dan Linux didukung. Pilihan terakhir disimpan di EditorPrefs dan digunakan di proyek lain milik pengguna OS yang sama pada komputer ini. Pilihan eksplisit yang sudah tersimpan pada avatar dipertahankan. Pilihan tidak disinkronkan ke komputer lain. Cara penyimpanan lisensi tidak berubah.</p>
+<p>README, riwayat perubahan, dan panduan dapat dipilih melalui <a href="../index.html">daftar bahasa</a> yang disertakan. Tombol panduan dan riwayat perubahan di Inspector juga mengikuti bahasa pilihan. Ketentuan asli dan terjemahan referensi tetap disediakan secara terpisah.</p>
+<h2>Fitur utama</h2>
+<ul>
+<li>Penyesuaian anggota tubuh otomatis (IK): menyesuaikan posisi serta arah anggota tubuh dengan proporsi avatar pada 43 pose.</li>
+</ul>
+<ul>
+<li>Mode foto: memindahkan avatar hingga 3m ke depan dan menyesuaikan arahnya. Hanya pada layar sendiri menggunakan 0 bit; memperlihatkan posisi dan arah kepada orang lain menggunakan 16 bit.</li>
+<li>Tampilan kepala saat pemotretan: mencegah kepala avatar sendiri menghilang saat berada dekat, khusus selama Mode foto.</li>
+<li>Tinggi lantai: menggerakkan seluruh tubuh termasuk kepala hingga 3m ke atas dan ke bawah. Dapat digunakan terpisah dari “Tinggi kaki”, yang menggerakkan bagian kaki sambil mempertahankan posisi kepala.</li>
+<li>Berguling: tersedia untuk pose yang Anda beri gerakan pendukung sendiri. Pose bawaan tidak mencakup gerakan berguling.</li>
+<li>Napas: menambahkan animasi napas pada dada dan bagian lain. Pilih “Tidak ada, Lemah, Sedang, Kuat, Cepat, Khusus” untuk setiap kategori pose.</li>
+<li>Nonaktifkan goyangan diam VRChat: mengurangi goyangan diam bawaan sambil tetap menggunakan animasi napas alat pose dan gerakan khusus lain.</li>
+<li>Kurangi perubahan pose akibat rotasi kepala: mengurangi perubahan pose ketika kunci leher dilepas dan arah leher berbeda dari pose asli.</li>
+<li>Pilihan fitur: hanya menambahkan menu dalam permainan yang diperlukan dan memeriksa penggunaan ExpressionParameters di Inspector.</li>
+<li>Pencarian, penambahan sekaligus, dan pengurutan daftar pose: mencari lintas kategori, memuat beberapa klip, dan menentukan posisi tujuan.</li>
+<li>Pratinjau sederhana di Scene: periksa pose langsung melalui “Pratinjau” dalam daftar pose.</li>
+</ul>
+<ul>
+<li>Ikon menu fitur baru: Napas, Berguling, Tinggi lantai, Mode foto, dan lainnya memiliki gambar khusus yang sesuai dengan ikon produk yang sudah ada.</li>
+</ul>
+<h3>Mengatur berguling</h3>
+<p>Buka “Rincian” pose berbaring yang diinginkan, aktifkan “Aktifkan berguling”, lalu tentukan animasi pada “Pose berguling samping”. Pengaturan MotionTime biasa tidak dapat digunakan. Aktifkan juga “Fitur &gt; Fitur menu &gt; Berguling” lalu unggah. Di VRChat, pilih pose yang didukung dan “Berguling”. Gunakan dengan kunci leher dilepas.</p>
+<p>Pose bawaan versi ini tidak mencakup gerakan untuk berguling. Tentukan animasi yang sesuai dengan pose yang ingin digunakan.</p>
+<h2>Prasetel avatar yang didukung dan penyesuaian</h2>
+<p>Mencakup prasetel yang sudah disesuaikan untuk トネール, 狛乃, 士堂, dan 真央.</p>
+<ul>
+<li><a href="https://booth.pm/ja/items/5236104">トネール</a></li>
+<li><a href="https://booth.pm/ja/items/5260363">狛乃</a></li>
+<li><a href="https://booth.pm/ja/items/8086741">士堂</a></li>
+<li><a href="https://booth.pm/ja/items/6846646">真央</a></li>
+</ul>
+<p>Avatar lain juga dapat digunakan. Sesuaikan pose melalui “Penyesuaian Animasi” berdasarkan bentuk tubuh dan modifikasi. “Pengaturan Avatar” juga berisi “Cegah lutut menekuk terbalik” dan “Tekukan lutut minimum (derajat)” dalam rincian.</p>
+<p>Penyesuaian anggota tubuh otomatis (IK) aktif secara bawaan. Dari 50 pose bawaan, 43 menggunakan IK dan 7 sisanya menggunakan penyesuaian per pose yang sudah ada.</p>
+<h2>Cara pemasangan</h2>
+<ol>
+<li>Unduh file dari halaman produk di toko tempat Anda membelinya.</li>
+<li>Impor “カッコいいポーズツール.unitypackage” yang disertakan ke Unity, lalu daftarkan lisensi dan sumber distribusi paket.</li>
+<li>Dengan VCC atau ALCOM, tambahkan Cool Posing Tool dan Modular Avatar ke proyek Unity yang digunakan. Unisaki Posing System dan NDMF juga dipasang sebagai dependensi.</li>
+<li>Klik kanan avatar tujuan di Hierarchy dan pilih “Unisaki Studio &gt; Tambah Cool Posing”.</li>
+<li>Pilih “カッコいいポーズ” (Cool Posing) yang ditambahkan di dalam avatar, lalu atur fitur dan pose yang diinginkan di Inspector.</li>
+<li>Unggah avatar seperti biasa.</li>
+</ol>
+<p>Persyaratan: Unity 2022.3, VRChat Avatars SDK 3.10.4 atau lebih baru, Modular Avatar seri 1.x versi 1.15.1 atau lebih baru, dan NDMF seri 1.x versi 1.14.0 atau lebih baru. Perbarui juga paket yang diperlukan melalui VCC atau ALCOM.</p>
+<h2>Memperbarui dari versi sebelumnya</h2>
+<p>Perbarui produk ini bersama Unisaki Posing System. Pengaturan alat yang sudah ditempatkan tetap dipertahankan. Periksa fitur yang digunakan dan penggunaan ExpressionParameters di Inspector. Jika sebelumnya menggunakan prabuild, tekan “Perbarui prabuild” sebelum mengunggah ulang.</p>
+<p>Sejak v1.1.0, penambahan baru disatukan pada Prefab biasa “カッコいいポーズ” (Cool Posing). Nonaktifkan item yang tidak diperlukan pada “Fitur” untuk konfigurasi minimum pemilihan pose saja sebesar 8 bit. Konfigurasi dengan banyak pose mungkin memerlukan bit tambahan untuk pemilihan pose.</p>
+<p>Prefab 8bit lama tetap berada di “Editor/Legacy” untuk mempertahankan referensi avatar dan prasetel yang sudah ada. Prefab yang ada tidak perlu dihapus atau diganti. Versi 8bit tidak muncul dalam menu penambahan baru Unity.</p>
+<h2>Lokasi pengaturan</h2>
+<div class="table-scroll"><table><thead><tr><th>Tab</th><th>Kegunaan</th></tr></thead><tbody>
+<tr><td>Fitur</td><td>Menambah menu dalam permainan, kemudahan, pengaturan napas, gambar ikon, dan pemeriksaan penggunaan ExpressionParameters</td></tr>
+<tr><td>Pose</td><td>Memilih pose, pengaturan rinci, pencarian, penambahan sekaligus, pengurutan, pratinjau, dan Penyesuaian Animasi</td></tr>
+<tr><td>Pengaturan Avatar</td><td>Koreksi khusus avatar dan lutut, impor pose asli atau gerakan sendiri, dan penggantian prasetel</td></tr>
+</tbody></table></div>
+<p>Tekan “Buka pengaturan” untuk membuka pengaturan rinci di bawah item tersebut. Atur napas melalui “Fitur &gt; Kemudahan &gt; Animasikan napas”.</p>
+<p>“Gunakan pose berdiri, jongkok, dan tengkurap asli” mengimpor pose yang sudah ada pada avatar secara otomatis. Untuk menggunakan gerakan sendiri, buka pengaturan terpisah “Buka pengaturan impor” dan tentukan gerakan bagi setiap jenis, seperti berdiri, jongkok (Crouching), dan tengkurap (Prone).</p>
+<p>Prasetel berada di bagian paling bawah “Pengaturan Avatar”. “Terapkan prasetel ini” mengganti pengaturan pose saat ini, jadi simpan penyesuaian yang sudah dibuat sebelum beralih.</p>
+<h3>Penggunaan per fitur</h3>
+<ul>
+<li>Animasi napas menggunakan 0 bit. Hanya jika menggunakan “Fitur menu &gt; Napas” untuk menghentikan dan melanjutkannya dalam permainan, sinkronisasi ON/OFF menggunakan 1 bit.</li>
+<li>Mode foto menggunakan 0 bit jika hanya terlihat pada layar sendiri. Memilih “Kemudahan &gt; Sinkronkan mode foto” menggunakan 16 bit. “Tetap tampilkan kepala dalam mode foto” menggunakan 0 bit.</li>
+<li>“Tinggi kaki” dan “Tinggi lantai” masing-masing menggunakan 8 bit. Tinggi lantai menggerakkan seluruh tubuh ke atas atau ke bawah saat digeser dari tengah, dan berakhir saat dikembalikan mendekati 50%.</li>
+<li>“Berguling” sendiri menggunakan 10 bit. Fitur ini berbagi 1 bit dengan “Kurangi perubahan pose akibat rotasi kepala”, sehingga penggunaan keduanya tetap berjumlah 10 bit.</li>
+<li>“Cerminkan” dan “Gestur mati” masing-masing menggunakan 1 bit.</li>
+</ul>
+<p>Jumlah di Inspector hanya mencakup alat pose yang dipasang pada avatar. Alat lain, seperti pakaian, tidak termasuk. Jika menggunakan beberapa alat pose, pengaturan bersama tidak dihitung dua kali.</p>
+<h3>Pratinjau dan penyuntingan pose</h3>
+<p>Gunakan “Pratinjau” pada setiap pose dalam “Pose” untuk menampilkan pose di Scene. Untuk penyempurnaan, buka “Penyesuaian Animasi”, sesuaikan sambil memeriksa pose, lalu simpan.</p>
+<p>Pratinjau sederhana tidak menjalankan proses build MA atau NDMF. Periksa juga pakaian dan koreksi posisi lantai yang diterapkan saat build melalui hasil build sebelum unggah.</p>
+<p>Cari nama pose melalui tab kaca pembesar di kiri. Pilih posisi tujuan pada “Urutan” di “Rincian”, atau gunakan tombol naik/turun untuk mengurutkan ulang. Tambahkan beberapa animasi sekaligus dengan menyeret dan melepasnya ke area penambahan atau menggunakan “Muat klip yang dipilih di Project”.</p>
+<p>“Perbarui gambar mini pose” membuat gambar setelah dialog konfirmasi. “Buat ikon pose” membantu mengenali pose dalam menu permainan, tetapi pembuatan gambar menambah waktu build. Untuk mengurangi ukuran, pilih “Kurangi ukuran ikon”. Ikon pose tidak dibuat untuk Android.</p>
+<h2>Kontrol dasar dalam permainan</h2>
+<ul>
+<li>Pilih pose dari setiap kategori melalui menu Expressions. Dalam VR, kategori berdiri, setengah jongkok, duduk, dan berbaring beralih sesuai tinggi kepala.</li>
+<li>Dalam pose berbaring, arah wajah menentukan telentang atau tengkurap. Jika keduanya dipilih, melompat juga dapat menggantinya; fitur ini dapat dinonaktifkan melalui “Fitur → Kemudahan → Beralih pose berbaring dengan melompat”. Tinggi peralihan kategori dapat diatur melalui nilai ambang pada menu pengaturan.</li>
+<li>Di desktop, ganti pose dengan tombol C dan Z. Jika tombol Z tidak mengaktifkan pose berbaring, naikkan ambang tinggi berbaring di menu pengaturan.</li>
+<li>Aktifkan “Gestur mati” untuk memakai bentuk tangan yang diatur pada pose, menggantikan bentuk jari dari pengontrol.</li>
+<li>“Tinggi kaki” menyesuaikan bagian kaki sambil mempertahankan posisi kepala. “Tinggi lantai” menggerakkan seluruh tubuh termasuk kepala ke atas dan ke bawah. Keduanya muncul dalam urutan ini di menu pengaturan.</li>
+<li>Jika bergerak ke depan melalui “Jarak” dalam “Mode foto”, avatar menghadap Anda. Putar dengan “Arah” dan aktifkan “Kunci kaki” saat diperlukan. “Keluar foto” mengembalikan jarak serta arah dan melepas kunci kaki.</li>
+<li>“Napas” tersedia jika animasi napas aktif. Kekuatan diatur di Unity, sedangkan ON/OFF dialihkan dalam permainan.</li>
+</ul>
+<h2>Prabuild dan peringatan</h2>
+<p>“Perbarui prabuild” menggunakan kembali data yang dihasilkan untuk mempercepat build avatar. Tanpa prabuild pun, data yang diperlukan dibuat saat build biasa.</p>
+<p>Setelah pengaturan berubah, “Periksa pengaturan” di bagian atas Inspector dan tanda Hierarchy memberi tahu bahwa pembaruan diperlukan. “Tampilan peringatan” berada dalam panel “Periksa pengaturan”. Menyembunyikannya tidak menyelesaikan masalah pengaturan atau memperbarui data yang dihasilkan.</p>
+<h2>Catatan penggunaan</h2>
+<ul>
+<li>Penguncian pose selama pelacakan seluruh tubuh tidak didukung.</li>
+<li>Penyesuaian tambahan mungkin diperlukan sesuai proporsi tubuh, pakaian, dan modifikasi avatar.</li>
+<li>Integrasi dengan layer Base khusus atau alat pengubah pose lain mungkin tidak bekerja sesuai harapan. Jika penguncian bermasalah, periksa juga “Pengaturan Avatar &gt; Integrasikan kunci pelacakan dengan alat lain”.</li>
+<li>Perpindahan serta rotasi Mode foto dan Tinggi lantai mengoreksi pose alat maupun gerakan bawaan dan khusus ketika tidak ada pose yang dipilih. Periksa sudut pandang akhir dan perilaku setelah penggantian gerakan dalam klien VRChat.</li>
+<li>“Nonaktifkan goyangan diam VRChat” hanya menargetkan gerakan diam bawaan, bukan semua goyangan dari penyebab lain.</li>
+</ul>
+<h2>Panduan dan dukungan</h2>
+<p>Buka panduan, dukungan, dan riwayat perubahan melalui “Bantuan / riwayat perubahan” di bagian atas Inspector. Penjelasan rinci fitur bersama juga tersedia melalui “Packages &gt; Unisaki Posing System &gt; README” di Project Unity.</p>
+<ul>
+<li><a href="https://docs.unisakistudio.jp/coolposing/manual/">Panduan resmi</a></li>
+<li><a href="https://help.unisakistudio.jp/">Hubungi kami</a></li>
+</ul>
+<p>Saat melaporkan masalah, sertakan versi produk ini dan Unisaki Posing System, versi Unity, VRChat SDK, Modular Avatar, dan NDMF, avatar yang digunakan, langkah untuk mengulangi masalah, serta rincian kesalahan Console.</p>
+<h2>Ketentuan penggunaan</h2>
+<p>Produk ini menyertakan ketentuan penggunaan VN3 “ゆにさきスタジオ販売・配布データ利用規約（日本語版）Ver1.0.0.pdf”, yang berlaku bersama untuk data yang dijual dan didistribusikan Unisaki Studio. Pastikan membaca isinya sebelum menggunakan.</p>
+<p>Kode sumber dan sumber daya repositori ini bukan sumber terbuka. Pembeli sah diberi izin penggunaan dalam batas ketentuan penggunaan yang disertakan.</p></main>
+</body></html>

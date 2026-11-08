@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Historique des modifications</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Français · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Historique des modifications</a><a href="UserGuide.html">Cool Posing — Guide d’utilisation en français</a></nav>
+<main><h1>Historique des modifications</h1>
+<h2>[1.2.0] - Non publié</h2>
+<h3>Ajouts</h3>
+<ul>
+<li>Affichage de l’Inspector, des commandes d’édition, des dialogues d’installation, des noms de poses standards et des menus VRChat générés en 30 langues.</li>
+<li>Choix de langue unifié pour l’Inspector et les menus du jeu. La langue de l’ordinateur est utilisée initialement, puis le dernier choix est réutilisé dans les autres projets du même utilisateur du système.</li>
+<li>Ouverture du README, de l’historique et du guide hors ligne dans la langue choisie.</li>
+<li>Noms d’affichage des 128 poses standards et descriptions de toutes les fonctions harmonisés avec la terminologie existante.</li>
+</ul>
+<h3>Compatibilité</h3>
+<ul>
+<li>Conservation des réglages existants de l’avatar, des noms personnalisés, des références d’assets, des identifiants de paramètres et du stockage de la licence.</li>
+</ul>
+<h2>[1.1.0] - 2026-11-07</h2>
+<ul>
+<li>Ajustement IK automatique des membres selon la morphologie pour 43 des 50 poses fournies. Les 7 autres conservent les ajustements individuels précédents.</li>
+<li>Position et orientation réglables en Mode photo, avec choix de synchronisation et de maintien de votre tête visible.</li>
+<li>« Hauteur sol » déplace tout le corps jusqu’à 3m vers le haut ou le bas, indépendamment de « Hauteur pieds ».</li>
+<li>Ajout de la respiration, de la suppression du balancement d’attente standard et de la réduction des déformations liées à l’orientation du cou.</li>
+<li>Affichage des fonctions et de la consommation des paramètres dans l’Inspector ; recherche, ajout groupé, réordonnancement et aperçu simple des poses dans la Scene.</li>
+<li>Accélération des changements debout, accroupi et assis en mode bureau.</li>
+<li>Amélioration des avertissements de précalcul après modification, du défilement de l’Inspector et des longues pauses du nettoyage des données générées.</li>
+<li>Prise en charge de Unisaki Posing System 3.1.0.</li>
+<li>Les poses fournies ne comprennent pas de mouvements de retournement.</li>
+</ul>
+<h2>[1.1.0-beta.2] - Bêta ouverte (2026-11-05)</h2>
+<ul>
+<li>Ajustement automatique des membres (IK) configuré pour 43 des 50 poses fournies. Les 7 autres conservent leurs ajustements individuels précédents.</li>
+<li>Compatibilité avec le package commun 3.1.0-beta.2. Les poses fournies dans cette version ne comprennent pas de mouvements de retournement.</li>
+</ul>
+<h2>[1.1.0-beta.1] - Bêta ouverte (2026-11-04)</h2>
+<ul>
+<li>Prise en charge de Unisaki Posing System 3.1.0-beta.1.</li>
+<li>Changement de posture ordinaire en mode bureau traité en une seule évaluation, pour les builds ordinaires et le précalcul. La VR et les situations particulières gardent le traitement précédent.</li>
+<li>Reconnaissance des précalculs alpha.3 et antérieurs comme nécessitant une mise à jour.</li>
+<li>Conservation du point de vue lors des changements de hauteur du sol en Mode photo, puis retour à la dernière hauteur à sa sortie.</li>
+<li>Intégration des améliorations jusqu’à alpha.3 concernant l’importation automatique, les ajustements des mouvements importés et la gestion des Controllers générés.</li>
+</ul>
+<h2>[1.1.0-alpha.1] - Avant publication</h2>
+<h3>Ajouts</h3>
+<ul>
+<li>Ajout du retournement et de ses animations compatibles configurables par pose.</li>
+<li>Ajout d’icônes de menu spécifiques pour respiration, retournement, hauteur du sol, Mode photo, distance, direction et sortie du Mode photo.</li>
+<li>Ajout du Mode photo avec déplacement vers l’avant et rotation.</li>
+<li>Ajout du choix de synchronisation : 0 bit en local uniquement, 16 bit synchronisés.</li>
+<li>Ajout du maintien de votre tête visible pendant le Mode photo.</li>
+<li>Ajout de « Hauteur sol » pour élever tout le corps, tête comprise.</li>
+<li>Ajout de l’animation et de l’intensité de respiration ainsi que de son menu d’activation dans le jeu.</li>
+<li>Ajout de la suppression du balancement standard de VRChat.</li>
+<li>Ajout de la réduction des déformations liées à la différence d’orientation du cou.</li>
+<li>Ajout de la prévention de flexion inversée des genoux et de leur flexion minimale.</li>
+<li>Ajout de l’activation par fonction et de la consommation des ExpressionParameters.</li>
+<li>Ajout de l’aperçu simple dans la Scene, de la recherche de poses, de l’ajout groupé et du choix de destination dans la liste.</li>
+<li>Ajout de l’historique dans l’Inspector.</li>
+</ul>
+<h3>Modifications</h3>
+<ul>
+<li>Organisation de l’Inspector en 3 onglets : « Fonctions », « Poses » et « Configuration de l&#x27;avatar ».</li>
+<li>Réorganisation des détails de respiration, de l’importation des mouvements personnels et des préréglages.</li>
+<li>Réduction des doublons d’animations générées pour la hauteur des pieds.</li>
+<li>Ajout d’une confirmation avant de mettre à jour les images des poses et regroupement des avertissements dans « Vérifier les réglages ».</li>
+<li>Suppression du menu d’ajout de la version 8bit au profit des options du Prefab standard. Les références existantes sont préservées.</li>
+<li>Prise en charge de Unisaki Posing System 3.1.0-alpha.1 et version minimale du VRChat Avatars SDK portée à 3.10.4.</li>
+</ul>
+<h3>Corrections</h3>
+<ul>
+<li>Correction de la saisie des noms transférée vers une autre pose et de la fermeture des détails après réordonnancement.</li>
+<li>Correction du chevauchement des aperçus, des décalages de placement et des erreurs sur certains avatars.</li>
+<li>Correction de l’actualisation des avertissements et de l’état du précalcul après modification, ainsi que de certaines erreurs de build.</li>
+</ul>
+<h2>[1.0.0] - 2026-09-06</h2>
+<ul>
+<li>Publication officielle.</li>
+<li>Ajout de préréglages d’avatars (トネール, 狛乃, 士堂, 真央).</li>
+</ul>
+<h2>[1.0.0-alpha.1] - 2026-09-06</h2>
+<ul>
+<li>Publication.</li>
+</ul></main>
+</body></html>

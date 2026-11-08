@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fi" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Muutosloki</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Suomi · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Muutosloki</a><a href="UserGuide.html">Cool Posing Tool — suomenkielinen käyttöohje</a></nav>
+<main><h1>Muutosloki</h1>
+<h2>[1.2.0] - Julkaisematon</h2>
+<h3>Lisätty</h3>
+<ul>
+<li>Inspectorin, muokkaustoimintojen, asennusikkunoiden, vakioasentojen nimien ja luotavan VRChat-valikon näyttö 30 kielellä.</li>
+<li>Inspectorin ja pelivalikon kielivalinnat yhdistetty. Oletuksena käytetään tietokoneen kieltä, ja viimeinen valinta koskee myös saman käyttöjärjestelmäkäyttäjän muita projekteja.</li>
+<li>README, muutosloki ja offline-käyttöohje voidaan avata valitulla kielellä.</li>
+<li>Kaikkien 128 vakioasennon näyttönimet ja toimintojen kuvaukset laadittu olemassa olevien termien mukaisesti.</li>
+</ul>
+<h3>Yhteensopivuus</h3>
+<ul>
+<li>Avatarin nykyiset asetukset, omat nimet, resurssiviittaukset, parametrien tunnisteet ja lisenssin tallennustapa säilyvät.</li>
+</ul>
+<h2>[1.1.0] - 2026-11-07</h2>
+<ul>
+<li>Mukana olevista 50 asennosta 43 mukauttaa raajat avatarin mittasuhteisiin IK:n avulla. Loput 7 käyttävät aiempia asentokohtaisia säätöjä.</li>
+<li>Kuvatilassa voi säätää avatarin sijaintia ja suuntaa. Voit valita sijainnin ja suunnan synkronoinnin sekä oman pään näkyvyyden kuvauksessa.</li>
+<li>Lattian korkeudella voi siirtää koko kehoa enintään 3m ylös tai alas. Sitä voi käyttää eri tarkoitukseen kuin jalkojen korkeutta.</li>
+<li>Lisätty hengitysliike, oletusarvoisen joutokäyntihuojunnan poisto ja pään suunnan aiheuttaman asennon vääristymän vähentäminen.</li>
+<li>Käytössä olevat toiminnot ja parametrien muistinkulutus näkyvät Inspectorissa. Lisätty asentohaku, joukkolisäys, järjestäminen ja kevyt esikatselu Scenessä.</li>
+<li>Nopeutettu seisoma-, kyykky- ja istuma-asentojen vaihtoa työpöytätilassa.</li>
+<li>Parannettu asetusmuutosten jälkeisiä esikoontivaroituksia, Inspectorin vierityksen kuormitusta ja luotujen resurssien siivouksen pitkiä pysähdyksiä.</li>
+<li>Lisätty Unisaki Posing System 3.1.0:n tuki.</li>
+<li>Mukana oleville asennoille ei toimiteta kääntymisliikkeitä.</li>
+</ul>
+<h2>[1.1.0-beta.2] - Avoin beetaversio (2026-11-05)</h2>
+<ul>
+<li>Mukana olevista 50 asennosta 43:lle määritetty raajojen automaattinen säätö (IK). Loput 7 käyttävät aiempia asentokohtaisia säätöjä.</li>
+<li>Lisätty yhteisen paketin 3.1.0-beta.2:n tuki. Tämän version mukana tuleville asennoille ei toimiteta kääntymisliikkeitä.</li>
+</ul>
+<h2>[1.1.0-beta.1] - Avoin beetaversio (2026-11-04)</h2>
+<ul>
+<li>Lisätty Unisaki Posing System 3.1.0-beta.1:n tuki.</li>
+<li>Työpöytätilan tavallinen asennonvaihto muutettu yhden arvioinnin malliin. Käytössä tavallisessa koonnissa ja esikoonnissa. VR ja erityistilanteet käyttävät aiempaa käsittelyä.</li>
+<li>alpha.3:n ja vanhempien versioiden esikoonnit tunnistetaan päivitettäviksi.</li>
+<li>Näkymä säilyy lattian korkeutta kuvauksen aikana muutettaessa. Kuvauksen jälkeen palataan uusimpaan lattian korkeuteen.</li>
+<li>Mukana alpha.3:een asti tehdyt automaattituonnin, tuotujen liikkeiden säädön ja luotujen Controllerien hallinnan parannukset.</li>
+</ul>
+<h2>[1.1.0-alpha.1] - Ennen julkaisua</h2>
+<h3>Lisätty</h3>
+<ul>
+<li>Lisätty Käänny-toiminto ja asentokohtaiset animaatioasetukset.</li>
+<li>Lisätty omat valikkokuvakkeet hengitykselle, kääntymiselle, lattian korkeudelle, Kuvatilalle, etäisyydelle, suunnalle ja kuvauksen lopettamiselle.</li>
+<li>Lisätty Kuvatila eteenpäin siirtymisen ja kierron säätämiseen.</li>
+<li>Lisätty Kuvatilan synkronointiasetus. Paikallinen käyttö kuluttaa 0 bit, synkronointi 16 bit.</li>
+<li>Lisätty asetus oman avatarin pään säilyttämiseen näkyvissä Kuvatilassa.</li>
+<li>Lisätty Lattian kork. -toiminto, joka nostaa koko kehoa pää mukaan lukien.</li>
+<li>Lisätty hengitysliike, sen voimakkuusasetukset ja pelivalikon kytkin.</li>
+<li>Lisätty VRChatin oletushuojunnan poisto.</li>
+<li>Lisätty pään suunnan aiheuttaman asennon vääristymän vähentäminen.</li>
+<li>Lisätty polvien taakse taittumisen esto ja vähimmäistaivutuskulma.</li>
+<li>Lisätty toimintokohtaiset kytkimet ja ExpressionParameters-kulutuksen näyttö.</li>
+<li>Lisätty kevyt esikatselu Scenessä, asentohaku, joukkolisäys ja siirtokohdan järjestysnumeron määritys.</li>
+<li>Lisätty muutoslokin näyttö Inspectorissa.</li>
+</ul>
+<h3>Muutettu</h3>
+<ul>
+<li>Inspector järjestetty 3 välilehteen: Toiminnot, Asennot ja Avatarin asetukset.</li>
+<li>Hengityksen lisätiedot, omien liikkeiden tuonti ja esiasetukset järjestetty selkeisiin paikkoihin.</li>
+<li>Vähennetty jalkojen korkeussäädön luomien animaatioiden päällekkäisyyttä.</li>
+<li>Asentokuvien päivitykseen lisätty vahvistusikkuna ja varoitusasetukset koottu Tarkista asetukset -kohdan sisälle.</li>
+<li>8bit-version uuden asennuksen valikko poistettu ja korvattu tavallisen Prefabin toimintovalinnoilla. Nykyiset viittaukset säilyvät.</li>
+<li>Lisätty Unisaki Posing System 3.1.0-alpha.1:n tuki. VRChat Avatars SDK:n vähimmäisversio muutettu versioon 3.10.4.</li>
+</ul>
+<h3>Korjattu</h3>
+<ul>
+<li>Korjattu nimikentän syötteen siirtyminen toiseen asentoon ja lisätietojen sulkeutuminen järjestämisessä.</li>
+<li>Korjattu esikatselujen päällekkäisyys, sijainnin poikkeamat ja joidenkin avatarien virheet.</li>
+<li>Korjattu varoitusten ja esikoontitilan päivittyminen asetusmuutosten jälkeen sekä joitakin koontivirheitä.</li>
+</ul>
+<h2>[1.0.0] - 2026-09-06</h2>
+<ul>
+<li>Virallinen julkaisu</li>
+<li>Lisätty avatarien esiasetukset (トネール, 狛乃, 士堂, 真央)</li>
+</ul>
+<h2>[1.0.0-alpha.1] - 2026-09-06</h2>
+<ul>
+<li>Julkaisu</li>
+</ul></main>
+</body></html>

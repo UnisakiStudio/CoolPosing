@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="cs" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Historie změn</title><style>:root { color-scheme: light dark; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height: 1.7; }
+body { margin: auto; max-width: 70rem; padding: 1.5rem; overflow-wrap: anywhere; }
+nav { display: flex; flex-wrap: wrap; gap: .6rem 1.2rem; padding-block: 1rem; border-block-end: 1px solid #8887; }
+h1,h2,h3 { line-height: 1.4; } h2 { margin-block-start: 2.4rem; }
+table { border-collapse: collapse; width: 100%; } th,td { text-align: start; vertical-align: top; padding: .5rem; border: 1px solid #8887; }
+thead { background: #8882; } .table-scroll { overflow-x: auto; }
+code,pre { direction: ltr; unicode-bidi: isolate; } code { background: #8882; padding: .1em .25em; } pre { white-space: pre-wrap; }
+a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
+@media(prefers-color-scheme:dark) { a { color: #8ec5ff; } a:visited { color: #cfacff; } }
+@media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
+<nav aria-label="Documentation"><a href="../index.html">Čeština · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Historie změn</a><a href="UserGuide.html">Cool Posing Tool — česká uživatelská příručka</a></nav>
+<main><h1>Historie změn</h1>
+<h2>[1.2.0] - Nevydáno</h2>
+<h3>Přidáno</h3>
+<ul>
+<li>Zobrazení Inspectoru, úprav, instalačních dialogů, standardních názvů póz a generované nabídky VRChat ve 30 jazycích.</li>
+<li>Sjednocen výběr jazyka Inspectoru a herní nabídky. Výchozí je jazyk počítače a poslední volba platí i pro další projekty stejného uživatele OS.</li>
+<li>README, historie změn a offline návod se otevírají ve vybraném jazyce.</li>
+<li>Připraveny názvy všech 128 standardních póz a popisy funkcí podle stávající terminologie.</li>
+</ul>
+<h3>Kompatibilita</h3>
+<ul>
+<li>Zachovávají se existující nastavení avatara, vlastní názvy, odkazy na prostředky, identifikátory parametrů a způsob ukládání licencí.</li>
+</ul>
+<h2>[1.1.0] - 2026-11-07</h2>
+<ul>
+<li>U 43 z 50 přiložených póz se končetiny automaticky přizpůsobují proporcím pomocí IK. Zbývajících 7 používá dosavadní individuální korekce.</li>
+<li>Režim focení umožňuje upravit polohu a směr avatara. Lze zvolit synchronizaci polohy a směru i zobrazení vlastní hlavy při focení.</li>
+<li>Výška podlahy posouvá celé tělo až 3m nahoru či dolů a doplňuje výšku chodidel.</li>
+<li>Přidáno dýchání, vypnutí výchozího pohupování v klidu a omezení deformace pózy podle směru hlavy.</li>
+<li>Používané funkce a spotřeba parametrů jsou viditelné v Inspectoru. Přidáno hledání póz, hromadné přidání, řazení a lehký náhled v Scene.</li>
+<li>Zrychleno přepínání stoje, podřepu a sedu v režimu plochy.</li>
+<li>Zlepšena varování po změně nastavení předgenerování, zátěž posouvání Inspectoru a dlouhá zastavení při úklidu prostředků.</li>
+<li>Přidána podpora Unisaki Posing System 3.1.0.</li>
+<li>Pohyby přetočení pro přiložené pózy nejsou zahrnuty.</li>
+</ul>
+<h2>[1.1.0-beta.2] - Otevřená beta (2026-11-05)</h2>
+<ul>
+<li>Automatická korekce končetin (IK) nastavena pro 43 z 50 přiložených póz. Zbývajících 7 používá dosavadní individuální korekce.</li>
+<li>Přidána podpora společného balíčku 3.1.0-beta.2. Pózy této verze neobsahují přiložené pohyby přetočení.</li>
+</ul>
+<h2>[1.1.0-beta.1] - Otevřená beta (2026-11-04)</h2>
+<ul>
+<li>Přidána podpora Unisaki Posing System 3.1.0-beta.1.</li>
+<li>Běžné přepínání póz v režimu plochy převedeno na jedno vyhodnocení. Funguje při běžném sestavení i předgenerování, VR a zvláštní podmínky zachovávají dosavadní cestu.</li>
+<li>Předgenerování z alpha.3 a starších verzí se rozpoznává jako vyžadující aktualizaci.</li>
+<li>Při změně výšky podlahy během focení se zachovává pohled a po ukončení se obnoví poslední výška podlahy.</li>
+<li>Zahrnuta zlepšení automatického importu, úprav importovaných pohybů a správy vytvořených Controllerů až do alpha.3.</li>
+</ul>
+<h2>[1.1.0-alpha.1] - Před zveřejněním</h2>
+<h3>Přidáno</h3>
+<ul>
+<li>Přidáno přetočení a nastavení odpovídajících animací jednotlivých póz.</li>
+<li>Přidány samostatné ikony nabídky pro dýchání, přetočení, výšku podlahy, režim focení, vzdálenost, směr a ukončení focení.</li>
+<li>Přidán režim focení pro posun vpřed a otáčení.</li>
+<li>Přidána synchronizace režimu focení: pouze lokálně 0 bit, se synchronizací 16 bit.</li>
+<li>Přidáno ponechání vlastní hlavy viditelné v režimu focení.</li>
+<li>Přidána Výška podlahy, která zvedá celé tělo včetně hlavy.</li>
+<li>Přidán pohyb a intenzita dýchání i herní přepínač.</li>
+<li>Přidáno vypnutí výchozího pohupování VRChat.</li>
+<li>Přidáno omezení deformace pózy podle směru hlavy.</li>
+<li>Přidáno zabránění ohybu kolen dozadu a minimální úhel ohybu.</li>
+<li>Přidány přepínače funkcí a zobrazení spotřeby ExpressionParameters.</li>
+<li>Přidán lehký náhled v Scene, hledání póz, hromadné přidávání a volba cílového pořadí.</li>
+<li>Přidána historie změn v Inspectoru.</li>
+</ul>
+<h3>Změněno</h3>
+<ul>
+<li>Inspector rozdělen na 3 karty: Funkce, Pózy a Nastavení avatara.</li>
+<li>Uspořádáno umístění podrobností dýchání, importu vlastních pohybů a předvoleb.</li>
+<li>Omezeno opakování animací vytvářených pro výšku chodidel.</li>
+<li>Přidán potvrzovací dialog obnovy obrázků póz a nastavení varování soustředěno do Kontroly nastavení.</li>
+<li>Odstraněna nabídka nového přidání 8bit verze, nahrazena volbou funkcí běžného Prefabu. Existující odkazy zůstávají.</li>
+<li>Přidána podpora Unisaki Posing System 3.1.0-alpha.1. Minimální verze VRChat Avatars SDK změněna na 3.10.4.</li>
+</ul>
+<h3>Opraveno</h3>
+<ul>
+<li>Opraven přesun zadávaného názvu na jinou pózu a zavírání podrobností při řazení.</li>
+<li>Opraveno překrývání náhledů, odchylka umístění a chyby některých avatarů.</li>
+<li>Opraveno obnovování varování a stavu předgenerování po změně nastavení i některé chyby sestavení.</li>
+</ul>
+<h2>[1.0.0] - 2026-09-06</h2>
+<ul>
+<li>Oficiální vydání</li>
+<li>Přidány předvolby avatarů (トネール, 狛乃, 士堂, 真央)</li>
+</ul>
+<h2>[1.0.0-alpha.1] - 2026-09-06</h2>
+<ul>
+<li>Vydání</li>
+</ul></main>
+</body></html>
