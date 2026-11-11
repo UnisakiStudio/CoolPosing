@@ -81,14 +81,13 @@ namespace jp.unisakistudio.coolposingeditor
                 }
                 else
                 {
-                    EditorGUILayout.LabelField(posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール"), header1Label, GUILayout.Height(30));
-
-                    EditorGUILayout.HelpBox(posingsystemeditor.PosingSystemLocalization.Text("このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。"), MessageType.Error);
-                    if (EditorGUILayout.LinkButton(posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール（BOOTH）")))
-                    {
-                        Application.OpenURL("https://yunisaki.booth.pm/items/8797334");
-                    }
-                    if (EditorGUILayout.LinkButton(posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール(Gumroad)"))) Application.OpenURL("https://unisakistudio.gumroad.com/l/cool-posing");
+                    DrawLicenseNotice(
+                        posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール"),
+                        posingsystemeditor.PosingSystemLocalization.Text("このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。"),
+                        posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール（BOOTH）"),
+                        "https://yunisaki.booth.pm/items/8797334",
+                        posingsystemeditor.PosingSystemLocalization.Text("カッコいいポーズツール(Gumroad)"),
+                        "https://unisakistudio.gumroad.com/l/cool-posing");
                     return;
                 }
             }
