@@ -1,0 +1,6928 @@
+{
+  "product": "jp.unisakistudio.coolposing",
+  "displayNames": [
+    "いじけ",
+    "おいで",
+    "おきあがり",
+    "おちこみ",
+    "ざせつ",
+    "じだらく",
+    "たたみ",
+    "はいずり",
+    "ふくじゅう",
+    "むきりょく",
+    "カッコいいポーズ",
+    "ケンカ",
+    "コンビニ",
+    "ベッド",
+    "マットレス",
+    "モデル",
+    "リクライニング",
+    "二人分座り",
+    "休憩中",
+    "倒され寝",
+    "制止",
+    "和室",
+    "商談",
+    "地球寝",
+    "培養中",
+    "壁ドン",
+    "布団",
+    "座布団",
+    "思考中",
+    "晴天寝",
+    "木の上寝",
+    "楽園",
+    "海岸",
+    "猫寝",
+    "異変無し",
+    "睡魔",
+    "砂浜",
+    "絨毯",
+    "考える男",
+    "肘パンチ",
+    "脱力寝",
+    "腕枕寝",
+    "芝生",
+    "見下し",
+    "訓練場",
+    "運動会",
+    "騎士",
+    "魔王降臨"
+  ],
+  "languages": [
+    {
+      "code": "ar",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "عبوس"
+        },
+        {
+          "key": "おいで",
+          "value": "تعال هنا"
+        },
+        {
+          "key": "おきあがり",
+          "value": "نهوض"
+        },
+        {
+          "key": "おちこみ",
+          "value": "حزن"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "هذا الحاسوب غير مرخص لاستخدام Cool Posing. اشترِ الأداة من BOOTH وثبّت ترخيصها. إذا سبق أن اشتريتها، فنزّل أحدث ZIP من BOOTH واستورد CoolPosing.unitypackage. يلزم ذلك مرة واحدة لكل حاسوب."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "لم يُعثر على ترخيص Cool Posing Tool لمستخدم نظام التشغيل هذا. استورد المثبّت من تنزيل الشراء الرسمي إلى مشروع Unity هذا. ثبّت الترخيص مرة لكل مستخدم نظام تشغيل على كل حاسوب."
+        },
+        {
+          "key": "ざせつ",
+          "value": "هزيمة"
+        },
+        {
+          "key": "じだらく",
+          "value": "يوم كسول"
+        },
+        {
+          "key": "たたみ",
+          "value": "تاتامي"
+        },
+        {
+          "key": "はいずり",
+          "value": "زحف"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "استسلام"
+        },
+        {
+          "key": "むきりょく",
+          "value": "بلا طاقة"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "تثبيت ترخيص Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "إزالة ترخيص Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "حالة ترخيص Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "إعدادات Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "إضافة Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "جاهز للقتال"
+        },
+        {
+          "key": "コンビニ",
+          "value": "متجر الزاوية"
+        },
+        {
+          "key": "ベッド",
+          "value": "سرير"
+        },
+        {
+          "key": "マットレス",
+          "value": "مرتبة"
+        },
+        {
+          "key": "モデル",
+          "value": "عارض أزياء"
+        },
+        {
+          "key": "リクライニング",
+          "value": "اتكاء"
+        },
+        {
+          "key": "二人分座り",
+          "value": "مكان لاثنين"
+        },
+        {
+          "key": "休憩中",
+          "value": "استراحة"
+        },
+        {
+          "key": "倒され寝",
+          "value": "سقوط أرضًا"
+        },
+        {
+          "key": "制止",
+          "value": "توقف"
+        },
+        {
+          "key": "和室",
+          "value": "غرفة يابانية"
+        },
+        {
+          "key": "商談",
+          "value": "حديث عمل"
+        },
+        {
+          "key": "地球寝",
+          "value": "عناق الأرض"
+        },
+        {
+          "key": "培養中",
+          "value": "داخل شرنقة"
+        },
+        {
+          "key": "壁ドン",
+          "value": "اتكاء على الجدار"
+        },
+        {
+          "key": "布団",
+          "value": "فوتون"
+        },
+        {
+          "key": "座布団",
+          "value": "وسادة أرضية"
+        },
+        {
+          "key": "思考中",
+          "value": "تفكير"
+        },
+        {
+          "key": "晴天寝",
+          "value": "غفوة في الشمس"
+        },
+        {
+          "key": "木の上寝",
+          "value": "غفوة تحت شجرة"
+        },
+        {
+          "key": "楽園",
+          "value": "جنة"
+        },
+        {
+          "key": "海岸",
+          "value": "شاطئ البحر"
+        },
+        {
+          "key": "猫寝",
+          "value": "غفوة القطة"
+        },
+        {
+          "key": "異変無し",
+          "value": "كل شيء بخير"
+        },
+        {
+          "key": "睡魔",
+          "value": "نعاس"
+        },
+        {
+          "key": "砂浜",
+          "value": "شاطئ رملي"
+        },
+        {
+          "key": "絨毯",
+          "value": "سجادة"
+        },
+        {
+          "key": "考える男",
+          "value": "المفكر"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "ضربة مرفق"
+        },
+        {
+          "key": "脱力寝",
+          "value": "نوم مرتميًا"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "غفوة على الذراع"
+        },
+        {
+          "key": "芝生",
+          "value": "عشب"
+        },
+        {
+          "key": "見下し",
+          "value": "نظر للأسفل"
+        },
+        {
+          "key": "訓練場",
+          "value": "ساحة تدريب"
+        },
+        {
+          "key": "運動会",
+          "value": "يوم رياضي"
+        },
+        {
+          "key": "騎士",
+          "value": "فارس"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "سيد الشياطين"
+        }
+      ]
+    },
+    {
+      "code": "bn",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "অভিমান"
+        },
+        {
+          "key": "おいで",
+          "value": "এদিকে এসো"
+        },
+        {
+          "key": "おきあがり",
+          "value": "উঠে বসা"
+        },
+        {
+          "key": "おちこみ",
+          "value": "মন খারাপ"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "এই কম্পিউটারে Cool Posing-এর লাইসেন্স নেই। BOOTH থেকে টুল কিনে লাইসেন্স ইনস্টল করুন। আগে কিনে থাকলে BOOTH থেকে সর্বশেষ ZIP নিয়ে CoolPosing.unitypackage আমদানি করুন। প্রতি কম্পিউটারে একবার লাগে।"
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "এই OS ব্যবহারকারীর Cool Posing Tool লাইসেন্স পাওয়া যায়নি। অফিশিয়াল ক্রয়ের ডাউনলোডের ইনস্টলার এই Unity প্রজেক্টে আমদানি করুন। প্রতি কম্পিউটারের প্রতিটি OS ব্যবহারকারীর জন্য একবার লাইসেন্স ইনস্টল করুন।"
+        },
+        {
+          "key": "ざせつ",
+          "value": "পরাজিত"
+        },
+        {
+          "key": "じだらく",
+          "value": "অলস দিন"
+        },
+        {
+          "key": "たたみ",
+          "value": "তাতামি"
+        },
+        {
+          "key": "はいずり",
+          "value": "হামাগুড়ি"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "আত্মসমর্পণ"
+        },
+        {
+          "key": "むきりょく",
+          "value": "শক্তিহীন"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Cool Posing লাইসেন্স ইনস্টল করুন"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Cool Posing লাইসেন্স সরান"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing লাইসেন্সের অবস্থা"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing সেটিংস"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Cool Posing যোগ করুন"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "লড়াইয়ের প্রস্তুতি"
+        },
+        {
+          "key": "コンビニ",
+          "value": "মোড়ের দোকান"
+        },
+        {
+          "key": "ベッド",
+          "value": "বিছানা"
+        },
+        {
+          "key": "マットレス",
+          "value": "তোশক"
+        },
+        {
+          "key": "モデル",
+          "value": "মডেল"
+        },
+        {
+          "key": "リクライニング",
+          "value": "আধশোয়া"
+        },
+        {
+          "key": "二人分座り",
+          "value": "দুজনের জায়গা"
+        },
+        {
+          "key": "休憩中",
+          "value": "বিরতিতে"
+        },
+        {
+          "key": "倒され寝",
+          "value": "ধরাশায়ী"
+        },
+        {
+          "key": "制止",
+          "value": "থামো"
+        },
+        {
+          "key": "和室",
+          "value": "জাপানি ঘর"
+        },
+        {
+          "key": "商談",
+          "value": "কাজের কথা"
+        },
+        {
+          "key": "地球寝",
+          "value": "পৃথিবীকে জড়িয়ে"
+        },
+        {
+          "key": "培養中",
+          "value": "খোলসের ভেতর"
+        },
+        {
+          "key": "壁ドン",
+          "value": "দেয়ালে হেলান"
+        },
+        {
+          "key": "布団",
+          "value": "ফুতোন"
+        },
+        {
+          "key": "座布団",
+          "value": "মেঝের কুশন"
+        },
+        {
+          "key": "思考中",
+          "value": "চিন্তায়"
+        },
+        {
+          "key": "晴天寝",
+          "value": "রোদে তন্দ্রা"
+        },
+        {
+          "key": "木の上寝",
+          "value": "গাছতলায় তন্দ্রা"
+        },
+        {
+          "key": "楽園",
+          "value": "স্বর্গ"
+        },
+        {
+          "key": "海岸",
+          "value": "সমুদ্রতীরে"
+        },
+        {
+          "key": "猫寝",
+          "value": "বিড়ালের ঘুম"
+        },
+        {
+          "key": "異変無し",
+          "value": "সব ঠিক"
+        },
+        {
+          "key": "睡魔",
+          "value": "ঘুমঘুম"
+        },
+        {
+          "key": "砂浜",
+          "value": "বালুচর"
+        },
+        {
+          "key": "絨毯",
+          "value": "কার্পেট"
+        },
+        {
+          "key": "考える男",
+          "value": "চিন্তাবিদ"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "কনুইয়ের আঘাত"
+        },
+        {
+          "key": "脱力寝",
+          "value": "এলিয়ে ঘুম"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "হাতের বালিশে তন্দ্রা"
+        },
+        {
+          "key": "芝生",
+          "value": "ঘাসের মাঠ"
+        },
+        {
+          "key": "見下し",
+          "value": "নিচে তাকিয়ে"
+        },
+        {
+          "key": "訓練場",
+          "value": "প্রশিক্ষণ মাঠ"
+        },
+        {
+          "key": "運動会",
+          "value": "ক্রীড়া দিবস"
+        },
+        {
+          "key": "騎士",
+          "value": "নাইট"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "দানবরাজ"
+        }
+      ]
+    },
+    {
+      "code": "cs",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Trucování"
+        },
+        {
+          "key": "おいで",
+          "value": "Pojď sem"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Vstávání"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Smutek"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Tento počítač nemá licenci Cool Posing. Kupte nástroj na BOOTH a nainstalujte licenci. Pokud jste jej již koupili, stáhněte nejnovější ZIP z BOOTH a importujte CoolPosing.unitypackage. Stačí jednou na počítač."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Pro tohoto uživatele OS nebyla nalezena licence Cool Posing Tool. Importujte do projektu Unity instalátor z oficiálního nákupu. Licenci instalujte jednou pro každého uživatele OS na každém počítači."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Porážka"
+        },
+        {
+          "key": "じだらく",
+          "value": "Líný den"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Plazení"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Podrobení"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Bez energie"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Nainstalovat licenci Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Odstranit licenci Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Stav licence Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Nastavení Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Přidat Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Připraven k boji"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Večerka"
+        },
+        {
+          "key": "ベッド",
+          "value": "Postel"
+        },
+        {
+          "key": "マットレス",
+          "value": "Matrace"
+        },
+        {
+          "key": "モデル",
+          "value": "Model"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Pololeh"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Místo pro dva"
+        },
+        {
+          "key": "休憩中",
+          "value": "Přestávka"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Sražení"
+        },
+        {
+          "key": "制止",
+          "value": "Stůj"
+        },
+        {
+          "key": "和室",
+          "value": "Japonský pokoj"
+        },
+        {
+          "key": "商談",
+          "value": "Obchodní jednání"
+        },
+        {
+          "key": "地球寝",
+          "value": "Obejmout zemi"
+        },
+        {
+          "key": "培養中",
+          "value": "V kapsli"
+        },
+        {
+          "key": "壁ドン",
+          "value": "U zdi"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Podsedák"
+        },
+        {
+          "key": "思考中",
+          "value": "Přemýšlení"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Dřímání na slunci"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Spánek na stromě"
+        },
+        {
+          "key": "楽園",
+          "value": "Ráj"
+        },
+        {
+          "key": "海岸",
+          "value": "U moře"
+        },
+        {
+          "key": "猫寝",
+          "value": "Kočičí spánek"
+        },
+        {
+          "key": "異変無し",
+          "value": "Vše v pořádku"
+        },
+        {
+          "key": "睡魔",
+          "value": "Ospalost"
+        },
+        {
+          "key": "砂浜",
+          "value": "Písečná pláž"
+        },
+        {
+          "key": "絨毯",
+          "value": "Koberec"
+        },
+        {
+          "key": "考える男",
+          "value": "Myslitel"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Úder loktem"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Padl a usnul"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Spánek na paži"
+        },
+        {
+          "key": "芝生",
+          "value": "Trávník"
+        },
+        {
+          "key": "見下し",
+          "value": "Pohled svrchu"
+        },
+        {
+          "key": "訓練場",
+          "value": "Cvičiště"
+        },
+        {
+          "key": "運動会",
+          "value": "Sportovní den"
+        },
+        {
+          "key": "騎士",
+          "value": "Rytíř"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Pán démonů"
+        }
+      ]
+    },
+    {
+      "code": "da",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Surmulende"
+        },
+        {
+          "key": "おいで",
+          "value": "Kom her"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Rejser sig"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Nedtrykt"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Computeren mangler licens til Cool Posing. Køb værktøjet på BOOTH, og installér licensen. Har du allerede købt det, hent den nyeste ZIP fra BOOTH, og importér CoolPosing.unitypackage. Dette kræves én gang pr. computer."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Ingen Cool Posing Tool-licens blev fundet til denne systembruger. Importér installationspakken fra din officielle købsdownload til Unity-projektet. Installér licensen én gang pr. systembruger og computer."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Besejret"
+        },
+        {
+          "key": "じだらく",
+          "value": "Doven dag"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Kryber"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Underkastelse"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Uden energi"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Installér Cool Posing-licens"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Fjern Cool Posing-licens"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing-licensstatus"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing-indstillinger"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Tilføj Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Klar til kamp"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Nærbutik"
+        },
+        {
+          "key": "ベッド",
+          "value": "Seng"
+        },
+        {
+          "key": "マットレス",
+          "value": "Madras"
+        },
+        {
+          "key": "モデル",
+          "value": "Model"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Tilbagelænet"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Plads til to"
+        },
+        {
+          "key": "休憩中",
+          "value": "Holder pause"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Slået omkuld"
+        },
+        {
+          "key": "制止",
+          "value": "Stop"
+        },
+        {
+          "key": "和室",
+          "value": "Japansk rum"
+        },
+        {
+          "key": "商談",
+          "value": "Forretningsmøde"
+        },
+        {
+          "key": "地球寝",
+          "value": "Krammer jorden"
+        },
+        {
+          "key": "培養中",
+          "value": "I en kapsel"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Op ad væggen"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Gulvpude"
+        },
+        {
+          "key": "思考中",
+          "value": "Tænker"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Solskinslur"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Trælur"
+        },
+        {
+          "key": "楽園",
+          "value": "Paradis"
+        },
+        {
+          "key": "海岸",
+          "value": "Havkyst"
+        },
+        {
+          "key": "猫寝",
+          "value": "Kattelur"
+        },
+        {
+          "key": "異変無し",
+          "value": "Alt roligt"
+        },
+        {
+          "key": "睡魔",
+          "value": "Søvnig"
+        },
+        {
+          "key": "砂浜",
+          "value": "Sandstrand"
+        },
+        {
+          "key": "絨毯",
+          "value": "Tæppe"
+        },
+        {
+          "key": "考える男",
+          "value": "Tænkeren"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Albueslag"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Sovet slapt hen"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Lur på armen"
+        },
+        {
+          "key": "芝生",
+          "value": "Græsplæne"
+        },
+        {
+          "key": "見下し",
+          "value": "Ser ned"
+        },
+        {
+          "key": "訓練場",
+          "value": "Øvelsesplads"
+        },
+        {
+          "key": "運動会",
+          "value": "Idrætsdag"
+        },
+        {
+          "key": "騎士",
+          "value": "Ridder"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Dæmonfyrste"
+        }
+      ]
+    },
+    {
+      "code": "de",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Schmollen"
+        },
+        {
+          "key": "おいで",
+          "value": "Komm her"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Aufstehen"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Niedergeschlagen"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Dieser Computer hat keine Lizenz für Cool Posing. Kaufe das Werkzeug auf BOOTH und installiere seine Lizenz. Hast du es bereits gekauft, lade die neueste ZIP von BOOTH und importiere CoolPosing.unitypackage. Dies ist einmal pro Computer nötig."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Für diesen Betriebssystembenutzer wurde keine Cool Posing Tool-Lizenz gefunden. Importiere das Installationspaket aus deinem offiziellen Kaufdownload in dieses Unity-Projekt. Installiere die Lizenz einmal pro Betriebssystembenutzer und Computer."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Geschlagen"
+        },
+        {
+          "key": "じだらく",
+          "value": "Fauler Tag"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Kriechen"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Unterwerfung"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Energielos"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Cool Posing-Lizenz installieren"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Cool Posing-Lizenz entfernen"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing-Lizenzstatus"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing-Einstellungen"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Cool Posing hinzufügen"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Kampfbereit"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Kiosk"
+        },
+        {
+          "key": "ベッド",
+          "value": "Bett"
+        },
+        {
+          "key": "マットレス",
+          "value": "Matratze"
+        },
+        {
+          "key": "モデル",
+          "value": "Model"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Zurückgelehnt"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Platz für zwei"
+        },
+        {
+          "key": "休憩中",
+          "value": "In der Pause"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Umgestoßen"
+        },
+        {
+          "key": "制止",
+          "value": "Halt"
+        },
+        {
+          "key": "和室",
+          "value": "Japanisches Zimmer"
+        },
+        {
+          "key": "商談",
+          "value": "Geschäftsgespräch"
+        },
+        {
+          "key": "地球寝",
+          "value": "Die Erde umarmen"
+        },
+        {
+          "key": "培養中",
+          "value": "In der Kapsel"
+        },
+        {
+          "key": "壁ドン",
+          "value": "An der Wand"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Bodenkissen"
+        },
+        {
+          "key": "思考中",
+          "value": "Nachdenken"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Sonnennickerchen"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Baumnickerchen"
+        },
+        {
+          "key": "楽園",
+          "value": "Paradies"
+        },
+        {
+          "key": "海岸",
+          "value": "Meeresufer"
+        },
+        {
+          "key": "猫寝",
+          "value": "Katzennickerchen"
+        },
+        {
+          "key": "異変無し",
+          "value": "Alles ruhig"
+        },
+        {
+          "key": "睡魔",
+          "value": "Schläfrig"
+        },
+        {
+          "key": "砂浜",
+          "value": "Sandstrand"
+        },
+        {
+          "key": "絨毯",
+          "value": "Teppich"
+        },
+        {
+          "key": "考える男",
+          "value": "Der Denker"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Ellenbogenstoß"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Schlaff eingeschlafen"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Arm als Schlafkissen"
+        },
+        {
+          "key": "芝生",
+          "value": "Rasen"
+        },
+        {
+          "key": "見下し",
+          "value": "Herabschauen"
+        },
+        {
+          "key": "訓練場",
+          "value": "Übungsplatz"
+        },
+        {
+          "key": "運動会",
+          "value": "Sportfest"
+        },
+        {
+          "key": "騎士",
+          "value": "Ritter"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Dämonenfürst"
+        }
+      ]
+    },
+    {
+      "code": "en",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Sulking"
+        },
+        {
+          "key": "おいで",
+          "value": "Come Here"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Getting Up"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Feeling Down"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "This computer is not licensed to use Cool Posing. Purchase the tool from BOOTH and install its license. If you have already purchased it, download the latest ZIP from BOOTH and import CoolPosing.unitypackage. This is required once per computer."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "No Cool Posing Tool license was found for this OS user. Import the installer from your official purchase download into this Unity project. Install the license once for each OS user on each computer."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Defeated"
+        },
+        {
+          "key": "じだらく",
+          "value": "Lazy Day"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Crawling"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Submission"
+        },
+        {
+          "key": "むきりょく",
+          "value": "No Energy"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Install Cool Posing license"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Remove Cool Posing license"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing license status"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing Settings"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Add Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Ready to Fight"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Corner Store"
+        },
+        {
+          "key": "ベッド",
+          "value": "Bed"
+        },
+        {
+          "key": "マットレス",
+          "value": "Mattress"
+        },
+        {
+          "key": "モデル",
+          "value": "Model"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Reclining"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Room for Two"
+        },
+        {
+          "key": "休憩中",
+          "value": "On a Break"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Knocked Down"
+        },
+        {
+          "key": "制止",
+          "value": "Stop"
+        },
+        {
+          "key": "和室",
+          "value": "Japanese Room"
+        },
+        {
+          "key": "商談",
+          "value": "Business Talk"
+        },
+        {
+          "key": "地球寝",
+          "value": "Hug the Earth"
+        },
+        {
+          "key": "培養中",
+          "value": "In a Pod"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Wall Lean"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Floor Cushion"
+        },
+        {
+          "key": "思考中",
+          "value": "Thinking"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Sunny Nap"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Tree Nap"
+        },
+        {
+          "key": "楽園",
+          "value": "Paradise"
+        },
+        {
+          "key": "海岸",
+          "value": "Seaside"
+        },
+        {
+          "key": "猫寝",
+          "value": "Cat Nap"
+        },
+        {
+          "key": "異変無し",
+          "value": "All Clear"
+        },
+        {
+          "key": "睡魔",
+          "value": "Sleepy"
+        },
+        {
+          "key": "砂浜",
+          "value": "Sandy Beach"
+        },
+        {
+          "key": "絨毯",
+          "value": "Carpet"
+        },
+        {
+          "key": "考える男",
+          "value": "The Thinker"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Elbow Strike"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Flopped Asleep"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Arm Pillow Nap"
+        },
+        {
+          "key": "芝生",
+          "value": "Lawn"
+        },
+        {
+          "key": "見下し",
+          "value": "Looking Down"
+        },
+        {
+          "key": "訓練場",
+          "value": "Training Ground"
+        },
+        {
+          "key": "運動会",
+          "value": "Sports Day"
+        },
+        {
+          "key": "騎士",
+          "value": "Knight"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Demon Lord"
+        }
+      ]
+    },
+    {
+      "code": "es",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Enfurruñado"
+        },
+        {
+          "key": "おいで",
+          "value": "Ven aquí"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Levantándose"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Desanimado"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Este ordenador no tiene licencia para Cool Posing. Compra la herramienta en BOOTH e instala su licencia. Si ya la compraste, descarga el ZIP más reciente de BOOTH e importa CoolPosing.unitypackage. Se necesita una vez por ordenador."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "No se encontró una licencia Cool Posing Tool para este usuario del sistema. Importa en este proyecto Unity el instalador de la descarga oficial de tu compra. Instala la licencia una vez por usuario del sistema y por ordenador."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Derrotado"
+        },
+        {
+          "key": "じだらく",
+          "value": "Día de pereza"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Gateando"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Sumisión"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Sin energía"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Instalar licencia Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Eliminar licencia Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Estado de licencia Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Ajustes de Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Añadir Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Listo para pelear"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Tienda de barrio"
+        },
+        {
+          "key": "ベッド",
+          "value": "Cama"
+        },
+        {
+          "key": "マットレス",
+          "value": "Colchón"
+        },
+        {
+          "key": "モデル",
+          "value": "Modelo"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Reclinado"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Sitio para dos"
+        },
+        {
+          "key": "休憩中",
+          "value": "De descanso"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Derribado"
+        },
+        {
+          "key": "制止",
+          "value": "Alto"
+        },
+        {
+          "key": "和室",
+          "value": "Sala japonesa"
+        },
+        {
+          "key": "商談",
+          "value": "Negociación"
+        },
+        {
+          "key": "地球寝",
+          "value": "Abrazando la tierra"
+        },
+        {
+          "key": "培養中",
+          "value": "En una cápsula"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Apoyo en la pared"
+        },
+        {
+          "key": "布団",
+          "value": "Futón"
+        },
+        {
+          "key": "座布団",
+          "value": "Cojín de suelo"
+        },
+        {
+          "key": "思考中",
+          "value": "Pensando"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Siesta al sol"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Siesta en un árbol"
+        },
+        {
+          "key": "楽園",
+          "value": "Paraíso"
+        },
+        {
+          "key": "海岸",
+          "value": "Costa"
+        },
+        {
+          "key": "猫寝",
+          "value": "Siesta de gato"
+        },
+        {
+          "key": "異変無し",
+          "value": "Todo despejado"
+        },
+        {
+          "key": "睡魔",
+          "value": "Soñoliento"
+        },
+        {
+          "key": "砂浜",
+          "value": "Playa de arena"
+        },
+        {
+          "key": "絨毯",
+          "value": "Alfombra"
+        },
+        {
+          "key": "考える男",
+          "value": "El pensador"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Golpe de codo"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Dormido sin fuerzas"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Siesta sobre el brazo"
+        },
+        {
+          "key": "芝生",
+          "value": "Césped"
+        },
+        {
+          "key": "見下し",
+          "value": "Mirada desde arriba"
+        },
+        {
+          "key": "訓練場",
+          "value": "Campo de entrenamiento"
+        },
+        {
+          "key": "運動会",
+          "value": "Jornada deportiva"
+        },
+        {
+          "key": "騎士",
+          "value": "Caballero"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Señor demonio"
+        }
+      ]
+    },
+    {
+      "code": "fi",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Mökötys"
+        },
+        {
+          "key": "おいで",
+          "value": "Tule tänne"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Nousemassa"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Alakuloinen"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Tällä tietokoneella ei ole Cool Posing -lisenssiä. Osta työkalu BOOTHista ja asenna lisenssi. Jos olet jo ostanut sen, lataa uusin ZIP BOOTHista ja tuo CoolPosing.unitypackage. Tämä tehdään kerran tietokonetta kohti."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Tälle käyttöjärjestelmän käyttäjälle ei löytynyt Cool Posing Tool -lisenssiä. Tuo virallisesta ostoslatauksestasi saatu asennuspaketti tähän Unity-projektiin. Asenna lisenssi kerran kutakin käyttöjärjestelmän käyttäjää ja tietokonetta kohti."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Lannistunut"
+        },
+        {
+          "key": "じだらく",
+          "value": "Laiska päivä"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Konttaus"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Alistuminen"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Voimat lopussa"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Asenna Cool Posing -lisenssi"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Poista Cool Posing -lisenssi"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing -lisenssin tila"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing -asetukset"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Lisää Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Taisteluvalmius"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Kioski"
+        },
+        {
+          "key": "ベッド",
+          "value": "Sänky"
+        },
+        {
+          "key": "マットレス",
+          "value": "Patja"
+        },
+        {
+          "key": "モデル",
+          "value": "Malli"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Takanoja"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Tilaa kahdelle"
+        },
+        {
+          "key": "休憩中",
+          "value": "Tauolla"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Kaatunut"
+        },
+        {
+          "key": "制止",
+          "value": "Seis"
+        },
+        {
+          "key": "和室",
+          "value": "Japanilainen huone"
+        },
+        {
+          "key": "商談",
+          "value": "Liikeneuvottelu"
+        },
+        {
+          "key": "地球寝",
+          "value": "Maan halaus"
+        },
+        {
+          "key": "培養中",
+          "value": "Kotelossa"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Seinään nojaten"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Lattiatyyny"
+        },
+        {
+          "key": "思考中",
+          "value": "Mietintä"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Torkut auringossa"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Torkut puussa"
+        },
+        {
+          "key": "楽園",
+          "value": "Paratiisi"
+        },
+        {
+          "key": "海岸",
+          "value": "Meren äärellä"
+        },
+        {
+          "key": "猫寝",
+          "value": "Kissantorkut"
+        },
+        {
+          "key": "異変無し",
+          "value": "Reitti selvä"
+        },
+        {
+          "key": "睡魔",
+          "value": "Uninen"
+        },
+        {
+          "key": "砂浜",
+          "value": "Hiekkaranta"
+        },
+        {
+          "key": "絨毯",
+          "value": "Matto"
+        },
+        {
+          "key": "考える男",
+          "value": "Ajattelija"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Kyynärpääisku"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Lysähtänyt uneen"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Torkut käsivarrella"
+        },
+        {
+          "key": "芝生",
+          "value": "Nurmikko"
+        },
+        {
+          "key": "見下し",
+          "value": "Katse alas"
+        },
+        {
+          "key": "訓練場",
+          "value": "Harjoituskenttä"
+        },
+        {
+          "key": "運動会",
+          "value": "Urheilupäivä"
+        },
+        {
+          "key": "騎士",
+          "value": "Ritari"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Demonikuningas"
+        }
+      ]
+    },
+    {
+      "code": "fr",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Bouderie"
+        },
+        {
+          "key": "おいで",
+          "value": "Viens ici"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Se relever"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Abattu"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Cet ordinateur ne possède pas de licence Cool Posing. Achetez l'outil sur BOOTH et installez sa licence. Si vous l'avez déjà acheté, téléchargez le ZIP le plus récent sur BOOTH et importez CoolPosing.unitypackage. Cette opération est nécessaire une fois par ordinateur."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Aucune licence Cool Posing Tool trouvée pour cet utilisateur du système. Importez dans ce projet Unity l'installateur issu de votre téléchargement d'achat officiel. Installez la licence une fois par utilisateur du système et par ordinateur."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Vaincu"
+        },
+        {
+          "key": "じだらく",
+          "value": "Paresse"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Ramper"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Soumission"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Sans énergie"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Installer la licence Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Retirer la licence Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "État de la licence Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Réglages de Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Ajouter Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Prêt au combat"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Supérette"
+        },
+        {
+          "key": "ベッド",
+          "value": "Lit"
+        },
+        {
+          "key": "マットレス",
+          "value": "Matelas"
+        },
+        {
+          "key": "モデル",
+          "value": "Mannequin"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Incliné"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Place pour deux"
+        },
+        {
+          "key": "休憩中",
+          "value": "En pause"
+        },
+        {
+          "key": "倒され寝",
+          "value": "À terre"
+        },
+        {
+          "key": "制止",
+          "value": "Stop"
+        },
+        {
+          "key": "和室",
+          "value": "Pièce japonaise"
+        },
+        {
+          "key": "商談",
+          "value": "Négociation"
+        },
+        {
+          "key": "地球寝",
+          "value": "Étreinte du sol"
+        },
+        {
+          "key": "培養中",
+          "value": "En capsule"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Appui au mur"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Coussin de sol"
+        },
+        {
+          "key": "思考中",
+          "value": "En réflexion"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Sieste au soleil"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Sieste perchée"
+        },
+        {
+          "key": "楽園",
+          "value": "Paradis"
+        },
+        {
+          "key": "海岸",
+          "value": "Bord de mer"
+        },
+        {
+          "key": "猫寝",
+          "value": "Sieste de chat"
+        },
+        {
+          "key": "異変無し",
+          "value": "Rien à signaler"
+        },
+        {
+          "key": "睡魔",
+          "value": "Somnolence"
+        },
+        {
+          "key": "砂浜",
+          "value": "Plage"
+        },
+        {
+          "key": "絨毯",
+          "value": "Tapis"
+        },
+        {
+          "key": "考える男",
+          "value": "Le Penseur"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Coup de coude"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Sommeil relâché"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Sieste sur bras"
+        },
+        {
+          "key": "芝生",
+          "value": "Pelouse"
+        },
+        {
+          "key": "見下し",
+          "value": "Regard de haut"
+        },
+        {
+          "key": "訓練場",
+          "value": "Terrain d’exercice"
+        },
+        {
+          "key": "運動会",
+          "value": "Fête sportive"
+        },
+        {
+          "key": "騎士",
+          "value": "Chevalier"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Seigneur démon"
+        }
+      ]
+    },
+    {
+      "code": "he",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "מתמרמר"
+        },
+        {
+          "key": "おいで",
+          "value": "בואו הנה"
+        },
+        {
+          "key": "おきあがり",
+          "value": "קם"
+        },
+        {
+          "key": "おちこみ",
+          "value": "מדוכדך"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "למחשב הזה אין רישיון Cool Posing. רכשו את הכלי ב-BOOTH והתקינו את הרישיון שלו. אם כבר רכשתם, הורידו את קובץ ה-ZIP העדכני מ-BOOTH וייבאו את CoolPosing.unitypackage. הפעולה נדרשת פעם אחת לכל מחשב."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "לא נמצא רישיון Cool Posing Tool למשתמש מערכת ההפעלה הזה. ייבאו לפרויקט Unity את ההתקנה מההורדה הרשמית של הרכישה שלכם. התקינו את הרישיון פעם אחת לכל משתמש מערכת הפעלה ולכל מחשב."
+        },
+        {
+          "key": "ざせつ",
+          "value": "מובס"
+        },
+        {
+          "key": "じだらく",
+          "value": "יום עצל"
+        },
+        {
+          "key": "たたみ",
+          "value": "טטאמי"
+        },
+        {
+          "key": "はいずり",
+          "value": "זוחל"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "כניעה"
+        },
+        {
+          "key": "むきりょく",
+          "value": "בלי אנרגיה"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "התקנת רישיון Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "הסרת רישיון Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "מצב רישיון Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "הגדרות Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "הוספת Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "מוכן לקרב"
+        },
+        {
+          "key": "コンビニ",
+          "value": "חנות שכונתית"
+        },
+        {
+          "key": "ベッド",
+          "value": "מיטה"
+        },
+        {
+          "key": "マットレス",
+          "value": "מזרן"
+        },
+        {
+          "key": "モデル",
+          "value": "דוגמן"
+        },
+        {
+          "key": "リクライニング",
+          "value": "נשען לאחור"
+        },
+        {
+          "key": "二人分座り",
+          "value": "מקום לשניים"
+        },
+        {
+          "key": "休憩中",
+          "value": "בהפסקה"
+        },
+        {
+          "key": "倒され寝",
+          "value": "מופל"
+        },
+        {
+          "key": "制止",
+          "value": "עצור"
+        },
+        {
+          "key": "和室",
+          "value": "חדר יפני"
+        },
+        {
+          "key": "商談",
+          "value": "שיחה עסקית"
+        },
+        {
+          "key": "地球寝",
+          "value": "מחבק את האדמה"
+        },
+        {
+          "key": "培養中",
+          "value": "בתוך קפסולה"
+        },
+        {
+          "key": "壁ドン",
+          "value": "נשען על הקיר"
+        },
+        {
+          "key": "布団",
+          "value": "פוטון"
+        },
+        {
+          "key": "座布団",
+          "value": "כרית רצפה"
+        },
+        {
+          "key": "思考中",
+          "value": "חושב"
+        },
+        {
+          "key": "晴天寝",
+          "value": "נמנום בשמש"
+        },
+        {
+          "key": "木の上寝",
+          "value": "נמנום בעץ"
+        },
+        {
+          "key": "楽園",
+          "value": "גן עדן"
+        },
+        {
+          "key": "海岸",
+          "value": "שפת הים"
+        },
+        {
+          "key": "猫寝",
+          "value": "תנומת חתול"
+        },
+        {
+          "key": "異変無し",
+          "value": "הכול שקט"
+        },
+        {
+          "key": "睡魔",
+          "value": "מנומנם"
+        },
+        {
+          "key": "砂浜",
+          "value": "חוף חולי"
+        },
+        {
+          "key": "絨毯",
+          "value": "שטיח"
+        },
+        {
+          "key": "考える男",
+          "value": "ההוגה"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "מכת מרפק"
+        },
+        {
+          "key": "脱力寝",
+          "value": "נרדם שרוע"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "נמנום על הזרוע"
+        },
+        {
+          "key": "芝生",
+          "value": "דשא"
+        },
+        {
+          "key": "見下し",
+          "value": "מביט מלמעלה"
+        },
+        {
+          "key": "訓練場",
+          "value": "מגרש אימונים"
+        },
+        {
+          "key": "運動会",
+          "value": "יום ספורט"
+        },
+        {
+          "key": "騎士",
+          "value": "אביר"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "אדון השדים"
+        }
+      ]
+    },
+    {
+      "code": "hi",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "रूठना"
+        },
+        {
+          "key": "おいで",
+          "value": "यहाँ आओ"
+        },
+        {
+          "key": "おきあがり",
+          "value": "उठना"
+        },
+        {
+          "key": "おちこみ",
+          "value": "उदास"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "इस कंप्यूटर पर Cool Posing का लाइसेंस नहीं है। BOOTH से टूल खरीदकर लाइसेंस स्थापित करें। खरीदा हो तो BOOTH से नवीनतम ZIP लेकर CoolPosing.unitypackage आयात करें। हर कंप्यूटर पर एक बार ज़रूरी है।"
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "इस OS उपयोगकर्ता के लिए Cool Posing Tool लाइसेंस नहीं मिला। अपनी आधिकारिक खरीद के डाउनलोड वाला इंस्टॉलर इस Unity प्रोजेक्ट में आयात करें। हर कंप्यूटर के हर OS उपयोगकर्ता के लिए एक बार लाइसेंस स्थापित करें।"
+        },
+        {
+          "key": "ざせつ",
+          "value": "हार गए"
+        },
+        {
+          "key": "じだらく",
+          "value": "आलसी दिन"
+        },
+        {
+          "key": "たたみ",
+          "value": "ततामी"
+        },
+        {
+          "key": "はいずり",
+          "value": "रेंगना"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "समर्पण"
+        },
+        {
+          "key": "むきりょく",
+          "value": "बेजान"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Cool Posing लाइसेंस स्थापित करें"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Cool Posing लाइसेंस हटाएँ"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing लाइसेंस की स्थिति"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing सेटिंग"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Cool Posing जोड़ें"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "लड़ने को तैयार"
+        },
+        {
+          "key": "コンビニ",
+          "value": "छोटी दुकान"
+        },
+        {
+          "key": "ベッド",
+          "value": "बिस्तर"
+        },
+        {
+          "key": "マットレス",
+          "value": "गद्दा"
+        },
+        {
+          "key": "モデル",
+          "value": "मॉडल"
+        },
+        {
+          "key": "リクライニング",
+          "value": "पीछे झुकना"
+        },
+        {
+          "key": "二人分座り",
+          "value": "दो की जगह"
+        },
+        {
+          "key": "休憩中",
+          "value": "विश्राम"
+        },
+        {
+          "key": "倒され寝",
+          "value": "गिरा दिए"
+        },
+        {
+          "key": "制止",
+          "value": "रुको"
+        },
+        {
+          "key": "和室",
+          "value": "जापानी कमरा"
+        },
+        {
+          "key": "商談",
+          "value": "कारोबारी बात"
+        },
+        {
+          "key": "地球寝",
+          "value": "धरती को गले"
+        },
+        {
+          "key": "培養中",
+          "value": "कैप्सूल में"
+        },
+        {
+          "key": "壁ドン",
+          "value": "दीवार की टेक"
+        },
+        {
+          "key": "布団",
+          "value": "फ़ुतोन"
+        },
+        {
+          "key": "座布団",
+          "value": "बैठने की गद्दी"
+        },
+        {
+          "key": "思考中",
+          "value": "सोच में"
+        },
+        {
+          "key": "晴天寝",
+          "value": "धूप में झपकी"
+        },
+        {
+          "key": "木の上寝",
+          "value": "पेड़ पर झपकी"
+        },
+        {
+          "key": "楽園",
+          "value": "स्वर्ग"
+        },
+        {
+          "key": "海岸",
+          "value": "समुद्र किनारा"
+        },
+        {
+          "key": "猫寝",
+          "value": "बिल्ली की नींद"
+        },
+        {
+          "key": "異変無し",
+          "value": "सब ठीक"
+        },
+        {
+          "key": "睡魔",
+          "value": "उनींदा"
+        },
+        {
+          "key": "砂浜",
+          "value": "रेतीला तट"
+        },
+        {
+          "key": "絨毯",
+          "value": "कालीन"
+        },
+        {
+          "key": "考える男",
+          "value": "विचारक"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "कोहनी वार"
+        },
+        {
+          "key": "脱力寝",
+          "value": "निढाल नींद"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "बाँह पर झपकी"
+        },
+        {
+          "key": "芝生",
+          "value": "घास"
+        },
+        {
+          "key": "見下し",
+          "value": "ऊपर से देखना"
+        },
+        {
+          "key": "訓練場",
+          "value": "अभ्यास मैदान"
+        },
+        {
+          "key": "運動会",
+          "value": "खेल दिवस"
+        },
+        {
+          "key": "騎士",
+          "value": "शूरवीर"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "दानव राजा"
+        }
+      ]
+    },
+    {
+      "code": "id",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Merajuk"
+        },
+        {
+          "key": "おいで",
+          "value": "Kemarilah"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Bangun"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Murung"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Komputer ini tidak memiliki lisensi Cool Posing. Beli alat dari BOOTH dan pasang lisensinya. Jika sudah membeli, unduh ZIP terbaru dari BOOTH lalu impor CoolPosing.unitypackage. Ini diperlukan sekali per komputer."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Tidak ditemukan lisensi Cool Posing Tool untuk pengguna OS ini. Impor penginstal dari unduhan pembelian resmi ke proyek Unity ini. Pasang lisensi sekali untuk setiap pengguna OS pada setiap komputer."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Kalah"
+        },
+        {
+          "key": "じだらく",
+          "value": "Hari Malas"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Merangkak"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Tunduk"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Tanpa Tenaga"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Pasang lisensi Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Hapus lisensi Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Status lisensi Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Pengaturan Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Tambahkan Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Siap Berkelahi"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Minimarket"
+        },
+        {
+          "key": "ベッド",
+          "value": "Tempat Tidur"
+        },
+        {
+          "key": "マットレス",
+          "value": "Kasur"
+        },
+        {
+          "key": "モデル",
+          "value": "Model"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Setengah Berbaring"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Tempat Berdua"
+        },
+        {
+          "key": "休憩中",
+          "value": "Istirahat"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Terjatuh"
+        },
+        {
+          "key": "制止",
+          "value": "Berhenti"
+        },
+        {
+          "key": "和室",
+          "value": "Kamar Jepang"
+        },
+        {
+          "key": "商談",
+          "value": "Pembicaraan Bisnis"
+        },
+        {
+          "key": "地球寝",
+          "value": "Memeluk Bumi"
+        },
+        {
+          "key": "培養中",
+          "value": "Dalam Kapsul"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Bersandar Dinding"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Bantal Lantai"
+        },
+        {
+          "key": "思考中",
+          "value": "Berpikir"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Tidur di Bawah Mentari"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Tidur di Pohon"
+        },
+        {
+          "key": "楽園",
+          "value": "Surga"
+        },
+        {
+          "key": "海岸",
+          "value": "Tepi Laut"
+        },
+        {
+          "key": "猫寝",
+          "value": "Tidur Kucing"
+        },
+        {
+          "key": "異変無し",
+          "value": "Semua Aman"
+        },
+        {
+          "key": "睡魔",
+          "value": "Mengantuk"
+        },
+        {
+          "key": "砂浜",
+          "value": "Pantai Berpasir"
+        },
+        {
+          "key": "絨毯",
+          "value": "Karpet"
+        },
+        {
+          "key": "考える男",
+          "value": "Sang Pemikir"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Pukulan Siku"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Tertidur Lemas"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Tidur di Lengan"
+        },
+        {
+          "key": "芝生",
+          "value": "Rumput"
+        },
+        {
+          "key": "見下し",
+          "value": "Memandang Rendah"
+        },
+        {
+          "key": "訓練場",
+          "value": "Lapangan Latihan"
+        },
+        {
+          "key": "運動会",
+          "value": "Hari Olahraga"
+        },
+        {
+          "key": "騎士",
+          "value": "Kesatria"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Raja Iblis"
+        }
+      ]
+    },
+    {
+      "code": "it",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Broncio"
+        },
+        {
+          "key": "おいで",
+          "value": "Vieni qui"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Alzarsi"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Giù di morale"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Questo computer non dispone di una licenza Cool Posing. Acquista lo strumento su BOOTH e installa la licenza. Se l'hai già acquistato, scarica l'ultimo ZIP da BOOTH e importa CoolPosing.unitypackage. Serve una volta per computer."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nessuna licenza Cool Posing Tool trovata per questo utente del sistema. Importa in questo progetto Unity l'installer dal download ufficiale del tuo acquisto. Installa la licenza una volta per utente del sistema e per computer."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Sconfitto"
+        },
+        {
+          "key": "じだらく",
+          "value": "Pigrizia"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Strisciare"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Sottomissione"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Senza energie"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Installa licenza Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Rimuovi licenza Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Stato licenza Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Impostazioni Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Aggiungi Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Pronto alla lotta"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Minimarket"
+        },
+        {
+          "key": "ベッド",
+          "value": "Letto"
+        },
+        {
+          "key": "マットレス",
+          "value": "Materasso"
+        },
+        {
+          "key": "モデル",
+          "value": "Modello"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Reclinato"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Posto per due"
+        },
+        {
+          "key": "休憩中",
+          "value": "In pausa"
+        },
+        {
+          "key": "倒され寝",
+          "value": "A terra"
+        },
+        {
+          "key": "制止",
+          "value": "Fermo"
+        },
+        {
+          "key": "和室",
+          "value": "Stanza giapponese"
+        },
+        {
+          "key": "商談",
+          "value": "Trattativa"
+        },
+        {
+          "key": "地球寝",
+          "value": "Abbraccia la terra"
+        },
+        {
+          "key": "培養中",
+          "value": "In una capsula"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Al muro"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Cuscino da terra"
+        },
+        {
+          "key": "思考中",
+          "value": "Pensieroso"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Pisolino al sole"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Pisolino sull’albero"
+        },
+        {
+          "key": "楽園",
+          "value": "Paradiso"
+        },
+        {
+          "key": "海岸",
+          "value": "Lungomare"
+        },
+        {
+          "key": "猫寝",
+          "value": "Pisolino da gatto"
+        },
+        {
+          "key": "異変無し",
+          "value": "Tutto tranquillo"
+        },
+        {
+          "key": "睡魔",
+          "value": "Sonnolenza"
+        },
+        {
+          "key": "砂浜",
+          "value": "Spiaggia"
+        },
+        {
+          "key": "絨毯",
+          "value": "Tappeto"
+        },
+        {
+          "key": "考える男",
+          "value": "Il Pensatore"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Gomitata"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Sonno rilassato"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Pisolino sul braccio"
+        },
+        {
+          "key": "芝生",
+          "value": "Prato"
+        },
+        {
+          "key": "見下し",
+          "value": "Sguardo dall’alto"
+        },
+        {
+          "key": "訓練場",
+          "value": "Campo di allenamento"
+        },
+        {
+          "key": "運動会",
+          "value": "Giornata sportiva"
+        },
+        {
+          "key": "騎士",
+          "value": "Cavaliere"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Re demone"
+        }
+      ]
+    },
+    {
+      "code": "ko",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "삐침"
+        },
+        {
+          "key": "おいで",
+          "value": "이리 와"
+        },
+        {
+          "key": "おきあがり",
+          "value": "일어나기"
+        },
+        {
+          "key": "おちこみ",
+          "value": "풀이 죽음"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "이 컴퓨터에 Cool Posing 라이선스가 없습니다. BOOTH에서 도구를 구매하고 라이선스를 설치해 주세요. 이미 구매했다면 BOOTH에서 최신 ZIP을 받아 CoolPosing.unitypackage를 가져와 주세요. 컴퓨터마다 한 번 필요합니다."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "이 OS 사용자에 대한 Cool Posing Tool 라이선스를 찾지 못했습니다. 공식 구매 다운로드의 설치 파일을 이 Unity 프로젝트에 가져와 주세요. 컴퓨터마다 OS 사용자별로 한 번씩 라이선스를 설치해야 합니다."
+        },
+        {
+          "key": "ざせつ",
+          "value": "좌절"
+        },
+        {
+          "key": "じだらく",
+          "value": "나른한 하루"
+        },
+        {
+          "key": "たたみ",
+          "value": "다다미"
+        },
+        {
+          "key": "はいずり",
+          "value": "기어가기"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "순종"
+        },
+        {
+          "key": "むきりょく",
+          "value": "무기력"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Cool Posing 라이선스 설치"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Cool Posing 라이선스 제거"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing 라이선스 상태"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing 설정"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Cool Posing 추가"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "싸울 준비"
+        },
+        {
+          "key": "コンビニ",
+          "value": "편의점"
+        },
+        {
+          "key": "ベッド",
+          "value": "침대"
+        },
+        {
+          "key": "マットレス",
+          "value": "매트리스"
+        },
+        {
+          "key": "モデル",
+          "value": "모델"
+        },
+        {
+          "key": "リクライニング",
+          "value": "뒤로 기대기"
+        },
+        {
+          "key": "二人分座り",
+          "value": "둘이 앉기"
+        },
+        {
+          "key": "休憩中",
+          "value": "휴식 중"
+        },
+        {
+          "key": "倒され寝",
+          "value": "쓰러져 눕기"
+        },
+        {
+          "key": "制止",
+          "value": "멈춰"
+        },
+        {
+          "key": "和室",
+          "value": "다다미방"
+        },
+        {
+          "key": "商談",
+          "value": "상담"
+        },
+        {
+          "key": "地球寝",
+          "value": "땅 끌어안기"
+        },
+        {
+          "key": "培養中",
+          "value": "배양 중"
+        },
+        {
+          "key": "壁ドン",
+          "value": "벽치기"
+        },
+        {
+          "key": "布団",
+          "value": "이불"
+        },
+        {
+          "key": "座布団",
+          "value": "방석"
+        },
+        {
+          "key": "思考中",
+          "value": "생각 중"
+        },
+        {
+          "key": "晴天寝",
+          "value": "맑은 날 낮잠"
+        },
+        {
+          "key": "木の上寝",
+          "value": "나무 위 낮잠"
+        },
+        {
+          "key": "楽園",
+          "value": "낙원"
+        },
+        {
+          "key": "海岸",
+          "value": "해안"
+        },
+        {
+          "key": "猫寝",
+          "value": "고양이 낮잠"
+        },
+        {
+          "key": "異変無し",
+          "value": "이상 없음"
+        },
+        {
+          "key": "睡魔",
+          "value": "졸음"
+        },
+        {
+          "key": "砂浜",
+          "value": "모래사장"
+        },
+        {
+          "key": "絨毯",
+          "value": "카펫"
+        },
+        {
+          "key": "考える男",
+          "value": "생각하는 사람"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "팔꿈치 치기"
+        },
+        {
+          "key": "脱力寝",
+          "value": "힘 빼고 자기"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "팔베개 낮잠"
+        },
+        {
+          "key": "芝生",
+          "value": "잔디"
+        },
+        {
+          "key": "見下し",
+          "value": "내려다보기"
+        },
+        {
+          "key": "訓練場",
+          "value": "훈련장"
+        },
+        {
+          "key": "運動会",
+          "value": "운동회"
+        },
+        {
+          "key": "騎士",
+          "value": "기사"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "마왕 강림"
+        }
+      ]
+    },
+    {
+      "code": "nb",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Surmulende"
+        },
+        {
+          "key": "おいで",
+          "value": "Kom hit"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Reiser seg"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Nedstemt"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Denne datamaskinen har ingen lisens for Cool Posing. Kjøp verktøyet fra BOOTH og installer lisensen. Hvis du allerede har kjøpt det, last ned den nyeste ZIP-filen fra BOOTH og importer CoolPosing.unitypackage. Dette kreves én gang per datamaskin."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Ingen Cool Posing Tool-lisens ble funnet for denne OS-brukeren. Importer installasjonsfilen fra den offisielle kjøpsnedlastingen til dette Unity-prosjektet. Installer lisensen én gang per OS-bruker på hver datamaskin."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Beseiret"
+        },
+        {
+          "key": "じだらく",
+          "value": "Lat dag"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Krabber"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Underkastelse"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Tom for energi"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Installer Cool Posing-lisens"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Fjern Cool Posing-lisens"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Lisensstatus for Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Innstillinger for Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Legg til Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Kampklar"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Kiosken"
+        },
+        {
+          "key": "ベッド",
+          "value": "Seng"
+        },
+        {
+          "key": "マットレス",
+          "value": "Madrass"
+        },
+        {
+          "key": "モデル",
+          "value": "Modell"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Tilbakelent"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Plass til to"
+        },
+        {
+          "key": "休憩中",
+          "value": "På pause"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Slått ned"
+        },
+        {
+          "key": "制止",
+          "value": "Stopp"
+        },
+        {
+          "key": "和室",
+          "value": "Japansk rom"
+        },
+        {
+          "key": "商談",
+          "value": "Forretningsprat"
+        },
+        {
+          "key": "地球寝",
+          "value": "Klemmer jorden"
+        },
+        {
+          "key": "培養中",
+          "value": "I kapselen"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Lent mot veggen"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Gulvpute"
+        },
+        {
+          "key": "思考中",
+          "value": "Tenker"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Lur i solen"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Lur i treet"
+        },
+        {
+          "key": "楽園",
+          "value": "Paradis"
+        },
+        {
+          "key": "海岸",
+          "value": "Ved sjøen"
+        },
+        {
+          "key": "猫寝",
+          "value": "Kattelur"
+        },
+        {
+          "key": "異変無し",
+          "value": "Fri bane"
+        },
+        {
+          "key": "睡魔",
+          "value": "Søvnig"
+        },
+        {
+          "key": "砂浜",
+          "value": "Sandstrand"
+        },
+        {
+          "key": "絨毯",
+          "value": "Teppe"
+        },
+        {
+          "key": "考える男",
+          "value": "Tenkeren"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Albueslag"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Sovnet omkull"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Lur på armen"
+        },
+        {
+          "key": "芝生",
+          "value": "Plen"
+        },
+        {
+          "key": "見下し",
+          "value": "Ser ned"
+        },
+        {
+          "key": "訓練場",
+          "value": "Treningsbane"
+        },
+        {
+          "key": "運動会",
+          "value": "Idrettsdag"
+        },
+        {
+          "key": "騎士",
+          "value": "Ridder"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Demonkonge"
+        }
+      ]
+    },
+    {
+      "code": "nl",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Mokken"
+        },
+        {
+          "key": "おいで",
+          "value": "Kom hier"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Opstaan"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Neerslachtig"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Deze computer heeft geen licentie voor Cool Posing. Koop het gereedschap op BOOTH en installeer de licentie. Heb je het al gekocht, download dan de nieuwste ZIP van BOOTH en importeer CoolPosing.unitypackage. Dit is eenmaal per computer nodig."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Geen Cool Posing Tool-licentie gevonden voor deze systeemgebruiker. Importeer het installatiepakket uit je officiële aankoopdownload in dit Unity-project. Installeer de licentie eenmaal per systeemgebruiker en computer."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Verslagen"
+        },
+        {
+          "key": "じだらく",
+          "value": "Luie dag"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Kruipen"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Onderwerping"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Geen energie"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Cool Posing-licentie installeren"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Cool Posing-licentie verwijderen"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing-licentiestatus"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing-instellingen"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Cool Posing toevoegen"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Klaar om te vechten"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Buurtwinkel"
+        },
+        {
+          "key": "ベッド",
+          "value": "Bed"
+        },
+        {
+          "key": "マットレス",
+          "value": "Matras"
+        },
+        {
+          "key": "モデル",
+          "value": "Model"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Achterover"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Plaats voor twee"
+        },
+        {
+          "key": "休憩中",
+          "value": "Pauze"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Neergeslagen"
+        },
+        {
+          "key": "制止",
+          "value": "Stop"
+        },
+        {
+          "key": "和室",
+          "value": "Japanse kamer"
+        },
+        {
+          "key": "商談",
+          "value": "Zakengesprek"
+        },
+        {
+          "key": "地球寝",
+          "value": "Omhels de aarde"
+        },
+        {
+          "key": "培養中",
+          "value": "In een capsule"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Tegen de muur"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Vloerkussen"
+        },
+        {
+          "key": "思考中",
+          "value": "Nadenken"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Zonnedutje"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Boomdutje"
+        },
+        {
+          "key": "楽園",
+          "value": "Paradijs"
+        },
+        {
+          "key": "海岸",
+          "value": "Kust"
+        },
+        {
+          "key": "猫寝",
+          "value": "Kattendutje"
+        },
+        {
+          "key": "異変無し",
+          "value": "Alles veilig"
+        },
+        {
+          "key": "睡魔",
+          "value": "Slaperig"
+        },
+        {
+          "key": "砂浜",
+          "value": "Zandstrand"
+        },
+        {
+          "key": "絨毯",
+          "value": "Tapijt"
+        },
+        {
+          "key": "考える男",
+          "value": "De denker"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Elleboogstoot"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Slapend neergeploft"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Dutje op de arm"
+        },
+        {
+          "key": "芝生",
+          "value": "Gazon"
+        },
+        {
+          "key": "見下し",
+          "value": "Neerkijken"
+        },
+        {
+          "key": "訓練場",
+          "value": "Oefenterrein"
+        },
+        {
+          "key": "運動会",
+          "value": "Sportdag"
+        },
+        {
+          "key": "騎士",
+          "value": "Ridder"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Demonenheer"
+        }
+      ]
+    },
+    {
+      "code": "pl",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Dąsy"
+        },
+        {
+          "key": "おいで",
+          "value": "Chodź tutaj"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Wstawanie"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Przygnębienie"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Ten komputer nie ma licencji Cool Posing. Kup narzędzie na BOOTH i zainstaluj licencję. Jeśli już je kupiono, pobierz najnowszy ZIP z BOOTH i zaimportuj CoolPosing.unitypackage. Wymagane raz na komputer."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nie znaleziono licencji Cool Posing Tool dla tego użytkownika systemu. Zaimportuj do projektu Unity instalator z oficjalnego zakupu. Licencję instaluje się raz dla każdego użytkownika systemu na każdym komputerze."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Porażka"
+        },
+        {
+          "key": "じだらく",
+          "value": "Leniwy dzień"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Pełzanie"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Uległość"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Brak energii"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Zainstaluj licencję Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Usuń licencję Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Stan licencji Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Ustawienia Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Dodaj Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Gotowość do walki"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Sklepik"
+        },
+        {
+          "key": "ベッド",
+          "value": "Łóżko"
+        },
+        {
+          "key": "マットレス",
+          "value": "Materac"
+        },
+        {
+          "key": "モデル",
+          "value": "Model"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Półleżąco"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Miejsce dla dwojga"
+        },
+        {
+          "key": "休憩中",
+          "value": "Przerwa"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Powalenie"
+        },
+        {
+          "key": "制止",
+          "value": "Stop"
+        },
+        {
+          "key": "和室",
+          "value": "Japoński pokój"
+        },
+        {
+          "key": "商談",
+          "value": "Rozmowa biznesowa"
+        },
+        {
+          "key": "地球寝",
+          "value": "Objąć ziemię"
+        },
+        {
+          "key": "培養中",
+          "value": "W kapsule"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Przy ścianie"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Poduszka podłogowa"
+        },
+        {
+          "key": "思考中",
+          "value": "Zamyślenie"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Drzemka w słońcu"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Drzemka na drzewie"
+        },
+        {
+          "key": "楽園",
+          "value": "Raj"
+        },
+        {
+          "key": "海岸",
+          "value": "Nad morzem"
+        },
+        {
+          "key": "猫寝",
+          "value": "Kocia drzemka"
+        },
+        {
+          "key": "異変無し",
+          "value": "Wszystko spokojne"
+        },
+        {
+          "key": "睡魔",
+          "value": "Senność"
+        },
+        {
+          "key": "砂浜",
+          "value": "Piaszczysta plaża"
+        },
+        {
+          "key": "絨毯",
+          "value": "Dywan"
+        },
+        {
+          "key": "考える男",
+          "value": "Myśliciel"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Cios łokciem"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Padł i zasnął"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Drzemka na ramieniu"
+        },
+        {
+          "key": "芝生",
+          "value": "Trawnik"
+        },
+        {
+          "key": "見下し",
+          "value": "Spojrzenie z góry"
+        },
+        {
+          "key": "訓練場",
+          "value": "Plac treningowy"
+        },
+        {
+          "key": "運動会",
+          "value": "Dzień sportu"
+        },
+        {
+          "key": "騎士",
+          "value": "Rycerz"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Władca demonów"
+        }
+      ]
+    },
+    {
+      "code": "pt",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Emburrado"
+        },
+        {
+          "key": "おいで",
+          "value": "Vem cá"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Levantando"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Desanimado"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Este computador não tem licença para usar Cool Posing. Compre a ferramenta na BOOTH e instale sua licença. Se já comprou, descarregue o ZIP mais recente da BOOTH e importe CoolPosing.unitypackage. Isso é necessário uma vez por computador."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nenhuma licença Cool Posing Tool foi encontrada para este utilizador do sistema. Importe neste projeto Unity o instalador do download oficial da sua compra. Instale a licença uma vez por utilizador do sistema e por computador."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Derrotado"
+        },
+        {
+          "key": "じだらく",
+          "value": "Dia de preguiça"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Rastejando"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Submissão"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Sem energia"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Instalar licença Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Remover licença Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Estado da licença Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Configurações de Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Adicionar Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Pronto para brigar"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Loja da esquina"
+        },
+        {
+          "key": "ベッド",
+          "value": "Cama"
+        },
+        {
+          "key": "マットレス",
+          "value": "Colchão"
+        },
+        {
+          "key": "モデル",
+          "value": "Modelo"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Reclinado"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Lugar para dois"
+        },
+        {
+          "key": "休憩中",
+          "value": "Em pausa"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Derrubado"
+        },
+        {
+          "key": "制止",
+          "value": "Pare"
+        },
+        {
+          "key": "和室",
+          "value": "Sala japonesa"
+        },
+        {
+          "key": "商談",
+          "value": "Negociação"
+        },
+        {
+          "key": "地球寝",
+          "value": "Abraçando a terra"
+        },
+        {
+          "key": "培養中",
+          "value": "Em uma cápsula"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Apoio na parede"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Almofada no chão"
+        },
+        {
+          "key": "思考中",
+          "value": "Pensando"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Sesta ao sol"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Sesta na árvore"
+        },
+        {
+          "key": "楽園",
+          "value": "Paraíso"
+        },
+        {
+          "key": "海岸",
+          "value": "Beira-mar"
+        },
+        {
+          "key": "猫寝",
+          "value": "Sesta de gato"
+        },
+        {
+          "key": "異変無し",
+          "value": "Tudo tranquilo"
+        },
+        {
+          "key": "睡魔",
+          "value": "Sonolento"
+        },
+        {
+          "key": "砂浜",
+          "value": "Praia de areia"
+        },
+        {
+          "key": "絨毯",
+          "value": "Tapete"
+        },
+        {
+          "key": "考える男",
+          "value": "O pensador"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Golpe de cotovelo"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Dormindo largado"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Sesta sobre o braço"
+        },
+        {
+          "key": "芝生",
+          "value": "Relvado"
+        },
+        {
+          "key": "見下し",
+          "value": "Olhando de cima"
+        },
+        {
+          "key": "訓練場",
+          "value": "Campo de treino"
+        },
+        {
+          "key": "運動会",
+          "value": "Dia de desporto"
+        },
+        {
+          "key": "騎士",
+          "value": "Cavaleiro"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Senhor demônio"
+        }
+      ]
+    },
+    {
+      "code": "pt-BR",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Emburrado"
+        },
+        {
+          "key": "おいで",
+          "value": "Vem cá"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Levantando"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Desanimado"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Este computador não tem licença para usar Cool Posing. Compre a ferramenta na BOOTH e instale sua licença. Se já comprou, baixe o ZIP mais recente da BOOTH e importe CoolPosing.unitypackage. Isso é necessário uma vez por computador."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Nenhuma licença Cool Posing Tool foi encontrada para este usuário do sistema. Importe neste projeto Unity o instalador do download oficial da sua compra. Instale a licença uma vez por usuário do sistema e por computador."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Derrotado"
+        },
+        {
+          "key": "じだらく",
+          "value": "Dia de preguiça"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Rastejando"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Submissão"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Sem energia"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Instalar licença Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Remover licença Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Estado da licença Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Configurações de Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Adicionar Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Pronto para brigar"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Loja da esquina"
+        },
+        {
+          "key": "ベッド",
+          "value": "Cama"
+        },
+        {
+          "key": "マットレス",
+          "value": "Colchão"
+        },
+        {
+          "key": "モデル",
+          "value": "Modelo"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Reclinado"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Lugar para dois"
+        },
+        {
+          "key": "休憩中",
+          "value": "Em pausa"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Derrubado"
+        },
+        {
+          "key": "制止",
+          "value": "Pare"
+        },
+        {
+          "key": "和室",
+          "value": "Sala japonesa"
+        },
+        {
+          "key": "商談",
+          "value": "Negociação"
+        },
+        {
+          "key": "地球寝",
+          "value": "Abraçando a terra"
+        },
+        {
+          "key": "培養中",
+          "value": "Em uma cápsula"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Apoio na parede"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Almofada no chão"
+        },
+        {
+          "key": "思考中",
+          "value": "Pensando"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Cochilo ao sol"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Cochilo na árvore"
+        },
+        {
+          "key": "楽園",
+          "value": "Paraíso"
+        },
+        {
+          "key": "海岸",
+          "value": "Beira-mar"
+        },
+        {
+          "key": "猫寝",
+          "value": "Cochilo de gato"
+        },
+        {
+          "key": "異変無し",
+          "value": "Tudo tranquilo"
+        },
+        {
+          "key": "睡魔",
+          "value": "Sonolento"
+        },
+        {
+          "key": "砂浜",
+          "value": "Praia de areia"
+        },
+        {
+          "key": "絨毯",
+          "value": "Tapete"
+        },
+        {
+          "key": "考える男",
+          "value": "O pensador"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Golpe de cotovelo"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Dormindo largado"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Cochilo sobre o braço"
+        },
+        {
+          "key": "芝生",
+          "value": "Gramado"
+        },
+        {
+          "key": "見下し",
+          "value": "Olhando de cima"
+        },
+        {
+          "key": "訓練場",
+          "value": "Campo de treino"
+        },
+        {
+          "key": "運動会",
+          "value": "Dia de esportes"
+        },
+        {
+          "key": "騎士",
+          "value": "Cavaleiro"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Senhor demônio"
+        }
+      ]
+    },
+    {
+      "code": "ru",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Дуется"
+        },
+        {
+          "key": "おいで",
+          "value": "Иди сюда"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Подъём"
+        },
+        {
+          "key": "おちこみ",
+          "value": "В унынии"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "На этом компьютере нет лицензии Cool Posing. Купите инструмент на BOOTH и установите лицензию. Если вы уже купили его, загрузите последний ZIP с BOOTH и импортируйте CoolPosing.unitypackage. Это нужно сделать один раз на компьютере."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Для этого пользователя ОС не найдена лицензия Cool Posing Tool. Импортируйте в проект Unity установщик из официальной покупки. Лицензия устанавливается один раз для каждого пользователя ОС на каждом компьютере."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Поражение"
+        },
+        {
+          "key": "じだらく",
+          "value": "Ленивый день"
+        },
+        {
+          "key": "たたみ",
+          "value": "Татами"
+        },
+        {
+          "key": "はいずり",
+          "value": "Ползком"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Покорность"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Нет энергии"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Установить лицензию Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Удалить лицензию Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Статус лицензии Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Настройки Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Добавить Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Готов к драке"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Магазин у дома"
+        },
+        {
+          "key": "ベッド",
+          "value": "Кровать"
+        },
+        {
+          "key": "マットレス",
+          "value": "Матрас"
+        },
+        {
+          "key": "モデル",
+          "value": "Модель"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Полулёжа"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Место для двоих"
+        },
+        {
+          "key": "休憩中",
+          "value": "Перерыв"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Сбит с ног"
+        },
+        {
+          "key": "制止",
+          "value": "Стоп"
+        },
+        {
+          "key": "和室",
+          "value": "Японская комната"
+        },
+        {
+          "key": "商談",
+          "value": "Переговоры"
+        },
+        {
+          "key": "地球寝",
+          "value": "Обнять землю"
+        },
+        {
+          "key": "培養中",
+          "value": "В капсуле"
+        },
+        {
+          "key": "壁ドン",
+          "value": "У стены"
+        },
+        {
+          "key": "布団",
+          "value": "Футон"
+        },
+        {
+          "key": "座布団",
+          "value": "Подушка на полу"
+        },
+        {
+          "key": "思考中",
+          "value": "В раздумьях"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Сон на солнце"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Сон на дереве"
+        },
+        {
+          "key": "楽園",
+          "value": "Рай"
+        },
+        {
+          "key": "海岸",
+          "value": "Морской берег"
+        },
+        {
+          "key": "猫寝",
+          "value": "Кошачий сон"
+        },
+        {
+          "key": "異変無し",
+          "value": "Всё спокойно"
+        },
+        {
+          "key": "睡魔",
+          "value": "Сонливость"
+        },
+        {
+          "key": "砂浜",
+          "value": "Песчаный пляж"
+        },
+        {
+          "key": "絨毯",
+          "value": "Ковёр"
+        },
+        {
+          "key": "考える男",
+          "value": "Мыслитель"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Удар локтем"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Упал и уснул"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Сон на руке"
+        },
+        {
+          "key": "芝生",
+          "value": "Газон"
+        },
+        {
+          "key": "見下し",
+          "value": "Взгляд свысока"
+        },
+        {
+          "key": "訓練場",
+          "value": "Тренировочный зал"
+        },
+        {
+          "key": "運動会",
+          "value": "Спортивный день"
+        },
+        {
+          "key": "騎士",
+          "value": "Рыцарь"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Владыка демонов"
+        }
+      ]
+    },
+    {
+      "code": "sv",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Surar"
+        },
+        {
+          "key": "おいで",
+          "value": "Kom hit"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Reser sig"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Nedstämd"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Datorn saknar licens för Cool Posing. Köp verktyget på BOOTH och installera licensen. Har du redan köpt det, hämta senaste ZIP-filen från BOOTH och importera CoolPosing.unitypackage. Detta krävs en gång per dator."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Ingen Cool Posing Tool-licens hittades för den här systemanvändaren. Importera installationspaketet från din officiella köpfil till Unity-projektet. Installera licensen en gång per systemanvändare och dator."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Besegrad"
+        },
+        {
+          "key": "じだらく",
+          "value": "Lat dag"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Kryper"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Underkastelse"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Orkeslös"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Installera Cool Posing-licens"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Ta bort Cool Posing-licens"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing-licensstatus"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing-inställningar"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Lägg till Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Redo att slåss"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Kvartersbutik"
+        },
+        {
+          "key": "ベッド",
+          "value": "Säng"
+        },
+        {
+          "key": "マットレス",
+          "value": "Madrass"
+        },
+        {
+          "key": "モデル",
+          "value": "Modell"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Bakåtlutad"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Plats för två"
+        },
+        {
+          "key": "休憩中",
+          "value": "På rast"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Nedslagen"
+        },
+        {
+          "key": "制止",
+          "value": "Stopp"
+        },
+        {
+          "key": "和室",
+          "value": "Japanskt rum"
+        },
+        {
+          "key": "商談",
+          "value": "Affärssamtal"
+        },
+        {
+          "key": "地球寝",
+          "value": "Kramar jorden"
+        },
+        {
+          "key": "培養中",
+          "value": "I en kapsel"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Mot väggen"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Golvkudde"
+        },
+        {
+          "key": "思考中",
+          "value": "Tänker"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Soltupplur"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Trädtupplur"
+        },
+        {
+          "key": "楽園",
+          "value": "Paradis"
+        },
+        {
+          "key": "海岸",
+          "value": "Havskust"
+        },
+        {
+          "key": "猫寝",
+          "value": "Kattlur"
+        },
+        {
+          "key": "異変無し",
+          "value": "Allt lugnt"
+        },
+        {
+          "key": "睡魔",
+          "value": "Sömnig"
+        },
+        {
+          "key": "砂浜",
+          "value": "Sandstrand"
+        },
+        {
+          "key": "絨毯",
+          "value": "Matta"
+        },
+        {
+          "key": "考える男",
+          "value": "Tänkaren"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Armbågsslag"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Somnat utslagen"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Arm som sovkudde"
+        },
+        {
+          "key": "芝生",
+          "value": "Gräsmatta"
+        },
+        {
+          "key": "見下し",
+          "value": "Ser nedåt"
+        },
+        {
+          "key": "訓練場",
+          "value": "Övningsplats"
+        },
+        {
+          "key": "運動会",
+          "value": "Idrottsdag"
+        },
+        {
+          "key": "騎士",
+          "value": "Riddare"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Demonfurste"
+        }
+      ]
+    },
+    {
+      "code": "ta",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "சிணுங்கல்"
+        },
+        {
+          "key": "おいで",
+          "value": "இங்கே வா"
+        },
+        {
+          "key": "おきあがり",
+          "value": "எழுதல்"
+        },
+        {
+          "key": "おちこみ",
+          "value": "சோர்ந்த மனம்"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "இந்தக் கணினியில் Cool Posing உரிமம் இல்லை. BOOTH-இல் வாங்கி உரிமத்தை நிறுவவும். ஏற்கனவே வாங்கியிருந்தால் BOOTH-இலிருந்து சமீபத்திய ZIP பெற்று CoolPosing.unitypackage இறக்குமதி செய்யவும். கணினிக்கு ஒருமுறை தேவை."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "இந்த OS பயனருக்கான Cool Posing Tool உரிமம் இல்லை. அதிகாரப்பூர்வமாக வாங்கிய பதிவிறக்கத்தில் உள்ள நிறுவியை இந்த Unity திட்டத்தில் இறக்குமதி செய்யவும். ஒவ்வொரு கணினியிலும் ஒவ்வொரு OS பயனருக்கும் ஒருமுறை உரிமம் நிறுவவும்."
+        },
+        {
+          "key": "ざせつ",
+          "value": "தோல்வி"
+        },
+        {
+          "key": "じだらく",
+          "value": "சோம்பல் நாள்"
+        },
+        {
+          "key": "たたみ",
+          "value": "ததாமி"
+        },
+        {
+          "key": "はいずり",
+          "value": "தவழ்தல்"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "சரணடைதல்"
+        },
+        {
+          "key": "むきりょく",
+          "value": "சக்தியின்றி"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Cool Posing உரிமத்தை நிறுவு"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Cool Posing உரிமத்தை அகற்று"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing உரிம நிலை"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing அமைப்புகள்"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Cool Posing சேர்"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "சண்டைக்குத் தயார்"
+        },
+        {
+          "key": "コンビニ",
+          "value": "மூலைக்கடை"
+        },
+        {
+          "key": "ベッド",
+          "value": "கட்டில்"
+        },
+        {
+          "key": "マットレス",
+          "value": "மெத்தை"
+        },
+        {
+          "key": "モデル",
+          "value": "மாடல்"
+        },
+        {
+          "key": "リクライニング",
+          "value": "சாய்ந்து படுத்தல்"
+        },
+        {
+          "key": "二人分座り",
+          "value": "இருவருக்கு இடம்"
+        },
+        {
+          "key": "休憩中",
+          "value": "இடைவேளை"
+        },
+        {
+          "key": "倒され寝",
+          "value": "வீழ்ந்து"
+        },
+        {
+          "key": "制止",
+          "value": "நில்"
+        },
+        {
+          "key": "和室",
+          "value": "ஜப்பானிய அறை"
+        },
+        {
+          "key": "商談",
+          "value": "வேலைப் பேச்சு"
+        },
+        {
+          "key": "地球寝",
+          "value": "பூமியைத் தழுவி"
+        },
+        {
+          "key": "培養中",
+          "value": "கூட்டுக்குள்"
+        },
+        {
+          "key": "壁ドン",
+          "value": "சுவரில் சாய்ந்து"
+        },
+        {
+          "key": "布団",
+          "value": "புதோன்"
+        },
+        {
+          "key": "座布団",
+          "value": "தரைக் குஷன்"
+        },
+        {
+          "key": "思考中",
+          "value": "சிந்தித்து"
+        },
+        {
+          "key": "晴天寝",
+          "value": "வெயில் துயில்"
+        },
+        {
+          "key": "木の上寝",
+          "value": "மரத்தடித் தூக்கம்"
+        },
+        {
+          "key": "楽園",
+          "value": "சொர்க்கம்"
+        },
+        {
+          "key": "海岸",
+          "value": "கடலோரம்"
+        },
+        {
+          "key": "猫寝",
+          "value": "பூனைத் தூக்கம்"
+        },
+        {
+          "key": "異変無し",
+          "value": "எல்லாம் நலம்"
+        },
+        {
+          "key": "睡魔",
+          "value": "தூக்கக் கலக்கம்"
+        },
+        {
+          "key": "砂浜",
+          "value": "மணற்கரை"
+        },
+        {
+          "key": "絨毯",
+          "value": "கம்பளம்"
+        },
+        {
+          "key": "考える男",
+          "value": "சிந்தனையாளர்"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "முழங்கைத் தாக்கு"
+        },
+        {
+          "key": "脱力寝",
+          "value": "சாய்ந்து உறங்கி"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "கைத் தலையணைத் தூக்கம்"
+        },
+        {
+          "key": "芝生",
+          "value": "புல்வெளி"
+        },
+        {
+          "key": "見下し",
+          "value": "கீழே பார்த்து"
+        },
+        {
+          "key": "訓練場",
+          "value": "பயிற்சிக் களம்"
+        },
+        {
+          "key": "運動会",
+          "value": "விளையாட்டு நாள்"
+        },
+        {
+          "key": "騎士",
+          "value": "வீரன்"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "அரக்கர் அரசன்"
+        }
+      ]
+    },
+    {
+      "code": "te",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "అలక"
+        },
+        {
+          "key": "おいで",
+          "value": "ఇక్కడికి రా"
+        },
+        {
+          "key": "おきあがり",
+          "value": "లేవడం"
+        },
+        {
+          "key": "おちこみ",
+          "value": "దిగులుగా"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "ఈ కంప్యూటర్‌లో Cool Posing లైసెన్స్ లేదు. BOOTHలో కొని లైసెన్స్ ఇన్‌స్టాల్ చేయండి. ఇప్పటికే కొంటే BOOTH నుంచి తాజా ZIP తీసుకుని CoolPosing.unitypackage దిగుమతి చేయండి. ప్రతి కంప్యూటర్‌కు ఒక్కసారి అవసరం."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "ఈ OS వినియోగదారుకు Cool Posing Tool లైసెన్స్ లేదు. అధికారికంగా కొనుగోలు చేసిన డౌన్‌లోడ్‌లోని ఇన్‌స్టాలర్‌ను ఈ Unity ప్రాజెక్ట్‌లో దిగుమతి చేయండి. ప్రతి కంప్యూటర్‌లో ప్రతి OS వినియోగదారుకు ఒకసారి లైసెన్స్ ఇన్‌స్టాల్ చేయండి."
+        },
+        {
+          "key": "ざせつ",
+          "value": "ఓడిపోయి"
+        },
+        {
+          "key": "じだらく",
+          "value": "బద్ధకపు రోజు"
+        },
+        {
+          "key": "たたみ",
+          "value": "తతామి"
+        },
+        {
+          "key": "はいずり",
+          "value": "పాకుతూ"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "లొంగిపోయి"
+        },
+        {
+          "key": "むきりょく",
+          "value": "శక్తి లేక"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Cool Posing లైసెన్స్ ఇన్‌స్టాల్ చేయి"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Cool Posing లైసెన్స్ తొలగించు"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing లైసెన్స్ స్థితి"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing సెట్టింగ్‌లు"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Cool Posing జోడించు"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "పోరాటానికి సిద్ధం"
+        },
+        {
+          "key": "コンビニ",
+          "value": "వీధి దుకాణం"
+        },
+        {
+          "key": "ベッド",
+          "value": "మంచం"
+        },
+        {
+          "key": "マットレス",
+          "value": "పరుపు"
+        },
+        {
+          "key": "モデル",
+          "value": "మోడల్"
+        },
+        {
+          "key": "リクライニング",
+          "value": "వాలి పడుకుని"
+        },
+        {
+          "key": "二人分座り",
+          "value": "ఇద్దరికి చోటు"
+        },
+        {
+          "key": "休憩中",
+          "value": "విరామంలో"
+        },
+        {
+          "key": "倒され寝",
+          "value": "నేలకూలి"
+        },
+        {
+          "key": "制止",
+          "value": "ఆగు"
+        },
+        {
+          "key": "和室",
+          "value": "జపాన్ గది"
+        },
+        {
+          "key": "商談",
+          "value": "వ్యాపార మాటలు"
+        },
+        {
+          "key": "地球寝",
+          "value": "భూమిని కౌగిలించుకుని"
+        },
+        {
+          "key": "培養中",
+          "value": "గూటిలో"
+        },
+        {
+          "key": "壁ドン",
+          "value": "గోడకు వాలి"
+        },
+        {
+          "key": "布団",
+          "value": "ఫుటోన్"
+        },
+        {
+          "key": "座布団",
+          "value": "నేల దిండు"
+        },
+        {
+          "key": "思考中",
+          "value": "ఆలోచిస్తూ"
+        },
+        {
+          "key": "晴天寝",
+          "value": "ఎండలో కునుకు"
+        },
+        {
+          "key": "木の上寝",
+          "value": "చెట్టుకింద కునుకు"
+        },
+        {
+          "key": "楽園",
+          "value": "స్వర్గం"
+        },
+        {
+          "key": "海岸",
+          "value": "సముద్రతీరం"
+        },
+        {
+          "key": "猫寝",
+          "value": "పిల్లి కునుకు"
+        },
+        {
+          "key": "異変無し",
+          "value": "అంతా బాగుంది"
+        },
+        {
+          "key": "睡魔",
+          "value": "నిద్రమత్తు"
+        },
+        {
+          "key": "砂浜",
+          "value": "ఇసుక తీరం"
+        },
+        {
+          "key": "絨毯",
+          "value": "తివాచీ"
+        },
+        {
+          "key": "考える男",
+          "value": "ఆలోచనాపరుడు"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "మోచేతి దెబ్బ"
+        },
+        {
+          "key": "脱力寝",
+          "value": "వాలిపోయి నిద్ర"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "చేతి దిండుతో కునుకు"
+        },
+        {
+          "key": "芝生",
+          "value": "పచ్చిక"
+        },
+        {
+          "key": "見下し",
+          "value": "కిందకు చూస్తూ"
+        },
+        {
+          "key": "訓練場",
+          "value": "శిక్షణ మైదానం"
+        },
+        {
+          "key": "運動会",
+          "value": "క్రీడా దినం"
+        },
+        {
+          "key": "騎士",
+          "value": "వీరుడు"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "రాక్షస రాజు"
+        }
+      ]
+    },
+    {
+      "code": "th",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "งอน"
+        },
+        {
+          "key": "おいで",
+          "value": "มานี่สิ"
+        },
+        {
+          "key": "おきあがり",
+          "value": "ลุกขึ้น"
+        },
+        {
+          "key": "おちこみ",
+          "value": "หดหู่"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "คอมพิวเตอร์นี้ไม่มีสิทธิ์ใช้ Cool Posing ซื้อเครื่องมือจาก BOOTH แล้วติดตั้งสิทธิ์ใช้งาน หากซื้อแล้ว ให้ดาวน์โหลด ZIP ล่าสุดจาก BOOTH และนำเข้า CoolPosing.unitypackage ทำเพียงครั้งเดียวต่อคอมพิวเตอร์"
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "ไม่พบสิทธิ์ใช้งาน Cool Posing Tool สำหรับผู้ใช้ระบบปฏิบัติการนี้ ให้นำเข้าโปรแกรมติดตั้งจากไฟล์ที่ซื้ออย่างเป็นทางการสู่โปรเจกต์ Unity นี้ ติดตั้งสิทธิ์ใช้งานหนึ่งครั้งต่อผู้ใช้ระบบปฏิบัติการต่อคอมพิวเตอร์"
+        },
+        {
+          "key": "ざせつ",
+          "value": "พ่ายแพ้"
+        },
+        {
+          "key": "じだらく",
+          "value": "วันขี้เกียจ"
+        },
+        {
+          "key": "たたみ",
+          "value": "เสื่อทาทามิ"
+        },
+        {
+          "key": "はいずり",
+          "value": "คลาน"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "ยอมตาม"
+        },
+        {
+          "key": "むきりょく",
+          "value": "ไร้เรี่ยวแรง"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "ติดตั้งสิทธิ์ใช้งาน Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "ลบสิทธิ์ใช้งาน Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "สถานะสิทธิ์ใช้งาน Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "การตั้งค่า Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "เพิ่ม Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "พร้อมสู้"
+        },
+        {
+          "key": "コンビニ",
+          "value": "ร้านสะดวกซื้อ"
+        },
+        {
+          "key": "ベッド",
+          "value": "เตียง"
+        },
+        {
+          "key": "マットレス",
+          "value": "ที่นอน"
+        },
+        {
+          "key": "モデル",
+          "value": "นายแบบนางแบบ"
+        },
+        {
+          "key": "リクライニング",
+          "value": "เอนนอน"
+        },
+        {
+          "key": "二人分座り",
+          "value": "ที่นั่งสำหรับสอง"
+        },
+        {
+          "key": "休憩中",
+          "value": "พักอยู่"
+        },
+        {
+          "key": "倒され寝",
+          "value": "ล้มลง"
+        },
+        {
+          "key": "制止",
+          "value": "หยุด"
+        },
+        {
+          "key": "和室",
+          "value": "ห้องญี่ปุ่น"
+        },
+        {
+          "key": "商談",
+          "value": "คุยธุรกิจ"
+        },
+        {
+          "key": "地球寝",
+          "value": "กอดพื้นโลก"
+        },
+        {
+          "key": "培養中",
+          "value": "อยู่ในแคปซูล"
+        },
+        {
+          "key": "壁ドン",
+          "value": "พิงกำแพง"
+        },
+        {
+          "key": "布団",
+          "value": "ฟูกญี่ปุ่น"
+        },
+        {
+          "key": "座布団",
+          "value": "เบาะรองนั่ง"
+        },
+        {
+          "key": "思考中",
+          "value": "กำลังคิด"
+        },
+        {
+          "key": "晴天寝",
+          "value": "งีบกลางแดด"
+        },
+        {
+          "key": "木の上寝",
+          "value": "งีบบนต้นไม้"
+        },
+        {
+          "key": "楽園",
+          "value": "สวรรค์"
+        },
+        {
+          "key": "海岸",
+          "value": "ชายฝั่ง"
+        },
+        {
+          "key": "猫寝",
+          "value": "งีบแบบแมว"
+        },
+        {
+          "key": "異変無し",
+          "value": "ทุกอย่างปกติ"
+        },
+        {
+          "key": "睡魔",
+          "value": "ง่วงนอน"
+        },
+        {
+          "key": "砂浜",
+          "value": "หาดทราย"
+        },
+        {
+          "key": "絨毯",
+          "value": "พรม"
+        },
+        {
+          "key": "考える男",
+          "value": "นักคิด"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "ตีศอก"
+        },
+        {
+          "key": "脱力寝",
+          "value": "นอนหมดแรง"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "งีบหนุนแขน"
+        },
+        {
+          "key": "芝生",
+          "value": "สนามหญ้า"
+        },
+        {
+          "key": "見下し",
+          "value": "มองลงมา"
+        },
+        {
+          "key": "訓練場",
+          "value": "ลานฝึก"
+        },
+        {
+          "key": "運動会",
+          "value": "วันกีฬา"
+        },
+        {
+          "key": "騎士",
+          "value": "อัศวิน"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "จอมมารมาเยือน"
+        }
+      ]
+    },
+    {
+      "code": "tr",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Somurtma"
+        },
+        {
+          "key": "おいで",
+          "value": "Buraya Gel"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Kalkış"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Keyifsiz"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Bu bilgisayarda Cool Posing lisansı yok. Aracı BOOTH'tan satın alıp lisansını kurun. Zaten satın aldıysanız BOOTH'tan son ZIP'i indirip CoolPosing.unitypackage'i içe aktarın. Bilgisayar başına bir kez gerekir."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Bu işletim sistemi kullanıcısı için Cool Posing Tool lisansı bulunamadı. Resmî satın alma indirmenizdeki yükleyiciyi bu Unity projesine aktarın. Her bilgisayarda her işletim sistemi kullanıcısı için lisansı bir kez kurun."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Yenilmiş"
+        },
+        {
+          "key": "じだらく",
+          "value": "Tembel Gün"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Sürünme"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Boyun Eğme"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Enerjisiz"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Cool Posing lisansını kur"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Cool Posing lisansını kaldır"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing lisans durumu"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing Ayarları"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Cool Posing ekle"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Kavgaya Hazır"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Bakkal"
+        },
+        {
+          "key": "ベッド",
+          "value": "Yatak"
+        },
+        {
+          "key": "マットレス",
+          "value": "Şilte"
+        },
+        {
+          "key": "モデル",
+          "value": "Model"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Geriye Yaslanma"
+        },
+        {
+          "key": "二人分座り",
+          "value": "İki Kişilik Yer"
+        },
+        {
+          "key": "休憩中",
+          "value": "Molada"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Yere Serilmiş"
+        },
+        {
+          "key": "制止",
+          "value": "Dur"
+        },
+        {
+          "key": "和室",
+          "value": "Japon Odası"
+        },
+        {
+          "key": "商談",
+          "value": "İş Görüşmesi"
+        },
+        {
+          "key": "地球寝",
+          "value": "Dünyaya Sarıl"
+        },
+        {
+          "key": "培養中",
+          "value": "Kapsülde"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Duvara Yaslanma"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Yer Minderi"
+        },
+        {
+          "key": "思考中",
+          "value": "Düşünceli"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Güneşte Kestirme"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Ağaçta Kestirme"
+        },
+        {
+          "key": "楽園",
+          "value": "Cennet"
+        },
+        {
+          "key": "海岸",
+          "value": "Deniz Kenarı"
+        },
+        {
+          "key": "猫寝",
+          "value": "Kedi Uykusu"
+        },
+        {
+          "key": "異変無し",
+          "value": "Her Şey Yolunda"
+        },
+        {
+          "key": "睡魔",
+          "value": "Uykulu"
+        },
+        {
+          "key": "砂浜",
+          "value": "Kumsal"
+        },
+        {
+          "key": "絨毯",
+          "value": "Halı"
+        },
+        {
+          "key": "考える男",
+          "value": "Düşünen Adam"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Dirsek Vuruşu"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Yığılıp Uyuma"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Kol Üstünde Uyku"
+        },
+        {
+          "key": "芝生",
+          "value": "Çimen"
+        },
+        {
+          "key": "見下し",
+          "value": "Tepeden Bakış"
+        },
+        {
+          "key": "訓練場",
+          "value": "Antrenman Alanı"
+        },
+        {
+          "key": "運動会",
+          "value": "Spor Günü"
+        },
+        {
+          "key": "騎士",
+          "value": "Şövalye"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "İblis Kral"
+        }
+      ]
+    },
+    {
+      "code": "uk",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Дметься"
+        },
+        {
+          "key": "おいで",
+          "value": "Іди сюди"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Підйом"
+        },
+        {
+          "key": "おちこみ",
+          "value": "У смутку"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "На цьому комп'ютері немає ліцензії Cool Posing. Придбайте інструмент на BOOTH та встановіть ліцензію. Якщо ви вже придбали його, завантажте останній ZIP із BOOTH та імпортуйте CoolPosing.unitypackage. Це потрібно зробити один раз на комп'ютері."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Для цього користувача ОС не знайдено ліцензію Cool Posing Tool. Імпортуйте до проєкту Unity інсталятор з офіційної покупки. Ліцензія встановлюється один раз для кожного користувача ОС на кожному комп'ютері."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Поразка"
+        },
+        {
+          "key": "じだらく",
+          "value": "Ледачий день"
+        },
+        {
+          "key": "たたみ",
+          "value": "Татамі"
+        },
+        {
+          "key": "はいずり",
+          "value": "Повзком"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Покора"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Немає енергії"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Установити ліцензію Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Видалити ліцензію Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Статус ліцензії Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Налаштування Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Додати Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Готовий до бійки"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Крамниця поруч"
+        },
+        {
+          "key": "ベッド",
+          "value": "Ліжко"
+        },
+        {
+          "key": "マットレス",
+          "value": "Матрац"
+        },
+        {
+          "key": "モデル",
+          "value": "Модель"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Напівлежачи"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Місце для двох"
+        },
+        {
+          "key": "休憩中",
+          "value": "Перерва"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Збитий з ніг"
+        },
+        {
+          "key": "制止",
+          "value": "Стій"
+        },
+        {
+          "key": "和室",
+          "value": "Японська кімната"
+        },
+        {
+          "key": "商談",
+          "value": "Переговори"
+        },
+        {
+          "key": "地球寝",
+          "value": "Обійняти землю"
+        },
+        {
+          "key": "培養中",
+          "value": "У капсулі"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Біля стіни"
+        },
+        {
+          "key": "布団",
+          "value": "Футон"
+        },
+        {
+          "key": "座布団",
+          "value": "Подушка на підлозі"
+        },
+        {
+          "key": "思考中",
+          "value": "У роздумах"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Сон на сонці"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Сон на дереві"
+        },
+        {
+          "key": "楽園",
+          "value": "Рай"
+        },
+        {
+          "key": "海岸",
+          "value": "Морський берег"
+        },
+        {
+          "key": "猫寝",
+          "value": "Котячий сон"
+        },
+        {
+          "key": "異変無し",
+          "value": "Усе спокійно"
+        },
+        {
+          "key": "睡魔",
+          "value": "Сонливість"
+        },
+        {
+          "key": "砂浜",
+          "value": "Піщаний пляж"
+        },
+        {
+          "key": "絨毯",
+          "value": "Килим"
+        },
+        {
+          "key": "考える男",
+          "value": "Мислитель"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Удар ліктем"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Упав і заснув"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Сон на руці"
+        },
+        {
+          "key": "芝生",
+          "value": "Газон"
+        },
+        {
+          "key": "見下し",
+          "value": "Погляд звисока"
+        },
+        {
+          "key": "訓練場",
+          "value": "Тренувальний зал"
+        },
+        {
+          "key": "運動会",
+          "value": "Спортивний день"
+        },
+        {
+          "key": "騎士",
+          "value": "Лицар"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Володар демонів"
+        }
+      ]
+    },
+    {
+      "code": "vi",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "Hờn dỗi"
+        },
+        {
+          "key": "おいで",
+          "value": "Lại đây"
+        },
+        {
+          "key": "おきあがり",
+          "value": "Đứng dậy"
+        },
+        {
+          "key": "おちこみ",
+          "value": "Buồn bã"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "Máy tính này chưa có giấy phép Cool Posing. Mua công cụ trên BOOTH và cài giấy phép. Nếu đã mua, tải ZIP mới nhất từ BOOTH và nhập CoolPosing.unitypackage. Chỉ cần một lần cho mỗi máy."
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "Không tìm thấy giấy phép Cool Posing Tool cho người dùng hệ điều hành này. Nhập trình cài đặt từ bản tải mua chính thức vào dự án Unity này. Cài giấy phép một lần cho mỗi người dùng hệ điều hành trên mỗi máy tính."
+        },
+        {
+          "key": "ざせつ",
+          "value": "Thất bại"
+        },
+        {
+          "key": "じだらく",
+          "value": "Ngày lười biếng"
+        },
+        {
+          "key": "たたみ",
+          "value": "Tatami"
+        },
+        {
+          "key": "はいずり",
+          "value": "Bò"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "Quy phục"
+        },
+        {
+          "key": "むきりょく",
+          "value": "Hết sức"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool (Gumroad)"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "Cài giấy phép Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "Gỡ giấy phép Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Trạng thái giấy phép Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Thiết lập Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "Thêm Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool (BOOTH)"
+        },
+        {
+          "key": "ケンカ",
+          "value": "Sẵn sàng đánh"
+        },
+        {
+          "key": "コンビニ",
+          "value": "Cửa hàng tiện lợi"
+        },
+        {
+          "key": "ベッド",
+          "value": "Giường"
+        },
+        {
+          "key": "マットレス",
+          "value": "Nệm"
+        },
+        {
+          "key": "モデル",
+          "value": "Người mẫu"
+        },
+        {
+          "key": "リクライニング",
+          "value": "Ngả lưng"
+        },
+        {
+          "key": "二人分座り",
+          "value": "Chỗ cho hai người"
+        },
+        {
+          "key": "休憩中",
+          "value": "Đang nghỉ"
+        },
+        {
+          "key": "倒され寝",
+          "value": "Bị đánh ngã"
+        },
+        {
+          "key": "制止",
+          "value": "Dừng lại"
+        },
+        {
+          "key": "和室",
+          "value": "Phòng kiểu Nhật"
+        },
+        {
+          "key": "商談",
+          "value": "Bàn chuyện làm ăn"
+        },
+        {
+          "key": "地球寝",
+          "value": "Ôm lấy đất"
+        },
+        {
+          "key": "培養中",
+          "value": "Trong khoang"
+        },
+        {
+          "key": "壁ドン",
+          "value": "Tựa tường"
+        },
+        {
+          "key": "布団",
+          "value": "Futon"
+        },
+        {
+          "key": "座布団",
+          "value": "Đệm ngồi"
+        },
+        {
+          "key": "思考中",
+          "value": "Suy nghĩ"
+        },
+        {
+          "key": "晴天寝",
+          "value": "Ngủ dưới nắng"
+        },
+        {
+          "key": "木の上寝",
+          "value": "Ngủ trên cây"
+        },
+        {
+          "key": "楽園",
+          "value": "Thiên đường"
+        },
+        {
+          "key": "海岸",
+          "value": "Bờ biển"
+        },
+        {
+          "key": "猫寝",
+          "value": "Mèo ngủ"
+        },
+        {
+          "key": "異変無し",
+          "value": "Mọi thứ yên ổn"
+        },
+        {
+          "key": "睡魔",
+          "value": "Buồn ngủ"
+        },
+        {
+          "key": "砂浜",
+          "value": "Bãi cát"
+        },
+        {
+          "key": "絨毯",
+          "value": "Thảm"
+        },
+        {
+          "key": "考える男",
+          "value": "Người suy tư"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "Đánh chỏ"
+        },
+        {
+          "key": "脱力寝",
+          "value": "Ngủ mềm người"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "Ngủ gối tay"
+        },
+        {
+          "key": "芝生",
+          "value": "Bãi cỏ"
+        },
+        {
+          "key": "見下し",
+          "value": "Nhìn xuống"
+        },
+        {
+          "key": "訓練場",
+          "value": "Sân tập"
+        },
+        {
+          "key": "運動会",
+          "value": "Ngày hội thể thao"
+        },
+        {
+          "key": "騎士",
+          "value": "Hiệp sĩ"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "Chúa quỷ"
+        }
+      ]
+    },
+    {
+      "code": "zh-Hans",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "闹别扭"
+        },
+        {
+          "key": "おいで",
+          "value": "过来吧"
+        },
+        {
+          "key": "おきあがり",
+          "value": "起身"
+        },
+        {
+          "key": "おちこみ",
+          "value": "失落"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "此电脑未获授权使用Cool Posing。请从BOOTH购买工具并安装许可证。若已购买，请从BOOTH下载最新ZIP，并导入CoolPosing.unitypackage。每台电脑只需执行一次。"
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "未找到此操作系统用户的Cool Posing Tool许可证。请将从官方购买页面下载的安装程序导入此Unity项目。每台电脑的每个系统用户均需安装一次许可证。"
+        },
+        {
+          "key": "ざせつ",
+          "value": "受挫"
+        },
+        {
+          "key": "じだらく",
+          "value": "懒洋洋"
+        },
+        {
+          "key": "たたみ",
+          "value": "榻榻米"
+        },
+        {
+          "key": "はいずり",
+          "value": "爬行"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "顺从"
+        },
+        {
+          "key": "むきりょく",
+          "value": "没力气"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool（Gumroad）"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "安装Cool Posing许可证"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "移除Cool Posing许可证"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing许可证状态"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing设置"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "添加Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool（BOOTH）"
+        },
+        {
+          "key": "ケンカ",
+          "value": "准备打架"
+        },
+        {
+          "key": "コンビニ",
+          "value": "便利店"
+        },
+        {
+          "key": "ベッド",
+          "value": "床铺"
+        },
+        {
+          "key": "マットレス",
+          "value": "床垫"
+        },
+        {
+          "key": "モデル",
+          "value": "模特"
+        },
+        {
+          "key": "リクライニング",
+          "value": "斜躺"
+        },
+        {
+          "key": "二人分座り",
+          "value": "双人座"
+        },
+        {
+          "key": "休憩中",
+          "value": "休息中"
+        },
+        {
+          "key": "倒され寝",
+          "value": "被击倒"
+        },
+        {
+          "key": "制止",
+          "value": "制止"
+        },
+        {
+          "key": "和室",
+          "value": "和室"
+        },
+        {
+          "key": "商談",
+          "value": "商务洽谈"
+        },
+        {
+          "key": "地球寝",
+          "value": "拥抱大地"
+        },
+        {
+          "key": "培養中",
+          "value": "培养舱"
+        },
+        {
+          "key": "壁ドン",
+          "value": "壁咚"
+        },
+        {
+          "key": "布団",
+          "value": "被褥"
+        },
+        {
+          "key": "座布団",
+          "value": "坐垫"
+        },
+        {
+          "key": "思考中",
+          "value": "思考中"
+        },
+        {
+          "key": "晴天寝",
+          "value": "晴日小憩"
+        },
+        {
+          "key": "木の上寝",
+          "value": "树上小憩"
+        },
+        {
+          "key": "楽園",
+          "value": "乐园"
+        },
+        {
+          "key": "海岸",
+          "value": "海岸"
+        },
+        {
+          "key": "猫寝",
+          "value": "猫咪小憩"
+        },
+        {
+          "key": "異変無し",
+          "value": "一切正常"
+        },
+        {
+          "key": "睡魔",
+          "value": "困意"
+        },
+        {
+          "key": "砂浜",
+          "value": "沙滩"
+        },
+        {
+          "key": "絨毯",
+          "value": "地毯"
+        },
+        {
+          "key": "考える男",
+          "value": "思想者"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "肘击"
+        },
+        {
+          "key": "脱力寝",
+          "value": "瘫软入睡"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "枕臂小憩"
+        },
+        {
+          "key": "芝生",
+          "value": "草坪"
+        },
+        {
+          "key": "見下し",
+          "value": "俯视"
+        },
+        {
+          "key": "訓練場",
+          "value": "训练场"
+        },
+        {
+          "key": "運動会",
+          "value": "运动会"
+        },
+        {
+          "key": "騎士",
+          "value": "骑士"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "魔王降临"
+        }
+      ]
+    },
+    {
+      "code": "zh-Hant",
+      "entries": [
+        {
+          "key": "いじけ",
+          "value": "鬧彆扭"
+        },
+        {
+          "key": "おいで",
+          "value": "過來吧"
+        },
+        {
+          "key": "おきあがり",
+          "value": "起身"
+        },
+        {
+          "key": "おちこみ",
+          "value": "失落"
+        },
+        {
+          "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
+          "value": "此電腦尚未獲授權使用Cool Posing。請從BOOTH購買工具並安裝授權。若已購買，請從BOOTH下載最新ZIP，並匯入CoolPosing.unitypackage。每台電腦只需執行一次。"
+        },
+        {
+          "key": "このユーザーのカッコいいポーズツールライセンスが見つかりません。正規の購入ページからダウンロードしたインストーラーを、このUnityプロジェクトへインポートしてください。ライセンスは、PCのユーザーごとに一度インストールします。別のPCやユーザーでは再度インストールしてください。",
+          "value": "找不到此作業系統使用者的Cool Posing Tool授權。請將從官方購買頁面下載的安裝程式匯入此Unity專案。每台電腦的每個系統使用者均需安裝一次授權。"
+        },
+        {
+          "key": "ざせつ",
+          "value": "受挫"
+        },
+        {
+          "key": "じだらく",
+          "value": "懶洋洋"
+        },
+        {
+          "key": "たたみ",
+          "value": "榻榻米"
+        },
+        {
+          "key": "はいずり",
+          "value": "爬行"
+        },
+        {
+          "key": "ふくじゅう",
+          "value": "順從"
+        },
+        {
+          "key": "むきりょく",
+          "value": "沒力氣"
+        },
+        {
+          "key": "カッコいいポーズ",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール",
+          "value": "Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール(Gumroad)",
+          "value": "Cool Posing Tool（Gumroad）"
+        },
+        {
+          "key": "カッコいいポーズツールライセンスインストール",
+          "value": "安裝Cool Posing授權"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス削除",
+          "value": "移除Cool Posing授權"
+        },
+        {
+          "key": "カッコいいポーズツールライセンス状態確認",
+          "value": "Cool Posing授權狀態"
+        },
+        {
+          "key": "カッコいいポーズツール設定",
+          "value": "Cool Posing設定"
+        },
+        {
+          "key": "カッコいいポーズツール追加",
+          "value": "加入Cool Posing"
+        },
+        {
+          "key": "カッコいいポーズツール（BOOTH）",
+          "value": "Cool Posing Tool（BOOTH）"
+        },
+        {
+          "key": "ケンカ",
+          "value": "準備打架"
+        },
+        {
+          "key": "コンビニ",
+          "value": "便利商店"
+        },
+        {
+          "key": "ベッド",
+          "value": "床鋪"
+        },
+        {
+          "key": "マットレス",
+          "value": "床墊"
+        },
+        {
+          "key": "モデル",
+          "value": "模特兒"
+        },
+        {
+          "key": "リクライニング",
+          "value": "斜躺"
+        },
+        {
+          "key": "二人分座り",
+          "value": "雙人座"
+        },
+        {
+          "key": "休憩中",
+          "value": "休息中"
+        },
+        {
+          "key": "倒され寝",
+          "value": "被擊倒"
+        },
+        {
+          "key": "制止",
+          "value": "制止"
+        },
+        {
+          "key": "和室",
+          "value": "和室"
+        },
+        {
+          "key": "商談",
+          "value": "商務洽談"
+        },
+        {
+          "key": "地球寝",
+          "value": "擁抱大地"
+        },
+        {
+          "key": "培養中",
+          "value": "培養艙"
+        },
+        {
+          "key": "壁ドン",
+          "value": "壁咚"
+        },
+        {
+          "key": "布団",
+          "value": "被褥"
+        },
+        {
+          "key": "座布団",
+          "value": "坐墊"
+        },
+        {
+          "key": "思考中",
+          "value": "思考中"
+        },
+        {
+          "key": "晴天寝",
+          "value": "晴日小憩"
+        },
+        {
+          "key": "木の上寝",
+          "value": "樹上小憩"
+        },
+        {
+          "key": "楽園",
+          "value": "樂園"
+        },
+        {
+          "key": "海岸",
+          "value": "海岸"
+        },
+        {
+          "key": "猫寝",
+          "value": "貓咪小憩"
+        },
+        {
+          "key": "異変無し",
+          "value": "一切正常"
+        },
+        {
+          "key": "睡魔",
+          "value": "睏意"
+        },
+        {
+          "key": "砂浜",
+          "value": "沙灘"
+        },
+        {
+          "key": "絨毯",
+          "value": "地毯"
+        },
+        {
+          "key": "考える男",
+          "value": "思想者"
+        },
+        {
+          "key": "肘パンチ",
+          "value": "肘擊"
+        },
+        {
+          "key": "脱力寝",
+          "value": "癱軟入睡"
+        },
+        {
+          "key": "腕枕寝",
+          "value": "枕臂小憩"
+        },
+        {
+          "key": "芝生",
+          "value": "草坪"
+        },
+        {
+          "key": "見下し",
+          "value": "俯視"
+        },
+        {
+          "key": "訓練場",
+          "value": "訓練場"
+        },
+        {
+          "key": "運動会",
+          "value": "運動會"
+        },
+        {
+          "key": "騎士",
+          "value": "騎士"
+        },
+        {
+          "key": "魔王降臨",
+          "value": "魔王降臨"
+        }
+      ]
+    }
+  ]
+}
