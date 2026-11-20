@@ -60,7 +60,7 @@ Automatisk lemjustering (IK) er på som standard. 43 av 50 positurer bruker IK; 
 5. Velg tilføyd «カッコいいポーズ» i avataren og angi funksjoner/positurer i Inspector.
 6. Last opp normalt.
 
-Krever Unity 2022.3, VRChat Avatars SDK 3.10.4 eller nyere, Modular Avatar 1.x fra 1.15.1 og NDMF 1.x fra 1.14.0. Oppdater nødvendige pakker sammen i VCC eller ALCOM.
+Krever Unity 2022.3, VRChat Avatars SDK 3.10.4 eller nyere, Modular Avatar 1.x fra 1.16.2 og NDMF 1.x fra 1.14.8. Oppdater nødvendige pakker sammen i VCC eller ALCOM.
 
 ## Oppdatering fra eldre versjoner
 

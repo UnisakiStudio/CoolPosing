@@ -60,7 +60,7 @@ Inspector 최상단의 Language / 言語에서 표시 언어를 선택합니다.
 5. 아바타 내부에 추가된 カッコいいポーズ를 선택하고 Inspector에서 사용할 기능과 포즈를 설정합니다.
 6. 일반적인 방법으로 아바타를 업로드합니다.
 
-필요 환경은 Unity 2022.3, VRChat Avatars SDK 3.10.4 이상, Modular Avatar 1.x의 1.15.1 이상, NDMF 1.x의 1.14.0 이상입니다. VCC·ALCOM에서 필요한 패키지도 함께 업데이트하세요.
+필요 환경은 Unity 2022.3, VRChat Avatars SDK 3.10.4 이상, Modular Avatar 1.x의 1.16.2 이상, NDMF 1.x의 1.14.8 이상입니다. VCC·ALCOM에서 필요한 패키지도 함께 업데이트하세요.
 
 ## 이전 버전에서 업데이트할 때
 

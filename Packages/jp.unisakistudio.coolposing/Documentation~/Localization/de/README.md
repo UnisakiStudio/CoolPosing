@@ -60,7 +60,7 @@ Automatische Gliedmaßenanpassung (IK) ist anfangs aktiv. Von 50 Posen verwenden
 5. Wähle Cool Posing im Avatar und konfiguriere Funktionen und Posen im Inspector.
 6. Lade den Avatar normal hoch.
 
-Benötigt werden Unity 2022.3, VRChat Avatars SDK ab 3.10.4, Modular Avatar 1.x ab 1.15.1 und NDMF 1.x ab 1.14.0. Aktualisiere erforderliche Pakete gemeinsam mit VCC oder ALCOM.
+Benötigt werden Unity 2022.3, VRChat Avatars SDK ab 3.10.4, Modular Avatar 1.x ab 1.16.2 und NDMF 1.x ab 1.14.8. Aktualisiere erforderliche Pakete gemeinsam mit VCC oder ALCOM.
 
 ## Aktualisierung älterer Versionen
 

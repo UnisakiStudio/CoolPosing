@@ -60,7 +60,7 @@ Automatyczna korekcja kończyn (IK) jest domyślnie włączona. Z 50 dołączony
 5. Wybierz カッコいいポーズ (Cool Posing) dodane do awatara i ustaw potrzebne funkcje i pozy w Inspectorze.
 6. Prześlij awatara w zwykły sposób.
 
-Wymagane są Unity 2022.3, VRChat Avatars SDK 3.10.4 lub nowszy, Modular Avatar 1.x w wersji co najmniej 1.15.1 i NDMF 1.x w wersji co najmniej 1.14.0. Zaktualizuj potrzebne pakiety razem w VCC lub ALCOM.
+Wymagane są Unity 2022.3, VRChat Avatars SDK 3.10.4 lub nowszy, Modular Avatar 1.x w wersji co najmniej 1.16.2 i NDMF 1.x w wersji co najmniej 1.14.8. Zaktualizuj potrzebne pakiety razem w VCC lub ALCOM.
 
 ## Aktualizacja ze starszej wersji
 

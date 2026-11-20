@@ -60,7 +60,7 @@ IK staat standaard aan voor 43 van 50 poses; de overige 7 gebruiken eerdere indi
 5. Kies Cool Posing in de avatar en stel functies/poses in.
 6. Upload normaal.
 
-Vereist: Unity 2022.3, VRChat Avatars SDK 3.10.4+, Modular Avatar 1.x vanaf 1.15.1 en NDMF 1.x vanaf 1.14.0. Werk benodigde pakketten samen bij met VCC/ALCOM.
+Vereist: Unity 2022.3, VRChat Avatars SDK 3.10.4+, Modular Avatar 1.x vanaf 1.16.2 en NDMF 1.x vanaf 1.14.8. Werk benodigde pakketten samen bij met VCC/ALCOM.
 
 ## Bijwerken vanaf oudere versies
 

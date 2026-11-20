@@ -60,7 +60,7 @@ Automatická korekce končetin (IK) je ve výchozím stavu zapnutá. Z 50 přilo
 5. Vyberte カッコいいポーズ (Cool Posing) přidaný do avatara a nastavte v Inspectoru požadované funkce a pózy.
 6. Nahrajte avatara běžným způsobem.
 
-Požadováno je Unity 2022.3, VRChat Avatars SDK 3.10.4 nebo novější, Modular Avatar 1.x od 1.15.1 a NDMF 1.x od 1.14.0. Aktualizujte potřebné balíčky společně přes VCC nebo ALCOM.
+Požadováno je Unity 2022.3, VRChat Avatars SDK 3.10.4 nebo novější, Modular Avatar 1.x od 1.16.2 a NDMF 1.x od 1.14.8. Aktualizujte potřebné balíčky společně přes VCC nebo ALCOM.
 
 ## Aktualizace ze starší verze
 

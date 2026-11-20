@@ -60,7 +60,7 @@ La regolazione automatica degli arti (IK) è attiva inizialmente. Delle 50 pose,
 5. Seleziona Cool Posing aggiunto nell’avatar e configura funzioni e pose nell’Inspector.
 6. Carica l’avatar normalmente.
 
-Requisiti: Unity 2022.3, VRChat Avatars SDK 3.10.4 o successivo, Modular Avatar 1.x dalla versione 1.15.1 e NDMF 1.x dalla versione 1.14.0. Aggiorna insieme i pacchetti necessari con VCC o ALCOM.
+Requisiti: Unity 2022.3, VRChat Avatars SDK 3.10.4 o successivo, Modular Avatar 1.x dalla versione 1.16.2 e NDMF 1.x dalla versione 1.14.8. Aggiorna insieme i pacchetti necessari con VCC o ALCOM.
 
 ## Aggiornare da una versione precedente
 

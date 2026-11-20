@@ -60,7 +60,7 @@ IK está activa inicialmente. De 50 poses, 43 la usan y las otras 7 usan los aju
 5. Selecciona Cool Posing en el avatar y ajusta funciones y poses.
 6. Sube normalmente.
 
-Requisitos: Unity 2022.3, VRChat Avatars SDK 3.10.4 o posterior, Modular Avatar 1.x desde 1.15.1 y NDMF 1.x desde 1.14.0. Actualiza los paquetes necesarios juntos con VCC o ALCOM.
+Requisitos: Unity 2022.3, VRChat Avatars SDK 3.10.4 o posterior, Modular Avatar 1.x desde 1.16.2 y NDMF 1.x desde 1.14.8. Actualiza los paquetes necesarios juntos con VCC o ALCOM.
 
 ## Actualizar desde versiones anteriores
 

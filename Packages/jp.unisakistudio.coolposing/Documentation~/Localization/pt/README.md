@@ -60,7 +60,7 @@ IK automática está ativa inicialmente. Das 50 poses, 43 usam IK e as restantes
 5. Selecione Cool Posing no avatar e configure funções/poses.
 6. Envie normalmente.
 
-Requisitos: Unity 2022.3, VRChat Avatars SDK 3.10.4 ou posterior, Modular Avatar 1.x desde 1.15.1 e NDMF 1.x desde 1.14.0. Atualize os pacotes necessários em conjunto com VCC ou ALCOM.
+Requisitos: Unity 2022.3, VRChat Avatars SDK 3.10.4 ou posterior, Modular Avatar 1.x desde 1.16.2 e NDMF 1.x desde 1.14.8. Atualize os pacotes necessários em conjunto com VCC ou ALCOM.
 
 ## Atualizar versões anteriores
 
