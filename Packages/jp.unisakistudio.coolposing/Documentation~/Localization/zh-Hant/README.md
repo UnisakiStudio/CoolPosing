@@ -2,7 +2,7 @@
 
 這是一款面向VRChat的姿勢固定工具，即使使用3點追蹤或桌面模式，也能切換為帥氣姿勢。共收錄50種姿勢：站立11種、半蹲9種、坐姿14種、仰臥9種、俯臥7種。
 
-本README面向開發中的v1.2.0。正式發佈日期尚未確定。已安裝的版本可在Inspector頂部查看。
+本README面向v1.2.0。已安裝的版本可在Inspector頂部查看。
 
 - [BOOTH商品頁面](https://yunisaki.booth.pm/items/8797334)
 - [更新紀錄](CHANGELOG.md)

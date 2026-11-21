@@ -2,7 +2,7 @@
 
 A VRChat pose-locking tool for cool postures with three-point tracking or desktop mode. Includes 50 poses: 11 standing, 9 crouching, 14 sitting, 9 back-lying and 7 front-lying.
 
-This README covers v1.2.0, currently in development. A release date has not been set. Check the installed version at the top of the Inspector.
+This README covers v1.2.0. Check the installed version at the top of the Inspector.
 
 - [BOOTH product page](https://yunisaki.booth.pm/items/8797334)
 - [Changelog](Documentation~/Localization/en/CHANGELOG.md)

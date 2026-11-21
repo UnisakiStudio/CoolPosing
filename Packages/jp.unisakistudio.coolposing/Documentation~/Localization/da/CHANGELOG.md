@@ -1,6 +1,6 @@
 # Ændringshistorik
 
-## [1.2.0] - Ikke udgivet
+## [1.2.0] - 2026-11-22
 
 ### Tilføjet
 

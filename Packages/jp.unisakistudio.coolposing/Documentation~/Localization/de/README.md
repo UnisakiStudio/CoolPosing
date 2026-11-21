@@ -2,7 +2,7 @@
 
 Posenwerkzeug für VRChat mit coolen Haltungen für Dreipunkt-Tracking und Desktop. Enthalten sind 50 Posen: 11 Steh-, 9 Hock-, 14 Sitz-, 9 Rücken- und 7 Bauchlagen.
 
-Diese README gilt für die in Entwicklung befindliche v1.2.0. Ein Veröffentlichungstermin steht noch nicht fest. Die installierte Version steht oben im Inspector.
+Diese README gilt für v1.2.0. Die installierte Version steht oben im Inspector.
 
 - [Produktseite auf BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Änderungsverlauf](CHANGELOG.md)

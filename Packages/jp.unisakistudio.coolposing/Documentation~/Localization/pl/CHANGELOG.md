@@ -1,6 +1,6 @@
 # Historia zmian
 
-## [1.2.0] - Niewydane
+## [1.2.0] - 2026-11-22
 
 ### Dodano
 

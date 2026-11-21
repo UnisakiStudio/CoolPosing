@@ -2,7 +2,7 @@
 
 Herramienta para fijar poses con estilo en VRChat, también con seguimiento de 3 puntos o escritorio. Incluye 50 poses: 11 de pie, 9 agachadas, 14 sentadas, 9 boca arriba y 7 boca abajo.
 
-Este README corresponde a v1.2.0 en desarrollo. La fecha oficial no está fijada. La versión instalada aparece arriba del Inspector.
+Este README corresponde a v1.2.0. La versión instalada aparece arriba del Inspector.
 
 - [Página del producto en BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Historial de cambios](CHANGELOG.md)

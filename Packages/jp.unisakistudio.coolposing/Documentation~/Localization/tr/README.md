@@ -2,7 +2,7 @@
 
 3 noktalı takipte ve masaüstünde bile etkileyici pozlara geçebilen VRChat poz kilitleme aracıdır. Toplam 50 poz içerir: 11 ayakta, 9 çömelme, 14 oturma, 9 sırtüstü ve 7 yüzüstü.
 
-Bu README, geliştirilmekte olan v1.2.0 içindir. Resmî yayın tarihi henüz belirlenmemiştir. Kurulu sürümü Inspector’ın üstünde görebilirsiniz.
+Bu README, v1.2.0 içindir. Kurulu sürümü Inspector’ın üstünde görebilirsiniz.
 
 - [BOOTH ürün sayfası](https://yunisaki.booth.pm/items/8797334)
 - [Değişiklik geçmişi](CHANGELOG.md)

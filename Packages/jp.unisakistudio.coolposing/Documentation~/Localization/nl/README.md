@@ -2,7 +2,7 @@
 
 VRChat-posetool voor stoere houdingen met 3-puntstracking of desktop. 50 poses: 11 staand, 9 hurkend, 14 zittend, 9 op de rug en 7 op de buik.
 
-README voor v1.2.0 in ontwikkeling; datum nog niet vast. Versie boven in de Inspector.
+README voor v1.2.0. Versie boven in de Inspector.
 
 - [BOOTH-productpagina](https://yunisaki.booth.pm/items/8797334)
 - [Wijzigingsgeschiedenis](CHANGELOG.md)

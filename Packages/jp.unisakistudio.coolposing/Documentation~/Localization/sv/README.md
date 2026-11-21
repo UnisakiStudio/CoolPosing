@@ -2,7 +2,7 @@
 
 Ett poslåsverktyg för VRChat som ger coola poser även med 3-punktsspårning och i skrivbordsläge. Innehåller totalt 50 poser: 11 stående, 9 hukande, 14 sittande, 9 liggande på rygg och 7 liggande på mage.
 
-Denna README gäller v1.2.0 under utveckling. Datum för slutlig utgivning är inte bestämt. Installerad version visas högst upp i Inspector.
+Denna README gäller v1.2.0. Installerad version visas högst upp i Inspector.
 
 - [Produktsida på BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Ändringshistorik](CHANGELOG.md)

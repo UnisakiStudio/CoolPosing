@@ -2,7 +2,7 @@
 
 Ferramenta de poses VRChat com posturas elegantes, utilizável com rastreamento de 3 pontos ou desktop. Inclui 50 poses: 11 em pé, 9 agachadas, 14 sentadas, 9 de costas e 7 de bruços.
 
-Este README refere-se a v1.2.0 em desenvolvimento. A data oficial não está definida. A versão instalada aparece no topo do Inspector.
+Este README refere-se a v1.2.0. A versão instalada aparece no topo do Inspector.
 
 - [Página na BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Histórico](CHANGELOG.md)

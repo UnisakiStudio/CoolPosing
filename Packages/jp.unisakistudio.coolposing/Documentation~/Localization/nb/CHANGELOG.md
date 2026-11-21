@@ -1,6 +1,6 @@
 # Endringslogg
 
-## [1.2.0] - Ikke utgitt
+## [1.2.0] - 2026-11-22
 
 ### Lagt til
 

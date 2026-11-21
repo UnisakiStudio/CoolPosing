@@ -2,7 +2,7 @@
 
 Narzędzie blokowania poz dla VRChat, pozwalające przyjmować efektowne pozy także przy śledzeniu 3 punktów i w trybie pulpitu. Zawiera 50 poz: 11 stojących, 9 kucających, 14 siedzących, 9 na plecach i 7 na brzuchu.
 
-Ten README dotyczy tworzonej wersji v1.2.0. Data oficjalnego wydania nie została ustalona. Zainstalowana wersja jest widoczna u góry Inspectora.
+Ten README dotyczy wersji v1.2.0. Zainstalowana wersja jest widoczna u góry Inspectora.
 
 - [Strona produktu w BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Historia zmian](CHANGELOG.md)

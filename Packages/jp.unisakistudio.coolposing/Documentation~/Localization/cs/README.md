@@ -2,7 +2,7 @@
 
 Nástroj pro zamykání póz ve VRChat, který umožňuje působivé pózy i se sledováním 3 bodů a v režimu plochy. Obsahuje celkem 50 póz: 11 ve stoje, 9 v podřepu, 14 vsedě, 9 na zádech a 7 na břiše.
 
-Tento README je určen pro vyvíjenou verzi v1.2.0. Datum oficiálního vydání zatím nebylo stanoveno. Nainstalovaná verze se zobrazuje nahoře v Inspectoru.
+Tento README je určen pro verzi v1.2.0. Nainstalovaná verze se zobrazuje nahoře v Inspectoru.
 
 - [Stránka produktu na BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Historie změn](CHANGELOG.md)

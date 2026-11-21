@@ -1,6 +1,6 @@
 # Historie změn
 
-## [1.2.0] - Nevydáno
+## [1.2.0] - 2026-11-22
 
 ### Přidáno
 
