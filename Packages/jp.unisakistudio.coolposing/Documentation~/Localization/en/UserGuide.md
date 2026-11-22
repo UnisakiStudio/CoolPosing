@@ -141,15 +141,15 @@ The Inspector shows the pose tools' contribution, not the entire avatar's total.
 | Disable Gestures | 1 |
 | Breathing movement | 0 |
 | Breathing menu toggle | 1 |
-| Foot Height | 8 |
-| Floor Height | 8 |
+| Foot Height | 0 |
+| Floor Height | 0 |
 | Photo Mode, local only | 0 |
 | Sync Photo Mode | 16 |
 | Keep your head visible in Photo Mode | 0 |
 | Disable VRChat idle sway | 0 |
-| Roll over | 10 |
+| Roll over | 1 |
 
-Roll over shares 1 bit with the neck-direction posture correction: enabling both still uses 10 bits in total for those two features. The displayed usage in your installed version is the practical reference for your selected configuration.
+Each client calculates head tilt. Only the effective roll-over state is synced. Unlocking the neck restores the original roll-over setting.
 
 ## 7. Update and prebuild
 

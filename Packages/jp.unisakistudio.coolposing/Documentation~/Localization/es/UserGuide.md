@@ -141,15 +141,15 @@ El Inspector muestra el consumo de herramientas de poses, no el avatar completo.
 | Sin gestos | 1 |
 | Animación de respiración | 0 |
 | Interruptor de respiración | 1 |
-| Altura pies | 8 |
-| Altura suelo | 8 |
+| Altura pies | 0 |
+| Altura suelo | 0 |
 | Modo foto solo local | 0 |
 | Sincronizar el Modo foto | 16 |
 | Mantener la cabeza visible en Modo foto | 0 |
 | Desactivar el balanceo en reposo de VRChat | 0 |
-| Darse vuelta | 10 |
+| Darse vuelta | 1 |
 
-Darse vuelta comparte 1 bit con la corrección por dirección del cuello: ambas funciones siguen usando 10 bits en total. La cifra de tu versión instalada es la referencia práctica para la configuración seleccionada.
+Cada cliente calcula la inclinación de la cabeza. Solo se sincroniza si el giro está activo. Al desbloquear el cuello, se recupera el ajuste original.
 
 ## 7. Actualizar y precalcular
 

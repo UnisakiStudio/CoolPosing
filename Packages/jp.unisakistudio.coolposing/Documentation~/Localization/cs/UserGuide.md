@@ -141,15 +141,15 @@ Inspector ukazuje příspěvek nástrojů pro pózy, nikoli součet celého avat
 | Gesta vyp. | 1 |
 | Pohyb dýchání | 0 |
 | Přepínač dýchání v nabídce | 1 |
-| Výška chodidel | 8 |
-| Výška podlahy | 8 |
+| Výška chodidel | 0 |
+| Výška podlahy | 0 |
 | Režim focení, pouze místní | 0 |
 | Synchronizovat režim focení | 16 |
 | Ponechat hlavu viditelnou při focení | 0 |
 | Vypnout výchozí pohupování VRChat | 0 |
-| Přetočit se | 10 |
+| Přetočit se | 1 |
 
-Přetočení sdílí 1 bit s korekcí pózy podle směru krku. Zapnutí obou tedy stále používá celkem 10 bitů pro tyto dvě funkce. Zobrazená spotřeba ve vaší verzi je praktickým vodítkem pro zvolenou konfiguraci.
+Každý klient počítá náklon hlavy. Synchronizuje se pouze skutečný stav přetáčení na bok. Odemknutím krku se obnoví původní nastavení.
 
 ## 7. Aktualizace a předgenerování
 

@@ -141,15 +141,15 @@ L’Inspector montre la contribution des outils de poses, pas le total de l’av
 | Sans gestes | 1 |
 | Animation de respiration | 0 |
 | Activation de la respiration dans le menu | 1 |
-| Hauteur pieds | 8 |
-| Hauteur sol | 8 |
+| Hauteur pieds | 0 |
+| Hauteur sol | 0 |
 | Mode photo local uniquement | 0 |
 | Synchroniser le Mode photo | 16 |
 | Garder la tête visible en Mode photo | 0 |
 | Désactiver le balancement au repos de VRChat | 0 |
-| Se retourner | 10 |
+| Se retourner | 1 |
 
-Se retourner partage 1 bit avec la correction de posture liée à l’orientation du cou : activer les deux utilise toujours 10 bits au total. La consommation affichée dans votre version installée est la référence pratique pour votre configuration.
+Chaque client calcule l’inclinaison de la tête. Seul l’état effectif du retournement est synchronisé. Déverrouiller le cou rétablit le réglage initial.
 
 ## 7. Mise à jour et précalcul
 

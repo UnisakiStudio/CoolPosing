@@ -88,8 +88,8 @@ Forhåndsinnstillinger finnes nederst i Avataroppsett. «Bruk denne forhåndsinn
 
 - Pustebevegelse bruker 0 bit. Bare «Menyfunksjoner > Pust» for stopp/start i spillet bruker 1 bit til på/av-synkronisering.
 - Fotomodus bruker 0 bit bare lokalt. «Praktiske funksjoner > Synkroniser Fotomodus» bruker 16 bit. «Behold hodet synlig i Fotomodus» bruker 0 bit.
-- Fothøyde og Gulvhøyde bruker hver 8 bit. Gulvhøyde flytter hele kroppen opp/ned fra midten, og korrigeringen slutter nær 50%.
-- Snu deg bruker 10 bit alene og deler 1 bit med Reduser positurforvrengning fra hoderotasjon, så begge bruker 10 bit totalt.
+- Fothøyde og Gulvhøyde bruker hver 0 bit. Gulvhøyde flytter hele kroppen opp/ned fra midten, og korrigeringen slutter nær 50%.
+- Snu deg (1 bit, Posing System 3.2.1+) — Hver klient beregner hodets helning. Bare hvorvidt vendingen faktisk er aktiv, synkroniseres. Når nakken låses opp, gjenopprettes den opprinnelige innstillingen.
 - Speilvend og Gester av bruker hver 1 bit.
 
 Inspector-summen omfatter avatarens positurverktøy, ikke klær eller andre systemer. Felles innstillinger telles ikke dobbelt ved flere verktøy.

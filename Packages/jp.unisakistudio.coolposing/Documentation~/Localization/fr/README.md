@@ -88,8 +88,8 @@ Les préréglages sont au bas de « Configuration de l'avatar ». « Appliquer c
 
 - L’animation de respiration utilise 0 bit. Seul « Fonctions du menu > Respiration », qui permet de l’arrêter et de la relancer dans le jeu, utilise 1 bit pour synchroniser l’activation.
 - Le Mode photo utilise 0 bit en vue locale uniquement. « Fonctions pratiques > Synchroniser le Mode photo » utilise 16 bit. « Garder la tête visible en Mode photo » utilise 0 bit.
-- « Hauteur pieds » et « Hauteur sol » utilisent chacun 8 bit. Éloigner la hauteur du sol du centre déplace tout le corps verticalement ; revenir près de 50% termine le décalage.
-- « Se retourner » seul utilise 10 bit. Il partage 1 bit avec « Réduire les déformations liées à la rotation de la tête » : les deux ensemble utilisent donc aussi 10 bit.
+- « Hauteur pieds » et « Hauteur sol » utilisent chacun 0 bit. Éloigner la hauteur du sol du centre déplace tout le corps verticalement ; revenir près de 50% termine le décalage.
+- Se retourner (1 bit, Posing System 3.2.1+) — Chaque client calcule l’inclinaison de la tête. Seul l’état effectif du retournement est synchronisé. Déverrouiller le cou rétablit le réglage initial.
 - « Miroir » et « Sans gestes » utilisent chacun 1 bit.
 
 Le total de l’Inspector concerne les outils de poses installés sur l’avatar. Il n’inclut pas les autres systèmes, comme les vêtements. Les réglages communs ne sont pas comptés plusieurs fois lorsque plusieurs outils de poses sont utilisés.

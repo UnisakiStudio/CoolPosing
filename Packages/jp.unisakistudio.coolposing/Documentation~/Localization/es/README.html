@@ -80,8 +80,8 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <ul>
 <li>Respiración sola 0 bit; «Funciones del menú &gt; Respiración» usa 1 bit para detener y reanudar sincronizadamente.</li>
 <li>Modo foto local 0 bit; «Funciones prácticas &gt; Sincronizar el Modo foto» 16 bit; cabeza visible 0 bit.</li>
-<li>Altura pies y suelo 8 bit cada una. Alejar el suelo del centro mueve el cuerpo; cerca de 50% termina.</li>
-<li>Darse vuelta usa 10 bit y comparte 1 bit con Reducir deformaciones por la rotación de cabeza: ambos juntos 10 bit.</li>
+<li>Altura pies y suelo 0 bit cada una. Alejar el suelo del centro mueve el cuerpo; cerca de 50% termina.</li>
+<li>Darse vuelta (1 bit, Posing System 3.2.1+) — Cada cliente calcula la inclinación de la cabeza. Solo se sincroniza si el giro está activo. Al desbloquear el cuello, se recupera el ajuste original.</li>
 <li>Reflejar y Sin gestos 1 bit cada uno.</li>
 </ul>
 <p>El total del Inspector corresponde a herramientas de poses, no a ropa u otros sistemas. Los ajustes comunes no se cuentan dos veces usando varias herramientas.</p>

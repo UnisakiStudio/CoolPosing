@@ -88,8 +88,8 @@ Esiasetukset löytyvät Avatarin asetukset -välilehden lopusta. ”Käytä tät
 
 - Hengitysliike kuluttaa 0 bit. Vain jos käytät pelin pysäytys- ja jatkokytkintä ”Valikkotoiminnot > Hengitys”, kytkimen synkronointi kuluttaa 1 bit.
 - Kuvatila kuluttaa 0 bit vain omalla näytöllä. ”Lisätoiminnot > Synkronoi Kuvatila” kuluttaa 16 bit. ”Pidä pää näkyvissä Kuvatilassa” kuluttaa 0 bit.
-- ”Jalkojen kork.” ja ”Lattian kork.” kuluttavat kumpikin 8 bit. Lattian korkeuden siirtäminen keskeltä liikuttaa koko kehoa pystysuunnassa. Paluu lähelle 50% lopettaa toiminnon.
-- ”Käänny” kuluttaa yksin 10 bit. Se jakaa 1 bit pään kierrosta aiheutuvan asennon vääristymän vähentämisen kanssa, joten molempien yhteiskulutus on 10 bit.
+- ”Jalkojen kork.” ja ”Lattian kork.” kuluttavat kumpikin 0 bit. Lattian korkeuden siirtäminen keskeltä liikuttaa koko kehoa pystysuunnassa. Paluu lähelle 50% lopettaa toiminnon.
+- Käänny (1 bit, Posing System 3.2.1+) — Jokainen asiakasohjelma laskee pään kallistuksen itse. Vain kyljelle kääntymisen aktiivinen tila synkronoidaan. Niskan lukituksen poistaminen palauttaa alkuperäisen asetuksen.
 - ”Peilaa” ja ”Eleet pois” kuluttavat kumpikin 1 bit.
 
 Inspectorin yhteismäärä koskee avatariin asennettuja asentotyökaluja. Asujen tai muiden toimintojen kulutus ei sisälly siihen. Usean asentotyökalun yhteisiä asetuksia ei lasketa kahdesti.

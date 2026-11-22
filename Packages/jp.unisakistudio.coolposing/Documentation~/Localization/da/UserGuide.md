@@ -141,15 +141,15 @@ Inspector viser positurværktøjernes bidrag, ikke hele avataren. Tøj og andre 
 | Gestus fra | 1 |
 | Vejrtrækningsbevægelse | 0 |
 | Vejrtrækningsknap | 1 |
-| Fodhøjde | 8 |
-| Gulvhøjde | 8 |
+| Fodhøjde | 0 |
+| Gulvhøjde | 0 |
 | Fototilstand, kun lokalt | 0 |
 | Synkronisér Fototilstand | 16 |
 | Hold hovedet synligt i Fototilstand | 0 |
 | Slå VRChats svajen i stilstand fra | 0 |
-| Vend dig | 10 |
+| Vend dig | 1 |
 
-Vend dig deler 1 bit med hovedretningskorrektionen; begge funktioner bruger stadig 10 bit tilsammen. Den installerede versions forbrugsvisning er den praktiske reference for opsætningen.
+Hver klient beregner hovedets hældning. Kun den faktiske aktivering af vendingen synkroniseres. Når nakken låses op, gendannes den oprindelige indstilling.
 
 ## 7. Opdatering og forberegning
 

@@ -141,15 +141,15 @@ L’Inspector mostra il contributo degli strumenti per pose, non il totale dell�
 | Blocca gesti | 1 |
 | Movimento del respiro | 0 |
 | Interruttore respiro nel menu | 1 |
-| Altezza piedi | 8 |
-| Altezza suolo | 8 |
+| Altezza piedi | 0 |
+| Altezza suolo | 0 |
 | Modalità foto solo locale | 0 |
 | Sincronizzare la Modalità foto | 16 |
 | Tenere visibile la testa in Modalità foto | 0 |
 | Disattivare l'oscillazione da fermo di VRChat | 0 |
-| Girarsi | 10 |
+| Girarsi | 1 |
 
-Girarsi condivide 1 bit con la correzione della postura per la direzione del collo: entrambe insieme richiedono ancora 10 bit totali. Il consumo mostrato nella versione installata è il riferimento pratico della configurazione selezionata.
+Ogni client calcola l’inclinazione della testa. Viene sincronizzato solo lo stato effettivo della rotazione sul fianco. Sbloccando il collo si ripristina l’impostazione iniziale.
 
 ## 7. Aggiornamento e precalcolo
 

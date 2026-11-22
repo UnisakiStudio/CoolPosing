@@ -88,8 +88,8 @@ I preset si trovano in fondo a «Configurazione avatar». «Applica questo prese
 
 - Il movimento del respiro richiede 0 bit. Soltanto «Funzioni del menu > Respiro», per fermarlo e riprenderlo nel gioco, richiede 1 bit di sincronizzazione.
 - La Modalità foto richiede 0 bit solo locale. «Funzioni pratiche > Sincronizzare la Modalità foto» usa 16 bit. «Tenere visibile la testa in Modalità foto» usa 0 bit.
-- «Altezza piedi» e «Altezza suolo» usano 8 bit ciascuna. Spostando Altezza suolo dal centro muovi tutto il corpo verticalmente; tornando vicino a 50% termini lo spostamento.
-- «Girarsi» usa 10 bit da solo. Condivide 1 bit con «Ridurre le deformazioni dovute alla rotazione della testa», quindi entrambe usano ancora 10 bit totali.
+- «Altezza piedi» e «Altezza suolo» usano 0 bit ciascuna. Spostando Altezza suolo dal centro muovi tutto il corpo verticalmente; tornando vicino a 50% termini lo spostamento.
+- Girarsi (1 bit, Posing System 3.2.1+) — Ogni client calcola l’inclinazione della testa. Viene sincronizzato solo lo stato effettivo della rotazione sul fianco. Sbloccando il collo si ripristina l’impostazione iniziale.
 - «Specchio» e «Blocca gesti» usano 1 bit ciascuna.
 
 Il totale dell’Inspector riguarda gli strumenti per pose sull’avatar, senza includere abiti e altri sistemi. Le impostazioni comuni non vengono contate due volte usando più strumenti.

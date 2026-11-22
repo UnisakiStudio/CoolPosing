@@ -88,8 +88,8 @@ Voreinstellungen stehen ganz unten unter „Avatareinrichtung“. „Diese Vorei
 
 - Atembewegung benötigt 0 bit. Nur das Anhalten/Fortsetzen im Spiel unter „Menüfunktionen > Atmung“ verwendet 1 bit Synchronisierung.
 - Fotomodus benötigt 0 bit nur lokal; Synchronisierung unter Komfortfunktionen benötigt 16 bit. Der sichtbare Kopf benötigt 0 bit.
-- Fußhöhe und Bodenhöhe benötigen je 8 bit. Bodenhöhe außerhalb der Mitte bewegt den ganzen Körper auf/ab; nahe 50% endet sie.
-- Umdrehen benötigt allein 10 bit und teilt 1 bit mit „Verformungen durch Kopfdrehung verringern“; beide zusammen also 10 bit.
+- Fußhöhe und Bodenhöhe benötigen je 0 bit. Bodenhöhe außerhalb der Mitte bewegt den ganzen Körper auf/ab; nahe 50% endet sie.
+- Umdrehen (1 bit, Posing System 3.2.1+) — Jeder Client berechnet die Kopfneigung selbst. Nur der wirksame Ein/Aus-Zustand der Drehung auf die Seite wird synchronisiert. Nach dem Lösen der Halssperre gilt wieder die ursprüngliche Einstellung.
 - Spiegeln und Gesten aus benötigen je 1 bit.
 
 Der Inspector-Gesamtwert umfasst die Posenwerkzeuge im Avatar, nicht Kleidung oder andere Systeme. Gemeinsam verwendete Einstellungen mehrerer Werkzeuge werden nicht doppelt gezählt.

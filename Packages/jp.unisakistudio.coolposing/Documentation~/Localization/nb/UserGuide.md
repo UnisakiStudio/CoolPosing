@@ -141,15 +141,15 @@ Inspector viser positurverktøyenes bidrag, ikke hele avataren. Klær og andre s
 | Gester av | 1 |
 | Pustebevegelse | 0 |
 | Pustebryter i menyen | 1 |
-| Fothøyde | 8 |
-| Gulvhøyde | 8 |
+| Fothøyde | 0 |
+| Gulvhøyde | 0 |
 | Fotomodus, bare lokalt | 0 |
 | Synkroniser Fotomodus | 16 |
 | Behold hodet synlig i Fotomodus | 0 |
 | Deaktiver VRChats hvilebevegelse | 0 |
-| Snu deg | 10 |
+| Snu deg | 1 |
 
-Snu deg deler 1 bit med hoderetningskorrigeringen; begge bruker fortsatt 10 bit totalt. Forbruksvisningen i installert versjon er den praktiske referansen for ditt oppsett.
+Hver klient beregner hodets helning. Bare hvorvidt vendingen faktisk er aktiv, synkroniseres. Når nakken låses opp, gjenopprettes den opprinnelige innstillingen.
 
 ## 7. Oppdatering og forhåndsbygg
 

@@ -141,15 +141,15 @@ O Inspector mostra a parte das ferramentas, não o avatar inteiro. Roupa e outro
 | Sem gestos | 1 |
 | Movimento da respiração | 0 |
 | Interruptor da respiração | 1 |
-| Altura pés | 8 |
-| Altura chão | 8 |
+| Altura pés | 0 |
+| Altura chão | 0 |
 | Modo foto local | 0 |
 | Sincronizar Modo foto | 16 |
 | Manter cabeça visível no Modo foto | 0 |
 | Desativar balanço em repouso do VRChat | 0 |
-| Virar | 10 |
+| Virar | 1 |
 
-Virar compartilha 1 bit com a correção de postura pela direção do pescoço: ambas continuam a utilizar 10 bits. O consumo indicado na versão instalada é a referência prática da configuração.
+Cada cliente calcula a inclinação da cabeça. Só é sincronizado o estado efetivo da função de virar de lado. Desbloquear o pescoço restaura a configuração original.
 
 ## 7. Atualizar e pré-calcular
 

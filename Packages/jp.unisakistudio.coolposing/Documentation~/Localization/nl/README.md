@@ -88,8 +88,8 @@ Voorinstellingen staan onderaan Avatarinstellingen. Deze voorinstelling toepasse
 
 - Ademhaling 0 bit, schakelmenu 1 bit.
 - Fotomodus lokaal 0 bit, synchronisatie 16 bit, zichtbaar hoofd 0 bit.
-- Voet-/Vloerhoogte ieder 8 bit; buiten midden beweegt lichaam, nabij 50% stopt.
-- Omdraaien 10 bit, met 1 bit gedeeld met hoofdcorrectie, samen 10 bit.
+- Voet-/Vloerhoogte ieder 0 bit; buiten midden beweegt lichaam, nabij 50% stopt.
+- Omdraaien (1 bit, Posing System 3.2.1+) — Elke client berekent de kanteling van het hoofd. Alleen de actieve stand van het omrollen wordt gesynchroniseerd. Na het ontgrendelen van de nek geldt de oorspronkelijke instelling weer.
 - Spiegelen/Gebaren uit ieder 1 bit.
 
 Inspector-totaal is voor posetools, zonder kleding/andere systemen. Gemeenschappelijke opties tellen niet dubbel.

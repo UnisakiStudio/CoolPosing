@@ -88,8 +88,8 @@ Prasetel berada di bagian paling bawah “Pengaturan Avatar”. “Terapkan pras
 
 - Animasi napas menggunakan 0 bit. Hanya jika menggunakan “Fitur menu > Napas” untuk menghentikan dan melanjutkannya dalam permainan, sinkronisasi ON/OFF menggunakan 1 bit.
 - Mode foto menggunakan 0 bit jika hanya terlihat pada layar sendiri. Memilih “Kemudahan > Sinkronkan mode foto” menggunakan 16 bit. “Tetap tampilkan kepala dalam mode foto” menggunakan 0 bit.
-- “Tinggi kaki” dan “Tinggi lantai” masing-masing menggunakan 8 bit. Tinggi lantai menggerakkan seluruh tubuh ke atas atau ke bawah saat digeser dari tengah, dan berakhir saat dikembalikan mendekati 50%.
-- “Berguling” sendiri menggunakan 10 bit. Fitur ini berbagi 1 bit dengan “Kurangi perubahan pose akibat rotasi kepala”, sehingga penggunaan keduanya tetap berjumlah 10 bit.
+- “Tinggi kaki” dan “Tinggi lantai” masing-masing menggunakan 0 bit. Tinggi lantai menggerakkan seluruh tubuh ke atas atau ke bawah saat digeser dari tengah, dan berakhir saat dikembalikan mendekati 50%.
+- Berguling (1 bit, Posing System 3.2.1+) — Setiap klien menghitung kemiringan kepala. Hanya status aktif gerakan berguling yang disinkronkan. Membuka kunci leher memulihkan pengaturan semula.
 - “Cerminkan” dan “Gestur mati” masing-masing menggunakan 1 bit.
 
 Jumlah di Inspector hanya mencakup alat pose yang dipasang pada avatar. Alat lain, seperti pakaian, tidak termasuk. Jika menggunakan beberapa alat pose, pengaturan bersama tidak dihitung dua kali.

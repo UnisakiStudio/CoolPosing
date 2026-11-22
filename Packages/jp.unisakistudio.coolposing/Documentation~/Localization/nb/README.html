@@ -80,8 +80,8 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <ul>
 <li>Pustebevegelse bruker 0 bit. Bare «Menyfunksjoner &gt; Pust» for stopp/start i spillet bruker 1 bit til på/av-synkronisering.</li>
 <li>Fotomodus bruker 0 bit bare lokalt. «Praktiske funksjoner &gt; Synkroniser Fotomodus» bruker 16 bit. «Behold hodet synlig i Fotomodus» bruker 0 bit.</li>
-<li>Fothøyde og Gulvhøyde bruker hver 8 bit. Gulvhøyde flytter hele kroppen opp/ned fra midten, og korrigeringen slutter nær 50%.</li>
-<li>Snu deg bruker 10 bit alene og deler 1 bit med Reduser positurforvrengning fra hoderotasjon, så begge bruker 10 bit totalt.</li>
+<li>Fothøyde og Gulvhøyde bruker hver 0 bit. Gulvhøyde flytter hele kroppen opp/ned fra midten, og korrigeringen slutter nær 50%.</li>
+<li>Snu deg (1 bit, Posing System 3.2.1+) — Hver klient beregner hodets helning. Bare hvorvidt vendingen faktisk er aktiv, synkroniseres. Når nakken låses opp, gjenopprettes den opprinnelige innstillingen.</li>
 <li>Speilvend og Gester av bruker hver 1 bit.</li>
 </ul>
 <p>Inspector-summen omfatter avatarens positurverktøy, ikke klær eller andre systemer. Felles innstillinger telles ikke dobbelt ved flere verktøy.</p>

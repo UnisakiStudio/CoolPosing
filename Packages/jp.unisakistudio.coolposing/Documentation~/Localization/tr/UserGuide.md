@@ -141,15 +141,15 @@ Inspector, tüm avatarın toplamı yerine poz araçlarının katkısını göste
 | Jestleri kapat | 1 |
 | Nefes hareketi | 0 |
 | Nefes menü anahtarı | 1 |
-| Ayak yüksekliği | 8 |
-| Zemin yüksekliği | 8 |
+| Ayak yüksekliği | 0 |
+| Zemin yüksekliği | 0 |
 | Fotoğraf modu, yalnızca yerel | 0 |
 | Fotoğraf modunu eşitle | 16 |
 | Fotoğraf modunda başı görünür tut | 0 |
 | VRChat’in varsayılan bekleme sallanmasını kapat | 0 |
-| Dön | 10 |
+| Dön | 1 |
 
-Dönüş, boyun yönü poz düzeltmesiyle 1 bit paylaşır; ikisi birlikte açık olsa da bu iki özellik toplam 10 bit kullanır. Kurulu sürümünüzün gösterdiği kullanım, seçili yapınız için pratik ölçüttür.
+Her istemci baş eğimini kendisi hesaplar. Yalnızca yana dönmenin etkin olup olmadığı eşitlenir. Boyun kilidi açıldığında önceki ayar geri yüklenir.
 
 ## 7. Güncelleme ve ön oluşturma
 

@@ -141,15 +141,15 @@ Inspector pokazuje wkład narzędzi póz, a nie sumę całego awatara. Ubrania i
 | Bez gestów | 1 |
 | Ruch oddechu | 0 |
 | Przełącznik oddechu w menu | 1 |
-| Wysokość stóp | 8 |
-| Wysokość ziemi | 8 |
+| Wysokość stóp | 0 |
+| Wysokość ziemi | 0 |
 | Tryb zdjęć, tylko lokalny | 0 |
 | Synchronizuj tryb zdjęć | 16 |
 | Pokazuj głowę w trybie zdjęć | 0 |
 | Wyłącz standardowe kołysanie VRChat | 0 |
-| Obróć się | 10 |
+| Obróć się | 1 |
 
-Obracanie dzieli 1 bit z korekcją pozy od kierunku szyi. Włączenie obu nadal zużywa razem 10 bitów dla tych dwóch funkcji. Wyświetlane zużycie zainstalowanej wersji jest praktycznym odniesieniem dla wybranej konfiguracji.
+Każdy klient oblicza nachylenie głowy. Synchronizowany jest tylko stan aktywności obrotu na bok. Odblokowanie szyi przywraca poprzednie ustawienie.
 
 ## 7. Aktualizacja i budowanie wstępne
 

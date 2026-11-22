@@ -80,8 +80,8 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <ul>
 <li>Pohyb dýchání používá 0 bit. Jen herní přepínač zastavení a spuštění „Funkce nabídky &gt; Dýchání“ používá 1 bit pro synchronizaci.</li>
 <li>Režim focení pouze na vlastní obrazovce používá 0 bit. „Usnadnění &gt; Synchronizovat režim focení“ používá 16 bit. Ponechat hlavu viditelnou v režimu focení používá 0 bit.</li>
-<li>Výška chodidel i Výška podlahy používají každá 8 bit. Odchýlení výšky podlahy od středu posune celé tělo nahoru či dolů a návrat přibližně k 50% ukončí akci.</li>
-<li>Přetočení samostatně používá 10 bit. Sdílí 1 bit s omezením deformace při otočení hlavy, proto obě funkce dohromady používají 10 bit.</li>
+<li>Výška chodidel i Výška podlahy používají každá 0 bit. Odchýlení výšky podlahy od středu posune celé tělo nahoru či dolů a návrat přibližně k 50% ukončí akci.</li>
+<li>Přetočit se (1 bit, Posing System 3.2.1+) — Každý klient počítá náklon hlavy. Synchronizuje se pouze skutečný stav přetáčení na bok. Odemknutím krku se obnoví původní nastavení.</li>
 <li>Zrcadlit a Gesta vyp. používají každá 1 bit.</li>
 </ul>
 <p>Součet v Inspectoru se týká nástrojů pro pózy instalovaných na avatarovi. Nezahrnuje oblečení ani jiné funkce. Společná nastavení více nástrojů se nepočítají opakovaně.</p>

@@ -88,8 +88,8 @@ Forudindstillinger findes nederst i Avataropsætning. ”Anvend denne forudindst
 
 - Vejrtrækningsbevægelse bruger 0 bit. Kun ”Menufunktioner > Vejrtrækning” til stop/genstart i spillet bruger 1 bit til til/fra-synkronisering.
 - Fototilstand bruger 0 bit kun lokalt. ”Praktiske funktioner > Synkronisér Fototilstand” bruger 16 bit. ”Hold hovedet synligt i Fototilstand” bruger 0 bit.
-- Fodhøjde og Gulvhøjde bruger hver 8 bit. Gulvhøjde flytter hele kroppen op/ned fra midten og afslutter korrektion tæt på 50%.
-- Vend dig alene bruger 10 bit og deler 1 bit med Reducér forvrængning fra hovedrotation, så begge tilsammen også bruger 10 bit.
+- Fodhøjde og Gulvhøjde bruger hver 0 bit. Gulvhøjde flytter hele kroppen op/ned fra midten og afslutter korrektion tæt på 50%.
+- Vend dig (1 bit, Posing System 3.2.1+) — Hver klient beregner hovedets hældning. Kun den faktiske aktivering af vendingen synkroniseres. Når nakken låses op, gendannes den oprindelige indstilling.
 - Spejlvend og Gestus fra bruger hver 1 bit.
 
 Inspector-totalen omfatter avatarens positurværktøjer, ikke tøj og andre værktøjer. Delte indstillinger tælles ikke dobbelt ved flere positurværktøjer.

@@ -141,15 +141,15 @@ Der Inspector zeigt nur den Anteil der Posenwerkzeuge, nicht den Gesamtverbrauch
 | Gesten aus | 1 |
 | Atembewegung | 0 |
 | Atmungsmenüschalter | 1 |
-| Fußhöhe | 8 |
-| Bodenhöhe | 8 |
+| Fußhöhe | 0 |
+| Bodenhöhe | 0 |
 | Fotomodus nur lokal | 0 |
 | Fotomodus synchronisieren | 16 |
 | Kopf im Fotomodus sichtbar halten | 0 |
 | VRChat-Schwanken im Stand deaktivieren | 0 |
-| Umdrehen | 10 |
+| Umdrehen | 1 |
 
-Umdrehen teilt 1 bit mit der Korrektur halsrichtungsbedingter Verformungen. Beide zusammen benötigen daher weiterhin 10 bit. Der Verbrauch deiner installierten Version ist der praktische Bezug für die gewählte Konfiguration.
+Jeder Client berechnet die Kopfneigung selbst. Nur der wirksame Ein/Aus-Zustand der Drehung auf die Seite wird synchronisiert. Nach dem Lösen der Halssperre gilt wieder die ursprüngliche Einstellung.
 
 ## 7. Aktualisierung und Vorberechnung
 

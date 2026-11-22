@@ -109,15 +109,15 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td>停用手勢</td><td>1</td></tr>
 <tr><td>呼吸動作</td><td>0</td></tr>
 <tr><td>呼吸選單開關</td><td>1</td></tr>
-<tr><td>腳部高度</td><td>8</td></tr>
-<tr><td>地面高度</td><td>8</td></tr>
+<tr><td>腳部高度</td><td>0</td></tr>
+<tr><td>地面高度</td><td>0</td></tr>
 <tr><td>拍照模式，僅本機</td><td>0</td></tr>
 <tr><td>同步拍照模式</td><td>16</td></tr>
 <tr><td>拍照模式中保持頭部可見</td><td>0</td></tr>
 <tr><td>關閉VRChat預設站立搖擺</td><td>0</td></tr>
-<tr><td>翻身</td><td>10</td></tr>
+<tr><td>翻身</td><td>1</td></tr>
 </tbody></table></div>
-<p>翻身與頸部朝向姿勢修正共用1 bit，因此同時啟用這兩個功能時合計仍為10 bit。所選設定的實際參考值，以已安裝版本顯示的用量為準。</p>
+<p>每個用戶端各自計算頭部傾斜，只同步翻身的實際啟用狀態。解除頸部鎖定後，翻身會恢復原來的設定。</p>
 <h2>7. 更新與預先建置</h2>
 <ol>
 <li>備份專案並儲存當前工作場景。</li>

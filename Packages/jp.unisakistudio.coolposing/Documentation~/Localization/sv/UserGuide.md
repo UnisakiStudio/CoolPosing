@@ -141,15 +141,15 @@ Inspector visar poseverktygens bidrag, inte hela avatarens total. Kläder och an
 | Gester av | 1 |
 | Andningsrörelse | 0 |
 | Andningsknapp i menyn | 1 |
-| Fothöjd | 8 |
-| Golvhöjd | 8 |
+| Fothöjd | 0 |
+| Golvhöjd | 0 |
 | Fotoläge, endast lokalt | 0 |
 | Synkronisera Fotoläge | 16 |
 | Håll huvudet synligt i Fotoläge | 0 |
 | Stäng av VRChats stillastående svajning | 0 |
-| Vänd dig | 10 |
+| Vänd dig | 1 |
 
-Vänd dig delar 1 bit med korrigeringen för huvudriktning: båda tillsammans använder fortfarande 10 bitar. Användningsvisningen i din installerade version är praktisk referens för din valda konfiguration.
+Varje klient beräknar huvudets lutning. Endast om rullningen faktiskt är aktiv synkroniseras. När nacken låses upp återställs den ursprungliga inställningen.
 
 ## 7. Uppdatering och förberäkning
 

@@ -88,8 +88,8 @@ Presety znajdują się na dole Konfiguracji awatara. Zastosuj ten preset zastęp
 
 - Ruch oddechu zużywa 0 bit. Tylko przełącznik zatrzymywania i wznawiania „Funkcje menu > Oddech” używa 1 bit synchronizacji.
 - Tryb zdjęć tylko na własnym ekranie to 0 bit. „Udogodnienia > Synchronizuj tryb zdjęć” używa 16 bit. Pokazuj głowę w trybie zdjęć to 0 bit.
-- Wysokość stóp i Wysokość ziemi zużywają po 8 bit. Odsunięcie wysokości ziemi od środka przesuwa całe ciało w górę lub w dół, a powrót w okolice 50% kończy działanie.
-- Obracanie osobno zużywa 10 bit. Dzieli 1 bit z ograniczeniem deformacji przy obrocie głowy, więc obie funkcje razem nadal zużywają 10 bit.
+- Wysokość stóp i Wysokość ziemi zużywają po 0 bit. Odsunięcie wysokości ziemi od środka przesuwa całe ciało w górę lub w dół, a powrót w okolice 50% kończy działanie.
+- Obróć się (1 bit, Posing System 3.2.1+) — Każdy klient oblicza nachylenie głowy. Synchronizowany jest tylko stan aktywności obrotu na bok. Odblokowanie szyi przywraca poprzednie ustawienie.
 - Odbicie i Bez gestów zużywają po 1 bit.
 
 Suma w Inspectorze dotyczy narzędzi póz zainstalowanych na awatarze. Nie obejmuje ubrań ani innych funkcji. Wspólne ustawienia kilku narzędzi nie są liczone ponownie.

@@ -88,8 +88,8 @@ Thiết lập sẵn nằm cuối “Thiết lập avatar”. “Áp dụng thi�
 
 - Hoạt ảnh thở dùng 0 bit. Chỉ khi dùng “Tính năng menu > Thở” để dừng/tiếp tục trong trò chơi, đồng bộ ON/OFF dùng 1 bit.
 - Chế độ chụp chỉ trên màn hình mình dùng 0 bit. Chọn “Tiện ích > Đồng bộ chế độ chụp” dùng 16 bit. “Giữ đầu hiển thị trong chế độ chụp” dùng 0 bit.
-- “Độ cao chân” và “Độ cao sàn” mỗi mục dùng 8 bit. Độ cao sàn di chuyển toàn thân lên xuống khi lệch khỏi giữa và kết thúc khi về gần 50%.
-- “Lật người” riêng dùng 10 bit. Dùng chung 1 bit với “Giảm méo tư thế do xoay đầu”, nên cả hai vẫn tổng 10 bit.
+- “Độ cao chân” và “Độ cao sàn” mỗi mục dùng 0 bit. Độ cao sàn di chuyển toàn thân lên xuống khi lệch khỏi giữa và kết thúc khi về gần 50%.
+- Lật người (1 bit, Posing System 3.2.1+) — Mỗi máy khách tự tính độ nghiêng của đầu. Chỉ trạng thái hoạt động thực tế của thao tác trở mình được đồng bộ. Mở khóa cổ sẽ khôi phục cài đặt ban đầu.
 - “Lật đối xứng” và “Tắt cử chỉ” mỗi mục dùng 1 bit.
 
 Tổng trong Inspector chỉ gồm công cụ tư thế đã cài trên avatar, không tính trang phục/công cụ khác. Dùng nhiều công cụ tư thế cũng không tính trùng thiết lập chung.

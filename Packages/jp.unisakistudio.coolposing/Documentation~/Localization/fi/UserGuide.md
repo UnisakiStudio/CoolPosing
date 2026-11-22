@@ -141,15 +141,15 @@ Inspector näyttää asentotyökalujen osuuden, ei koko avatarin yhteiskulutusta
 | Eleet pois | 1 |
 | Hengitysliike | 0 |
 | Hengityksen valikkokytkin | 1 |
-| Jalkojen kork. | 8 |
-| Lattian kork. | 8 |
+| Jalkojen kork. | 0 |
+| Lattian kork. | 0 |
 | Kuvatila, vain paikallinen | 0 |
 | Synkronoi Kuvatila | 16 |
 | Pidä pää näkyvissä Kuvatilassa | 0 |
 | Poista VRChatin oletushuojunta | 0 |
-| Käänny | 10 |
+| Käänny | 1 |
 
-Käänny jakaa 1 bit pään suunnan aiheuttaman asentokorjauksen kanssa. Molempien käyttöönotto kuluttaa edelleen yhteensä 10 bittiä näille kahdelle toiminnolle. Asennetussa versiossasi näkyvä kulutus on käytännön viite valitsemallesi kokoonpanolle.
+Jokainen asiakasohjelma laskee pään kallistuksen itse. Vain kyljelle kääntymisen aktiivinen tila synkronoidaan. Niskan lukituksen poistaminen palauttaa alkuperäisen asetuksen.
 
 ## 7. Päivittäminen ja esikoonti
 

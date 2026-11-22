@@ -88,8 +88,8 @@ Los preajustes están al final de Configuración del avatar. «Aplicar este prea
 
 - Respiración sola 0 bit; «Funciones del menú > Respiración» usa 1 bit para detener y reanudar sincronizadamente.
 - Modo foto local 0 bit; «Funciones prácticas > Sincronizar el Modo foto» 16 bit; cabeza visible 0 bit.
-- Altura pies y suelo 8 bit cada una. Alejar el suelo del centro mueve el cuerpo; cerca de 50% termina.
-- Darse vuelta usa 10 bit y comparte 1 bit con Reducir deformaciones por la rotación de cabeza: ambos juntos 10 bit.
+- Altura pies y suelo 0 bit cada una. Alejar el suelo del centro mueve el cuerpo; cerca de 50% termina.
+- Darse vuelta (1 bit, Posing System 3.2.1+) — Cada cliente calcula la inclinación de la cabeza. Solo se sincroniza si el giro está activo. Al desbloquear el cuello, se recupera el ajuste original.
 - Reflejar y Sin gestos 1 bit cada uno.
 
 El total del Inspector corresponde a herramientas de poses, no a ropa u otros sistemas. Los ajustes comunes no se cuentan dos veces usando varias herramientas.

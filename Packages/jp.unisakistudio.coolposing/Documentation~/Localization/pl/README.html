@@ -80,8 +80,8 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <ul>
 <li>Ruch oddechu zużywa 0 bit. Tylko przełącznik zatrzymywania i wznawiania „Funkcje menu &gt; Oddech” używa 1 bit synchronizacji.</li>
 <li>Tryb zdjęć tylko na własnym ekranie to 0 bit. „Udogodnienia &gt; Synchronizuj tryb zdjęć” używa 16 bit. Pokazuj głowę w trybie zdjęć to 0 bit.</li>
-<li>Wysokość stóp i Wysokość ziemi zużywają po 8 bit. Odsunięcie wysokości ziemi od środka przesuwa całe ciało w górę lub w dół, a powrót w okolice 50% kończy działanie.</li>
-<li>Obracanie osobno zużywa 10 bit. Dzieli 1 bit z ograniczeniem deformacji przy obrocie głowy, więc obie funkcje razem nadal zużywają 10 bit.</li>
+<li>Wysokość stóp i Wysokość ziemi zużywają po 0 bit. Odsunięcie wysokości ziemi od środka przesuwa całe ciało w górę lub w dół, a powrót w okolice 50% kończy działanie.</li>
+<li>Obróć się (1 bit, Posing System 3.2.1+) — Każdy klient oblicza nachylenie głowy. Synchronizowany jest tylko stan aktywności obrotu na bok. Odblokowanie szyi przywraca poprzednie ustawienie.</li>
 <li>Odbicie i Bez gestów zużywają po 1 bit.</li>
 </ul>
 <p>Suma w Inspectorze dotyczy narzędzi póz zainstalowanych na awatarze. Nie obejmuje ubrań ani innych funkcji. Wspólne ustawienia kilku narzędzi nie są liczone ponownie.</p>

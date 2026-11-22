@@ -88,8 +88,8 @@ Ayarları aç, öğenin altındaki ayrıntıları açar. Nefes “Özellikler > 
 
 - Nefes hareketi 0 bit’tir. Oyunda durdurup sürdüren “Menü özellikleri > Nefes” anahtarı kullanılırsa eşitleme için 1 bit gerekir.
 - Fotoğraf modu yalnız kendi ekranınızda 0 bit’tir. “Kolaylıklar > Fotoğraf modunu eşitle” 16 bit kullanır. Fotoğraf modunda başı görünür tut 0 bit’tir.
-- Ayak yüksekliği ve Zemin yüksekliği ayrı ayrı 8 bit kullanır. Zemini merkezden uzaklaştırmak tüm vücudu yukarı/aşağı taşır; yaklaşık 50%’ye dönmek işlemi bitirir.
-- Dönüş tek başına 10 bit’tir. Baş dönüşünden kaynaklanan poz bozulmasını azalt ile 1 bit ortaktır; ikisi birlikte de toplam 10 bit kullanır.
+- Ayak yüksekliği ve Zemin yüksekliği ayrı ayrı 0 bit kullanır. Zemini merkezden uzaklaştırmak tüm vücudu yukarı/aşağı taşır; yaklaşık 50%’ye dönmek işlemi bitirir.
+- Dön (1 bit, Posing System 3.2.1+) — Her istemci baş eğimini kendisi hesaplar. Yalnızca yana dönmenin etkin olup olmadığı eşitlenir. Boyun kilidi açıldığında önceki ayar geri yüklenir.
 - Aynala ve Jestleri kapat ayrı ayrı 1 bit’tir.
 
 Inspector toplamı avatara kurulu poz araçlarına aittir; kıyafet ve diğer özellikleri içermez. Birden fazla araç kullanılsa da ortak ayarlar tekrar sayılmaz.

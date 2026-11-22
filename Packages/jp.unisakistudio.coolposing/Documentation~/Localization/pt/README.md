@@ -88,8 +88,8 @@ Predefinições estão no fim de Configuração do avatar. Aplicar esta predefin
 
 - Respiração 0 bit; menu para parar/reiniciar usa 1 bit sincronizado.
 - Modo foto local 0 bit, Sincronizar Modo foto 16 bit, cabeça visível 0 bit.
-- Pés e chão 8 bit cada. Afastar do centro move todo o corpo; perto de 50% termina.
-- Virar 10 bit e partilha 1 bit com a correção da cabeça: ambas 10 bit no total.
+- Pés e chão 0 bit cada. Afastar do centro move todo o corpo; perto de 50% termina.
+- Virar (1 bit, Posing System 3.2.1+) — Cada cliente calcula a inclinação da cabeça. Só é sincronizado o estado efetivo da função de virar de lado. Desbloquear o pescoço repõe a definição original.
 - Espelhar e Sem gestos 1 bit cada.
 
 O total do Inspector refere-se às ferramentas de poses, sem roupa ou outros sistemas. Funções comuns de várias ferramentas não se repetem no consumo.

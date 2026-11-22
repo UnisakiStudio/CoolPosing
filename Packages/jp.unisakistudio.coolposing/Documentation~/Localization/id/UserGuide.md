@@ -141,15 +141,15 @@ Inspector menunjukkan penggunaan alat pose, bukan jumlah seluruh avatar. Pakaian
 | Gestur mati | 1 |
 | Animasi napas | 0 |
 | Tombol menu Napas | 1 |
-| Tinggi kaki | 8 |
-| Tinggi lantai | 8 |
+| Tinggi kaki | 0 |
+| Tinggi lantai | 0 |
 | Mode foto, hanya lokal | 0 |
 | Sinkronkan mode foto | 16 |
 | Tetap tampilkan kepala dalam mode foto | 0 |
 | Nonaktifkan goyangan diam VRChat | 0 |
-| Berguling | 10 |
+| Berguling | 1 |
 
-Berguling berbagi 1 bit dengan koreksi pose akibat arah leher: mengaktifkan keduanya tetap menggunakan total 10 bit untuk dua fitur tersebut. Penggunaan yang ditampilkan pada versi terpasang menjadi acuan praktis untuk konfigurasi terpilih.
+Setiap klien menghitung kemiringan kepala. Hanya status aktif gerakan berguling yang disinkronkan. Membuka kunci leher memulihkan pengaturan semula.
 
 ## 7. Pembaruan dan prabuild
 

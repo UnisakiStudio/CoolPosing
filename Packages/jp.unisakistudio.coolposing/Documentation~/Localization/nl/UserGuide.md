@@ -141,15 +141,15 @@ Inspector toont alleen posetools, niet de hele avatar. Kleding en andere systeme
 | Gebaren uit | 1 |
 | Ademhaling bewegen | 0 |
 | Ademhalingmenu | 1 |
-| Voethoogte | 8 |
-| Vloerhoogte | 8 |
+| Voethoogte | 0 |
+| Vloerhoogte | 0 |
 | Fotomodus lokaal | 0 |
 | Fotomodus synchroniseren | 16 |
 | Hoofd zichtbaar houden in Fotomodus | 0 |
 | Standaardwiegen van VRChat uitschakelen | 0 |
-| Omdraaien | 10 |
+| Omdraaien | 1 |
 
-Omdraaien deelt 1 bit met de nekrichtingscorrectie: samen nog 10 bits. De weergave van jouw versie is de praktische referentie.
+Elke client berekent de kanteling van het hoofd. Alleen de actieve stand van het omrollen wordt gesynchroniseerd. Na het ontgrendelen van de nek geldt de oorspronkelijke instelling weer.
 
 ## 7. Bijwerken en voorberekenen
 

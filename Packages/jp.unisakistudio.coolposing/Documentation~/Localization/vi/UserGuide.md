@@ -141,15 +141,15 @@ Inspector hiển thị phần của công cụ tư thế, không phải tổng t
 | Tắt cử chỉ | 1 |
 | Hoạt ảnh thở | 0 |
 | Công tắc menu Thở | 1 |
-| Độ cao chân | 8 |
-| Độ cao sàn | 8 |
+| Độ cao chân | 0 |
+| Độ cao sàn | 0 |
 | Chế độ chụp, chỉ cục bộ | 0 |
 | Đồng bộ chế độ chụp | 16 |
 | Giữ đầu hiển thị trong chế độ chụp | 0 |
 | Tắt đung đưa khi đứng yên của VRChat | 0 |
-| Lật người | 10 |
+| Lật người | 1 |
 
-Lật người dùng chung 1 bit với hiệu chỉnh tư thế theo hướng cổ: bật cả hai vẫn tổng 10 bit cho hai tính năng. Mức hiển thị trong phiên bản đã cài là tham khảo thực tế cho cấu hình đã chọn.
+Mỗi máy khách tự tính độ nghiêng của đầu. Chỉ trạng thái hoạt động thực tế của thao tác trở mình được đồng bộ. Mở khóa cổ sẽ khôi phục cài đặt ban đầu.
 
 ## 7. Cập nhật và tạo trước
 

@@ -88,8 +88,8 @@ Presets are at the bottom of Avatar Setup. Apply this preset replaces the curren
 
 - Breathing motion uses 0 bit. Only Menu features > Breathing, used to stop/resume it in-game, costs 1 bit for synchronized ON/OFF.
 - Photo Mode uses 0 bit locally. Convenience > Sync Photo Mode uses 16 bit. Keep your head visible in Photo Mode uses 0 bit.
-- Foot Height and Floor Height each use 8 bit. Move Floor Height away from the center to move the whole body vertically; return near 50% to end correction.
-- Roll Over alone uses 10 bit. It shares 1 bit with Reduce pose distortion from head rotation, so enabling both still totals 10 bit.
+- Foot Height and Floor Height each use 0 bit. Move Floor Height away from the center to move the whole body vertically; return near 50% to end correction.
+- Roll Over (1 bit, Posing System 3.2.1+) — Each client calculates head tilt. Only the effective roll-over state is synced. Unlocking the neck restores the original roll-over setting.
 - Mirror and Disable Gestures each use 1 bit.
 
 The Inspector total covers the posing tools on the avatar. It excludes clothing and other gimmicks. Shared settings are counted once even when multiple posing tools are used.
