@@ -11,7 +11,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 @media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
 <nav aria-label="Documentation"><a href="../index.html">Tiếng Việt · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Lịch sử thay đổi</a><a href="UserGuide.html">Cool Posing Tool — Hướng dẫn người dùng tiếng Việt</a></nav>
 <main><h1>Cool Posing Tool — Hướng dẫn người dùng tiếng Việt</h1>
-<p>Cool Posing cung cấp 50 tư thế cho chế độ máy tính và VR ba điểm: 11 đứng/ngồi xổm, 9 ngồi ghế/ngồi mép, 14 ngồi sàn, 9 nằm ngửa và 7 nằm sấp.</p>
+<p>Cool Posing cung cấp 69 tư thế cho chế độ máy tính và VR ba điểm: 17 đứng/ngồi xổm, 16 ngồi ghế/ngồi mép, 17 ngồi sàn, 12 nằm ngửa và 7 nằm sấp.</p>
 <p>Hướng dẫn này gồm cài đặt, thiết lập avatar, điều khiển VRChat, sửa tư thế, cập nhật và khắc phục sự cố. ZIP đã mua có <code dir="ltr">START_HERE.html</code> để đến phần cài đặt nhanh nhất.</p>
 <h2>Trước khi bắt đầu</h2>
 <ul>
@@ -32,7 +32,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <li>Nếu đã hủy xác nhận, nhập lại trình cài khi sẵn sàng. Bạn cũng có thể dùng lệnh cài giấy phép trong <strong>Tools &gt; Unisaki Studio</strong> khi trình kích hoạt vẫn còn. Ở bản dựng cũ, menu con này tên <strong>ゆにさきスタジオ</strong>.</li>
 </ol>
 <h3>Bản tải này cài những gì</h3>
-<p><strong>Cool Posing Tool 1.2.0 với Unisaki Posing System 3.2.0.</strong> Phiên bản này bổ sung hộp thoại cài đặt, Inspector/menu Unity, tên tư thế chuẩn, menu trò chơi và tài liệu ngoại tuyến bằng ba mươi ngôn ngữ. Dùng bộ chọn ngôn ngữ đầu Inspector để đổi ngôn ngữ công cụ. Trình cài tải các phiên bản này và phụ thuộc tương thích từ kho VPM.</p>
+<p><strong>Cool Posing Tool 1.3.0 với Unisaki Posing System 3.2.1.</strong> Phiên bản này bổ sung hộp thoại cài đặt, Inspector/menu Unity, tên tư thế chuẩn, menu trò chơi và tài liệu ngoại tuyến bằng ba mươi ngôn ngữ. Dùng bộ chọn ngôn ngữ đầu Inspector để đổi ngôn ngữ công cụ. Trình cài tải các phiên bản này và phụ thuộc tương thích từ kho VPM.</p>
 <p>Cool Posing Tool gồm thư viện tư thế, công cụ cấu hình và thiết lập sẵn hiệu chỉnh avatar. Trình cài kích hoạt giấy phép cục bộ hiện có; không yêu cầu ô khóa giấy phép Gumroad mới. Không bao giờ đăng tệp trình cài hoặc dữ liệu giấy phép trong yêu cầu hỗ trợ công khai.</p>
 <p>Tùy chọn ngôn ngữ lưu qua Unity EditorPrefs cho người dùng hệ điều hành hiện tại và dùng chung giữa dự án Unity trên máy này. Nếu chưa lưu lựa chọn, trình cài theo ngôn ngữ hệ điều hành; ngôn ngữ không hỗ trợ dùng tiếng Anh. Giấy phép sản phẩm giữ nơi lưu hiện có: khóa registry <code dir="ltr">Software/UnisakiStudio</code> của người dùng hiện tại trên Windows và tệp giấy phép riêng người dùng trên macOS/Linux. Đổi ngôn ngữ không xóa giấy phép. Tất cả công cụ tạo dáng và avatar dùng chung một ngôn ngữ. Thay đổi trong Inspector của bất kỳ công cụ nào sẽ cập nhật tùy chọn chung; lựa chọn ngôn ngữ riêng của từng avatar không được sử dụng. Nút ngôn ngữ chỉ xuất hiện ở bước xác nhận cài đặt đầu tiên khi chưa lưu ngôn ngữ. Các lần đổi ngôn ngữ sau được thực hiện trong Inspector.</p>
 <h2>2. Thêm công cụ vào avatar</h2>
@@ -69,7 +69,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td><strong>Thiết lập avatar</strong></td><td>Hiệu chỉnh riêng avatar/gối, nhập chuyển động gốc/tùy chỉnh và thiết lập sẵn.</td></tr>
 </tbody></table></div>
 <p>Chỉ bật điều khiển menu bạn định dùng. Ví dụ, thêm <strong>Lật đối xứng</strong> vào menu cho phép chuyển lật trong VRChat, không buộc mọi tư thế luôn lật.</p>
-<p>Cool Posing có thiết lập sẵn cho <strong>トネール</strong>, <strong>狛乃</strong>, <strong>士堂</strong> và <strong>真央</strong>; đây là tên avatar gốc trong bộ chọn thiết lập sẵn. Avatar Humanoid khác có thể chỉnh thủ công. Hiệu chỉnh tay/chân tự động có cho 43 trong 50 tư thế; bảy còn lại dùng hiệu chỉnh riêng. Thư viện tư thế đi kèm <strong>không</strong> có chuyển động lật người sang bên.</p>
+<p>Cool Posing có thiết lập sẵn cho <strong>トネール</strong>, <strong>狛乃</strong>, <strong>士堂</strong> và <strong>真央</strong>; đây là tên avatar gốc trong bộ chọn thiết lập sẵn. Avatar Humanoid khác có thể chỉnh thủ công. Tự động điều chỉnh tay chân (IK) được bật theo mặc định và hỗ trợ 55 trong số 69 tư thế. Đã thêm 19 tư thế. Hai tư thế Ngủ duỗi người và Ngủ cuộn mình hỗ trợ trở mình.</p>
 <h3>Thiết lập sẵn và chỉnh cho vừa</h3>
 <p>Thiết lập sẵn ở gần cuối <strong>Thiết lập avatar</strong>. Tìm theo tên avatar rồi áp dụng để thay thiết lập tư thế hiện tại. Lưu hoặc sao lưu hiệu chỉnh trước đổi. Thiết lập sẵn chỉ là điểm khởi đầu: vóc dáng, trang phục và chỉnh sửa avatar vẫn có thể cần sửa thủ công.</p>
 <p>Dùng <strong>Hiệu chỉnh hoạt ảnh</strong> trên tư thế để xem trước và sửa vị trí thân/chi. Lưu hoạt ảnh hiệu chỉnh từ cửa sổ đó khi xong. Khi hỗ trợ, hiệu chỉnh tay/chân tự động (IK) bật được toàn bộ và từng tư thế. Ghi kết quả IK hiện tại vào hiệu chỉnh tạo hoạt ảnh hiệu chỉnh và tắt IK tư thế đó để bạn hoàn thiện thủ công; clip nguồn gốc được giữ.</p>
@@ -95,7 +95,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <h3>Thở và Lật người</h3>
 <p>Đặt thở từng loại tư thế tại <strong>Tính năng &gt; Tiện ích &gt; Thêm hoạt ảnh thở</strong>. Chọn Không, Nhẹ, Vừa, Mạnh, Nhanh hoặc hoạt ảnh thở Tùy chỉnh. Chuyển động không dùng bit đồng bộ. Công tắc menu thở dùng 1 bit.</p>
 <p>Lật người cần tư thế nằm hỗ trợ và mục menu <strong>Lật người</strong>. Bật cho tư thế và cung cấp hoạt ảnh nghiêng khi cần. Trong VRChat, chọn tư thế đó, bật Lật người rồi mở khóa đầu/cổ. Độ nghiêng đầu sang bên điều khiển lật. MotionTime thường không dùng được cho tư thế đó khi dùng Lật người.</p>
-<p>Tư thế đi kèm Cool Posing không có chuyển động Lật người. Cung cấp hoạt ảnh thích hợp cho tư thế muốn dùng với Lật người.</p>
+<p>Đã thêm 19 tư thế. Hai tư thế Ngủ duỗi người và Ngủ cuộn mình hỗ trợ trở mình.</p>
 <h2>5. Sửa, thêm và xem trước tư thế</h2>
 <p>Trong <strong>Tư thế</strong>, chọn loại hoặc thẻ tìm kiếm. Tìm được tên Nhật gốc và bản dịch có sẵn. Mở <strong>Chi tiết</strong> tư thế để sửa hoạt ảnh, biểu tượng, thứ tự và tùy chọn thời gian.</p>
 <p>Để thêm nhiều hoạt ảnh, kéo clip vào vùng thêm hoặc chọn clip trong Project rồi dùng lệnh nhập clip đã chọn. Tham chiếu trùng tới cùng clip được bỏ. Đổi vị trí đích trong Chi tiết hoặc dùng nút lên/xuống.</p>
@@ -117,7 +117,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td>Tắt đung đưa khi đứng yên của VRChat</td><td>0</td></tr>
 <tr><td>Lật người</td><td>1</td></tr>
 </tbody></table></div>
-<p>Mỗi máy khách tự tính độ nghiêng của đầu. Chỉ trạng thái hoạt động thực tế của thao tác trở mình được đồng bộ. Mở khóa cổ sẽ khôi phục cài đặt ban đầu.</p>
+<p>Mỗi máy khách tự tính độ nghiêng của đầu. Chỉ trạng thái hoạt động thực tế của thao tác lật người được đồng bộ. Mở khóa cổ sẽ khôi phục cài đặt ban đầu.</p>
 <h2>7. Cập nhật và tạo trước</h2>
 <ol>
 <li>Sao lưu dự án và lưu Scene đang làm.</li>
@@ -135,7 +135,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td>Không có tư thế trong VRChat</td><td>Thêm công cụ dưới đúng avatar Scene, bật tư thế muốn dùng, xem cảnh báo Inspector rồi tải avatar đó lên. Kiểm tra SDK và công cụ di chuyển khác.</td></tr>
 <tr><td>Z không chuyển sang nằm</td><td>Tăng ngưỡng độ cao nằm trong thiết lập công cụ ở trò chơi.</td></tr>
 <tr><td>Tay hoặc gối không khớp</td><td>Thử thiết lập sẵn avatar tương ứng, rồi dùng IK hỗ trợ và/hoặc Hiệu chỉnh hoạt ảnh. Kiểm tra biến dạng trang phục trong bản dựng cuối.</td></tr>
-<tr><td>Lật người không hoạt động</td><td>Dùng tư thế nằm hỗ trợ, bật cả thiết lập Lật người của tư thế và mục menu, mở khóa đầu/cổ. Cool Posing cần bạn cung cấp riêng hoạt ảnh nằm nghiêng phù hợp.</td></tr>
+<tr><td>Lật người không hoạt động</td><td>Lật người cần tư thế nằm hỗ trợ và mục menu <strong>Lật người</strong>. Bật cho tư thế và cung cấp hoạt ảnh nghiêng khi cần. Trong VRChat, chọn tư thế đó, bật Lật người rồi mở khóa đầu/cổ. Độ nghiêng đầu sang bên điều khiển lật. MotionTime thường không dùng được cho tư thế đó khi dùng Lật người.</td></tr>
 <tr><td>Bạn bè không thấy chuyển động chụp</td><td>Bật <strong>Đồng bộ chế độ chụp</strong> trong Unity, kiểm tra tham số rồi tải lại.</td></tr>
 <tr><td>Đổi ngôn ngữ trong Unity nhưng VRChat không đổi</td><td>Tải avatar lên lại. Kiểm tra bộ chọn ngôn ngữ duy nhất ở đầu Inspector trong bản có bản địa hóa.</td></tr>
 <tr><td>Lỗi dựng/tạo trước</td><td>Đọc lỗi Console liên quan <strong>đầu tiên</strong>. Sao lưu Scene, cập nhật/tải lại sản phẩm và hệ thống chung qua VCC/ALCOM, liên hệ hỗ trợ nếu vẫn lỗi. Giữ đối tượng đã hiệu chỉnh và GeneratedResources trừ khi hỗ trợ chỉ bước khôi phục cụ thể.</td></tr>

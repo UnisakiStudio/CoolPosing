@@ -1,8 +1,8 @@
 # Cool Posing Tool
 
-Công cụ khóa tư thế VRChat cho phép dùng dáng ngầu cả khi theo dõi 3 điểm và chế độ máy tính. Gồm tổng 50 tư thế: 11 đứng, 9 khom, 14 ngồi, 9 nằm ngửa và 7 nằm sấp.
+Công cụ khóa tư thế VRChat cho phép dùng dáng ngầu cả khi theo dõi 3 điểm và chế độ máy tính. Gồm tổng 69 tư thế: 17 đứng, 16 khom, 17 ngồi, 12 nằm ngửa và 7 nằm sấp.
 
-README này dành cho v1.2.0. Xem phiên bản đã cài ở đầu Inspector.
+README này dành cho v1.3.0. Xem phiên bản đã cài ở đầu Inspector.
 
 - [Trang sản phẩm BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Lịch sử thay đổi](CHANGELOG.md)
@@ -22,7 +22,7 @@ Bạn có thể chọn README, lịch sử thay đổi và hướng dẫn từ [
 - Chế độ chụp: di chuyển avatar tối đa 3m về trước và điều chỉnh hướng. Chỉ màn hình bạn dùng 0 bit; hiển thị vị trí/hướng cho người khác dùng 16 bit.
 - Hiển thị đầu khi chụp: ngăn đầu avatar của bạn biến mất khi ở gần, chỉ trong Chế độ chụp.
 - Độ cao sàn: di chuyển toàn thân gồm đầu lên xuống tối đa 3m. Dùng riêng với “Độ cao chân”, chỉnh phía chân trong khi giữ đầu.
-- Lật người: dùng được ở tư thế bạn tự đặt chuyển động tương thích. Tư thế đi kèm không có chuyển động Lật người.
+- Đã thêm 19 tư thế. Hai tư thế Ngủ duỗi người và Ngủ cuộn mình hỗ trợ trở mình.
 - Thở: thêm chuyển động thở cho ngực và các phần khác. Chọn “Không, Nhẹ, Vừa, Mạnh, Nhanh, Tùy chỉnh” theo loại tư thế.
 - Tắt đung đưa khi đứng yên của VRChat: giảm đung đưa mặc định khi chờ nhưng vẫn dùng được thở của công cụ và chuyển động tùy chỉnh khác.
 - Giảm méo tư thế do xoay đầu: hạn chế méo khi mở khóa cổ mà hướng cổ khác tư thế gốc.
@@ -36,7 +36,7 @@ Bạn có thể chọn README, lịch sử thay đổi và hướng dẫn từ [
 
 Mở “Chi tiết” tư thế nằm muốn dùng, bật “Bật lật người”, đặt hoạt ảnh trong “Tư thế lật người sang bên”. MotionTime thường không dùng được. Bật cả “Tính năng > Tính năng menu > Lật người” rồi tải lên. Trong VRChat, chọn tư thế tương thích và “Lật người”. Hãy mở khóa cổ khi dùng.
 
-Tư thế đi kèm lần này không có chuyển động Lật người. Hãy đặt hoạt ảnh phù hợp tư thế muốn dùng.
+Đã thêm 19 tư thế. Hai tư thế Ngủ duỗi người và Ngủ cuộn mình hỗ trợ trở mình.
 
 ## Thiết lập sẵn avatar hỗ trợ và hiệu chỉnh
 
@@ -49,7 +49,7 @@ Có thiết lập sẵn đã hiệu chỉnh cho トネール, 狛乃, 士堂 và
 
 Có thể dùng avatar khác. Chỉnh tư thế bằng “Hiệu chỉnh hoạt ảnh” theo vóc dáng và nội dung chỉnh sửa. Trong “Thiết lập avatar” cũng có “Ngăn đầu gối gập ngược” và “Độ gập đầu gối tối thiểu (độ)” ở chi tiết.
 
-Hiệu chỉnh chi tự động (IK) mặc định bật. Trong 50 tư thế, 43 dùng IK; 7 còn lại dùng hiệu chỉnh từng tư thế như trước.
+Tự động điều chỉnh tay chân (IK) được bật theo mặc định và hỗ trợ 55 trong số 69 tư thế.
 
 ## Cách cài đặt
 

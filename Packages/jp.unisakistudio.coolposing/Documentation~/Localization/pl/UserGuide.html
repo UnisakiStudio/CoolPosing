@@ -11,7 +11,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 @media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
 <nav aria-label="Documentation"><a href="../index.html">Polski · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Historia zmian</a><a href="UserGuide.html">Cool Posing Tool — polska instrukcja użytkownika</a></nav>
 <main><h1>Cool Posing Tool — polska instrukcja użytkownika</h1>
-<p>Cool Posing zawiera 50 poz dla trybu pulpitu i trzypunktowego VR: 11 stojących/kucających, 9 siedzących na krześle/podwyższeniu, 14 siedzących na podłodze, 9 na plecach i 7 na brzuchu.</p>
+<p>Cool Posing zawiera 69 poz dla trybu pulpitu i trzypunktowego VR: 17 stojących/kucających, 16 siedzących na krześle/podwyższeniu, 17 siedzących na podłodze, 12 na plecach i 7 na brzuchu.</p>
 <p>Ta instrukcja opisuje instalację, konfigurację awatara, sterowanie VRChat, edycję poz, aktualizacje i rozwiązywanie problemów. <code dir="ltr">START_HERE.html</code> w zakupionym ZIP prowadzi najkrótszą drogą do instalacji.</p>
 <h2>Zanim zaczniesz</h2>
 <ul>
@@ -32,7 +32,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <li>Jeśli anulowano potwierdzenie, zaimportuj instalator ponownie, gdy będziesz gotowy. Dopóki aktywator pozostaje, możesz też użyć polecenia instalacji licencji w <strong>Tools &gt; Unisaki Studio</strong>. W starszych wersjach to podmenu nazywa się <strong>ゆにさきスタジオ</strong>.</li>
 </ol>
 <h3>Co instaluje ten plik do pobrania</h3>
-<p><strong>Cool Posing Tool 1.2.0 z Unisaki Posing System 3.2.0.</strong> Ta wersja dodaje okna instalacji, Inspector i menu Unity, standardowe nazwy poz, menu gry oraz dokumentację offline w 30 językach. Użyj selektora u góry Inspectora, aby zmienić język narzędzia. Instalator pobiera te wersje i zgodne zależności z repozytoriów VPM.</p>
+<p><strong>Cool Posing Tool 1.3.0 z Unisaki Posing System 3.2.1.</strong> Ta wersja dodaje okna instalacji, Inspector i menu Unity, standardowe nazwy poz, menu gry oraz dokumentację offline w 30 językach. Użyj selektora u góry Inspectora, aby zmienić język narzędzia. Instalator pobiera te wersje i zgodne zależności z repozytoriów VPM.</p>
 <p>Cool Posing Tool zawiera bibliotekę poz, narzędzia konfiguracji i presety dopasowania awatarów. Instalator aktywuje dotychczasową lokalną licencję produktu i nie wymaga nowego pola klucza licencyjnego Gumroad. Nigdy nie publikuj plików instalatora ani danych licencji w otwartym zgłoszeniu wsparcia.</p>
 <p>Preferencje języka są zapisywane przez Unity EditorPrefs dla bieżącego użytkownika systemu i współdzielone między projektami Unity na tym komputerze. Bez zapisanej preferencji instalator używa języka systemu, a dla nieobsługiwanych języków angielskiego. Licencje zachowują dotychczasowe przechowywanie: klucz rejestru bieżącego użytkownika <code dir="ltr">Software/UnisakiStudio</code> w Windows oraz pliki licencji użytkownika w macOS/Linux. Zmiana języka nie usuwa licencji. Wszystkie narzędzia do pozowania i awatary używają tego samego języka. Zmiana w Inspectorze dowolnego narzędzia aktualizuje wspólne ustawienie; wybory języka poszczególnych awatarów są ignorowane. Przycisk języka pojawia się tylko przy pierwszym potwierdzeniu instalacji, gdy nie zapisano języka. Późniejszych zmian dokonuje się w Inspectorze.</p>
 <h2>2. Dodaj narzędzie do awatara</h2>
@@ -69,7 +69,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td><strong>Konfiguracja awatara</strong></td><td>Korekcje awatara i kolan, import oryginalnych/własnych ruchów i presety.</td></tr>
 </tbody></table></div>
 <p>Włączaj tylko potrzebne elementy menu. Na przykład dodanie <strong>Odbicia</strong> pozwala przełączać je w VRChat, ale nie wymusza stałego odbicia każdej pozy.</p>
-<p>Cool Posing zawiera presety dla <strong>トネール</strong>, <strong>狛乃</strong>, <strong>士堂</strong> i <strong>真央</strong>. To oryginalne nazwy awatarów używane w wyborze presetów. Inne awatary Humanoid można dostosować ręcznie. Automatyczna korekcja rąk i stóp jest dostępna dla 43 z 50 poz, a pozostałe siedem korzysta z indywidualnych korekcji. Dołączona biblioteka <strong>nie</strong> zawiera bocznych ruchów obracania.</p>
+<p>Cool Posing zawiera presety dla <strong>トネール</strong>, <strong>狛乃</strong>, <strong>士堂</strong> i <strong>真央</strong>. To oryginalne nazwy awatarów używane w wyborze presetów. Inne awatary Humanoid można dostosować ręcznie. Automatyczne dopasowanie kończyn (IK) jest domyślnie włączone i obsługuje 55 z 69 póz. Dodano 19 póz. Pozy „Sen na wznak w wyproście” i „Sen w kłębek” pozwalają obrócić się na bok.</p>
 <h3>Presety i dopasowanie</h3>
 <p>Presety są blisko dołu <strong>Konfiguracji awatara</strong>. Wyszukaj po nazwie awatara i zastosuj preset, aby zastąpić bieżące ustawienia poz. Zapisz lub skopiuj korekcje przed zmianą. Preset jest punktem wyjścia: proporcje ciała, ubrania i modyfikacje awatara mogą nadal wymagać ręcznego dopasowania.</p>
 <p>Użyj <strong>Dostosowywania animacji</strong> danej pozy do podglądu i edycji położenia ciała oraz kończyn. Po zakończeniu zapisz animację korekcji w tym oknie. W obsługiwanych pozach automatyczną korekcję rąk i stóp (IK) można włączyć ogólnie i osobno. Wypalenie bieżącego IK tworzy animację korekcji i wyłącza IK tej pozy, umożliwiając ręczne dopracowanie. Oryginalny klip źródłowy pozostaje.</p>
@@ -95,7 +95,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <h3>Oddech i obracanie</h3>
 <p>Oddech ustawia się dla każdej kategorii poz w <strong>Funkcje &gt; Udogodnienia &gt; Animuj oddech</strong>. Wybierz Brak, Słabe, Średnie, Silne, Szybkie lub własną animację. Sam ruch nie zużywa synchronizowanych bitów. Przełącznik oddechu w menu używa 1 bit.</p>
 <p>Obracanie wymaga obsługiwanej pozy leżącej i pozycji menu <strong>Obróć się</strong>. Włącz obracanie dla pozy i w razie potrzeby przypisz jej animację boczną. W VRChat wybierz tę pozę, włącz obracanie i zwolnij blokadę głowy/szyi. Przechylenie głowy na bok steruje obrotem. Zwykłe sterowanie MotionTime jest niedostępne dla tej pozy przy obracaniu.</p>
-<p>Dołączone pozy Cool Posing nie mają ruchów obracania. Dostarcz odpowiednie animacje dla poz, których chcesz używać z obracaniem.</p>
+<p>Dodano 19 póz. Pozy „Sen na wznak w wyproście” i „Sen w kłębek” pozwalają obrócić się na bok.</p>
 <h2>5. Edycja, dodawanie i podgląd poz</h2>
 <p>Na karcie <strong>Pozy</strong> wybierz kategorię lub wyszukiwanie. Wyszukiwanie akceptuje oryginalne japońskie nazwy i dostępne tłumaczenia. Otwórz <strong>Szczegóły</strong> pozy, aby zmienić animację, ikonę, kolejność i opcje czasu.</p>
 <p>Aby dodać kilka animacji, przeciągnij klipy do obszaru dodawania lub wybierz je w Project i użyj polecenia importu zaznaczonych klipów. Powtórne odwołania do tego samego klipu są usuwane. Zmieniaj docelową kolejność w Szczegółach albo przyciskami w górę i w dół.</p>
@@ -117,7 +117,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td>Wyłącz standardowe kołysanie VRChat</td><td>0</td></tr>
 <tr><td>Obróć się</td><td>1</td></tr>
 </tbody></table></div>
-<p>Każdy klient oblicza nachylenie głowy. Synchronizowany jest tylko stan aktywności obrotu na bok. Odblokowanie szyi przywraca poprzednie ustawienie.</p>
+<p>Każdy klient oblicza nachylenie głowy. Synchronizowany jest tylko stan funkcji obracania się na bok. Odblokowanie szyi przywraca poprzednie ustawienie.</p>
 <h2>7. Aktualizacja i budowanie wstępne</h2>
 <ol>
 <li>Wykonaj kopię projektu i zapisz roboczą scenę.</li>
@@ -135,7 +135,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td>Brak poz w VRChat</td><td>Dodaj narzędzie do właściwego awatara sceny, włącz pozy, przejrzyj ostrzeżenia Inspectora i prześlij tego awatara. Sprawdź SDK i inne systemy ruchu.</td></tr>
 <tr><td>Z nie przełącza do leżenia</td><td>Podnieś próg wysokości leżenia w ustawieniach narzędzia w grze.</td></tr>
 <tr><td>Dłonie lub kolana nie pasują</td><td>Spróbuj zgodnego presetu awatara, potem obsługiwanego IK i/lub Dostosowywania animacji. Sprawdź deformację ubrania w ostatecznej kompilacji.</td></tr>
-<tr><td>Obracanie nie działa</td><td>Użyj obsługiwanej pozy leżącej, włącz jej obracanie i pozycję menu oraz zwolnij blokadę głowy/szyi. Cool Posing wymaga osobnego dostarczenia odpowiednich animacji bocznych.</td></tr>
+<tr><td>Obracanie nie działa</td><td>Obracanie wymaga obsługiwanej pozy leżącej i pozycji menu <strong>Obróć się</strong>. Włącz obracanie dla pozy i w razie potrzeby przypisz jej animację boczną. W VRChat wybierz tę pozę, włącz obracanie i zwolnij blokadę głowy/szyi. Przechylenie głowy na bok steruje obrotem. Zwykłe sterowanie MotionTime jest niedostępne dla tej pozy przy obracaniu.</td></tr>
 <tr><td>Znajomi nie widzą ruchu zdjęć</td><td>Włącz <strong>Synchronizuj tryb zdjęć</strong> w Unity, sprawdź zużycie parametrów i prześlij ponownie.</td></tr>
 <tr><td>Język zmienia się w Unity, lecz nie w VRChat</td><td>Prześlij awatara ponownie. Sprawdź jeden górny selektor języka Inspectora w wersji obsługującej lokalizację.</td></tr>
 <tr><td>Błędy budowania zwykłego/wstępnego</td><td>Przeczytaj <strong>pierwszy</strong> istotny błąd Console. Wykonaj kopię sceny, zaktualizuj lub ponownie pobierz produkt i wspólny system przez VCC/ALCOM i skontaktuj się ze wsparciem, jeśli problem trwa. Zachowaj dopasowane obiekty i GeneratedResources, chyba że wsparcie poda konkretny krok naprawy.</td></tr>

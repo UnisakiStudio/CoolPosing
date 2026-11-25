@@ -1,8 +1,8 @@
 # Cool Posing
 
-Posenwerkzeug für VRChat mit coolen Haltungen für Dreipunkt-Tracking und Desktop. Enthalten sind 50 Posen: 11 Steh-, 9 Hock-, 14 Sitz-, 9 Rücken- und 7 Bauchlagen.
+Posenwerkzeug für VRChat mit coolen Haltungen für Dreipunkt-Tracking und Desktop. Enthalten sind 69 Posen: 17 Steh-, 16 Hock-, 17 Sitz-, 12 Rücken- und 7 Bauchlagen.
 
-Diese README gilt für v1.2.0. Die installierte Version steht oben im Inspector.
+Diese README gilt für v1.3.0. Die installierte Version steht oben im Inspector.
 
 - [Produktseite auf BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Änderungsverlauf](CHANGELOG.md)
@@ -22,7 +22,7 @@ README, Änderungsverlauf und Anleitung sind über die mitgelieferte [Sprachübe
 - Fotomodus: Avatar bis 3m vorwärts bewegen und drehen. 0 bit nur lokal, 16 bit für andere sichtbare Position und Richtung.
 - Kopf im Fotomodus sichtbar: verhindert nur dort das Ausblenden des nahen eigenen Avatarkopfes.
 - Bodenhöhe: bewegt den ganzen Körper samt Kopf bis 3m auf oder ab; getrennt von der Fußhöhe bei fester Kopfposition.
-- Umdrehen: nutzbar mit selbst zugewiesenen passenden Bewegungen. Die enthaltenen Posen liefern keine Umdrehanimationen mit.
+- 19 neue Posen. In den Posen Ausgestreckt schlafen und Eingerollt schlafen kannst du dich auf die Seite drehen.
 - Atmung: Brust und weitere Teile animieren; je Kategorie Keine, Schwach, Mittel, Stark, Schnell oder Benutzerdefiniert.
 - VRChat-Schwanken im Stand deaktivieren: Standardleerlauf unterdrücken und Werkzeugatmung/eigene Bewegungen erhalten.
 - Verformungen durch Kopfdrehung verringern: nach Lösen der Halsfixierung durch andere Halsrichtung entstandene Verzerrungen verringern.
@@ -36,7 +36,7 @@ README, Änderungsverlauf und Anleitung sind über die mitgelieferte [Sprachübe
 
 Aktiviere in den Details der gewünschten Liegepose „Umdrehen aktivieren“ und weise „Seitliche Umdrehpose“ eine Animation zu. Normales MotionTime ist dann nicht verfügbar. Aktiviere außerdem „Funktionen > Menüfunktionen > Umdrehen“, lade hoch und wähle in VRChat Pose und Umdrehen. Löse die Halsfixierung.
 
-Die hier enthaltenen Posen besitzen keine Umdrehanimationen. Weise den gewünschten Posen geeignete Animationen zu.
+19 neue Posen. In den Posen Ausgestreckt schlafen und Eingerollt schlafen kannst du dich auf die Seite drehen.
 
 ## Unterstützte Avatarvoreinstellungen und Anpassung
 
@@ -49,7 +49,7 @@ Angepasste Voreinstellungen für トネール, 狛乃, 士堂 und 真央 sind en
 
 Andere Avatare sind ebenfalls nutzbar. Passe Posen mit Animationsanpassung an Körperbau und Änderungen an. Avatareinrichtung enthält zudem „Rückwärtsknicken der Knie verhindern“ und die detaillierte „Minimale Kniebeugung (Grad)“.
 
-Automatische Gliedmaßenanpassung (IK) ist anfangs aktiv. Von 50 Posen verwenden 43 IK, die übrigen 7 die bisherigen individuellen Anpassungen.
+Die automatische Gliedmaßenanpassung (IK) ist standardmäßig aktiviert und unterstützt 55 der 69 Posen.
 
 ## Installation
 

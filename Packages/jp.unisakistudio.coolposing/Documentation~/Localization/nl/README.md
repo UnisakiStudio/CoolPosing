@@ -1,8 +1,8 @@
 # Cool Posing
 
-VRChat-posetool voor stoere houdingen met 3-puntstracking of desktop. 50 poses: 11 staand, 9 hurkend, 14 zittend, 9 op de rug en 7 op de buik.
+VRChat-posetool voor stoere houdingen met 3-puntstracking of desktop. 69 poses: 17 staand, 16 hurkend, 17 zittend, 12 op de rug en 7 op de buik.
 
-README voor v1.2.0. Versie boven in de Inspector.
+README voor v1.3.0. Versie boven in de Inspector.
 
 - [BOOTH-productpagina](https://yunisaki.booth.pm/items/8797334)
 - [Wijzigingsgeschiedenis](CHANGELOG.md)
@@ -22,7 +22,7 @@ Kies de taal van README, wijzigingen en handleiding in de meegeleverde [talenlij
 - Fotomodus tot 3m vooruit en draaien; 0 bit lokaal, 16 bit voor anderen.
 - Eigen hoofd zichtbaar alleen tijdens foto’s.
 - Vloerhoogte verplaatst alles inclusief hoofd 3m op/neer, los van Voethoogte met vast hoofd.
-- Omdraaien voor poses met zelf toegewezen bewegingen; niet meegeleverd.
+- Er zijn 19 houdingen toegevoegd. In de houdingen Languit slapen en Opgerold slapen kun je op je zij rollen.
 - Ademhaling borst/e.d., Geen/Zwak/Gemiddeld/Sterk/Snel/Aangepast.
 - Standaardwiegen onderdrukken met eigen beweging/ademhaling behouden.
 - Vervorming door hoofdrotatie verminderen na nekontgrendelen.
@@ -36,7 +36,7 @@ Kies de taal van README, wijzigingen en handleiding in de meegeleverde [talenlij
 
 Zet Omdraaien inschakelen in Details aan en wijs Zijpose voor omdraaien toe. Normale MotionTime vervalt. Activeer ook Functies > Menufuncties > Omdraaien, upload en kies pose/functie in VRChat. Nek loslaten.
 
-Geen draai-animaties bij de meegeleverde poses. Wijs voor Omdraaien passende animaties toe.
+Er zijn 19 houdingen toegevoegd. In de houdingen Languit slapen en Opgerold slapen kun je op je zij rollen.
 
 ## Ondersteunde avatarvoorinstellingen en aanpassen
 
@@ -49,7 +49,7 @@ Voorinstellingen voor トネール, 狛乃, 士堂 en 真央 meegeleverd.
 
 Andere avatars werken ook; pas met Animatieaanpassing aan de bouw/wijzigingen aan. Avatarinstellingen heeft kniecorrectie en Minimale kniebuiging (graden).
 
-IK staat standaard aan voor 43 van 50 poses; de overige 7 gebruiken eerdere individuele aanpassingen.
+Automatische aanpassing van ledematen (IK) staat standaard aan en werkt voor 55 van de 69 houdingen.
 
 ## Installatie
 

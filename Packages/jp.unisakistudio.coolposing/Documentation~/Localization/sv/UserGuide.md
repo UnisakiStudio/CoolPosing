@@ -1,6 +1,6 @@
 # Cool Posing Tool — Svensk användarhandbok
 
-Cool Posing har 50 poser för skrivbordsläge och 3-punkts-VR: 11 stående/hukande, 9 på stol/kant, 14 golvsittande, 9 liggande på rygg och 7 liggande på mage.
+Cool Posing har 69 poser för skrivbordsläge och 3-punkts-VR: 17 stående/hukande, 16 på stol/kant, 17 golvsittande, 12 liggande på rygg och 7 liggande på mage.
 
 Handboken omfattar installation, avatarinställningar, VRChat-kontroller, posredigering, uppdatering och felsökning. Den köpta ZIP-filen innehåller `START_HERE.html` för snabbaste vägen till installation.
 
@@ -24,7 +24,7 @@ Handboken omfattar installation, avatarinställningar, VRChat-kontroller, posred
 
 ### Vad hämtningen installerar
 
-**Cool Posing Tool 1.2.0 med Unisaki Posing System 3.2.0.** Versionen tillför installationsdialoger, Unity Inspector och menyer, standardposnamn, spelmenyer och offlinedokumentation på trettio språk. Byt verktygsspråk med väljaren högst upp i Inspector. Installationsprogrammet hämtar dessa versioner och kompatibla beroenden från VPM-förråd.
+**Cool Posing Tool 1.3.0 med Unisaki Posing System 3.2.1.** Versionen tillför installationsdialoger, Unity Inspector och menyer, standardposnamn, spelmenyer och offlinedokumentation på trettio språk. Byt verktygsspråk med väljaren högst upp i Inspector. Installationsprogrammet hämtar dessa versioner och kompatibla beroenden från VPM-förråd.
 
 Cool Posing Tool innehåller posebibliotek, konfigurationsverktyg och förinställningar för avatarjustering. Installationsprogrammet aktiverar produktens befintliga lokala licens; inget nytt Gumroad-licensnyckelfält behövs. Lägg aldrig installationsfiler eller licensdata i en offentlig supportfråga.
 
@@ -74,7 +74,7 @@ Inspector har tre huvudflikar:
 
 Aktivera endast de menykontroller du tänker använda. **Spegla** i menyn låter dig exempelvis växla spegling i VRChat; det tvingar inte alla poser att alltid vara speglade.
 
-Cool Posing har förinställningar för **トネール**, **狛乃**, **士堂** och **真央**, med de ursprungliga avatarnamnen i väljaren. Andra Humanoid-avatarer kan justeras manuellt. Automatisk hand-/fotjustering finns för 43 av 50 poser; återstående sju använder posejusteringar. Posebiblioteket innehåller **inte** sidliggande vändningsrörelser.
+Cool Posing har förinställningar för **トネール**, **狛乃**, **士堂** och **真央**, med de ursprungliga avatarnamnen i väljaren. Andra Humanoid-avatarer kan justeras manuellt. Automatisk anpassning av armar och ben (IK) är aktiverad som standard och fungerar för 55 av 69 poser. 19 nya poser har lagts till. I poserna Sova utsträckt och Sova hopkrupen kan du rulla över på sidan.
 
 ### Förinställningar och passform
 
@@ -118,7 +118,7 @@ Andning ställs in per kategori under **Funktioner > Praktiska funktioner > Anim
 
 Vänd dig kräver en liggande pose som stöds och menyposten **Vänd dig**. Aktivera vändning för posen och ange sidanimation vid behov. Välj posen i VRChat, aktivera Vänd dig och lås upp huvud/nacke. Huvudets sidolutning styr sedan vändningen. Vanlig MotionTime-styrning är inte tillgänglig för posen medan Vänd dig används.
 
-Cool Posings medföljande poser saknar vändningsrörelser. Ange lämpliga animationer för poser som ska använda Vänd dig.
+19 nya poser har lagts till. I poserna Sova utsträckt och Sova hopkrupen kan du rulla över på sidan.
 
 ## 5. Redigera, lägg till och förhandsvisa poser
 
@@ -149,7 +149,7 @@ Inspector visar poseverktygens bidrag, inte hela avatarens total. Kläder och an
 | Stäng av VRChats stillastående svajning | 0 |
 | Vänd dig | 1 |
 
-Varje klient beräknar huvudets lutning. Endast om rullningen faktiskt är aktiv synkroniseras. När nacken låses upp återställs den ursprungliga inställningen.
+Varje klient beräknar huvudets lutning. Endast om funktionen ”Vänd dig” faktiskt är aktiv synkroniseras. När nacken låses upp återställs den ursprungliga inställningen.
 
 ## 7. Uppdatering och förberäkning
 
@@ -172,7 +172,7 @@ En varning om gammal förberäkning betyder att inställningar ändrats sedan ca
 | Inga poser i VRChat | Lägg verktyget under rätt scenavatar, aktivera poser, granska Inspector-varningar och ladda upp den avataren. Kontrollera SDK och andra förflyttningsverktyg. |
 | Z når inte liggande läge | Höj tröskeln för liggande i verktygets spelinställningar. |
 | Händer eller knän passar inte | Prova rätt avatarförinställning, följt av stödd IK och/eller Animationsjustering. Kontrollera kläddeformation i slutbygget. |
-| Vänd dig fungerar inte | Använd en stödd liggande pose, aktivera både posens vändningsinställning och menyposten och lås upp huvud/nacke. Cool Posing kräver att lämpliga sidanimationer tillhandahålls separat. |
+| Vänd dig fungerar inte | Vänd dig kräver en liggande pose som stöds och menyposten **Vänd dig**. Aktivera vändning för posen och ange sidanimation vid behov. Välj posen i VRChat, aktivera Vänd dig och lås upp huvud/nacke. Huvudets sidolutning styr sedan vändningen. Vanlig MotionTime-styrning är inte tillgänglig för posen medan Vänd dig används. |
 | Vänner ser inte fotoförflyttningen | Aktivera **Synkronisera Fotoläge** i Unity, kontrollera parameteranvändning och ladda upp igen. |
 | Språk ändras i Unity men inte VRChat | Ladda upp avataren igen. Kontrollera den gemensamma språkväljaren högst upp i Inspector i versioner med språkstöd. |
 | Bygg-/förberäkningsfel | Läs det **första** relevanta Console-felet. Säkerhetskopiera scenen, uppdatera/hämta produkten och gemensamma systemet via VCC/ALCOM och kontakta support om felet kvarstår. Behåll justerade objekt och GeneratedResources om supporten inte ger ett särskilt återställningssteg. |

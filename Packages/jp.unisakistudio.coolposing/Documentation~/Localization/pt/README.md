@@ -1,8 +1,8 @@
 # Cool Posing
 
-Ferramenta de poses VRChat com posturas elegantes, utilizável com rastreamento de 3 pontos ou desktop. Inclui 50 poses: 11 em pé, 9 agachadas, 14 sentadas, 9 de costas e 7 de bruços.
+Ferramenta de poses VRChat com posturas elegantes, utilizável com rastreamento de 3 pontos ou desktop. Inclui 69 poses: 17 em pé, 16 agachadas, 17 sentadas, 12 de costas e 7 de bruços.
 
-Este README refere-se a v1.2.0. A versão instalada aparece no topo do Inspector.
+Este README refere-se a v1.3.0. A versão instalada aparece no topo do Inspector.
 
 - [Página na BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Histórico](CHANGELOG.md)
@@ -22,7 +22,7 @@ Escolha o idioma do README, histórico e manual na [lista de idiomas](../index.h
 - Modo foto avança até 3m e muda direção: 0 bit local, 16 bit para mostrar aos outros.
 - Cabeça visível só no Modo foto evita ocultar o próprio avatar próximo.
 - Altura chão move corpo e cabeça 3m acima/abaixo, separada dos pés com cabeça fixa.
-- Virar utiliza movimentos compatíveis que atribuir; não vêm incluídos nas poses.
+- Foram adicionadas 19 poses. As poses Dormir esticado e Dormir enroscado permitem virar de lado.
 - Respiração no peito e outras partes: Nenhum, Fraco, Médio, Forte, Rápido ou Personalizado por categoria.
 - Desativar balanço em repouso do VRChat mantém respiração e movimentos próprios.
 - Reduzir deformação por rotação da cabeça limita diferenças do pescoço desbloqueado.
@@ -36,7 +36,7 @@ Escolha o idioma do README, histórico e manual na [lista de idiomas](../index.h
 
 Ative Ativar Virar nos Detalhes e atribua Pose lateral para virar. MotionTime normal fica indisponível. Ative também Funções > Funções do menu > Virar, envie e escolha pose/função em VRChat. Desbloqueie o pescoço.
 
-As poses incluídas não têm movimentos para Virar. Atribua animações adequadas às poses desejadas.
+Foram adicionadas 19 poses. As poses Dormir esticado e Dormir enroscado permitem virar de lado.
 
 ## Predefinições compatíveis e ajuste
 
@@ -49,7 +49,7 @@ Inclui predefinições ajustadas para トネール, 狛乃, 士堂 e 真央.
 
 Também suporta outros avatares. Adapte poses às proporções e alterações em Ajuste de animação. Configuração do avatar tem prevenção de joelhos invertidos e Flexão mínima do joelho (graus).
 
-IK automática está ativa inicialmente. Das 50 poses, 43 usam IK e as restantes 7 os ajustes individuais anteriores.
+O ajuste automático dos membros (IK) está ativo por predefinição e funciona em 55 das 69 poses.
 
 ## Instalação
 

@@ -1,8 +1,8 @@
 # Cool Posing Tool
 
-VRChatin asentojen lukitustyökalu, jolla voit vaihtaa tyylikkäisiin asentoihin myös 3 pisteen seurannassa ja työpöytätilassa. Mukana on yhteensä 50 asentoa: 11 seisoma-asentoa, 9 kyykkyasentoa, 14 istuma-asentoa, 9 selinmakuuasentoa ja 7 vatsamakuuasentoa.
+VRChatin asentojen lukitustyökalu, jolla voit vaihtaa tyylikkäisiin asentoihin myös 3 pisteen seurannassa ja työpöytätilassa. Mukana on yhteensä 69 asentoa: 17 seisoma-asentoa, 16 kyykkyasentoa, 17 istuma-asentoa, 12 selinmakuuasentoa ja 7 vatsamakuuasentoa.
 
-Tämä README koskee versiota v1.2.0. Asennetun version näet Inspectorin yläosasta.
+Tämä README koskee versiota v1.3.0. Asennetun version näet Inspectorin yläosasta.
 
 - [BOOTH-tuotesivu](https://yunisaki.booth.pm/items/8797334)
 - [Muutosloki](CHANGELOG.md)
@@ -22,7 +22,7 @@ README-tiedoston, muutoslokin ja käyttöohjeen voit valita mukana toimitetusta 
 - Kuvatila: siirrä avataria enintään 3m eteenpäin ja säädä sen suuntaa. Käyttö vain omalla näytöllä kuluttaa 0 bit. Sijainnin ja suunnan näyttäminen muille kuluttaa 16 bit.
 - Pään näkyvyys kuvauksessa: estää lähellä olevan oman avatarisi pään piilottamisen vain Kuvatilan ajaksi.
 - Lattian kork.: siirtää koko kehoa pää mukaan lukien enintään 3m ylös tai alas. Se täydentää Jalkojen kork. -toimintoa, joka liikuttaa jalkojen puolta pitäen pään paikallaan.
-- Käänny: käytettävissä asennoissa, joille määrität itse sopivan liikkeen. Mukana toimitetuissa asennoissa ei ole kääntymisliikkeitä.
+- Lisätty 19 asentoa. Asennoissa Uni pitkällään ja Uni käpertyneenä voi kääntyä kyljelle.
 - Hengitys: lisää hengitysliikettä esimerkiksi rintaan. Valitse asentoluokittain Ei mitään, Heikko, Keskivahva, Vahva, Nopea tai Oma.
 - Poista VRChatin oletushuojunta: vähentää oletusarvoista joutokäyntihuojuntaa säilyttäen työkalun hengityksen ja muut omat liikkeet.
 - Vähennä pään kierrosta aiheutuvaa asennon vääristymää: vähentää alkuperäisestä asennosta poikkeavan pään suunnan aiheuttamaa vääristymää pään lukituksen vapautuessa.
@@ -36,7 +36,7 @@ README-tiedoston, muutoslokin ja käyttöohjeen voit valita mukana toimitetusta 
 
 Ota haluamasi makuuasennon Lisätiedoista ”Ota Käänny käyttöön” käyttöön ja määritä animaatio kohtaan ”Käänny-toiminnon sivuasento”. Tavallinen MotionTime-asetus ei ole käytettävissä. Ota myös ”Toiminnot > Valikkotoiminnot > Käänny” käyttöön ja lataa avatar palveluun. Valitse VRChatissa tuettu asento ja Käänny-toiminto. Vapauta pään lukitus ennen käyttöä.
 
-Tällä kertaa mukana toimitetuissa asennoissa ei ole kääntymisliikkeitä. Määritä haluamaasi asentoon sopiva animaatio.
+Lisätty 19 asentoa. Asennoissa Uni pitkällään ja Uni käpertyneenä voi kääntyä kyljelle.
 
 ## Tuetut avatarien esiasetukset ja säätäminen
 
@@ -49,7 +49,7 @@ Mukana on valmiiksi säädetyt esiasetukset avatareille トネール, 狛乃, �
 
 Työkalua voi käyttää myös muilla avatareilla. Säädä asennot mittasuhteisiin ja muutoksiin sopiviksi Animaatiosäädöllä. Avatarin asetuksissa ovat myös ”Estä polvien taittuminen taakse” ja sen lisätietojen ”Polven vähimmäistaivutus (asteina)”.
 
-Raajojen automaattinen säätö (IK) on oletuksena käytössä. Mukana olevista 50 asennosta 43 käyttää IK:ta. Loput 7 käyttävät aiempia asentokohtaisia säätöjä.
+Raajojen automaattinen säätö (IK) on oletuksena käytössä ja toimii 55 asennossa yhteensä 69 asennosta.
 
 ## Asennus
 

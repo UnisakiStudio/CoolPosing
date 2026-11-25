@@ -1,8 +1,8 @@
 # Cool Posing Tool
 
-3 noktalı takipte ve masaüstünde bile etkileyici pozlara geçebilen VRChat poz kilitleme aracıdır. Toplam 50 poz içerir: 11 ayakta, 9 çömelme, 14 oturma, 9 sırtüstü ve 7 yüzüstü.
+3 noktalı takipte ve masaüstünde bile etkileyici pozlara geçebilen VRChat poz kilitleme aracıdır. Toplam 69 poz içerir: 17 ayakta, 16 çömelme, 17 oturma, 12 sırtüstü ve 7 yüzüstü.
 
-Bu README, v1.2.0 içindir. Kurulu sürümü Inspector’ın üstünde görebilirsiniz.
+Bu README, v1.3.0 içindir. Kurulu sürümü Inspector’ın üstünde görebilirsiniz.
 
 - [BOOTH ürün sayfası](https://yunisaki.booth.pm/items/8797334)
 - [Değişiklik geçmişi](CHANGELOG.md)
@@ -22,7 +22,7 @@ README, değişiklik geçmişi ve kullanım kılavuzu, paketteki [dil listesinde
 - Fotoğraf modu: avatarı en fazla 3m öne taşıyıp yönünü ayarlar. Yalnız kendi ekranınızda 0 bit, konum ve yönü diğerlerine göstermek için 16 bit kullanır.
 - Fotoğrafta baş görünümü: yalnızca fotoğraf modunda yakındaki kendi avatarınızın başının gizlenmesini önler.
 - Zemin yüksekliği: baş dâhil tüm vücudu en fazla 3m yukarı/aşağı taşır. Başı yerinde tutup ayak tarafını ayarlayan Ayak yüksekliği ile farklı amaçlarla kullanılabilir.
-- Dön: uygun hareketi kendiniz atadığınız pozlarda kullanılabilir. Hazır pozlar dönüş hareketi içermez.
+- 19 poz eklendi. Uzanarak uyku ve Kıvrılarak uyku pozlarında yan tarafa dönülebilir.
 - Nefes: göğüs gibi bölgelere nefes hareketi ekler. Kategori başına Yok, Hafif, Orta, Güçlü, Hızlı veya Özel seçilir.
 - VRChat bekleme sallanmasını kapat: varsayılan sallanmayı bastırırken aracın nefesini ve diğer özel hareketleri korur.
 - Baş dönüşünden kaynaklanan poz bozulmasını azalt: baş kilidi açıldığında baş yönünün özgün pozdan farklı olmasının neden olduğu bozulmayı azaltır.
@@ -36,7 +36,7 @@ README, değişiklik geçmişi ve kullanım kılavuzu, paketteki [dil listesinde
 
 İstenen yatış pozunun Ayrıntılar’ında Dönüşü etkinleştir’i açıp Yan dönüş pozu’na animasyon atayın. Normal MotionTime kullanılamaz. “Özellikler > Menü özellikleri > Dön”ü de açıp yükleyin ve VRChat’te uygun pozu ve Dön’ü seçin. Baş kilidini kapatarak kullanın.
 
-Bu sürümün hazır pozları dönüş hareketi içermez. Kullanmak istediğiniz poza uygun animasyonu atayın.
+19 poz eklendi. Uzanarak uyku ve Kıvrılarak uyku pozlarında yan tarafa dönülebilir.
 
 ## Desteklenen avatar ön ayarları ve düzeltme
 
@@ -49,7 +49,7 @@ Bu sürümün hazır pozları dönüş hareketi içermez. Kullanmak istediğiniz
 
 Diğer avatarlarda da kullanılabilir. Vücut yapısı ve değişikliklere göre Animasyon Düzeltmesi ile pozları ayarlayın. Avatar Kurulumu’nda Dizin ters bükülmesini önle ve ayrıntılarda En küçük diz bükülmesi (derece) de bulunur.
 
-Otomatik uzuv düzeltmesi (IK) başlangıçta açıktır. 50 hazır pozun 43’ü IK, kalan 7’si önceki poz başına düzeltmeleri kullanır.
+Otomatik uzuv ayarı (IK) varsayılan olarak açıktır ve 69 pozun 55’ünde çalışır.
 
 ## Kurulum
 

@@ -1,8 +1,8 @@
 # Cool Posing
 
-Outil de poses pour VRChat permettant de prendre des postures stylées avec le suivi à 3 points ou en mode bureau. Il comprend 50 poses : 11 debout, 9 accroupies, 14 assises, 9 couchées sur le dos et 7 sur le ventre.
+Outil de poses pour VRChat permettant de prendre des postures stylées avec le suivi à 3 points ou en mode bureau. Il comprend 69 poses : 17 debout, 16 accroupies, 17 assises, 12 couchées sur le dos et 7 sur le ventre.
 
-Ce README concerne la version v1.2.0. La version installée apparaît en haut de l’Inspector.
+Ce README concerne la version v1.3.0. La version installée apparaît en haut de l’Inspector.
 
 - [Page du produit sur BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Historique des modifications](CHANGELOG.md)
@@ -22,7 +22,7 @@ Choisissez la langue du README, de l’historique et du guide dans la [liste des
 - Mode photo : déplacez l’avatar jusqu’à 3m vers l’avant et réglez sa direction. 0 bit pour votre vue seulement, 16 bit pour montrer sa position et son orientation aux autres.
 - Tête visible pendant les photos : empêche votre propre tête de disparaître à proximité, uniquement en Mode photo.
 - Hauteur sol : déplace le corps entier, tête comprise, jusqu’à 3m vers le haut ou le bas. Ce réglage est distinct de « Hauteur pieds », qui déplace le côté des pieds en conservant la position de la tête.
-- Se retourner : fonctionne avec les poses auxquelles vous affectez vous-même des mouvements compatibles. Les poses fournies n’incluent pas de mouvements de retournement.
+- Ajout de 19 poses. Les poses Sommeil étiré et Sommeil en boule permettent de se retourner.
 - Respiration : anime la poitrine et d’autres parties du corps. Choisissez Aucun, Faible, Moyenne, Forte, Rapide ou Personnalisé pour chaque catégorie.
 - Désactiver le balancement au repos de VRChat : réduit le balancement standard tout en conservant la respiration de l’outil et les autres mouvements personnalisés.
 - Réduire les déformations liées à la rotation de la tête : limite les déformations après libération du cou lorsque son orientation diffère de la pose d’origine.
@@ -36,7 +36,7 @@ Choisissez la langue du README, de l’historique et du guide dans la [liste des
 
 Dans les « Détails » de la pose allongée voulue, activez « Activer le retournement » et affectez une animation à « Pose latérale de retournement ». Le réglage MotionTime ordinaire devient indisponible. Activez aussi « Fonctions > Fonctions du menu > Se retourner », envoyez l’avatar, puis choisissez la pose compatible et « Se retourner » dans VRChat. Laissez le verrouillage du cou désactivé.
 
-Les poses fournies dans cette version ne comprennent pas de mouvements de retournement. Affectez des animations adaptées aux poses que vous souhaitez utiliser.
+Ajout de 19 poses. Les poses Sommeil étiré et Sommeil en boule permettent de se retourner.
 
 ## Préréglages d’avatars compatibles et ajustements
 
@@ -49,7 +49,7 @@ Des préréglages ajustés pour トネール, 狛乃, 士堂 et 真央 sont four
 
 Vous pouvez aussi utiliser d’autres avatars. Adaptez les poses à la morphologie et aux modifications avec « Ajustement de l'animation ». « Configuration de l'avatar » propose aussi « Empêcher les genoux de se plier à l'envers » et le réglage détaillé « Flexion minimale du genou (degrés) ».
 
-L’ajustement automatique des membres (IK) est actif par défaut. Parmi les 50 poses fournies, 43 utilisent l’IK ; les 7 autres conservent les ajustements individuels précédents.
+L’ajustement automatique des membres (IK) est activé par défaut et prend en charge 55 des 69 poses.
 
 ## Installation
 

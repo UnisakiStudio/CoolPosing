@@ -1,5 +1,9 @@
 # Ændringshistorik
 
+## [1.3.0] - 2026-11-25
+
+- Der er tilføjet 19 positurer. I positurerne Sove udstrakt og Sove sammenkrøbet kan du rulle om på siden.
+
 ## [1.2.0] - 2026-11-22
 
 ### Tilføjet

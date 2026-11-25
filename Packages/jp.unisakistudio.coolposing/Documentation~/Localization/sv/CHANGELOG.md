@@ -1,5 +1,9 @@
 # Ändringshistorik
 
+## [1.3.0] - 2026-11-25
+
+- 19 nya poser har lagts till. I poserna Sova utsträckt och Sova hopkrupen kan du rulla över på sidan.
+
 ## [1.2.0] - 2026-11-22
 
 ### Tillagt

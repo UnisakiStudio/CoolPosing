@@ -1,5 +1,9 @@
 # Lịch sử thay đổi
 
+## [1.3.0] - 2026-11-25
+
+- Đã thêm 19 tư thế. Hai tư thế Ngủ duỗi người và Ngủ cuộn mình hỗ trợ trở mình.
+
 ## [1.2.0] - 2026-11-22
 
 ### Đã thêm

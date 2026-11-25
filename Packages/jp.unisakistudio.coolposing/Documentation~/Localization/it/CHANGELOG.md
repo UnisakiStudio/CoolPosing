@@ -1,5 +1,9 @@
 # Cronologia delle modifiche
 
+## [1.3.0] - 2026-11-25
+
+- Aggiunte 19 pose. Le pose Sonno disteso e Sonno rannicchiato permettono di girarsi su un fianco.
+
 ## [1.2.0] - 2026-11-22
 
 ### Aggiunte

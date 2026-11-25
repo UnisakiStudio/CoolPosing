@@ -1,5 +1,9 @@
 # Muutosloki
 
+## [1.3.0] - 2026-11-25
+
+- Lisätty 19 asentoa. Asennoissa Uni pitkällään ja Uni käpertyneenä voi kääntyä kyljelle.
+
 ## [1.2.0] - 2026-11-22
 
 ### Lisätty

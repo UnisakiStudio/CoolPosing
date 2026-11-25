@@ -1,5 +1,9 @@
 # Değişiklik geçmişi
 
+## [1.3.0] - 2026-11-25
+
+- 19 poz eklendi. Uzanarak uyku ve Kıvrılarak uyku pozlarında yan tarafa dönülebilir.
+
 ## [1.2.0] - 2026-11-22
 
 ### Eklenenler

@@ -1,5 +1,9 @@
 # Riwayat perubahan
 
+## [1.3.0] - 2026-11-25
+
+- Ada 19 pose baru. Pada pose Tidur selonjor dan Tidur meringkuk, avatar dapat berguling ke samping.
+
 ## [1.2.0] - 2026-11-22
 
 ### Ditambahkan

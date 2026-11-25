@@ -5,35 +5,47 @@
     "おいで",
     "おきあがり",
     "おちこみ",
+    "おもしれー",
     "ざせつ",
     "じだらく",
     "たたみ",
+    "のび寝",
     "はいずり",
     "ふくじゅう",
     "むきりょく",
+    "カウンター",
     "カッコいいポーズ",
+    "キャッチャー",
     "ケンカ",
     "コンビニ",
     "ベッド",
     "マットレス",
     "モデル",
+    "ランウェイ",
     "リクライニング",
+    "丸まり寝",
     "二人分座り",
     "休憩中",
+    "侵入",
     "倒され寝",
+    "切り返し",
     "制止",
     "和室",
     "商談",
     "地球寝",
+    "執事",
     "培養中",
     "壁ドン",
     "布団",
     "座布団",
+    "待機中",
     "思考中",
+    "息切れ",
     "晴天寝",
     "木の上寝",
     "楽園",
     "海岸",
+    "片膝抱き",
     "猫寝",
     "異変無し",
     "睡魔",
@@ -41,12 +53,19 @@
     "絨毯",
     "考える男",
     "肘パンチ",
+    "肘掛け",
+    "背もたれ",
     "脱力寝",
     "腕枕寝",
+    "膝立ち",
+    "臨戦態勢",
     "芝生",
     "見下し",
     "訓練場",
     "運動会",
+    "門番",
+    "階段",
+    "階段腰掛け",
     "騎士",
     "魔王降臨"
   ],
@@ -71,6 +90,10 @@
           "value": "حزن"
         },
         {
+          "key": "おもしれー",
+          "value": "هذا مثير للاهتمام"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "هذا الحاسوب غير مرخص لاستخدام Cool Posing. اشترِ الأداة من BOOTH وثبّت ترخيصها. إذا سبق أن اشتريتها، فنزّل أحدث ZIP من BOOTH واستورد CoolPosing.unitypackage. يلزم ذلك مرة واحدة لكل حاسوب."
         },
@@ -91,6 +114,10 @@
           "value": "تاتامي"
         },
         {
+          "key": "のび寝",
+          "value": "نوم ممدد"
+        },
+        {
           "key": "はいずり",
           "value": "زحف"
         },
@@ -101,6 +128,10 @@
         {
           "key": "むきりょく",
           "value": "بلا طاقة"
+        },
+        {
+          "key": "カウンター",
+          "value": "عند المنضدة"
         },
         {
           "key": "カッコいいポーズ",
@@ -139,6 +170,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "ملتقط الكرة"
+        },
+        {
           "key": "ケンカ",
           "value": "جاهز للقتال"
         },
@@ -159,8 +194,16 @@
           "value": "عارض أزياء"
         },
         {
+          "key": "ランウェイ",
+          "value": "منصة الأزياء"
+        },
+        {
           "key": "リクライニング",
           "value": "اتكاء"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "نوم متكور"
         },
         {
           "key": "二人分座り",
@@ -171,8 +214,16 @@
           "value": "استراحة"
         },
         {
+          "key": "侵入",
+          "value": "تسلل"
+        },
+        {
           "key": "倒され寝",
           "value": "سقوط أرضًا"
+        },
+        {
+          "key": "切り返し",
+          "value": "استدارة سريعة"
         },
         {
           "key": "制止",
@@ -191,6 +242,10 @@
           "value": "عناق الأرض"
         },
         {
+          "key": "執事",
+          "value": "كبير الخدم"
+        },
+        {
           "key": "培養中",
           "value": "داخل شرنقة"
         },
@@ -207,8 +262,16 @@
           "value": "وسادة أرضية"
         },
         {
+          "key": "待機中",
+          "value": "في الانتظار"
+        },
+        {
           "key": "思考中",
           "value": "تفكير"
+        },
+        {
+          "key": "息切れ",
+          "value": "لاهث"
         },
         {
           "key": "晴天寝",
@@ -225,6 +288,10 @@
         {
           "key": "海岸",
           "value": "شاطئ البحر"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "احتضان ركبة واحدة"
         },
         {
           "key": "猫寝",
@@ -255,12 +322,28 @@
           "value": "ضربة مرفق"
         },
         {
+          "key": "肘掛け",
+          "value": "مسند الذراع"
+        },
+        {
+          "key": "背もたれ",
+          "value": "مسند الظهر"
+        },
+        {
           "key": "脱力寝",
           "value": "نوم مرتميًا"
         },
         {
           "key": "腕枕寝",
           "value": "غفوة على الذراع"
+        },
+        {
+          "key": "膝立ち",
+          "value": "ركوع منتصب"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "استعداد للقتال"
         },
         {
           "key": "芝生",
@@ -277,6 +360,18 @@
         {
           "key": "運動会",
           "value": "يوم رياضي"
+        },
+        {
+          "key": "門番",
+          "value": "حارس البوابة"
+        },
+        {
+          "key": "階段",
+          "value": "الدرج"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "جلوس على الدرج"
         },
         {
           "key": "騎士",
@@ -308,6 +403,10 @@
           "value": "মন খারাপ"
         },
         {
+          "key": "おもしれー",
+          "value": "বাহ, মজার তো"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "এই কম্পিউটারে Cool Posing-এর লাইসেন্স নেই। BOOTH থেকে টুল কিনে লাইসেন্স ইনস্টল করুন। আগে কিনে থাকলে BOOTH থেকে সর্বশেষ ZIP নিয়ে CoolPosing.unitypackage আমদানি করুন। প্রতি কম্পিউটারে একবার লাগে।"
         },
@@ -328,6 +427,10 @@
           "value": "তাতামি"
         },
         {
+          "key": "のび寝",
+          "value": "ছড়িয়ে ঘুম"
+        },
+        {
           "key": "はいずり",
           "value": "হামাগুড়ি"
         },
@@ -338,6 +441,10 @@
         {
           "key": "むきりょく",
           "value": "শক্তিহীন"
+        },
+        {
+          "key": "カウンター",
+          "value": "কাউন্টারে"
         },
         {
           "key": "カッコいいポーズ",
@@ -376,6 +483,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "ক্যাচার"
+        },
+        {
           "key": "ケンカ",
           "value": "লড়াইয়ের প্রস্তুতি"
         },
@@ -396,8 +507,16 @@
           "value": "মডেল"
         },
         {
+          "key": "ランウェイ",
+          "value": "র‍্যাম্প"
+        },
+        {
           "key": "リクライニング",
           "value": "আধশোয়া"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "গুটিসুটি ঘুম"
         },
         {
           "key": "二人分座り",
@@ -408,8 +527,16 @@
           "value": "বিরতিতে"
         },
         {
+          "key": "侵入",
+          "value": "অনুপ্রবেশ"
+        },
+        {
           "key": "倒され寝",
           "value": "ধরাশায়ী"
+        },
+        {
+          "key": "切り返し",
+          "value": "চট করে মোড়"
         },
         {
           "key": "制止",
@@ -428,6 +555,10 @@
           "value": "পৃথিবীকে জড়িয়ে"
         },
         {
+          "key": "執事",
+          "value": "প্রধান পরিচারক"
+        },
+        {
           "key": "培養中",
           "value": "খোলসের ভেতর"
         },
@@ -444,8 +575,16 @@
           "value": "মেঝের কুশন"
         },
         {
+          "key": "待機中",
+          "value": "অপেক্ষায়"
+        },
+        {
           "key": "思考中",
           "value": "চিন্তায়"
+        },
+        {
+          "key": "息切れ",
+          "value": "হাঁপাচ্ছে"
         },
         {
           "key": "晴天寝",
@@ -462,6 +601,10 @@
         {
           "key": "海岸",
           "value": "সমুদ্রতীরে"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "এক হাঁটু জড়িয়ে"
         },
         {
           "key": "猫寝",
@@ -492,12 +635,28 @@
           "value": "কনুইয়ের আঘাত"
         },
         {
+          "key": "肘掛け",
+          "value": "হাতল"
+        },
+        {
+          "key": "背もたれ",
+          "value": "চেয়ারের পিঠ"
+        },
+        {
           "key": "脱力寝",
           "value": "এলিয়ে ঘুম"
         },
         {
           "key": "腕枕寝",
           "value": "হাতের বালিশে তন্দ্রা"
+        },
+        {
+          "key": "膝立ち",
+          "value": "হাঁটুতে ভর দিয়ে সোজা"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "লড়াইয়ের জন্য প্রস্তুত"
         },
         {
           "key": "芝生",
@@ -514,6 +673,18 @@
         {
           "key": "運動会",
           "value": "ক্রীড়া দিবস"
+        },
+        {
+          "key": "門番",
+          "value": "দ্বাররক্ষী"
+        },
+        {
+          "key": "階段",
+          "value": "সিঁড়ি"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "সিঁড়িতে বসা"
         },
         {
           "key": "騎士",
@@ -545,6 +716,10 @@
           "value": "Smutek"
         },
         {
+          "key": "おもしれー",
+          "value": "No to je zajímavé"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Tento počítač nemá licenci Cool Posing. Kupte nástroj na BOOTH a nainstalujte licenci. Pokud jste jej již koupili, stáhněte nejnovější ZIP z BOOTH a importujte CoolPosing.unitypackage. Stačí jednou na počítač."
         },
@@ -565,6 +740,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Spánek v natažení"
+        },
+        {
           "key": "はいずり",
           "value": "Plazení"
         },
@@ -575,6 +754,10 @@
         {
           "key": "むきりょく",
           "value": "Bez energie"
+        },
+        {
+          "key": "カウンター",
+          "value": "U pultu"
         },
         {
           "key": "カッコいいポーズ",
@@ -613,6 +796,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Chytač"
+        },
+        {
           "key": "ケンカ",
           "value": "Připraven k boji"
         },
@@ -633,8 +820,16 @@
           "value": "Model"
         },
         {
+          "key": "ランウェイ",
+          "value": "Přehlídkové molo"
+        },
+        {
           "key": "リクライニング",
           "value": "Pololeh"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Spánek v klubíčku"
         },
         {
           "key": "二人分座り",
@@ -645,8 +840,16 @@
           "value": "Přestávka"
         },
         {
+          "key": "侵入",
+          "value": "Proniknutí"
+        },
+        {
           "key": "倒され寝",
           "value": "Sražení"
+        },
+        {
+          "key": "切り返し",
+          "value": "Prudký obrat"
         },
         {
           "key": "制止",
@@ -665,6 +868,10 @@
           "value": "Obejmout zemi"
         },
         {
+          "key": "執事",
+          "value": "Komorník"
+        },
+        {
           "key": "培養中",
           "value": "V kapsli"
         },
@@ -681,8 +888,16 @@
           "value": "Podsedák"
         },
         {
+          "key": "待機中",
+          "value": "V pohotovosti"
+        },
+        {
           "key": "思考中",
           "value": "Přemýšlení"
+        },
+        {
+          "key": "息切れ",
+          "value": "Bez dechu"
         },
         {
           "key": "晴天寝",
@@ -699,6 +914,10 @@
         {
           "key": "海岸",
           "value": "U moře"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Objetí jednoho kolena"
         },
         {
           "key": "猫寝",
@@ -729,12 +948,28 @@
           "value": "Úder loktem"
         },
         {
+          "key": "肘掛け",
+          "value": "Područka"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Opěradlo"
+        },
+        {
           "key": "脱力寝",
           "value": "Padl a usnul"
         },
         {
           "key": "腕枕寝",
           "value": "Spánek na paži"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Vzpřímený klek"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Připraven k boji"
         },
         {
           "key": "芝生",
@@ -751,6 +986,18 @@
         {
           "key": "運動会",
           "value": "Sportovní den"
+        },
+        {
+          "key": "門番",
+          "value": "Strážce brány"
+        },
+        {
+          "key": "階段",
+          "value": "Schody"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Sed na schodech"
         },
         {
           "key": "騎士",
@@ -782,6 +1029,10 @@
           "value": "Nedtrykt"
         },
         {
+          "key": "おもしれー",
+          "value": "Nå, interessant"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Computeren mangler licens til Cool Posing. Køb værktøjet på BOOTH, og installér licensen. Har du allerede købt det, hent den nyeste ZIP fra BOOTH, og importér CoolPosing.unitypackage. Dette kræves én gang pr. computer."
         },
@@ -802,6 +1053,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Sove udstrakt"
+        },
+        {
           "key": "はいずり",
           "value": "Kryber"
         },
@@ -812,6 +1067,10 @@
         {
           "key": "むきりょく",
           "value": "Uden energi"
+        },
+        {
+          "key": "カウンター",
+          "value": "Ved disken"
         },
         {
           "key": "カッコいいポーズ",
@@ -850,6 +1109,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Catcher"
+        },
+        {
           "key": "ケンカ",
           "value": "Klar til kamp"
         },
@@ -870,8 +1133,16 @@
           "value": "Model"
         },
         {
+          "key": "ランウェイ",
+          "value": "Catwalk"
+        },
+        {
           "key": "リクライニング",
           "value": "Tilbagelænet"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Sove sammenkrøbet"
         },
         {
           "key": "二人分座り",
@@ -882,8 +1153,16 @@
           "value": "Holder pause"
         },
         {
+          "key": "侵入",
+          "value": "Infiltration"
+        },
+        {
           "key": "倒され寝",
           "value": "Slået omkuld"
+        },
+        {
+          "key": "切り返し",
+          "value": "Hurtig vending"
         },
         {
           "key": "制止",
@@ -902,6 +1181,10 @@
           "value": "Krammer jorden"
         },
         {
+          "key": "執事",
+          "value": "Butler"
+        },
+        {
           "key": "培養中",
           "value": "I en kapsel"
         },
@@ -918,8 +1201,16 @@
           "value": "Gulvpude"
         },
         {
+          "key": "待機中",
+          "value": "På standby"
+        },
+        {
           "key": "思考中",
           "value": "Tænker"
+        },
+        {
+          "key": "息切れ",
+          "value": "Forpustet"
         },
         {
           "key": "晴天寝",
@@ -936,6 +1227,10 @@
         {
           "key": "海岸",
           "value": "Havkyst"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Med ét knæ i favnen"
         },
         {
           "key": "猫寝",
@@ -966,12 +1261,28 @@
           "value": "Albueslag"
         },
         {
+          "key": "肘掛け",
+          "value": "Armlæn"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Ryglæn"
+        },
+        {
           "key": "脱力寝",
           "value": "Sovet slapt hen"
         },
         {
           "key": "腕枕寝",
           "value": "Lur på armen"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Oprejst på knæ"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Kampklar"
         },
         {
           "key": "芝生",
@@ -988,6 +1299,18 @@
         {
           "key": "運動会",
           "value": "Idrætsdag"
+        },
+        {
+          "key": "門番",
+          "value": "Portvagt"
+        },
+        {
+          "key": "階段",
+          "value": "Trappe"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Siddende på trappen"
         },
         {
           "key": "騎士",
@@ -1019,6 +1342,10 @@
           "value": "Niedergeschlagen"
         },
         {
+          "key": "おもしれー",
+          "value": "Na, interessant"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Dieser Computer hat keine Lizenz für Cool Posing. Kaufe das Werkzeug auf BOOTH und installiere seine Lizenz. Hast du es bereits gekauft, lade die neueste ZIP von BOOTH und importiere CoolPosing.unitypackage. Dies ist einmal pro Computer nötig."
         },
@@ -1039,6 +1366,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Ausgestreckt schlafen"
+        },
+        {
           "key": "はいずり",
           "value": "Kriechen"
         },
@@ -1049,6 +1380,10 @@
         {
           "key": "むきりょく",
           "value": "Energielos"
+        },
+        {
+          "key": "カウンター",
+          "value": "Am Tresen"
         },
         {
           "key": "カッコいいポーズ",
@@ -1087,6 +1422,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Catcher"
+        },
+        {
           "key": "ケンカ",
           "value": "Kampfbereit"
         },
@@ -1107,8 +1446,16 @@
           "value": "Model"
         },
         {
+          "key": "ランウェイ",
+          "value": "Laufsteg"
+        },
+        {
           "key": "リクライニング",
           "value": "Zurückgelehnt"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Eingerollt schlafen"
         },
         {
           "key": "二人分座り",
@@ -1119,8 +1466,16 @@
           "value": "In der Pause"
         },
         {
+          "key": "侵入",
+          "value": "Eindringen"
+        },
+        {
           "key": "倒され寝",
           "value": "Umgestoßen"
+        },
+        {
+          "key": "切り返し",
+          "value": "Richtungswechsel"
         },
         {
           "key": "制止",
@@ -1139,6 +1494,10 @@
           "value": "Die Erde umarmen"
         },
         {
+          "key": "執事",
+          "value": "Butler"
+        },
+        {
           "key": "培養中",
           "value": "In der Kapsel"
         },
@@ -1155,8 +1514,16 @@
           "value": "Bodenkissen"
         },
         {
+          "key": "待機中",
+          "value": "In Bereitschaft"
+        },
+        {
           "key": "思考中",
           "value": "Nachdenken"
+        },
+        {
+          "key": "息切れ",
+          "value": "Außer Atem"
         },
         {
           "key": "晴天寝",
@@ -1173,6 +1540,10 @@
         {
           "key": "海岸",
           "value": "Meeresufer"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Ein Knie umarmt"
         },
         {
           "key": "猫寝",
@@ -1203,12 +1574,28 @@
           "value": "Ellenbogenstoß"
         },
         {
+          "key": "肘掛け",
+          "value": "Armlehne"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Rückenlehne"
+        },
+        {
           "key": "脱力寝",
           "value": "Schlaff eingeschlafen"
         },
         {
           "key": "腕枕寝",
           "value": "Arm als Schlafkissen"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Aufrecht kniend"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Kampfbereit"
         },
         {
           "key": "芝生",
@@ -1225,6 +1612,18 @@
         {
           "key": "運動会",
           "value": "Sportfest"
+        },
+        {
+          "key": "門番",
+          "value": "Torwache"
+        },
+        {
+          "key": "階段",
+          "value": "Treppe"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Auf den Stufen"
         },
         {
           "key": "騎士",
@@ -1256,6 +1655,10 @@
           "value": "Feeling Down"
         },
         {
+          "key": "おもしれー",
+          "value": "Now That's Interesting"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "This computer is not licensed to use Cool Posing. Purchase the tool from BOOTH and install its license. If you have already purchased it, download the latest ZIP from BOOTH and import CoolPosing.unitypackage. This is required once per computer."
         },
@@ -1276,6 +1679,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Stretched Out"
+        },
+        {
           "key": "はいずり",
           "value": "Crawling"
         },
@@ -1286,6 +1693,10 @@
         {
           "key": "むきりょく",
           "value": "No Energy"
+        },
+        {
+          "key": "カウンター",
+          "value": "At the Counter"
         },
         {
           "key": "カッコいいポーズ",
@@ -1324,6 +1735,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Catcher"
+        },
+        {
           "key": "ケンカ",
           "value": "Ready to Fight"
         },
@@ -1344,8 +1759,16 @@
           "value": "Model"
         },
         {
+          "key": "ランウェイ",
+          "value": "Runway"
+        },
+        {
           "key": "リクライニング",
           "value": "Reclining"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Curled Up"
         },
         {
           "key": "二人分座り",
@@ -1356,8 +1779,16 @@
           "value": "On a Break"
         },
         {
+          "key": "侵入",
+          "value": "Infiltration"
+        },
+        {
           "key": "倒され寝",
           "value": "Knocked Down"
+        },
+        {
+          "key": "切り返し",
+          "value": "Quick Pivot"
         },
         {
           "key": "制止",
@@ -1376,6 +1807,10 @@
           "value": "Hug the Earth"
         },
         {
+          "key": "執事",
+          "value": "Butler"
+        },
+        {
           "key": "培養中",
           "value": "In a Pod"
         },
@@ -1392,8 +1827,16 @@
           "value": "Floor Cushion"
         },
         {
+          "key": "待機中",
+          "value": "Standing By"
+        },
+        {
           "key": "思考中",
           "value": "Thinking"
+        },
+        {
+          "key": "息切れ",
+          "value": "Out of Breath"
         },
         {
           "key": "晴天寝",
@@ -1410,6 +1853,10 @@
         {
           "key": "海岸",
           "value": "Seaside"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Hugging One Knee"
         },
         {
           "key": "猫寝",
@@ -1440,12 +1887,28 @@
           "value": "Elbow Strike"
         },
         {
+          "key": "肘掛け",
+          "value": "Armrest"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Backrest"
+        },
+        {
           "key": "脱力寝",
           "value": "Flopped Asleep"
         },
         {
           "key": "腕枕寝",
           "value": "Arm Pillow Nap"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Kneeling Upright"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Battle Ready"
         },
         {
           "key": "芝生",
@@ -1462,6 +1925,18 @@
         {
           "key": "運動会",
           "value": "Sports Day"
+        },
+        {
+          "key": "門番",
+          "value": "Gatekeeper"
+        },
+        {
+          "key": "階段",
+          "value": "Stairs"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Sitting on the Steps"
         },
         {
           "key": "騎士",
@@ -1493,6 +1968,10 @@
           "value": "Desanimado"
         },
         {
+          "key": "おもしれー",
+          "value": "Qué interesante…"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Este ordenador no tiene licencia para Cool Posing. Compra la herramienta en BOOTH e instala su licencia. Si ya la compraste, descarga el ZIP más reciente de BOOTH e importa CoolPosing.unitypackage. Se necesita una vez por ordenador."
         },
@@ -1513,6 +1992,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Dormir estirado"
+        },
+        {
           "key": "はいずり",
           "value": "Gateando"
         },
@@ -1523,6 +2006,10 @@
         {
           "key": "むきりょく",
           "value": "Sin energía"
+        },
+        {
+          "key": "カウンター",
+          "value": "En la barra"
         },
         {
           "key": "カッコいいポーズ",
@@ -1561,6 +2048,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Receptor"
+        },
+        {
           "key": "ケンカ",
           "value": "Listo para pelear"
         },
@@ -1581,8 +2072,16 @@
           "value": "Modelo"
         },
         {
+          "key": "ランウェイ",
+          "value": "Pasarela"
+        },
+        {
           "key": "リクライニング",
           "value": "Reclinado"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Dormir acurrucado"
         },
         {
           "key": "二人分座り",
@@ -1593,8 +2092,16 @@
           "value": "De descanso"
         },
         {
+          "key": "侵入",
+          "value": "Infiltración"
+        },
+        {
           "key": "倒され寝",
           "value": "Derribado"
+        },
+        {
+          "key": "切り返し",
+          "value": "Cambio de dirección"
         },
         {
           "key": "制止",
@@ -1613,6 +2120,10 @@
           "value": "Abrazando la tierra"
         },
         {
+          "key": "執事",
+          "value": "Mayordomo"
+        },
+        {
           "key": "培養中",
           "value": "En una cápsula"
         },
@@ -1629,8 +2140,16 @@
           "value": "Cojín de suelo"
         },
         {
+          "key": "待機中",
+          "value": "En espera"
+        },
+        {
           "key": "思考中",
           "value": "Pensando"
+        },
+        {
+          "key": "息切れ",
+          "value": "Sin aliento"
         },
         {
           "key": "晴天寝",
@@ -1647,6 +2166,10 @@
         {
           "key": "海岸",
           "value": "Costa"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Abrazando una rodilla"
         },
         {
           "key": "猫寝",
@@ -1677,12 +2200,28 @@
           "value": "Golpe de codo"
         },
         {
+          "key": "肘掛け",
+          "value": "Reposabrazos"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Respaldo"
+        },
+        {
           "key": "脱力寝",
           "value": "Dormido sin fuerzas"
         },
         {
           "key": "腕枕寝",
           "value": "Siesta sobre el brazo"
+        },
+        {
+          "key": "膝立ち",
+          "value": "De rodillas"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "En guardia"
         },
         {
           "key": "芝生",
@@ -1699,6 +2238,18 @@
         {
           "key": "運動会",
           "value": "Jornada deportiva"
+        },
+        {
+          "key": "門番",
+          "value": "Guardián"
+        },
+        {
+          "key": "階段",
+          "value": "Escalera"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Sentado en los escalones"
         },
         {
           "key": "騎士",
@@ -1730,6 +2281,10 @@
           "value": "Alakuloinen"
         },
         {
+          "key": "おもしれー",
+          "value": "Onpa kiinnostavaa"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Tällä tietokoneella ei ole Cool Posing -lisenssiä. Osta työkalu BOOTHista ja asenna lisenssi. Jos olet jo ostanut sen, lataa uusin ZIP BOOTHista ja tuo CoolPosing.unitypackage. Tämä tehdään kerran tietokonetta kohti."
         },
@@ -1750,6 +2305,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Uni pitkällään"
+        },
+        {
           "key": "はいずり",
           "value": "Konttaus"
         },
@@ -1760,6 +2319,10 @@
         {
           "key": "むきりょく",
           "value": "Voimat lopussa"
+        },
+        {
+          "key": "カウンター",
+          "value": "Tiskillä"
         },
         {
           "key": "カッコいいポーズ",
@@ -1798,6 +2361,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Sieppari"
+        },
+        {
           "key": "ケンカ",
           "value": "Taisteluvalmius"
         },
@@ -1818,8 +2385,16 @@
           "value": "Malli"
         },
         {
+          "key": "ランウェイ",
+          "value": "Muotinäytöslava"
+        },
+        {
           "key": "リクライニング",
           "value": "Takanoja"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Uni käpertyneenä"
         },
         {
           "key": "二人分座り",
@@ -1830,8 +2405,16 @@
           "value": "Tauolla"
         },
         {
+          "key": "侵入",
+          "value": "Soluttautuminen"
+        },
+        {
           "key": "倒され寝",
           "value": "Kaatunut"
+        },
+        {
+          "key": "切り返し",
+          "value": "Äkkikäännös"
         },
         {
           "key": "制止",
@@ -1850,6 +2433,10 @@
           "value": "Maan halaus"
         },
         {
+          "key": "執事",
+          "value": "Hovimestari"
+        },
+        {
           "key": "培養中",
           "value": "Kotelossa"
         },
@@ -1866,8 +2453,16 @@
           "value": "Lattiatyyny"
         },
         {
+          "key": "待機中",
+          "value": "Odotustila"
+        },
+        {
           "key": "思考中",
           "value": "Mietintä"
+        },
+        {
+          "key": "息切れ",
+          "value": "Hengästynyt"
         },
         {
           "key": "晴天寝",
@@ -1884,6 +2479,10 @@
         {
           "key": "海岸",
           "value": "Meren äärellä"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Polvi sylissä"
         },
         {
           "key": "猫寝",
@@ -1914,12 +2513,28 @@
           "value": "Kyynärpääisku"
         },
         {
+          "key": "肘掛け",
+          "value": "Käsinoja"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Selkänoja"
+        },
+        {
           "key": "脱力寝",
           "value": "Lysähtänyt uneen"
         },
         {
           "key": "腕枕寝",
           "value": "Torkut käsivarrella"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Polviseisonta"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Taisteluvalmius"
         },
         {
           "key": "芝生",
@@ -1936,6 +2551,18 @@
         {
           "key": "運動会",
           "value": "Urheilupäivä"
+        },
+        {
+          "key": "門番",
+          "value": "Portinvartija"
+        },
+        {
+          "key": "階段",
+          "value": "Portaat"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Portailla istuen"
         },
         {
           "key": "騎士",
@@ -1967,6 +2594,10 @@
           "value": "Abattu"
         },
         {
+          "key": "おもしれー",
+          "value": "Tiens, intéressant…"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Cet ordinateur ne possède pas de licence Cool Posing. Achetez l'outil sur BOOTH et installez sa licence. Si vous l'avez déjà acheté, téléchargez le ZIP le plus récent sur BOOTH et importez CoolPosing.unitypackage. Cette opération est nécessaire une fois par ordinateur."
         },
@@ -1987,6 +2618,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Sommeil étiré"
+        },
+        {
           "key": "はいずり",
           "value": "Ramper"
         },
@@ -1997,6 +2632,10 @@
         {
           "key": "むきりょく",
           "value": "Sans énergie"
+        },
+        {
+          "key": "カウンター",
+          "value": "Au comptoir"
         },
         {
           "key": "カッコいいポーズ",
@@ -2035,6 +2674,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Receveur"
+        },
+        {
           "key": "ケンカ",
           "value": "Prêt au combat"
         },
@@ -2055,8 +2698,16 @@
           "value": "Mannequin"
         },
         {
+          "key": "ランウェイ",
+          "value": "Défilé"
+        },
+        {
           "key": "リクライニング",
           "value": "Incliné"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Sommeil en boule"
         },
         {
           "key": "二人分座り",
@@ -2067,8 +2718,16 @@
           "value": "En pause"
         },
         {
+          "key": "侵入",
+          "value": "Infiltration"
+        },
+        {
           "key": "倒され寝",
           "value": "À terre"
+        },
+        {
+          "key": "切り返し",
+          "value": "Changement d’appui"
         },
         {
           "key": "制止",
@@ -2087,6 +2746,10 @@
           "value": "Étreinte du sol"
         },
         {
+          "key": "執事",
+          "value": "Majordome"
+        },
+        {
           "key": "培養中",
           "value": "En capsule"
         },
@@ -2103,8 +2766,16 @@
           "value": "Coussin de sol"
         },
         {
+          "key": "待機中",
+          "value": "En attente"
+        },
+        {
           "key": "思考中",
           "value": "En réflexion"
+        },
+        {
+          "key": "息切れ",
+          "value": "À bout de souffle"
         },
         {
           "key": "晴天寝",
@@ -2121,6 +2792,10 @@
         {
           "key": "海岸",
           "value": "Bord de mer"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Un genou contre soi"
         },
         {
           "key": "猫寝",
@@ -2151,12 +2826,28 @@
           "value": "Coup de coude"
         },
         {
+          "key": "肘掛け",
+          "value": "Accoudoir"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Dossier"
+        },
+        {
           "key": "脱力寝",
           "value": "Sommeil relâché"
         },
         {
           "key": "腕枕寝",
           "value": "Sieste sur bras"
+        },
+        {
+          "key": "膝立ち",
+          "value": "À genoux"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Prêt au combat"
         },
         {
           "key": "芝生",
@@ -2173,6 +2864,18 @@
         {
           "key": "運動会",
           "value": "Fête sportive"
+        },
+        {
+          "key": "門番",
+          "value": "Gardien"
+        },
+        {
+          "key": "階段",
+          "value": "Escalier"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Assis sur les marches"
         },
         {
           "key": "騎士",
@@ -2204,6 +2907,10 @@
           "value": "מדוכדך"
         },
         {
+          "key": "おもしれー",
+          "value": "דווקא מעניין"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "למחשב הזה אין רישיון Cool Posing. רכשו את הכלי ב-BOOTH והתקינו את הרישיון שלו. אם כבר רכשתם, הורידו את קובץ ה-ZIP העדכני מ-BOOTH וייבאו את CoolPosing.unitypackage. הפעולה נדרשת פעם אחת לכל מחשב."
         },
@@ -2224,6 +2931,10 @@
           "value": "טטאמי"
         },
         {
+          "key": "のび寝",
+          "value": "שינה במתיחה"
+        },
+        {
           "key": "はいずり",
           "value": "זוחל"
         },
@@ -2234,6 +2945,10 @@
         {
           "key": "むきりょく",
           "value": "בלי אנרגיה"
+        },
+        {
+          "key": "カウンター",
+          "value": "ליד הדלפק"
         },
         {
           "key": "カッコいいポーズ",
@@ -2272,6 +2987,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "תופס בכדור בסיס"
+        },
+        {
           "key": "ケンカ",
           "value": "מוכן לקרב"
         },
@@ -2292,8 +3011,16 @@
           "value": "דוגמן"
         },
         {
+          "key": "ランウェイ",
+          "value": "מסלול תצוגה"
+        },
+        {
           "key": "リクライニング",
           "value": "נשען לאחור"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "שינה מכורבלת"
         },
         {
           "key": "二人分座り",
@@ -2304,8 +3031,16 @@
           "value": "בהפסקה"
         },
         {
+          "key": "侵入",
+          "value": "הסתננות"
+        },
+        {
           "key": "倒され寝",
           "value": "מופל"
+        },
+        {
+          "key": "切り返し",
+          "value": "שינוי כיוון חד"
         },
         {
           "key": "制止",
@@ -2324,6 +3059,10 @@
           "value": "מחבק את האדמה"
         },
         {
+          "key": "執事",
+          "value": "רב משרתים"
+        },
+        {
           "key": "培養中",
           "value": "בתוך קפסולה"
         },
@@ -2340,8 +3079,16 @@
           "value": "כרית רצפה"
         },
         {
+          "key": "待機中",
+          "value": "בהמתנה"
+        },
+        {
           "key": "思考中",
           "value": "חושב"
+        },
+        {
+          "key": "息切れ",
+          "value": "חסר נשימה"
         },
         {
           "key": "晴天寝",
@@ -2358,6 +3105,10 @@
         {
           "key": "海岸",
           "value": "שפת הים"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "חיבוק ברך אחת"
         },
         {
           "key": "猫寝",
@@ -2388,12 +3139,28 @@
           "value": "מכת מרפק"
         },
         {
+          "key": "肘掛け",
+          "value": "משענת יד"
+        },
+        {
+          "key": "背もたれ",
+          "value": "משענת גב"
+        },
+        {
           "key": "脱力寝",
           "value": "נרדם שרוע"
         },
         {
           "key": "腕枕寝",
           "value": "נמנום על הזרוע"
+        },
+        {
+          "key": "膝立ち",
+          "value": "כריעה זקופה"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "מוכן לקרב"
         },
         {
           "key": "芝生",
@@ -2410,6 +3177,18 @@
         {
           "key": "運動会",
           "value": "יום ספורט"
+        },
+        {
+          "key": "門番",
+          "value": "שומר השער"
+        },
+        {
+          "key": "階段",
+          "value": "מדרגות"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "ישיבה על המדרגות"
         },
         {
           "key": "騎士",
@@ -2441,6 +3220,10 @@
           "value": "उदास"
         },
         {
+          "key": "おもしれー",
+          "value": "अरे, दिलचस्प है"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "इस कंप्यूटर पर Cool Posing का लाइसेंस नहीं है। BOOTH से टूल खरीदकर लाइसेंस स्थापित करें। खरीदा हो तो BOOTH से नवीनतम ZIP लेकर CoolPosing.unitypackage आयात करें। हर कंप्यूटर पर एक बार ज़रूरी है।"
         },
@@ -2461,6 +3244,10 @@
           "value": "ततामी"
         },
         {
+          "key": "のび寝",
+          "value": "पसरकर सोना"
+        },
+        {
           "key": "はいずり",
           "value": "रेंगना"
         },
@@ -2471,6 +3258,10 @@
         {
           "key": "むきりょく",
           "value": "बेजान"
+        },
+        {
+          "key": "カウンター",
+          "value": "काउंटर पर"
         },
         {
           "key": "カッコいいポーズ",
@@ -2509,6 +3300,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "कैचर"
+        },
+        {
           "key": "ケンカ",
           "value": "लड़ने को तैयार"
         },
@@ -2529,8 +3324,16 @@
           "value": "मॉडल"
         },
         {
+          "key": "ランウェイ",
+          "value": "रनवे"
+        },
+        {
           "key": "リクライニング",
           "value": "पीछे झुकना"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "सिमटकर सोना"
         },
         {
           "key": "二人分座り",
@@ -2541,8 +3344,16 @@
           "value": "विश्राम"
         },
         {
+          "key": "侵入",
+          "value": "घुसपैठ"
+        },
+        {
           "key": "倒され寝",
           "value": "गिरा दिए"
+        },
+        {
+          "key": "切り返し",
+          "value": "अचानक मोड़"
         },
         {
           "key": "制止",
@@ -2561,6 +3372,10 @@
           "value": "धरती को गले"
         },
         {
+          "key": "執事",
+          "value": "मुख्य सेवक"
+        },
+        {
           "key": "培養中",
           "value": "कैप्सूल में"
         },
@@ -2577,8 +3392,16 @@
           "value": "बैठने की गद्दी"
         },
         {
+          "key": "待機中",
+          "value": "इंतज़ार में"
+        },
+        {
           "key": "思考中",
           "value": "सोच में"
+        },
+        {
+          "key": "息切れ",
+          "value": "हाँफते हुए"
         },
         {
           "key": "晴天寝",
@@ -2595,6 +3418,10 @@
         {
           "key": "海岸",
           "value": "समुद्र किनारा"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "एक घुटने को थामे"
         },
         {
           "key": "猫寝",
@@ -2625,12 +3452,28 @@
           "value": "कोहनी वार"
         },
         {
+          "key": "肘掛け",
+          "value": "बाँह की टेक"
+        },
+        {
+          "key": "背もたれ",
+          "value": "कुर्सी की टेक"
+        },
+        {
           "key": "脱力寝",
           "value": "निढाल नींद"
         },
         {
           "key": "腕枕寝",
           "value": "बाँह पर झपकी"
+        },
+        {
+          "key": "膝立ち",
+          "value": "घुटनों पर सीधे"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "मुकाबले को तैयार"
         },
         {
           "key": "芝生",
@@ -2647,6 +3490,18 @@
         {
           "key": "運動会",
           "value": "खेल दिवस"
+        },
+        {
+          "key": "門番",
+          "value": "द्वारपाल"
+        },
+        {
+          "key": "階段",
+          "value": "सीढ़ियाँ"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "सीढ़ी पर बैठे"
         },
         {
           "key": "騎士",
@@ -2678,6 +3533,10 @@
           "value": "Murung"
         },
         {
+          "key": "おもしれー",
+          "value": "Wah, menarik"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Komputer ini tidak memiliki lisensi Cool Posing. Beli alat dari BOOTH dan pasang lisensinya. Jika sudah membeli, unduh ZIP terbaru dari BOOTH lalu impor CoolPosing.unitypackage. Ini diperlukan sekali per komputer."
         },
@@ -2698,6 +3557,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Tidur selonjor"
+        },
+        {
           "key": "はいずり",
           "value": "Merangkak"
         },
@@ -2708,6 +3571,10 @@
         {
           "key": "むきりょく",
           "value": "Tanpa Tenaga"
+        },
+        {
+          "key": "カウンター",
+          "value": "Di konter"
         },
         {
           "key": "カッコいいポーズ",
@@ -2746,6 +3613,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Penangkap"
+        },
+        {
           "key": "ケンカ",
           "value": "Siap Berkelahi"
         },
@@ -2766,8 +3637,16 @@
           "value": "Model"
         },
         {
+          "key": "ランウェイ",
+          "value": "Catwalk"
+        },
+        {
           "key": "リクライニング",
           "value": "Setengah Berbaring"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Tidur meringkuk"
         },
         {
           "key": "二人分座り",
@@ -2778,8 +3657,16 @@
           "value": "Istirahat"
         },
         {
+          "key": "侵入",
+          "value": "Menyusup"
+        },
+        {
           "key": "倒され寝",
           "value": "Terjatuh"
+        },
+        {
+          "key": "切り返し",
+          "value": "Berbalik cepat"
         },
         {
           "key": "制止",
@@ -2798,6 +3685,10 @@
           "value": "Memeluk Bumi"
         },
         {
+          "key": "執事",
+          "value": "Kepala pelayan"
+        },
+        {
           "key": "培養中",
           "value": "Dalam Kapsul"
         },
@@ -2814,8 +3705,16 @@
           "value": "Bantal Lantai"
         },
         {
+          "key": "待機中",
+          "value": "Siaga"
+        },
+        {
           "key": "思考中",
           "value": "Berpikir"
+        },
+        {
+          "key": "息切れ",
+          "value": "Terengah-engah"
         },
         {
           "key": "晴天寝",
@@ -2832,6 +3731,10 @@
         {
           "key": "海岸",
           "value": "Tepi Laut"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Memeluk satu lutut"
         },
         {
           "key": "猫寝",
@@ -2862,12 +3765,28 @@
           "value": "Pukulan Siku"
         },
         {
+          "key": "肘掛け",
+          "value": "Sandaran lengan"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Sandaran kursi"
+        },
+        {
           "key": "脱力寝",
           "value": "Tertidur Lemas"
         },
         {
           "key": "腕枕寝",
           "value": "Tidur di Lengan"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Berlutut tegak"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Siap bertarung"
         },
         {
           "key": "芝生",
@@ -2884,6 +3803,18 @@
         {
           "key": "運動会",
           "value": "Hari Olahraga"
+        },
+        {
+          "key": "門番",
+          "value": "Penjaga gerbang"
+        },
+        {
+          "key": "階段",
+          "value": "Tangga"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Duduk di tangga"
         },
         {
           "key": "騎士",
@@ -2915,6 +3846,10 @@
           "value": "Giù di morale"
         },
         {
+          "key": "おもしれー",
+          "value": "Interessante…"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Questo computer non dispone di una licenza Cool Posing. Acquista lo strumento su BOOTH e installa la licenza. Se l'hai già acquistato, scarica l'ultimo ZIP da BOOTH e importa CoolPosing.unitypackage. Serve una volta per computer."
         },
@@ -2935,6 +3870,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Sonno disteso"
+        },
+        {
           "key": "はいずり",
           "value": "Strisciare"
         },
@@ -2945,6 +3884,10 @@
         {
           "key": "むきりょく",
           "value": "Senza energie"
+        },
+        {
+          "key": "カウンター",
+          "value": "Al bancone"
         },
         {
           "key": "カッコいいポーズ",
@@ -2983,6 +3926,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Ricevitore"
+        },
+        {
           "key": "ケンカ",
           "value": "Pronto alla lotta"
         },
@@ -3003,8 +3950,16 @@
           "value": "Modello"
         },
         {
+          "key": "ランウェイ",
+          "value": "Passerella"
+        },
+        {
           "key": "リクライニング",
           "value": "Reclinato"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Sonno rannicchiato"
         },
         {
           "key": "二人分座り",
@@ -3015,8 +3970,16 @@
           "value": "In pausa"
         },
         {
+          "key": "侵入",
+          "value": "Infiltrazione"
+        },
+        {
           "key": "倒され寝",
           "value": "A terra"
+        },
+        {
+          "key": "切り返し",
+          "value": "Cambio di direzione"
         },
         {
           "key": "制止",
@@ -3035,6 +3998,10 @@
           "value": "Abbraccia la terra"
         },
         {
+          "key": "執事",
+          "value": "Maggiordomo"
+        },
+        {
           "key": "培養中",
           "value": "In una capsula"
         },
@@ -3051,8 +4018,16 @@
           "value": "Cuscino da terra"
         },
         {
+          "key": "待機中",
+          "value": "In attesa"
+        },
+        {
           "key": "思考中",
           "value": "Pensieroso"
+        },
+        {
+          "key": "息切れ",
+          "value": "Senza fiato"
         },
         {
           "key": "晴天寝",
@@ -3069,6 +4044,10 @@
         {
           "key": "海岸",
           "value": "Lungomare"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Un ginocchio al petto"
         },
         {
           "key": "猫寝",
@@ -3099,12 +4078,28 @@
           "value": "Gomitata"
         },
         {
+          "key": "肘掛け",
+          "value": "Bracciolo"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Schienale"
+        },
+        {
           "key": "脱力寝",
           "value": "Sonno rilassato"
         },
         {
           "key": "腕枕寝",
           "value": "Pisolino sul braccio"
+        },
+        {
+          "key": "膝立ち",
+          "value": "In ginocchio"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Pronto allo scontro"
         },
         {
           "key": "芝生",
@@ -3121,6 +4116,18 @@
         {
           "key": "運動会",
           "value": "Giornata sportiva"
+        },
+        {
+          "key": "門番",
+          "value": "Guardiano"
+        },
+        {
+          "key": "階段",
+          "value": "Scale"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Seduto sui gradini"
         },
         {
           "key": "騎士",
@@ -3152,6 +4159,10 @@
           "value": "풀이 죽음"
         },
         {
+          "key": "おもしれー",
+          "value": "이거 재밌네"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "이 컴퓨터에 Cool Posing 라이선스가 없습니다. BOOTH에서 도구를 구매하고 라이선스를 설치해 주세요. 이미 구매했다면 BOOTH에서 최신 ZIP을 받아 CoolPosing.unitypackage를 가져와 주세요. 컴퓨터마다 한 번 필요합니다."
         },
@@ -3172,6 +4183,10 @@
           "value": "다다미"
         },
         {
+          "key": "のび寝",
+          "value": "쭉 뻗어 자기"
+        },
+        {
           "key": "はいずり",
           "value": "기어가기"
         },
@@ -3182,6 +4197,10 @@
         {
           "key": "むきりょく",
           "value": "무기력"
+        },
+        {
+          "key": "カウンター",
+          "value": "카운터"
         },
         {
           "key": "カッコいいポーズ",
@@ -3220,6 +4239,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "포수"
+        },
+        {
           "key": "ケンカ",
           "value": "싸울 준비"
         },
@@ -3240,8 +4263,16 @@
           "value": "모델"
         },
         {
+          "key": "ランウェイ",
+          "value": "런웨이"
+        },
+        {
           "key": "リクライニング",
           "value": "뒤로 기대기"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "웅크려 자기"
         },
         {
           "key": "二人分座り",
@@ -3252,8 +4283,16 @@
           "value": "휴식 중"
         },
         {
+          "key": "侵入",
+          "value": "잠입"
+        },
+        {
           "key": "倒され寝",
           "value": "쓰러져 눕기"
+        },
+        {
+          "key": "切り返し",
+          "value": "방향 전환"
         },
         {
           "key": "制止",
@@ -3272,6 +4311,10 @@
           "value": "땅 끌어안기"
         },
         {
+          "key": "執事",
+          "value": "집사"
+        },
+        {
           "key": "培養中",
           "value": "배양 중"
         },
@@ -3288,8 +4331,16 @@
           "value": "방석"
         },
         {
+          "key": "待機中",
+          "value": "대기 중"
+        },
+        {
           "key": "思考中",
           "value": "생각 중"
+        },
+        {
+          "key": "息切れ",
+          "value": "숨 고르기"
         },
         {
           "key": "晴天寝",
@@ -3306,6 +4357,10 @@
         {
           "key": "海岸",
           "value": "해안"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "한쪽 무릎 안기"
         },
         {
           "key": "猫寝",
@@ -3336,12 +4391,28 @@
           "value": "팔꿈치 치기"
         },
         {
+          "key": "肘掛け",
+          "value": "팔걸이"
+        },
+        {
+          "key": "背もたれ",
+          "value": "등받이"
+        },
+        {
           "key": "脱力寝",
           "value": "힘 빼고 자기"
         },
         {
           "key": "腕枕寝",
           "value": "팔베개 낮잠"
+        },
+        {
+          "key": "膝立ち",
+          "value": "무릎으로 서기"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "임전 태세"
         },
         {
           "key": "芝生",
@@ -3358,6 +4429,18 @@
         {
           "key": "運動会",
           "value": "운동회"
+        },
+        {
+          "key": "門番",
+          "value": "문지기"
+        },
+        {
+          "key": "階段",
+          "value": "계단"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "계단에 걸터앉기"
         },
         {
           "key": "騎士",
@@ -3389,6 +4472,10 @@
           "value": "Nedstemt"
         },
         {
+          "key": "おもしれー",
+          "value": "Interessant, gitt"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Denne datamaskinen har ingen lisens for Cool Posing. Kjøp verktøyet fra BOOTH og installer lisensen. Hvis du allerede har kjøpt det, last ned den nyeste ZIP-filen fra BOOTH og importer CoolPosing.unitypackage. Dette kreves én gang per datamaskin."
         },
@@ -3409,6 +4496,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Sove utstrakt"
+        },
+        {
           "key": "はいずり",
           "value": "Krabber"
         },
@@ -3419,6 +4510,10 @@
         {
           "key": "むきりょく",
           "value": "Tom for energi"
+        },
+        {
+          "key": "カウンター",
+          "value": "Ved disken"
         },
         {
           "key": "カッコいいポーズ",
@@ -3457,6 +4552,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Catcher"
+        },
+        {
           "key": "ケンカ",
           "value": "Kampklar"
         },
@@ -3477,8 +4576,16 @@
           "value": "Modell"
         },
         {
+          "key": "ランウェイ",
+          "value": "Catwalk"
+        },
+        {
           "key": "リクライニング",
           "value": "Tilbakelent"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Sove sammenkrøpet"
         },
         {
           "key": "二人分座り",
@@ -3489,8 +4596,16 @@
           "value": "På pause"
         },
         {
+          "key": "侵入",
+          "value": "Infiltrasjon"
+        },
+        {
           "key": "倒され寝",
           "value": "Slått ned"
+        },
+        {
+          "key": "切り返し",
+          "value": "Brå vending"
         },
         {
           "key": "制止",
@@ -3509,6 +4624,10 @@
           "value": "Klemmer jorden"
         },
         {
+          "key": "執事",
+          "value": "Butler"
+        },
+        {
           "key": "培養中",
           "value": "I kapselen"
         },
@@ -3525,8 +4644,16 @@
           "value": "Gulvpute"
         },
         {
+          "key": "待機中",
+          "value": "I beredskap"
+        },
+        {
           "key": "思考中",
           "value": "Tenker"
+        },
+        {
+          "key": "息切れ",
+          "value": "Andpusten"
         },
         {
           "key": "晴天寝",
@@ -3543,6 +4670,10 @@
         {
           "key": "海岸",
           "value": "Ved sjøen"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Med ett kne i favnen"
         },
         {
           "key": "猫寝",
@@ -3573,12 +4704,28 @@
           "value": "Albueslag"
         },
         {
+          "key": "肘掛け",
+          "value": "Armlene"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Ryggstøtte"
+        },
+        {
           "key": "脱力寝",
           "value": "Sovnet omkull"
         },
         {
           "key": "腕枕寝",
           "value": "Lur på armen"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Oppreist på knærne"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Kampklar"
         },
         {
           "key": "芝生",
@@ -3595,6 +4742,18 @@
         {
           "key": "運動会",
           "value": "Idrettsdag"
+        },
+        {
+          "key": "門番",
+          "value": "Portvakt"
+        },
+        {
+          "key": "階段",
+          "value": "Trapp"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Sittende i trappen"
         },
         {
           "key": "騎士",
@@ -3626,6 +4785,10 @@
           "value": "Neerslachtig"
         },
         {
+          "key": "おもしれー",
+          "value": "Da’s interessant"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Deze computer heeft geen licentie voor Cool Posing. Koop het gereedschap op BOOTH en installeer de licentie. Heb je het al gekocht, download dan de nieuwste ZIP van BOOTH en importeer CoolPosing.unitypackage. Dit is eenmaal per computer nodig."
         },
@@ -3646,6 +4809,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Languit slapen"
+        },
+        {
           "key": "はいずり",
           "value": "Kruipen"
         },
@@ -3656,6 +4823,10 @@
         {
           "key": "むきりょく",
           "value": "Geen energie"
+        },
+        {
+          "key": "カウンター",
+          "value": "Aan de bar"
         },
         {
           "key": "カッコいいポーズ",
@@ -3694,6 +4865,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Catcher"
+        },
+        {
           "key": "ケンカ",
           "value": "Klaar om te vechten"
         },
@@ -3714,8 +4889,16 @@
           "value": "Model"
         },
         {
+          "key": "ランウェイ",
+          "value": "Catwalk"
+        },
+        {
           "key": "リクライニング",
           "value": "Achterover"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Opgerold slapen"
         },
         {
           "key": "二人分座り",
@@ -3726,8 +4909,16 @@
           "value": "Pauze"
         },
         {
+          "key": "侵入",
+          "value": "Binnensluipen"
+        },
+        {
           "key": "倒され寝",
           "value": "Neergeslagen"
+        },
+        {
+          "key": "切り返し",
+          "value": "Snelle draai"
         },
         {
           "key": "制止",
@@ -3746,6 +4937,10 @@
           "value": "Omhels de aarde"
         },
         {
+          "key": "執事",
+          "value": "Butler"
+        },
+        {
           "key": "培養中",
           "value": "In een capsule"
         },
@@ -3762,8 +4957,16 @@
           "value": "Vloerkussen"
         },
         {
+          "key": "待機中",
+          "value": "In afwachting"
+        },
+        {
           "key": "思考中",
           "value": "Nadenken"
+        },
+        {
+          "key": "息切れ",
+          "value": "Buiten adem"
         },
         {
           "key": "晴天寝",
@@ -3780,6 +4983,10 @@
         {
           "key": "海岸",
           "value": "Kust"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Eén knie omklemd"
         },
         {
           "key": "猫寝",
@@ -3810,12 +5017,28 @@
           "value": "Elleboogstoot"
         },
         {
+          "key": "肘掛け",
+          "value": "Armleuning"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Rugleuning"
+        },
+        {
           "key": "脱力寝",
           "value": "Slapend neergeploft"
         },
         {
           "key": "腕枕寝",
           "value": "Dutje op de arm"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Rechtop geknield"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Gevechtsklaar"
         },
         {
           "key": "芝生",
@@ -3832,6 +5055,18 @@
         {
           "key": "運動会",
           "value": "Sportdag"
+        },
+        {
+          "key": "門番",
+          "value": "Poortwachter"
+        },
+        {
+          "key": "階段",
+          "value": "Trap"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Zittend op de trap"
         },
         {
           "key": "騎士",
@@ -3863,6 +5098,10 @@
           "value": "Przygnębienie"
         },
         {
+          "key": "おもしれー",
+          "value": "No proszę…"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Ten komputer nie ma licencji Cool Posing. Kup narzędzie na BOOTH i zainstaluj licencję. Jeśli już je kupiono, pobierz najnowszy ZIP z BOOTH i zaimportuj CoolPosing.unitypackage. Wymagane raz na komputer."
         },
@@ -3883,6 +5122,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Sen na wznak w wyproście"
+        },
+        {
           "key": "はいずり",
           "value": "Pełzanie"
         },
@@ -3893,6 +5136,10 @@
         {
           "key": "むきりょく",
           "value": "Brak energii"
+        },
+        {
+          "key": "カウンター",
+          "value": "Przy ladzie"
         },
         {
           "key": "カッコいいポーズ",
@@ -3931,6 +5178,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Łapacz"
+        },
+        {
           "key": "ケンカ",
           "value": "Gotowość do walki"
         },
@@ -3951,8 +5202,16 @@
           "value": "Model"
         },
         {
+          "key": "ランウェイ",
+          "value": "Wybieg"
+        },
+        {
           "key": "リクライニング",
           "value": "Półleżąco"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Sen w kłębek"
         },
         {
           "key": "二人分座り",
@@ -3963,8 +5222,16 @@
           "value": "Przerwa"
         },
         {
+          "key": "侵入",
+          "value": "Infiltracja"
+        },
+        {
           "key": "倒され寝",
           "value": "Powalenie"
+        },
+        {
+          "key": "切り返し",
+          "value": "Nagły zwrot"
         },
         {
           "key": "制止",
@@ -3983,6 +5250,10 @@
           "value": "Objąć ziemię"
         },
         {
+          "key": "執事",
+          "value": "Kamerdyner"
+        },
+        {
           "key": "培養中",
           "value": "W kapsule"
         },
@@ -3999,8 +5270,16 @@
           "value": "Poduszka podłogowa"
         },
         {
+          "key": "待機中",
+          "value": "W oczekiwaniu"
+        },
+        {
           "key": "思考中",
           "value": "Zamyślenie"
+        },
+        {
+          "key": "息切れ",
+          "value": "Bez tchu"
         },
         {
           "key": "晴天寝",
@@ -4017,6 +5296,10 @@
         {
           "key": "海岸",
           "value": "Nad morzem"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Kolano przy piersi"
         },
         {
           "key": "猫寝",
@@ -4047,12 +5330,28 @@
           "value": "Cios łokciem"
         },
         {
+          "key": "肘掛け",
+          "value": "Podłokietnik"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Oparcie"
+        },
+        {
           "key": "脱力寝",
           "value": "Padł i zasnął"
         },
         {
           "key": "腕枕寝",
           "value": "Drzemka na ramieniu"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Klęk prosty"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Gotowość do walki"
         },
         {
           "key": "芝生",
@@ -4069,6 +5368,18 @@
         {
           "key": "運動会",
           "value": "Dzień sportu"
+        },
+        {
+          "key": "門番",
+          "value": "Strażnik bramy"
+        },
+        {
+          "key": "階段",
+          "value": "Schody"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Siad na schodach"
         },
         {
           "key": "騎士",
@@ -4100,6 +5411,10 @@
           "value": "Desanimado"
         },
         {
+          "key": "おもしれー",
+          "value": "Ora, que interessante"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Este computador não tem licença para usar Cool Posing. Compre a ferramenta na BOOTH e instale sua licença. Se já comprou, descarregue o ZIP mais recente da BOOTH e importe CoolPosing.unitypackage. Isso é necessário uma vez por computador."
         },
@@ -4120,6 +5435,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Dormir esticado"
+        },
+        {
           "key": "はいずり",
           "value": "Rastejando"
         },
@@ -4130,6 +5449,10 @@
         {
           "key": "むきりょく",
           "value": "Sem energia"
+        },
+        {
+          "key": "カウンター",
+          "value": "Ao balcão"
         },
         {
           "key": "カッコいいポーズ",
@@ -4168,6 +5491,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Recetor"
+        },
+        {
           "key": "ケンカ",
           "value": "Pronto para brigar"
         },
@@ -4188,8 +5515,16 @@
           "value": "Modelo"
         },
         {
+          "key": "ランウェイ",
+          "value": "Passerelle"
+        },
+        {
           "key": "リクライニング",
           "value": "Reclinado"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Dormir enroscado"
         },
         {
           "key": "二人分座り",
@@ -4200,8 +5535,16 @@
           "value": "Em pausa"
         },
         {
+          "key": "侵入",
+          "value": "Infiltração"
+        },
+        {
           "key": "倒され寝",
           "value": "Derrubado"
+        },
+        {
+          "key": "切り返し",
+          "value": "Mudança de direção"
         },
         {
           "key": "制止",
@@ -4220,6 +5563,10 @@
           "value": "Abraçando a terra"
         },
         {
+          "key": "執事",
+          "value": "Mordomo"
+        },
+        {
           "key": "培養中",
           "value": "Em uma cápsula"
         },
@@ -4236,8 +5583,16 @@
           "value": "Almofada no chão"
         },
         {
+          "key": "待機中",
+          "value": "À espera"
+        },
+        {
           "key": "思考中",
           "value": "Pensando"
+        },
+        {
+          "key": "息切れ",
+          "value": "Sem fôlego"
         },
         {
           "key": "晴天寝",
@@ -4254,6 +5609,10 @@
         {
           "key": "海岸",
           "value": "Beira-mar"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Abraçar um joelho"
         },
         {
           "key": "猫寝",
@@ -4284,12 +5643,28 @@
           "value": "Golpe de cotovelo"
         },
         {
+          "key": "肘掛け",
+          "value": "Apoio de braços"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Encosto"
+        },
+        {
           "key": "脱力寝",
           "value": "Dormindo largado"
         },
         {
           "key": "腕枕寝",
           "value": "Sesta sobre o braço"
+        },
+        {
+          "key": "膝立ち",
+          "value": "De joelhos"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Em guarda"
         },
         {
           "key": "芝生",
@@ -4306,6 +5681,18 @@
         {
           "key": "運動会",
           "value": "Dia de desporto"
+        },
+        {
+          "key": "門番",
+          "value": "Guarda do portão"
+        },
+        {
+          "key": "階段",
+          "value": "Escadas"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Sentado nos degraus"
         },
         {
           "key": "騎士",
@@ -4337,6 +5724,10 @@
           "value": "Desanimado"
         },
         {
+          "key": "おもしれー",
+          "value": "Olha só que interessante"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Este computador não tem licença para usar Cool Posing. Compre a ferramenta na BOOTH e instale sua licença. Se já comprou, baixe o ZIP mais recente da BOOTH e importe CoolPosing.unitypackage. Isso é necessário uma vez por computador."
         },
@@ -4357,6 +5748,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Dormir esticado"
+        },
+        {
           "key": "はいずり",
           "value": "Rastejando"
         },
@@ -4367,6 +5762,10 @@
         {
           "key": "むきりょく",
           "value": "Sem energia"
+        },
+        {
+          "key": "カウンター",
+          "value": "No balcão"
         },
         {
           "key": "カッコいいポーズ",
@@ -4405,6 +5804,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Receptor"
+        },
+        {
           "key": "ケンカ",
           "value": "Pronto para brigar"
         },
@@ -4425,8 +5828,16 @@
           "value": "Modelo"
         },
         {
+          "key": "ランウェイ",
+          "value": "Passarela"
+        },
+        {
           "key": "リクライニング",
           "value": "Reclinado"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Dormir encolhido"
         },
         {
           "key": "二人分座り",
@@ -4437,8 +5848,16 @@
           "value": "Em pausa"
         },
         {
+          "key": "侵入",
+          "value": "Infiltração"
+        },
+        {
           "key": "倒され寝",
           "value": "Derrubado"
+        },
+        {
+          "key": "切り返し",
+          "value": "Mudança de direção"
         },
         {
           "key": "制止",
@@ -4457,6 +5876,10 @@
           "value": "Abraçando a terra"
         },
         {
+          "key": "執事",
+          "value": "Mordomo"
+        },
+        {
           "key": "培養中",
           "value": "Em uma cápsula"
         },
@@ -4473,8 +5896,16 @@
           "value": "Almofada no chão"
         },
         {
+          "key": "待機中",
+          "value": "Aguardando"
+        },
+        {
           "key": "思考中",
           "value": "Pensando"
+        },
+        {
+          "key": "息切れ",
+          "value": "Sem fôlego"
         },
         {
           "key": "晴天寝",
@@ -4491,6 +5922,10 @@
         {
           "key": "海岸",
           "value": "Beira-mar"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Abraçando um joelho"
         },
         {
           "key": "猫寝",
@@ -4521,12 +5956,28 @@
           "value": "Golpe de cotovelo"
         },
         {
+          "key": "肘掛け",
+          "value": "Apoio de braço"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Encosto"
+        },
+        {
           "key": "脱力寝",
           "value": "Dormindo largado"
         },
         {
           "key": "腕枕寝",
           "value": "Cochilo sobre o braço"
+        },
+        {
+          "key": "膝立ち",
+          "value": "De joelhos"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Em guarda"
         },
         {
           "key": "芝生",
@@ -4543,6 +5994,18 @@
         {
           "key": "運動会",
           "value": "Dia de esportes"
+        },
+        {
+          "key": "門番",
+          "value": "Guardião"
+        },
+        {
+          "key": "階段",
+          "value": "Escada"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Sentado nos degraus"
         },
         {
           "key": "騎士",
@@ -4574,6 +6037,10 @@
           "value": "В унынии"
         },
         {
+          "key": "おもしれー",
+          "value": "Вот это интересно"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "На этом компьютере нет лицензии Cool Posing. Купите инструмент на BOOTH и установите лицензию. Если вы уже купили его, загрузите последний ZIP с BOOTH и импортируйте CoolPosing.unitypackage. Это нужно сделать один раз на компьютере."
         },
@@ -4594,6 +6061,10 @@
           "value": "Татами"
         },
         {
+          "key": "のび寝",
+          "value": "Сон вытянувшись"
+        },
+        {
           "key": "はいずり",
           "value": "Ползком"
         },
@@ -4604,6 +6075,10 @@
         {
           "key": "むきりょく",
           "value": "Нет энергии"
+        },
+        {
+          "key": "カウンター",
+          "value": "У стойки"
         },
         {
           "key": "カッコいいポーズ",
@@ -4642,6 +6117,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Кетчер"
+        },
+        {
           "key": "ケンカ",
           "value": "Готов к драке"
         },
@@ -4662,8 +6141,16 @@
           "value": "Модель"
         },
         {
+          "key": "ランウェイ",
+          "value": "Подиум"
+        },
+        {
           "key": "リクライニング",
           "value": "Полулёжа"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Сон калачиком"
         },
         {
           "key": "二人分座り",
@@ -4674,8 +6161,16 @@
           "value": "Перерыв"
         },
         {
+          "key": "侵入",
+          "value": "Проникновение"
+        },
+        {
           "key": "倒され寝",
           "value": "Сбит с ног"
+        },
+        {
+          "key": "切り返し",
+          "value": "Резкий разворот"
         },
         {
           "key": "制止",
@@ -4694,6 +6189,10 @@
           "value": "Обнять землю"
         },
         {
+          "key": "執事",
+          "value": "Дворецкий"
+        },
+        {
           "key": "培養中",
           "value": "В капсуле"
         },
@@ -4710,8 +6209,16 @@
           "value": "Подушка на полу"
         },
         {
+          "key": "待機中",
+          "value": "В ожидании"
+        },
+        {
           "key": "思考中",
           "value": "В раздумьях"
+        },
+        {
+          "key": "息切れ",
+          "value": "Без дыхания"
         },
         {
           "key": "晴天寝",
@@ -4728,6 +6235,10 @@
         {
           "key": "海岸",
           "value": "Морской берег"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Обхватив колено"
         },
         {
           "key": "猫寝",
@@ -4758,12 +6269,28 @@
           "value": "Удар локтем"
         },
         {
+          "key": "肘掛け",
+          "value": "Подлокотник"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Спинка стула"
+        },
+        {
           "key": "脱力寝",
           "value": "Упал и уснул"
         },
         {
           "key": "腕枕寝",
           "value": "Сон на руке"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Стоя на коленях"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Боевая готовность"
         },
         {
           "key": "芝生",
@@ -4780,6 +6307,18 @@
         {
           "key": "運動会",
           "value": "Спортивный день"
+        },
+        {
+          "key": "門番",
+          "value": "Привратник"
+        },
+        {
+          "key": "階段",
+          "value": "Лестница"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Сидя на ступенях"
         },
         {
           "key": "騎士",
@@ -4811,6 +6350,10 @@
           "value": "Nedstämd"
         },
         {
+          "key": "おもしれー",
+          "value": "Men så intressant"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Datorn saknar licens för Cool Posing. Köp verktyget på BOOTH och installera licensen. Har du redan köpt det, hämta senaste ZIP-filen från BOOTH och importera CoolPosing.unitypackage. Detta krävs en gång per dator."
         },
@@ -4831,6 +6374,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Sova utsträckt"
+        },
+        {
           "key": "はいずり",
           "value": "Kryper"
         },
@@ -4841,6 +6388,10 @@
         {
           "key": "むきりょく",
           "value": "Orkeslös"
+        },
+        {
+          "key": "カウンター",
+          "value": "Vid disken"
         },
         {
           "key": "カッコいいポーズ",
@@ -4879,6 +6430,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Catcher"
+        },
+        {
           "key": "ケンカ",
           "value": "Redo att slåss"
         },
@@ -4899,8 +6454,16 @@
           "value": "Modell"
         },
         {
+          "key": "ランウェイ",
+          "value": "Catwalk"
+        },
+        {
           "key": "リクライニング",
           "value": "Bakåtlutad"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Sova hopkrupen"
         },
         {
           "key": "二人分座り",
@@ -4911,8 +6474,16 @@
           "value": "På rast"
         },
         {
+          "key": "侵入",
+          "value": "Infiltration"
+        },
+        {
           "key": "倒され寝",
           "value": "Nedslagen"
+        },
+        {
+          "key": "切り返し",
+          "value": "Tvärvändning"
         },
         {
           "key": "制止",
@@ -4931,6 +6502,10 @@
           "value": "Kramar jorden"
         },
         {
+          "key": "執事",
+          "value": "Butler"
+        },
+        {
           "key": "培養中",
           "value": "I en kapsel"
         },
@@ -4947,8 +6522,16 @@
           "value": "Golvkudde"
         },
         {
+          "key": "待機中",
+          "value": "På vänt"
+        },
+        {
           "key": "思考中",
           "value": "Tänker"
+        },
+        {
+          "key": "息切れ",
+          "value": "Andfådd"
         },
         {
           "key": "晴天寝",
@@ -4965,6 +6548,10 @@
         {
           "key": "海岸",
           "value": "Havskust"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Med ett knä i famnen"
         },
         {
           "key": "猫寝",
@@ -4995,12 +6582,28 @@
           "value": "Armbågsslag"
         },
         {
+          "key": "肘掛け",
+          "value": "Armstöd"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Ryggstöd"
+        },
+        {
           "key": "脱力寝",
           "value": "Somnat utslagen"
         },
         {
           "key": "腕枕寝",
           "value": "Arm som sovkudde"
+        },
+        {
+          "key": "膝立ち",
+          "value": "På knä"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Stridsberedd"
         },
         {
           "key": "芝生",
@@ -5017,6 +6620,18 @@
         {
           "key": "運動会",
           "value": "Idrottsdag"
+        },
+        {
+          "key": "門番",
+          "value": "Portvakt"
+        },
+        {
+          "key": "階段",
+          "value": "Trappa"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Sittande i trappan"
         },
         {
           "key": "騎士",
@@ -5048,6 +6663,10 @@
           "value": "சோர்ந்த மனம்"
         },
         {
+          "key": "おもしれー",
+          "value": "அட, சுவாரசியம்"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "இந்தக் கணினியில் Cool Posing உரிமம் இல்லை. BOOTH-இல் வாங்கி உரிமத்தை நிறுவவும். ஏற்கனவே வாங்கியிருந்தால் BOOTH-இலிருந்து சமீபத்திய ZIP பெற்று CoolPosing.unitypackage இறக்குமதி செய்யவும். கணினிக்கு ஒருமுறை தேவை."
         },
@@ -5068,6 +6687,10 @@
           "value": "ததாமி"
         },
         {
+          "key": "のび寝",
+          "value": "நீண்டு படுத்துத் தூங்குதல்"
+        },
+        {
           "key": "はいずり",
           "value": "தவழ்தல்"
         },
@@ -5078,6 +6701,10 @@
         {
           "key": "むきりょく",
           "value": "சக்தியின்றி"
+        },
+        {
+          "key": "カウンター",
+          "value": "கவுண்டரில்"
         },
         {
           "key": "カッコいいポーズ",
@@ -5116,6 +6743,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "பந்தைப் பிடிப்பவர்"
+        },
+        {
           "key": "ケンカ",
           "value": "சண்டைக்குத் தயார்"
         },
@@ -5136,8 +6767,16 @@
           "value": "மாடல்"
         },
         {
+          "key": "ランウェイ",
+          "value": "நடைமேடை"
+        },
+        {
           "key": "リクライニング",
           "value": "சாய்ந்து படுத்தல்"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "சுருண்டு தூங்குதல்"
         },
         {
           "key": "二人分座り",
@@ -5148,8 +6787,16 @@
           "value": "இடைவேளை"
         },
         {
+          "key": "侵入",
+          "value": "ஊடுருவல்"
+        },
+        {
           "key": "倒され寝",
           "value": "வீழ்ந்து"
+        },
+        {
+          "key": "切り返し",
+          "value": "சட்டெனத் திரும்புதல்"
         },
         {
           "key": "制止",
@@ -5168,6 +6815,10 @@
           "value": "பூமியைத் தழுவி"
         },
         {
+          "key": "執事",
+          "value": "தலைமைப் பணியாளர்"
+        },
+        {
           "key": "培養中",
           "value": "கூட்டுக்குள்"
         },
@@ -5184,8 +6835,16 @@
           "value": "தரைக் குஷன்"
         },
         {
+          "key": "待機中",
+          "value": "காத்திருப்பு"
+        },
+        {
           "key": "思考中",
           "value": "சிந்தித்து"
+        },
+        {
+          "key": "息切れ",
+          "value": "மூச்சிரைப்பு"
         },
         {
           "key": "晴天寝",
@@ -5202,6 +6861,10 @@
         {
           "key": "海岸",
           "value": "கடலோரம்"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "ஒரு முழங்காலை அணைத்தல்"
         },
         {
           "key": "猫寝",
@@ -5232,12 +6895,28 @@
           "value": "முழங்கைத் தாக்கு"
         },
         {
+          "key": "肘掛け",
+          "value": "கைத்தாங்கி"
+        },
+        {
+          "key": "背もたれ",
+          "value": "முதுகுத்தாங்கி"
+        },
+        {
           "key": "脱力寝",
           "value": "சாய்ந்து உறங்கி"
         },
         {
           "key": "腕枕寝",
           "value": "கைத் தலையணைத் தூக்கம்"
+        },
+        {
+          "key": "膝立ち",
+          "value": "நிமிர்ந்து மண்டியிடல்"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "சண்டைக்குத் தயார்"
         },
         {
           "key": "芝生",
@@ -5254,6 +6933,18 @@
         {
           "key": "運動会",
           "value": "விளையாட்டு நாள்"
+        },
+        {
+          "key": "門番",
+          "value": "வாயிற்காவலர்"
+        },
+        {
+          "key": "階段",
+          "value": "படிக்கட்டுகள்"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "படியில் அமர்தல்"
         },
         {
           "key": "騎士",
@@ -5285,6 +6976,10 @@
           "value": "దిగులుగా"
         },
         {
+          "key": "おもしれー",
+          "value": "భలే ఆసక్తికరం"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "ఈ కంప్యూటర్‌లో Cool Posing లైసెన్స్ లేదు. BOOTHలో కొని లైసెన్స్ ఇన్‌స్టాల్ చేయండి. ఇప్పటికే కొంటే BOOTH నుంచి తాజా ZIP తీసుకుని CoolPosing.unitypackage దిగుమతి చేయండి. ప్రతి కంప్యూటర్‌కు ఒక్కసారి అవసరం."
         },
@@ -5305,6 +7000,10 @@
           "value": "తతామి"
         },
         {
+          "key": "のび寝",
+          "value": "చాచుకుని నిద్ర"
+        },
+        {
           "key": "はいずり",
           "value": "పాకుతూ"
         },
@@ -5315,6 +7014,10 @@
         {
           "key": "むきりょく",
           "value": "శక్తి లేక"
+        },
+        {
+          "key": "カウンター",
+          "value": "కౌంటర్ వద్ద"
         },
         {
           "key": "カッコいいポーズ",
@@ -5353,6 +7056,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "క్యాచర్"
+        },
+        {
           "key": "ケンカ",
           "value": "పోరాటానికి సిద్ధం"
         },
@@ -5373,8 +7080,16 @@
           "value": "మోడల్"
         },
         {
+          "key": "ランウェイ",
+          "value": "ఫ్యాషన్ రన్‌వే"
+        },
+        {
           "key": "リクライニング",
           "value": "వాలి పడుకుని"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "ముడుచుకుని నిద్ర"
         },
         {
           "key": "二人分座り",
@@ -5385,8 +7100,16 @@
           "value": "విరామంలో"
         },
         {
+          "key": "侵入",
+          "value": "చొరబాటు"
+        },
+        {
           "key": "倒され寝",
           "value": "నేలకూలి"
+        },
+        {
+          "key": "切り返し",
+          "value": "చటుక్కున మలుపు"
         },
         {
           "key": "制止",
@@ -5405,6 +7128,10 @@
           "value": "భూమిని కౌగిలించుకుని"
         },
         {
+          "key": "執事",
+          "value": "ప్రధాన సేవకుడు"
+        },
+        {
           "key": "培養中",
           "value": "గూటిలో"
         },
@@ -5421,8 +7148,16 @@
           "value": "నేల దిండు"
         },
         {
+          "key": "待機中",
+          "value": "వేచి ఉండటం"
+        },
+        {
           "key": "思考中",
           "value": "ఆలోచిస్తూ"
+        },
+        {
+          "key": "息切れ",
+          "value": "ఆయాసం"
         },
         {
           "key": "晴天寝",
@@ -5439,6 +7174,10 @@
         {
           "key": "海岸",
           "value": "సముద్రతీరం"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "ఒక మోకాలిని హత్తుకోవడం"
         },
         {
           "key": "猫寝",
@@ -5469,12 +7208,28 @@
           "value": "మోచేతి దెబ్బ"
         },
         {
+          "key": "肘掛け",
+          "value": "చేతి ఆనింపు"
+        },
+        {
+          "key": "背もたれ",
+          "value": "వీపు ఆనింపు"
+        },
+        {
           "key": "脱力寝",
           "value": "వాలిపోయి నిద్ర"
         },
         {
           "key": "腕枕寝",
           "value": "చేతి దిండుతో కునుకు"
+        },
+        {
+          "key": "膝立ち",
+          "value": "మోకాళ్లపై నిటారుగా"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "పోరాటానికి సిద్ధం"
         },
         {
           "key": "芝生",
@@ -5491,6 +7246,18 @@
         {
           "key": "運動会",
           "value": "క్రీడా దినం"
+        },
+        {
+          "key": "門番",
+          "value": "ద్వారపాలకుడు"
+        },
+        {
+          "key": "階段",
+          "value": "మెట్లు"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "మెట్లపై కూర్చోవడం"
         },
         {
           "key": "騎士",
@@ -5522,6 +7289,10 @@
           "value": "หดหู่"
         },
         {
+          "key": "おもしれー",
+          "value": "น่าสนแฮะ"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "คอมพิวเตอร์นี้ไม่มีสิทธิ์ใช้ Cool Posing ซื้อเครื่องมือจาก BOOTH แล้วติดตั้งสิทธิ์ใช้งาน หากซื้อแล้ว ให้ดาวน์โหลด ZIP ล่าสุดจาก BOOTH และนำเข้า CoolPosing.unitypackage ทำเพียงครั้งเดียวต่อคอมพิวเตอร์"
         },
@@ -5542,6 +7313,10 @@
           "value": "เสื่อทาทามิ"
         },
         {
+          "key": "のび寝",
+          "value": "นอนเหยียดยาว"
+        },
+        {
           "key": "はいずり",
           "value": "คลาน"
         },
@@ -5552,6 +7327,10 @@
         {
           "key": "むきりょく",
           "value": "ไร้เรี่ยวแรง"
+        },
+        {
+          "key": "カウンター",
+          "value": "หน้าเคาน์เตอร์"
         },
         {
           "key": "カッコいいポーズ",
@@ -5590,6 +7369,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "แคตเชอร์"
+        },
+        {
           "key": "ケンカ",
           "value": "พร้อมสู้"
         },
@@ -5610,8 +7393,16 @@
           "value": "นายแบบนางแบบ"
         },
         {
+          "key": "ランウェイ",
+          "value": "รันเวย์"
+        },
+        {
           "key": "リクライニング",
           "value": "เอนนอน"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "นอนขดตัว"
         },
         {
           "key": "二人分座り",
@@ -5622,8 +7413,16 @@
           "value": "พักอยู่"
         },
         {
+          "key": "侵入",
+          "value": "ลอบเข้า"
+        },
+        {
           "key": "倒され寝",
           "value": "ล้มลง"
+        },
+        {
+          "key": "切り返し",
+          "value": "เปลี่ยนทิศฉับพลัน"
         },
         {
           "key": "制止",
@@ -5642,6 +7441,10 @@
           "value": "กอดพื้นโลก"
         },
         {
+          "key": "執事",
+          "value": "พ่อบ้าน"
+        },
+        {
           "key": "培養中",
           "value": "อยู่ในแคปซูล"
         },
@@ -5658,8 +7461,16 @@
           "value": "เบาะรองนั่ง"
         },
         {
+          "key": "待機中",
+          "value": "รออยู่"
+        },
+        {
           "key": "思考中",
           "value": "กำลังคิด"
+        },
+        {
+          "key": "息切れ",
+          "value": "หอบเหนื่อย"
         },
         {
           "key": "晴天寝",
@@ -5676,6 +7487,10 @@
         {
           "key": "海岸",
           "value": "ชายฝั่ง"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "กอดเข่าข้างเดียว"
         },
         {
           "key": "猫寝",
@@ -5706,12 +7521,28 @@
           "value": "ตีศอก"
         },
         {
+          "key": "肘掛け",
+          "value": "ที่วางแขน"
+        },
+        {
+          "key": "背もたれ",
+          "value": "พนักพิง"
+        },
+        {
           "key": "脱力寝",
           "value": "นอนหมดแรง"
         },
         {
           "key": "腕枕寝",
           "value": "งีบหนุนแขน"
+        },
+        {
+          "key": "膝立ち",
+          "value": "คุกเข่าตัวตรง"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "พร้อมสู้"
         },
         {
           "key": "芝生",
@@ -5728,6 +7559,18 @@
         {
           "key": "運動会",
           "value": "วันกีฬา"
+        },
+        {
+          "key": "門番",
+          "value": "ยามเฝ้าประตู"
+        },
+        {
+          "key": "階段",
+          "value": "บันได"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "นั่งบนขั้นบันได"
         },
         {
           "key": "騎士",
@@ -5759,6 +7602,10 @@
           "value": "Keyifsiz"
         },
         {
+          "key": "おもしれー",
+          "value": "Vay, ilginçmiş"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Bu bilgisayarda Cool Posing lisansı yok. Aracı BOOTH'tan satın alıp lisansını kurun. Zaten satın aldıysanız BOOTH'tan son ZIP'i indirip CoolPosing.unitypackage'i içe aktarın. Bilgisayar başına bir kez gerekir."
         },
@@ -5779,6 +7626,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Uzanarak uyku"
+        },
+        {
           "key": "はいずり",
           "value": "Sürünme"
         },
@@ -5789,6 +7640,10 @@
         {
           "key": "むきりょく",
           "value": "Enerjisiz"
+        },
+        {
+          "key": "カウンター",
+          "value": "Tezgâhta"
         },
         {
           "key": "カッコいいポーズ",
@@ -5827,6 +7682,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Yakalayıcı"
+        },
+        {
           "key": "ケンカ",
           "value": "Kavgaya Hazır"
         },
@@ -5847,8 +7706,16 @@
           "value": "Model"
         },
         {
+          "key": "ランウェイ",
+          "value": "Podyum"
+        },
+        {
           "key": "リクライニング",
           "value": "Geriye Yaslanma"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Kıvrılarak uyku"
         },
         {
           "key": "二人分座り",
@@ -5859,8 +7726,16 @@
           "value": "Molada"
         },
         {
+          "key": "侵入",
+          "value": "Sızma"
+        },
+        {
           "key": "倒され寝",
           "value": "Yere Serilmiş"
+        },
+        {
+          "key": "切り返し",
+          "value": "Ani dönüş"
         },
         {
           "key": "制止",
@@ -5879,6 +7754,10 @@
           "value": "Dünyaya Sarıl"
         },
         {
+          "key": "執事",
+          "value": "Uşak"
+        },
+        {
           "key": "培養中",
           "value": "Kapsülde"
         },
@@ -5895,8 +7774,16 @@
           "value": "Yer Minderi"
         },
         {
+          "key": "待機中",
+          "value": "Beklemede"
+        },
+        {
           "key": "思考中",
           "value": "Düşünceli"
+        },
+        {
+          "key": "息切れ",
+          "value": "Nefes nefese"
         },
         {
           "key": "晴天寝",
@@ -5913,6 +7800,10 @@
         {
           "key": "海岸",
           "value": "Deniz Kenarı"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Bir dize sarılma"
         },
         {
           "key": "猫寝",
@@ -5943,12 +7834,28 @@
           "value": "Dirsek Vuruşu"
         },
         {
+          "key": "肘掛け",
+          "value": "Kolçak"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Sırtlık"
+        },
+        {
           "key": "脱力寝",
           "value": "Yığılıp Uyuma"
         },
         {
           "key": "腕枕寝",
           "value": "Kol Üstünde Uyku"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Diz üstünde dik"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Savaşa hazır"
         },
         {
           "key": "芝生",
@@ -5965,6 +7872,18 @@
         {
           "key": "運動会",
           "value": "Spor Günü"
+        },
+        {
+          "key": "門番",
+          "value": "Kapı muhafızı"
+        },
+        {
+          "key": "階段",
+          "value": "Merdiven"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Basamakta oturuş"
         },
         {
           "key": "騎士",
@@ -5996,6 +7915,10 @@
           "value": "У смутку"
         },
         {
+          "key": "おもしれー",
+          "value": "Оце цікаво"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "На цьому комп'ютері немає ліцензії Cool Posing. Придбайте інструмент на BOOTH та встановіть ліцензію. Якщо ви вже придбали його, завантажте останній ZIP із BOOTH та імпортуйте CoolPosing.unitypackage. Це потрібно зробити один раз на комп'ютері."
         },
@@ -6016,6 +7939,10 @@
           "value": "Татамі"
         },
         {
+          "key": "のび寝",
+          "value": "Сон випроставшись"
+        },
+        {
           "key": "はいずり",
           "value": "Повзком"
         },
@@ -6026,6 +7953,10 @@
         {
           "key": "むきりょく",
           "value": "Немає енергії"
+        },
+        {
+          "key": "カウンター",
+          "value": "Біля стійки"
         },
         {
           "key": "カッコいいポーズ",
@@ -6064,6 +7995,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Кетчер"
+        },
+        {
           "key": "ケンカ",
           "value": "Готовий до бійки"
         },
@@ -6084,8 +8019,16 @@
           "value": "Модель"
         },
         {
+          "key": "ランウェイ",
+          "value": "Подіум"
+        },
+        {
           "key": "リクライニング",
           "value": "Напівлежачи"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Сон калачиком"
         },
         {
           "key": "二人分座り",
@@ -6096,8 +8039,16 @@
           "value": "Перерва"
         },
         {
+          "key": "侵入",
+          "value": "Проникнення"
+        },
+        {
           "key": "倒され寝",
           "value": "Збитий з ніг"
+        },
+        {
+          "key": "切り返し",
+          "value": "Різкий розворот"
         },
         {
           "key": "制止",
@@ -6116,6 +8067,10 @@
           "value": "Обійняти землю"
         },
         {
+          "key": "執事",
+          "value": "Дворецький"
+        },
+        {
           "key": "培養中",
           "value": "У капсулі"
         },
@@ -6132,8 +8087,16 @@
           "value": "Подушка на підлозі"
         },
         {
+          "key": "待機中",
+          "value": "В очікуванні"
+        },
+        {
           "key": "思考中",
           "value": "У роздумах"
+        },
+        {
+          "key": "息切れ",
+          "value": "Захекавшись"
         },
         {
           "key": "晴天寝",
@@ -6150,6 +8113,10 @@
         {
           "key": "海岸",
           "value": "Морський берег"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Обіймаючи коліно"
         },
         {
           "key": "猫寝",
@@ -6180,12 +8147,28 @@
           "value": "Удар ліктем"
         },
         {
+          "key": "肘掛け",
+          "value": "Підлокітник"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Спинка стільця"
+        },
+        {
           "key": "脱力寝",
           "value": "Упав і заснув"
         },
         {
           "key": "腕枕寝",
           "value": "Сон на руці"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Стоячи на колінах"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Бойова готовність"
         },
         {
           "key": "芝生",
@@ -6202,6 +8185,18 @@
         {
           "key": "運動会",
           "value": "Спортивний день"
+        },
+        {
+          "key": "門番",
+          "value": "Вартовий біля воріт"
+        },
+        {
+          "key": "階段",
+          "value": "Сходи"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Сидячи на сходинках"
         },
         {
           "key": "騎士",
@@ -6233,6 +8228,10 @@
           "value": "Buồn bã"
         },
         {
+          "key": "おもしれー",
+          "value": "Ồ, thú vị đấy"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "Máy tính này chưa có giấy phép Cool Posing. Mua công cụ trên BOOTH và cài giấy phép. Nếu đã mua, tải ZIP mới nhất từ BOOTH và nhập CoolPosing.unitypackage. Chỉ cần một lần cho mỗi máy."
         },
@@ -6253,6 +8252,10 @@
           "value": "Tatami"
         },
         {
+          "key": "のび寝",
+          "value": "Ngủ duỗi người"
+        },
+        {
           "key": "はいずり",
           "value": "Bò"
         },
@@ -6263,6 +8266,10 @@
         {
           "key": "むきりょく",
           "value": "Hết sức"
+        },
+        {
+          "key": "カウンター",
+          "value": "Bên quầy"
         },
         {
           "key": "カッコいいポーズ",
@@ -6301,6 +8308,10 @@
           "value": "Cool Posing Tool (BOOTH)"
         },
         {
+          "key": "キャッチャー",
+          "value": "Người bắt bóng"
+        },
+        {
           "key": "ケンカ",
           "value": "Sẵn sàng đánh"
         },
@@ -6321,8 +8332,16 @@
           "value": "Người mẫu"
         },
         {
+          "key": "ランウェイ",
+          "value": "Sàn diễn"
+        },
+        {
           "key": "リクライニング",
           "value": "Ngả lưng"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "Ngủ cuộn mình"
         },
         {
           "key": "二人分座り",
@@ -6333,8 +8352,16 @@
           "value": "Đang nghỉ"
         },
         {
+          "key": "侵入",
+          "value": "Đột nhập"
+        },
+        {
           "key": "倒され寝",
           "value": "Bị đánh ngã"
+        },
+        {
+          "key": "切り返し",
+          "value": "Đổi hướng"
         },
         {
           "key": "制止",
@@ -6353,6 +8380,10 @@
           "value": "Ôm lấy đất"
         },
         {
+          "key": "執事",
+          "value": "Quản gia"
+        },
+        {
           "key": "培養中",
           "value": "Trong khoang"
         },
@@ -6369,8 +8400,16 @@
           "value": "Đệm ngồi"
         },
         {
+          "key": "待機中",
+          "value": "Đang chờ"
+        },
+        {
           "key": "思考中",
           "value": "Suy nghĩ"
+        },
+        {
+          "key": "息切れ",
+          "value": "Hụt hơi"
         },
         {
           "key": "晴天寝",
@@ -6387,6 +8426,10 @@
         {
           "key": "海岸",
           "value": "Bờ biển"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "Ôm một đầu gối"
         },
         {
           "key": "猫寝",
@@ -6417,12 +8460,28 @@
           "value": "Đánh chỏ"
         },
         {
+          "key": "肘掛け",
+          "value": "Tay vịn"
+        },
+        {
+          "key": "背もたれ",
+          "value": "Tựa lưng ghế"
+        },
+        {
           "key": "脱力寝",
           "value": "Ngủ mềm người"
         },
         {
           "key": "腕枕寝",
           "value": "Ngủ gối tay"
+        },
+        {
+          "key": "膝立ち",
+          "value": "Quỳ thẳng"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "Sẵn sàng chiến đấu"
         },
         {
           "key": "芝生",
@@ -6439,6 +8498,18 @@
         {
           "key": "運動会",
           "value": "Ngày hội thể thao"
+        },
+        {
+          "key": "門番",
+          "value": "Người gác cổng"
+        },
+        {
+          "key": "階段",
+          "value": "Cầu thang"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "Ngồi trên bậc thang"
         },
         {
           "key": "騎士",
@@ -6470,6 +8541,10 @@
           "value": "失落"
         },
         {
+          "key": "おもしれー",
+          "value": "有点意思"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "此电脑未获授权使用Cool Posing。请从BOOTH购买工具并安装许可证。若已购买，请从BOOTH下载最新ZIP，并导入CoolPosing.unitypackage。每台电脑只需执行一次。"
         },
@@ -6490,6 +8565,10 @@
           "value": "榻榻米"
         },
         {
+          "key": "のび寝",
+          "value": "舒展入睡"
+        },
+        {
           "key": "はいずり",
           "value": "爬行"
         },
@@ -6500,6 +8579,10 @@
         {
           "key": "むきりょく",
           "value": "没力气"
+        },
+        {
+          "key": "カウンター",
+          "value": "吧台"
         },
         {
           "key": "カッコいいポーズ",
@@ -6538,6 +8621,10 @@
           "value": "Cool Posing Tool（BOOTH）"
         },
         {
+          "key": "キャッチャー",
+          "value": "捕手"
+        },
+        {
           "key": "ケンカ",
           "value": "准备打架"
         },
@@ -6558,8 +8645,16 @@
           "value": "模特"
         },
         {
+          "key": "ランウェイ",
+          "value": "走秀"
+        },
+        {
           "key": "リクライニング",
           "value": "斜躺"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "蜷缩入睡"
         },
         {
           "key": "二人分座り",
@@ -6570,8 +8665,16 @@
           "value": "休息中"
         },
         {
+          "key": "侵入",
+          "value": "潜入"
+        },
+        {
           "key": "倒され寝",
           "value": "被击倒"
+        },
+        {
+          "key": "切り返し",
+          "value": "急转身"
         },
         {
           "key": "制止",
@@ -6590,6 +8693,10 @@
           "value": "拥抱大地"
         },
         {
+          "key": "執事",
+          "value": "管家"
+        },
+        {
           "key": "培養中",
           "value": "培养舱"
         },
@@ -6606,8 +8713,16 @@
           "value": "坐垫"
         },
         {
+          "key": "待機中",
+          "value": "待命中"
+        },
+        {
           "key": "思考中",
           "value": "思考中"
+        },
+        {
+          "key": "息切れ",
+          "value": "气喘吁吁"
         },
         {
           "key": "晴天寝",
@@ -6624,6 +8739,10 @@
         {
           "key": "海岸",
           "value": "海岸"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "抱单膝"
         },
         {
           "key": "猫寝",
@@ -6654,12 +8773,28 @@
           "value": "肘击"
         },
         {
+          "key": "肘掛け",
+          "value": "扶手"
+        },
+        {
+          "key": "背もたれ",
+          "value": "椅背"
+        },
+        {
           "key": "脱力寝",
           "value": "瘫软入睡"
         },
         {
           "key": "腕枕寝",
           "value": "枕臂小憩"
+        },
+        {
+          "key": "膝立ち",
+          "value": "直身跪姿"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "备战架势"
         },
         {
           "key": "芝生",
@@ -6676,6 +8811,18 @@
         {
           "key": "運動会",
           "value": "运动会"
+        },
+        {
+          "key": "門番",
+          "value": "守门人"
+        },
+        {
+          "key": "階段",
+          "value": "楼梯"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "坐在台阶上"
         },
         {
           "key": "騎士",
@@ -6707,6 +8854,10 @@
           "value": "失落"
         },
         {
+          "key": "おもしれー",
+          "value": "有點意思"
+        },
+        {
           "key": "このコンピュータにはカッコいいポーズツールの使用が許諾されていません。Boothのショップからカッコいいポーズツールを購入して、コンピュータにライセンスをインストールしてください。カッコいいポーズツールを購入しているのにこのエラーが表示される場合は、Boothから最新版のZipファイルをダウンロードして、「CoolPosing.unitypackage」をインポートしてください。（この作業は１つのパソコンにつき一回行う必要があります）",
           "value": "此電腦尚未獲授權使用Cool Posing。請從BOOTH購買工具並安裝授權。若已購買，請從BOOTH下載最新ZIP，並匯入CoolPosing.unitypackage。每台電腦只需執行一次。"
         },
@@ -6727,6 +8878,10 @@
           "value": "榻榻米"
         },
         {
+          "key": "のび寝",
+          "value": "舒展入睡"
+        },
+        {
           "key": "はいずり",
           "value": "爬行"
         },
@@ -6737,6 +8892,10 @@
         {
           "key": "むきりょく",
           "value": "沒力氣"
+        },
+        {
+          "key": "カウンター",
+          "value": "吧檯"
         },
         {
           "key": "カッコいいポーズ",
@@ -6775,6 +8934,10 @@
           "value": "Cool Posing Tool（BOOTH）"
         },
         {
+          "key": "キャッチャー",
+          "value": "捕手"
+        },
+        {
           "key": "ケンカ",
           "value": "準備打架"
         },
@@ -6795,8 +8958,16 @@
           "value": "模特兒"
         },
         {
+          "key": "ランウェイ",
+          "value": "走秀"
+        },
+        {
           "key": "リクライニング",
           "value": "斜躺"
+        },
+        {
+          "key": "丸まり寝",
+          "value": "蜷縮入睡"
         },
         {
           "key": "二人分座り",
@@ -6807,8 +8978,16 @@
           "value": "休息中"
         },
         {
+          "key": "侵入",
+          "value": "潛入"
+        },
+        {
           "key": "倒され寝",
           "value": "被擊倒"
+        },
+        {
+          "key": "切り返し",
+          "value": "急轉身"
         },
         {
           "key": "制止",
@@ -6827,6 +9006,10 @@
           "value": "擁抱大地"
         },
         {
+          "key": "執事",
+          "value": "管家"
+        },
+        {
           "key": "培養中",
           "value": "培養艙"
         },
@@ -6843,8 +9026,16 @@
           "value": "坐墊"
         },
         {
+          "key": "待機中",
+          "value": "待命中"
+        },
+        {
           "key": "思考中",
           "value": "思考中"
+        },
+        {
+          "key": "息切れ",
+          "value": "氣喘吁吁"
         },
         {
           "key": "晴天寝",
@@ -6861,6 +9052,10 @@
         {
           "key": "海岸",
           "value": "海岸"
+        },
+        {
+          "key": "片膝抱き",
+          "value": "抱單膝"
         },
         {
           "key": "猫寝",
@@ -6891,12 +9086,28 @@
           "value": "肘擊"
         },
         {
+          "key": "肘掛け",
+          "value": "扶手"
+        },
+        {
+          "key": "背もたれ",
+          "value": "椅背"
+        },
+        {
           "key": "脱力寝",
           "value": "癱軟入睡"
         },
         {
           "key": "腕枕寝",
           "value": "枕臂小憩"
+        },
+        {
+          "key": "膝立ち",
+          "value": "直身跪姿"
+        },
+        {
+          "key": "臨戦態勢",
+          "value": "備戰架勢"
         },
         {
           "key": "芝生",
@@ -6913,6 +9124,18 @@
         {
           "key": "運動会",
           "value": "運動會"
+        },
+        {
+          "key": "門番",
+          "value": "守門人"
+        },
+        {
+          "key": "階段",
+          "value": "樓梯"
+        },
+        {
+          "key": "階段腰掛け",
+          "value": "坐在階梯上"
         },
         {
           "key": "騎士",

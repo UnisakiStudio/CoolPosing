@@ -11,7 +11,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 @media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
 <nav aria-label="Documentation"><a href="../index.html">Deutsch · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Änderungsverlauf</a><a href="UserGuide.html">Cool Posing — Deutsche Bedienungsanleitung</a></nav>
 <main><h1>Cool Posing — Deutsche Bedienungsanleitung</h1>
-<p>Cool Posing bietet 50 Posen für Desktop und Dreipunkt-VR: 11 Steh-/Hock-, 9 Stuhl-/Kantensitz-, 14 Bodensitz-, 9 Rücken- und 7 Bauchlagen.</p>
+<p>Cool Posing bietet 69 Posen für Desktop und Dreipunkt-VR: 17 Steh-/Hock-, 16 Stuhl-/Kantensitz-, 17 Bodensitz-, 12 Rücken- und 7 Bauchlagen.</p>
 <p>Diese Anleitung beschreibt Installation, Avatareinrichtung, VRChat-Steuerung, Posenbearbeitung, Updates und Fehlerbehebung. Im gekauften ZIP führt <code dir="ltr">START_HERE.html</code> am schnellsten zur Installation.</p>
 <h2>Vor dem Start</h2>
 <ul>
@@ -32,7 +32,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <li>Nach abgebrochener Bestätigung importiere den Installer erneut, sobald du bereit bist. Solange der Aktivator vorhanden ist, kannst du dessen Lizenzbefehl unter <strong>Tools &gt; Unisaki Studio</strong> verwenden. In älteren Builds heißt das Untermenü <strong>ゆにさきスタジオ</strong>.</li>
 </ol>
 <h3>Was dieser Download installiert</h3>
-<p><strong>Cool Posing 1.2.0 mit Unisaki Posing System 3.2.0.</strong> Diese Version ergänzt Installationsdialoge, Unity-Inspector und -Menüs, Standardposennamen, Spielmenüs und Offline-Dokumentation in dreißig Sprachen. Die Sprache wird oben im Inspector gewählt. Der Installer lädt diese Versionen und passende Abhängigkeiten aus VPM-Quellen.</p>
+<p><strong>Cool Posing 1.3.0 mit Unisaki Posing System 3.2.1.</strong> Diese Version ergänzt Installationsdialoge, Unity-Inspector und -Menüs, Standardposennamen, Spielmenüs und Offline-Dokumentation in dreißig Sprachen. Die Sprache wird oben im Inspector gewählt. Der Installer lädt diese Versionen und passende Abhängigkeiten aus VPM-Quellen.</p>
 <p>Cool Posing enthält Posenbibliothek, Einstellungswerkzeuge und Avataranpassungsvoreinstellungen. Der Installer aktiviert die bestehende lokale Produktlizenz; es gibt kein neues Feld für Gumroad-Lizenzschlüssel. Veröffentliche niemals Installerdateien oder Lizenzdaten in öffentlichen Supportanfragen.</p>
 <p>Sprachpräferenzen werden für den aktuellen Betriebssystembenutzer in Unity EditorPrefs gespeichert und zwischen Projekten dieses Computers geteilt. Ohne Auswahl folgt der Installer der Systemsprache; nicht unterstützte Sprachen verwenden Englisch. Produktlizenzen behalten ihre Speicherung im benutzerbezogenen Registry-Schlüssel <code dir="ltr">Software/UnisakiStudio</code> unter Windows beziehungsweise in Lizenzdateien unter macOS/Linux. Ein Sprachwechsel löscht keine Lizenz. Alle Posenwerkzeuge und Avatare verwenden dieselbe Sprache. Eine Änderung im Inspector eines beliebigen Werkzeugs aktualisiert die gemeinsame Einstellung; avatarbezogene Sprachauswahlen werden ignoriert. Die Sprachschaltfläche erscheint nur bei der ersten Installationsbestätigung, wenn noch keine Sprache gespeichert ist. Spätere Sprachänderungen erfolgen im Inspector.</p>
 <h2>2. Werkzeug einem Avatar hinzufügen</h2>
@@ -69,7 +69,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td><strong>Avatareinrichtung</strong></td><td>Avatar-/Kniekorrekturen, ursprüngliche/eigene Bewegungsübernahme und Voreinstellungen.</td></tr>
 </tbody></table></div>
 <p>Aktiviere nur benötigte Menüfunktionen. <strong>Spiegeln</strong> als Menüeintrag macht den Effekt in VRChat schaltbar; es zwingt nicht alle Posen dauerhaft in die gespiegelte Darstellung.</p>
-<p>Cool Posing enthält Voreinstellungen für <strong>トネール</strong>, <strong>狛乃</strong>, <strong>士堂</strong> und <strong>真央</strong>; dies sind die ursprünglichen Namen in der Auswahl. Andere Humanoid-Avatare können manuell angepasst werden. Automatische Hand-/Fußanpassung ist für 43 der 50 Posen vorhanden, die übrigen sieben verwenden ihre eigenen Anpassungen. Die Bibliothek enthält <strong>keine</strong> seitlichen Bewegungen zum Umdrehen.</p>
+<p>Cool Posing enthält Voreinstellungen für <strong>トネール</strong>, <strong>狛乃</strong>, <strong>士堂</strong> und <strong>真央</strong>; dies sind die ursprünglichen Namen in der Auswahl. Andere Humanoid-Avatare können manuell angepasst werden. Die automatische Gliedmaßenanpassung (IK) ist standardmäßig aktiviert und unterstützt 55 der 69 Posen. 19 neue Posen. In den Posen Ausgestreckt schlafen und Eingerollt schlafen kannst du dich auf die Seite drehen.</p>
 <h3>Voreinstellungen und Anpassung</h3>
 <p>Voreinstellungen stehen unten unter <strong>Avatareinrichtung</strong>. Suche nach Avatarnamen und wende eine an, um aktuelle Poseneinstellungen zu ersetzen. Speichere oder sichere Anpassungen vorher. Voreinstellungen sind ein Ausgangspunkt; Proportionen, Kleidung und Änderungen können weitere Handkorrekturen erfordern.</p>
 <p>Mit <strong>Animationsanpassung</strong> kannst du Körper und Gliedmaßen einer Pose ansehen und verändern. Speichere am Ende die Anpassungsanimation im Fenster. Unterstützte automatische Hand-/Fußanpassung (IK) ist global und je Pose schaltbar. Übernimmst du das aktuelle IK-Ergebnis, entsteht eine Anpassungsanimation und die IK der Pose wird zur manuellen Verfeinerung deaktiviert. Der Quellclip bleibt erhalten.</p>
@@ -95,7 +95,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <h3>Atmung und Umdrehen</h3>
 <p>Atmung ist je Kategorie unter <strong>Funktionen &gt; Komfortfunktionen &gt; Atmung animieren</strong> einstellbar: Keine, Schwach, Mittel, Stark, Schnell oder eigene Animation. Die Bewegung kostet keine synchronisierten Bits; ein Menüschalter benötigt 1 bit.</p>
 <p>Umdrehen benötigt eine unterstützte Liegepose und den Menüeintrag <strong>Umdrehen</strong>. Aktiviere es für die Pose und weise bei Bedarf eine Seitenanimation zu. Wähle sie in VRChat, aktiviere Umdrehen und löse Kopf-/Halsfixierung. Seitliche Kopfneigung steuert die Bewegung. Normales MotionTime ist für diese Pose währenddessen nicht verfügbar.</p>
-<p>Die Posen von Cool Posing enthalten keine Bewegungen zum Umdrehen. Weise gewünschten Posen passende Animationen zu.</p>
+<p>19 neue Posen. In den Posen Ausgestreckt schlafen und Eingerollt schlafen kannst du dich auf die Seite drehen.</p>
 <h2>5. Posen bearbeiten, hinzufügen und ansehen</h2>
 <p>Wähle unter <strong>Posen</strong> eine Kategorie oder das Suchregister. Suche erkennt ursprüngliche japanische Namen und vorhandene Übersetzungen. Unter <strong>Details</strong> änderst du Animation, Icon, Reihenfolge und Zeitoptionen.</p>
 <p>Ziehe mehrere Clips in den Hinzufügebereich oder wähle sie in Project und nutze den Importbefehl für ausgewählte Clips. Doppelte Verweise auf denselben Clip werden entfernt. Ändere die Zielreihenfolge in Details oder mit den Auf-/Ab-Schaltern.</p>
@@ -117,7 +117,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td>VRChat-Schwanken im Stand deaktivieren</td><td>0</td></tr>
 <tr><td>Umdrehen</td><td>1</td></tr>
 </tbody></table></div>
-<p>Jeder Client berechnet die Kopfneigung selbst. Nur der wirksame Ein/Aus-Zustand der Drehung auf die Seite wird synchronisiert. Nach dem Lösen der Halssperre gilt wieder die ursprüngliche Einstellung.</p>
+<p>Jeder Client berechnet die Kopfneigung selbst. Nur der wirksame Ein/Aus-Zustand der Funktion „Umdrehen“ wird synchronisiert. Nach dem Lösen der Halssperre gilt wieder die ursprüngliche Einstellung.</p>
 <h2>7. Aktualisierung und Vorberechnung</h2>
 <ol>
 <li>Sichere das Projekt und speichere die Arbeitsszene.</li>
@@ -135,7 +135,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td>Keine Posen in VRChat</td><td>Werkzeug unter dem richtigen Szenenavatar hinzufügen, Posen aktivieren, Warnungen prüfen und diesen Avatar hochladen. SDK und andere Fortbewegungswerkzeuge prüfen.</td></tr>
 <tr><td>Z erreicht keine Liegehaltung</td><td>Liegehöhenschwelle im Spiel erhöhen.</td></tr>
 <tr><td>Hände/Knie passen nicht</td><td>Passende Voreinstellung testen, dann unterstützte IK und/oder Animationsanpassung. Kleidung im endgültigen Build prüfen.</td></tr>
-<tr><td>Umdrehen funktioniert nicht</td><td>Unterstützte Liegepose wählen, Posenoption und Menü aktivieren, Kopf/Hals lösen. Für Cool Posing müssen passende Seitenanimationen separat bereitgestellt werden.</td></tr>
+<tr><td>Umdrehen funktioniert nicht</td><td>Umdrehen benötigt eine unterstützte Liegepose und den Menüeintrag <strong>Umdrehen</strong>. Aktiviere es für die Pose und weise bei Bedarf eine Seitenanimation zu. Wähle sie in VRChat, aktiviere Umdrehen und löse Kopf-/Halsfixierung. Seitliche Kopfneigung steuert die Bewegung. Normales MotionTime ist für diese Pose währenddessen nicht verfügbar.</td></tr>
 <tr><td>Freunde sehen Fotobewegung nicht</td><td><strong>Fotomodus synchronisieren</strong> in Unity aktivieren, Verbrauch prüfen und erneut hochladen.</td></tr>
 <tr><td>Sprache nur in Unity geändert</td><td>Avatar erneut hochladen und in mehrsprachigen Builds den einzigen Sprachwähler oben prüfen.</td></tr>
 <tr><td>Build-/Vorberechnungsfehler</td><td><strong>Ersten</strong> relevanten Console-Fehler lesen. Szene sichern, Produkt und System mit VCC/ALCOM aktualisieren oder erneut beziehen und bei Fortbestehen Support kontaktieren. Angepasste Objekte und GeneratedResources behalten, außer Support nennt einen konkreten Wiederherstellungsschritt.</td></tr>

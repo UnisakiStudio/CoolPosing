@@ -1,6 +1,6 @@
 # Cool Posing — Nederlandse handleiding
 
-Cool Posing biedt 50 poses voor desktop/driepunt-VR: 11 staand/hurkend, 9 stoel/randzitten, 14 op de vloer, 9 rug- en 7 buiklagen.
+Cool Posing biedt 69 poses voor desktop/driepunt-VR: 17 staand/hurkend, 16 stoel/randzitten, 17 op de vloer, 12 rug- en 7 buiklagen.
 
 Deze gids beschrijft installeren, avatarinstellingen, VRChat-bediening, bewerken, updates en problemen. `START_HERE.html` in het gekochte ZIP leidt het snelst naar installatie.
 
@@ -24,7 +24,7 @@ Deze gids beschrijft installeren, avatarinstellingen, VRChat-bediening, bewerken
 
 ### Wat deze download installeert
 
-**Cool Posing 1.2.0 met Unisaki Posing System 3.2.0.** Deze versie voegt dertig talen toe voor installatie, Unity-Inspector/menu’s, standaardnamen, spelmenu’s en offline documenten. Kies boven in de Inspector. De installer downloadt deze versies en passende afhankelijkheden uit VPM.
+**Cool Posing 1.3.0 met Unisaki Posing System 3.2.1.** Deze versie voegt dertig talen toe voor installatie, Unity-Inspector/menu’s, standaardnamen, spelmenu’s en offline documenten. Kies boven in de Inspector. De installer downloadt deze versies en passende afhankelijkheden uit VPM.
 
 Cool Posing bevat poses, instellingstools en avatarvoorinstellingen. De installer activeert de bestaande lokale licentie, zonder nieuw Gumroad-sleutelveld. Plaats nooit installer- of licentiedata openbaar in hulpvragen.
 
@@ -74,7 +74,7 @@ De Inspector heeft drie hoofdtabbladen:
 
 Activeer alleen gewenste menu’s. **Spiegelen** toevoegen maakt het effect schakelbaar, niet permanent voor alle poses.
 
-Voorinstellingen voor **トネール**, **狛乃**, **士堂** en **真央** gebruiken de originele namen in de kiezer. Andere Humanoid-avatars zijn handmatig aanpasbaar. IK voor 43 van 50 poses; overige zeven individuele aanpassingen. **Geen** zijbewegingen voor Omdraaien inbegrepen.
+Voorinstellingen voor **トネール**, **狛乃**, **士堂** en **真央** gebruiken de originele namen in de kiezer. Andere Humanoid-avatars zijn handmatig aanpasbaar. Automatische aanpassing van ledematen (IK) staat standaard aan en werkt voor 55 van de 69 houdingen. Er zijn 19 houdingen toegevoegd. In de houdingen Languit slapen en Opgerold slapen kun je op je zij rollen.
 
 ### Voorinstellingen en pasvorm
 
@@ -118,7 +118,7 @@ Stel ademhaling per categorie in onder **Functies > Gemaksfuncties > Ademhaling 
 
 Omdraaien vereist ondersteunde ligpose en **Omdraaien** in het menu. Activeer de poseoptie en wijs zijanimatie toe. Kies in VRChat de pose, zet Omdraaien aan en ontgrendel hoofd/nek. Zijwaartse hoofdhelling stuurt; normale MotionTime niet beschikbaar.
 
-Cool Posing bevat geen Omdraaien-bewegingen. Voeg geschikte animaties voor de gewenste poses toe.
+Er zijn 19 houdingen toegevoegd. In de houdingen Languit slapen en Opgerold slapen kun je op je zij rollen.
 
 ## 5. Poses bewerken, toevoegen en bekijken
 
@@ -149,7 +149,7 @@ Inspector toont alleen posetools, niet de hele avatar. Kleding en andere systeme
 | Standaardwiegen van VRChat uitschakelen | 0 |
 | Omdraaien | 1 |
 
-Elke client berekent de kanteling van het hoofd. Alleen de actieve stand van het omrollen wordt gesynchroniseerd. Na het ontgrendelen van de nek geldt de oorspronkelijke instelling weer.
+Elke client berekent de kanteling van het hoofd. Alleen de aan-uitstand van de functie ‘Omdraaien’ wordt gesynchroniseerd. Na het ontgrendelen van de nek geldt de oorspronkelijke instelling weer.
 
 ## 7. Bijwerken en voorberekenen
 
@@ -172,7 +172,7 @@ Een verouderde voorberekening meldt gewijzigde opties sinds cachegeneratie. Bijw
 | Geen poses in VRChat | Onder juiste scèneavatar plaatsen, poses aan, meldingen controleren, die avatar uploaden. SDK/locomotie controleren. |
 | Z laat niet liggen | Ligdrempel verhogen. |
 | Handen/knieën passen niet | Voorinstelling, ondersteunde IK en/of Animatieaanpassing; kleding in eindbuild controleren. |
-| Omdraaien werkt niet | Ondersteunde pose, poseoptie/menu aan, hoofd/nek los. Cool Posing vereist apart aangeleverde geschikte zijanimaties. |
+| Omdraaien werkt niet | Omdraaien vereist ondersteunde ligpose en **Omdraaien** in het menu. Activeer de poseoptie en wijs zijanimatie toe. Kies in VRChat de pose, zet Omdraaien aan en ontgrendel hoofd/nek. Zijwaartse hoofdhelling stuurt; normale MotionTime niet beschikbaar. |
 | Vrienden zien fotobeweging niet | **Fotomodus synchroniseren**, verbruik controleren, opnieuw uploaden. |
 | Taal alleen in Unity anders | Opnieuw uploaden; enige selector bovenaan controleren. |
 | Build-/voorberekeningsfouten | **Eerste** relevante Console-fout lezen. Scène veiligstellen, product/kern met VCC/ALCOM vernieuwen en hulp vragen als het blijft. Aangepaste objecten en GeneratedResources bewaren tenzij expliciet hersteladvies. |

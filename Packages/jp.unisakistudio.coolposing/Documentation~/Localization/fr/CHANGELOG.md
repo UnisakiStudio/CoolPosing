@@ -1,5 +1,9 @@
 # Historique des modifications
 
+## [1.3.0] - 2026-11-25
+
+- Ajout de 19 poses. Les poses Sommeil étiré et Sommeil en boule permettent de se retourner.
+
 ## [1.2.0] - 2026-11-22
 
 ### Ajouts

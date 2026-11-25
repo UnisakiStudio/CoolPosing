@@ -1,5 +1,9 @@
 # Histórico de alterações
 
+## [1.3.0] - 2026-11-25
+
+- Foram adicionadas 19 poses. As poses Dormir esticado e Dormir encolhido permitem virar de lado.
+
 ## [1.2.0] - 2026-11-22
 
 ### Adicionado

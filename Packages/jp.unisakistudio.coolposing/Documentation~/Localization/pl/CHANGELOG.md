@@ -1,5 +1,9 @@
 # Historia zmian
 
+## [1.3.0] - 2026-11-25
+
+- Dodano 19 póz. Pozy „Sen na wznak w wyproście” i „Sen w kłębek” pozwalają obrócić się na bok.
+
 ## [1.2.0] - 2026-11-22
 
 ### Dodano

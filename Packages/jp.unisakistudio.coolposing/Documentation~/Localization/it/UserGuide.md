@@ -1,6 +1,6 @@
 # Cool Posing — Guida utente in italiano
 
-Cool Posing offre 50 pose per desktop e VR a tre punti: 11 in piedi o accovacciate, 9 sedute su sedia o su un bordo, 14 sedute a terra, 9 supine e 7 prone.
+Cool Posing offre 69 pose per desktop e VR a tre punti: 17 in piedi o accovacciate, 16 sedute su sedia o su un bordo, 17 sedute a terra, 12 supine e 7 prone.
 
 Questa guida descrive installazione, configurazione avatar, comandi VRChat, modifica delle pose, aggiornamenti e risoluzione dei problemi. Il ZIP acquistato contiene `START_HERE.html` per arrivare più rapidamente all’installazione.
 
@@ -24,7 +24,7 @@ Questa guida descrive installazione, configurazione avatar, comandi VRChat, modi
 
 ### Cosa installa questo download
 
-**Cool Posing 1.2.0 con Unisaki Posing System 3.2.0.** Questa versione aggiunge dialoghi d’installazione, Inspector e menu Unity, nomi standard delle pose, menu nel gioco e documentazione offline in trenta lingue. Cambia lingua con il selettore in alto nell’Inspector. L’installatore scarica queste versioni e le dipendenze compatibili dai repository VPM.
+**Cool Posing 1.3.0 con Unisaki Posing System 3.2.1.** Questa versione aggiunge dialoghi d’installazione, Inspector e menu Unity, nomi standard delle pose, menu nel gioco e documentazione offline in trenta lingue. Cambia lingua con il selettore in alto nell’Inspector. L’installatore scarica queste versioni e le dipendenze compatibili dai repository VPM.
 
 Cool Posing include libreria delle pose, strumenti di configurazione e preset di regolazione avatar. L’installatore attiva la licenza locale esistente del prodotto e non richiede un nuovo campo per la chiave Gumroad. Non pubblicare mai file dell’installatore o dati di licenza in richieste d’assistenza pubbliche.
 
@@ -74,7 +74,7 @@ L’Inspector ha tre schede principali:
 
 Attiva soltanto i comandi che vuoi usare. Per esempio, aggiungere **Specchio** al menu consente di commutarlo in VRChat, senza obbligare tutte le pose a rimanere specchiate.
 
-Cool Posing include preset per **トネール**, **狛乃**, **士堂** e **真央**: sono i nomi originali usati nel selettore. Altri avatar Humanoid si possono regolare manualmente. La regolazione automatica di mani e piedi è fornita per 43 delle 50 pose; le altre sette usano le proprie regolazioni. La libreria **non** include movimenti laterali per Girarsi.
+Cool Posing include preset per **トネール**, **狛乃**, **士堂** e **真央**: sono i nomi originali usati nel selettore. Altri avatar Humanoid si possono regolare manualmente. La regolazione automatica degli arti (IK) è attiva per impostazione predefinita e supporta 55 delle 69 pose. Aggiunte 19 pose. Le pose Sonno disteso e Sonno rannicchiato permettono di girarsi su un fianco.
 
 ### Preset e adattamento
 
@@ -118,7 +118,7 @@ Configura il respiro per categoria in **Funzioni > Funzioni pratiche > Animare i
 
 Girarsi richiede una posa sdraiata compatibile e la voce **Girarsi** nel menu. Attivalo per la posa e assegnale un’animazione laterale quando necessario. In VRChat scegli la posa, attiva Girarsi e sblocca testa o collo. L’inclinazione laterale della testa controlla la rotazione. Il normale MotionTime non è disponibile per quella posa mentre usi Girarsi.
 
-Le pose incluse in Cool Posing non comprendono movimenti per Girarsi. Fornisci animazioni adatte alle pose che vuoi usare con questa funzione.
+Aggiunte 19 pose. Le pose Sonno disteso e Sonno rannicchiato permettono di girarsi su un fianco.
 
 ## 5. Modificare, aggiungere e visualizzare le pose
 
@@ -149,7 +149,7 @@ L’Inspector mostra il contributo degli strumenti per pose, non il totale dell�
 | Disattivare l'oscillazione da fermo di VRChat | 0 |
 | Girarsi | 1 |
 
-Ogni client calcola l’inclinazione della testa. Viene sincronizzato solo lo stato effettivo della rotazione sul fianco. Sbloccando il collo si ripristina l’impostazione iniziale.
+Ogni client calcola l’inclinazione della testa. Viene sincronizzato solo lo stato effettivo della funzione «Girarsi». Sbloccando il collo si ripristina l’impostazione iniziale.
 
 ## 7. Aggiornamento e precalcolo
 
@@ -172,7 +172,7 @@ Un avviso di precalcolo superato indica che le impostazioni sono cambiate dopo l
 | Nessuna posa in VRChat | Aggiungi lo strumento sotto l’avatar corretto nella scena, abilita le pose, controlla gli avvisi e carica quell’avatar. Verifica SDK e altri strumenti di locomozione. |
 | Z non raggiunge la posizione sdraiata | Aumenta la soglia di altezza per sdraiarsi nelle impostazioni nel gioco. |
 | Mani o ginocchia disallineate | Prova il preset adatto, poi IK supportata e/o Regolazione animazione. Verifica gli abiti nella build finale. |
-| Girarsi non funziona | Usa una posa sdraiata compatibile, attiva la funzione nei dettagli e nel menu e sblocca testa o collo. Cool Posing richiede animazioni laterali adatte fornite separatamente. |
+| Girarsi non funziona | Girarsi richiede una posa sdraiata compatibile e la voce **Girarsi** nel menu. Attivalo per la posa e assegnale un’animazione laterale quando necessario. In VRChat scegli la posa, attiva Girarsi e sblocca testa o collo. L’inclinazione laterale della testa controlla la rotazione. Il normale MotionTime non è disponibile per quella posa mentre usi Girarsi. |
 | Gli amici non vedono il movimento foto | Attiva **Sincronizzare la Modalità foto** in Unity, controlla i parametri e ricarica. |
 | Lingua cambiata in Unity ma non in VRChat | Ricarica l’avatar. Nelle build localizzate verifica il selettore unico in cima all’Inspector. |
 | Errori di build o precalcolo | Leggi il **primo** errore pertinente della Console. Salva un backup della scena, aggiorna o reinstalla prodotto e sistema comune con VCC/ALCOM e contatta l’assistenza se persiste. Conserva oggetti regolati e GeneratedResources salvo precise istruzioni di recupero dell’assistenza. |

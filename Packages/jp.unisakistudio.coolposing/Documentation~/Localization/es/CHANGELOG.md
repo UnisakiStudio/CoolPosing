@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## [1.3.0] - 2026-11-25
+
+- Se han añadido 19 poses. Las poses Dormir estirado y Dormir acurrucado permiten girarse de lado.
+
 ## [1.2.0] - 2026-11-22
 
 ### Añadido

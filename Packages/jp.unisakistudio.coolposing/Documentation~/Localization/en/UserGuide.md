@@ -1,6 +1,6 @@
 # Cool Posing Tool — English User Guide
 
-Cool Posing provides 50 poses for desktop and three-point VR: 11 standing/crouching, 9 chair/perched-sitting, 14 floor-sitting, 9 back-lying, and 7 front-lying poses.
+Cool Posing provides 69 poses for desktop and three-point VR: 17 standing/crouching, 16 chair/perched-sitting, 17 floor-sitting, 12 back-lying, and 7 front-lying poses.
 
 This guide covers installation, avatar setup, VRChat controls, pose editing, updates, and troubleshooting. The purchased ZIP includes `START_HERE.html` for the quickest route to installation.
 
@@ -24,7 +24,7 @@ This guide covers installation, avatar setup, VRChat controls, pose editing, upd
 
 ### What this download installs
 
-**Cool Posing Tool 1.2.0 with Unisaki Posing System 3.2.0.** This version adds thirty-language setup dialogs, Unity Inspector and menus, standard pose names, in-game menus, and offline documentation. Use the top-of-Inspector language selector to change the tool language. The installer downloads these versions and their compatible dependencies from VPM repositories.
+**Cool Posing Tool 1.3.0 with Unisaki Posing System 3.2.1.** This version adds thirty-language setup dialogs, Unity Inspector and menus, standard pose names, in-game menus, and offline documentation. Use the top-of-Inspector language selector to change the tool language. The installer downloads these versions and their compatible dependencies from VPM repositories.
 
 Cool Posing Tool includes the pose library, configuration tools, and avatar adjustment presets. The installer activates the product's existing local license; it does not require a new Gumroad license key field. Never post the installer files or license data in a public support request.
 
@@ -74,7 +74,7 @@ The Inspector has three main tabs:
 
 Enable only the menu controls you plan to use. For example, adding **Mirror** to the menu lets you switch mirroring in VRChat; it does not force every pose to stay mirrored.
 
-Cool Posing includes presets for **トネール**, **狛乃**, **士堂**, and **真央**; these are the original avatar names used in the preset picker. Other Humanoid avatars can be adjusted manually. Automatic hand/foot adjustment is provided for 43 of the 50 included poses; the remaining seven use their pose adjustments. The included pose library does **not** include side-lying roll-over motions.
+Cool Posing includes presets for **トネール**, **狛乃**, **士堂**, and **真央**; these are the original avatar names used in the preset picker. Other Humanoid avatars can be adjusted manually. Automatic limb adjustment (IK) is enabled by default and supports 55 of the 69 poses. Added 19 poses. Stretched Out and Curled Up support rolling over.
 
 ### Presets and fitting
 
@@ -118,7 +118,7 @@ Breathing can be set per posture category in **Features > Convenience > Animate 
 
 Roll over requires a supported lying pose and the **Roll Over** menu entry. Enable roll over for the pose and provide its side-lying animation when needed. In VRChat, choose that pose, enable roll over, and release head/neck lock. The head's sideways tilt then controls the roll. Normal MotionTime control is unavailable for that pose while roll over is used.
 
-Cool Posing’s included poses have no bundled roll-over motions. Supply suitable animations for the poses you want to use with roll over.
+Added 19 poses. Stretched Out and Curled Up support rolling over.
 
 ## 5. Edit, add, and preview poses
 
@@ -172,8 +172,8 @@ A stale-prebuild warning means settings have changed since the cached build data
 | No poses in VRChat | Add the tool under the correct scene avatar, enable desired poses, review Inspector warnings, and upload that avatar. Check SDK and other locomotion tools. |
 | Z does not reach lying posture | Increase the lying-height threshold in the tool's in-game settings. |
 | Hands or knees do not line up | Try the matching avatar preset, then use supported IK and/or Animation Adjustment. Check outfit deformation in the final build. |
-| Roll over does not work | Use a supported lying pose, enable both the pose's roll-over setting and menu entry, and release head/neck lock. Cool Posing needs suitable side-lying animations to be supplied separately. |
-| Friends cannot see photo movement | Enable **Sync Photo Mode** in Unity, check parameter usage, and upload again. |
+| Roll over does not work | Roll over requires a supported lying pose and the **Roll Over** menu entry. Enable roll over for the pose and provide its side-lying animation when needed. In VRChat, choose that pose, enable roll over, and release head/neck lock. The head's sideways tilt then controls the roll. Normal MotionTime control is unavailable for that pose while roll over is used. |
+| Friends cannot see photo movement | Enable **Sync photo mode** in Unity, check parameter usage, and upload again. |
 | Language changes in Unity but not VRChat | Re-upload the avatar. Check the single top-of-Inspector language selector in localization-enabled builds. |
 | Build/prebuild errors | Read the **first** relevant Console error. Back up the scene, update/reacquire the product and shared system through VCC/ALCOM, and contact support if the issue continues. Keep adjusted objects and GeneratedResources unless support gives a specific recovery step. |
 

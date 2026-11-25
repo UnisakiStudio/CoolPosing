@@ -1,6 +1,6 @@
 # Cool Posing Tool — česká uživatelská příručka
 
-Cool Posing obsahuje 50 póz pro režim plochy a tříbodové VR: 11 ve stoje/v přikrčení, 9 na židli/na vyvýšeném místě, 14 vsedě na podlaze, 9 na zádech a 7 na břiše.
+Cool Posing obsahuje 69 póz pro režim plochy a tříbodové VR: 17 ve stoje/v přikrčení, 16 na židli/na vyvýšeném místě, 17 vsedě na podlaze, 12 na zádech a 7 na břiše.
 
 Tato příručka popisuje instalaci, nastavení avatara, ovládání VRChat, úpravy póz, aktualizace a řešení problémů. `START_HERE.html` v zakoupeném ZIP nabízí nejrychlejší cestu k instalaci.
 
@@ -24,7 +24,7 @@ Tato příručka popisuje instalaci, nastavení avatara, ovládání VRChat, úp
 
 ### Co tento soubor instaluje
 
-**Cool Posing Tool 1.2.0 s Unisaki Posing System 3.2.0.** Tato verze přidává instalační dialogy, Inspector a nabídky Unity, standardní názvy póz, herní nabídky a offline dokumentaci ve 30 jazycích. Jazyk nástroje změníte volbou nahoře v Inspectoru. Instalátor stahuje tyto verze a kompatibilní závislosti z repozitářů VPM.
+**Cool Posing Tool 1.3.0 s Unisaki Posing System 3.2.1.** Tato verze přidává instalační dialogy, Inspector a nabídky Unity, standardní názvy póz, herní nabídky a offline dokumentaci ve 30 jazycích. Jazyk nástroje změníte volbou nahoře v Inspectoru. Instalátor stahuje tyto verze a kompatibilní závislosti z repozitářů VPM.
 
 Cool Posing Tool zahrnuje knihovnu póz, nástroje nastavení a předvolby přizpůsobení avatarů. Instalátor aktivuje dosavadní místní licenci produktu; nevyžaduje nové pole pro licenční klíč Gumroad. Nikdy nezveřejňujte instalační soubory ani licenční data ve veřejném požadavku na podporu.
 
@@ -74,7 +74,7 @@ Inspector má tři hlavní karty:
 
 Zapínejte jen ovladače nabídky, které chcete používat. Například přidání **Zrcadlit** umožní přepínat zrcadlení ve VRChat, ale nenutí všechny pózy zůstat zrcadlené.
 
-Cool Posing obsahuje předvolby pro **トネール**, **狛乃**, **士堂** a **真央**. Jde o původní jména avatarů ve výběru předvoleb. Jiné avatary Humanoid lze upravit ručně. Automatická korekce rukou a nohou je připravena pro 43 z 50 póz; zbývajících sedm používá individuální korekce. Přiložená knihovna **neobsahuje** boční pohyby přetočení.
+Cool Posing obsahuje předvolby pro **トネール**, **狛乃**, **士堂** a **真央**. Jde o původní jména avatarů ve výběru předvoleb. Jiné avatary Humanoid lze upravit ručně. Automatické přizpůsobení končetin (IK) je ve výchozím nastavení zapnuté a funguje u 55 z 69 póz. Přidáno 19 póz. V pózách Spánek v natažení a Spánek v klubíčku se můžete převalit na bok.
 
 ### Předvolby a přizpůsobení
 
@@ -118,7 +118,7 @@ Dýchání lze nastavit pro každou kategorii v **Funkce > Usnadnění > Animova
 
 Přetočení vyžaduje podporovanou ležící pózu a položku nabídky **Přetočit se**. Zapněte přetočení pro pózu a podle potřeby přiřaďte boční animaci. Ve VRChat vyberte tuto pózu, zapněte přetočení a odemkněte hlavu/krk. Náklon hlavy do stran pak řídí přetočení. Běžné ovládání MotionTime není pro tuto pózu během přetočení dostupné.
 
-Přiložené pózy Cool Posing nemají přibalené pohyby přetočení. Doplňte vhodné animace pro pózy, se kterými chcete přetočení používat.
+Přidáno 19 póz. V pózách Spánek v natažení a Spánek v klubíčku se můžete převalit na bok.
 
 ## 5. Úpravy, přidávání a náhled póz
 
@@ -172,7 +172,7 @@ Varování zastaralého předgenerování znamená, že se nastavení změnilo o
 | Ve VRChat nejsou pózy | Přidejte nástroj pod správného avatara ve scéně, zapněte požadované pózy, zkontrolujte varování Inspectoru a nahrajte tohoto avatara. Ověřte SDK a další pohybové nástroje. |
 | Z nepřepne do lehu | Zvyšte práh výšky pro leh v herním nastavení nástroje. |
 | Ruce nebo kolena nesedí | Vyzkoušejte odpovídající předvolbu avatara a pak podporované IK nebo Úpravu animace. Ověřte deformaci oblečení v konečném sestavení. |
-| Přetočení nefunguje | Použijte podporovanou ležící pózu, zapněte její přetočení i položku nabídky a odemkněte hlavu/krk. Cool Posing potřebuje vhodné boční animace dodané samostatně. |
+| Přetočení nefunguje | Přetočení vyžaduje podporovanou ležící pózu a položku nabídky **Přetočit se**. Zapněte přetočení pro pózu a podle potřeby přiřaďte boční animaci. Ve VRChat vyberte tuto pózu, zapněte přetočení a odemkněte hlavu/krk. Náklon hlavy do stran pak řídí přetočení. Běžné ovládání MotionTime není pro tuto pózu během přetočení dostupné. |
 | Přátelé nevidí pohyb při focení | Zapněte **Synchronizovat režim focení** v Unity, zkontrolujte spotřebu parametrů a znovu nahrajte avatara. |
 | Jazyk se mění v Unity, ale ne ve VRChat | Nahrajte avatara znovu. Ověřte jedinou volbu jazyka nahoře v Inspectoru verze s lokalizací. |
 | Chyby sestavení nebo předgenerování | Přečtěte **první** související chybu Console. Zálohujte scénu, aktualizujte nebo znovu stáhněte produkt a společný systém přes VCC/ALCOM a kontaktujte podporu, pokud problém trvá. Zachovejte upravené objekty a GeneratedResources, pokud podpora nedá konkrétní pokyn k obnově. |

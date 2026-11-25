@@ -1,6 +1,6 @@
 # Cool Posing — Manual em português do Brasil
 
-Cool Posing tem 50 poses para desktop e VR de três pontos: 11 em pé/agachadas, 9 em cadeira/borda, 14 sentadas no chão, 9 de costas e 7 de bruços.
+Cool Posing tem 69 poses para desktop e VR de três pontos: 17 em pé/agachadas, 16 em cadeira/borda, 17 sentadas no chão, 12 de costas e 7 de bruços.
 
 Este manual cobre instalação, configuração do avatar, controles VRChat, edição de poses, atualizações e resolução de problemas. O ZIP comprado inclui `START_HERE.html` para chegar mais depressa à instalação.
 
@@ -24,7 +24,7 @@ Este manual cobre instalação, configuração do avatar, controles VRChat, edi�
 
 ### O que este download instala
 
-**Cool Posing 1.2.0 com Unisaki Posing System 3.2.0.** Esta versão acrescenta diálogos de instalação, Inspector/menus Unity, nomes padrão, menus no jogo e documentação offline em trinta idiomas. Escolha o idioma no topo do Inspector. O instalador baixa essas versões e dependências compatíveis por VPM.
+**Cool Posing 1.3.0 com Unisaki Posing System 3.2.1.** Esta versão acrescenta diálogos de instalação, Inspector/menus Unity, nomes padrão, menus no jogo e documentação offline em trinta idiomas. Escolha o idioma no topo do Inspector. O instalador baixa essas versões e dependências compatíveis por VPM.
 
 Cool Posing inclui biblioteca de poses, ferramentas de configuração e predefinições do avatar. O instalador ativa a licença local existente; não exige novo campo de chave Gumroad. Não publique arquivos do instalador ou dados de licença em pedidos públicos de suporte.
 
@@ -74,7 +74,7 @@ O Inspector tem três separadores principais:
 
 Ative só os controles de menu que pretende usar. **Espelhar** no menu permite alternar o efeito no VRChat, sem obrigar todas as poses a ficarem espelhadas.
 
-Cool Posing inclui predefinições para **トネール**, **狛乃**, **士堂** e **真央**, os nomes originais no seletor. Outros Humanoid são ajustáveis manualmente. IK é fornecida em 43 das 50 poses; as outras sete usam ajustes próprios. A biblioteca **não** inclui movimentos laterais para Virar.
+Cool Posing inclui predefinições para **トネール**, **狛乃**, **士堂** e **真央**, os nomes originais no seletor. Outros Humanoid são ajustáveis manualmente. O ajuste automático dos membros (IK) fica ativado por padrão e funciona em 55 das 69 poses. Foram adicionadas 19 poses. As poses Dormir esticado e Dormir encolhido permitem virar de lado.
 
 ### Predefinições e adaptação
 
@@ -118,7 +118,7 @@ Configure respiração por categoria em **Funções > Funções práticas > Anim
 
 Virar exige pose deitada compatível e entrada **Virar**. Ative na pose e atribua animação lateral se necessário. Em VRChat escolha a pose, ative Virar e desbloqueie cabeça/pescoço. Inclinação lateral controla a rotação. MotionTime normal fica indisponível nessa pose.
 
-Cool Posing não inclui movimentos para Virar. Forneça animações adequadas para as poses desejadas.
+Foram adicionadas 19 poses. As poses Dormir esticado e Dormir encolhido permitem virar de lado.
 
 ## 5. Editar, adicionar e pré-visualizar
 
@@ -172,7 +172,7 @@ Aviso de pré-cálculo desatualizado significa alterações desde a cache. Atual
 | Sem poses no VRChat | Adicione ao avatar certo da cena, ative poses, veja avisos e envie esse avatar. Verifique SDK e outras ferramentas de locomoção. |
 | Z não deita | Aumente o limiar de altura para deitar. |
 | Mãos/joelhos desalinhados | Experimente predefinição certa, IK compatível ou Ajuste de animação. Verifique roupa na compilação final. |
-| Virar não funciona | Use pose compatível, ative opção e menu e desbloqueie cabeça/pescoço. Cool Posing exige animações laterais adequadas fornecidas separadamente. |
+| Virar não funciona | Virar exige pose deitada compatível e entrada **Virar**. Ative na pose e atribua animação lateral se necessário. Em VRChat escolha a pose, ative Virar e desbloqueie cabeça/pescoço. Inclinação lateral controla a rotação. MotionTime normal fica indisponível nessa pose. |
 | Amigos não veem movimento foto | Ative **Sincronizar Modo foto**, verifique consumo e envie novamente. |
 | Idioma muda só no Unity | Envie novamente e verifique o seletor único superior nas versões localizadas. |
 | Erros de compilação/pré-cálculo | Leia o **primeiro** erro relevante. Salve cópia, atualize ou obtenha de novo produto/sistema em VCC/ALCOM e contate assistência se persistir. Mantenha objetos ajustados e GeneratedResources salvo instrução específica. |

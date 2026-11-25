@@ -1,5 +1,9 @@
 # Wijzigingsgeschiedenis
 
+## [1.3.0] - 2026-11-25
+
+- Er zijn 19 houdingen toegevoegd. In de houdingen Languit slapen en Opgerold slapen kun je op je zij rollen.
+
 ## [1.2.0] - 2026-11-22
 
 ### Toegevoegd

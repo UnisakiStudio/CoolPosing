@@ -1,8 +1,8 @@
 # Cool Posing Tool
 
-A VRChat pose-locking tool for cool postures with three-point tracking or desktop mode. Includes 50 poses: 11 standing, 9 crouching, 14 sitting, 9 back-lying and 7 front-lying.
+A VRChat pose-locking tool for cool postures with three-point tracking or desktop mode. Includes 69 poses: 17 standing, 16 crouching, 17 sitting, 12 back-lying and 7 front-lying.
 
-This README covers v1.2.0. Check the installed version at the top of the Inspector.
+This README covers v1.3.0. Check the installed version at the top of the Inspector.
 
 - [BOOTH product page](https://yunisaki.booth.pm/items/8797334)
 - [Changelog](Documentation~/Localization/en/CHANGELOG.md)
@@ -22,7 +22,7 @@ Choose a README, changelog or manual from the bundled [language index](Documenta
 - Photo Mode: move the avatar up to 3m forward and adjust its rotation. Uses 0 bit locally, or 16 bit to show position and rotation to others.
 - Head visibility during photography: prevent your nearby avatar's head from disappearing specifically during Photo Mode.
 - Floor Height: move the whole body, including the head, up/down by 3m. This is separate from Foot Height, which moves the feet side while preserving head position.
-- Roll Over: available for poses where you assign suitable motions yourself. The included poses do not contain roll-over motions.
+- Added 19 poses. Stretched Out and Curled Up support rolling over.
 - Breathing: add breathing motion to the chest and other parts, with None, Weak, Medium, Strong, Rapid and Custom settings for each posture category.
 - Disable VRChat idle sway: suppress default idle sway while retaining the tool's breathing and other custom motions.
 - Reduce pose distortion from head rotation: reduce distortion when releasing head lock if the neck orientation differs from the original pose.
@@ -36,7 +36,7 @@ Choose a README, changelog or manual from the bundled [language index](Documenta
 
 Open Details for a lying pose, enable Enable roll over and assign an animation to Sideways roll-over pose. Normal MotionTime settings become unavailable. Also enable Features > Menu features > Roll Over and upload, then select the supported pose and Roll Over in VRChat. Release head lock before use.
 
-The poses included in this version do not contain roll-over motions. Assign suitable animations for the poses you want to use.
+Added 19 poses. Stretched Out and Curled Up support rolling over.
 
 ## Supported avatar presets and fitting
 
@@ -49,7 +49,7 @@ Includes fitted presets for トネール, 狛乃, 士堂 and 真央.
 
 Other avatars can also be used. Fit poses to body shape and avatar modifications using Animation adjustment. Avatar Setup also provides Prevent reverse knee bending and its detailed Minimum knee bend (degrees) setting.
 
-Automatic limb adjustment (IK) is enabled by default. It is used by 43 of the 50 included poses; the other 7 use the existing per-pose adjustments.
+Automatic limb adjustment (IK) is enabled by default and supports 55 of the 69 poses.
 
 ## Installation
 

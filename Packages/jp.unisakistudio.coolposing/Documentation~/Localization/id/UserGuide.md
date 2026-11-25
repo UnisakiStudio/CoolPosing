@@ -1,6 +1,6 @@
 # Cool Posing Tool — Panduan Pengguna Bahasa Indonesia
 
-Cool Posing menyediakan 50 pose untuk desktop dan VR tiga titik: 11 berdiri/jongkok, 9 duduk di kursi/tepian, 14 duduk di lantai, 9 berbaring telentang, dan 7 berbaring tengkurap.
+Cool Posing menyediakan 69 pose untuk desktop dan VR tiga titik: 17 berdiri/jongkok, 16 duduk di kursi/tepian, 17 duduk di lantai, 12 berbaring telentang, dan 7 berbaring tengkurap.
 
 Panduan ini mencakup pemasangan, pengaturan avatar, kontrol VRChat, penyuntingan pose, pembaruan, dan pemecahan masalah. ZIP yang dibeli berisi `START_HERE.html` untuk jalur pemasangan tercepat.
 
@@ -24,7 +24,7 @@ Panduan ini mencakup pemasangan, pengaturan avatar, kontrol VRChat, penyuntingan
 
 ### Yang dipasang oleh unduhan ini
 
-**Cool Posing Tool 1.2.0 dengan Unisaki Posing System 3.2.0.** Versi ini menambahkan dialog pemasangan, Inspector dan menu Unity, nama pose standar, menu dalam permainan, serta dokumentasi luring dalam tiga puluh bahasa. Gunakan pemilih bahasa di bagian atas Inspector untuk mengganti bahasa alat. Penginstal mengunduh versi tersebut beserta dependensi yang kompatibel dari repositori VPM.
+**Cool Posing Tool 1.3.0 dengan Unisaki Posing System 3.2.1.** Versi ini menambahkan dialog pemasangan, Inspector dan menu Unity, nama pose standar, menu dalam permainan, serta dokumentasi luring dalam tiga puluh bahasa. Gunakan pemilih bahasa di bagian atas Inspector untuk mengganti bahasa alat. Penginstal mengunduh versi tersebut beserta dependensi yang kompatibel dari repositori VPM.
 
 Cool Posing Tool berisi pustaka pose, alat konfigurasi, dan prasetel penyesuaian avatar. Penginstal mengaktifkan lisensi lokal produk yang sudah ada; tidak diperlukan kolom kunci lisensi Gumroad baru. Jangan pernah memposting file penginstal atau data lisensi dalam permintaan dukungan publik.
 
@@ -74,7 +74,7 @@ Inspector memiliki tiga tab utama:
 
 Aktifkan hanya kontrol menu yang akan digunakan. Misalnya, menambahkan **Cerminkan** ke menu memungkinkan Anda mengganti pencerminan di VRChat; ini tidak memaksa semua pose tetap dicerminkan.
 
-Cool Posing mencakup prasetel untuk **トネール**, **狛乃**, **士堂**, dan **真央**; ini adalah nama avatar asli yang digunakan dalam pemilih prasetel. Avatar Humanoid lain dapat disesuaikan secara manual. Penyesuaian tangan/kaki otomatis tersedia untuk 43 dari 50 pose bawaan; tujuh sisanya menggunakan penyesuaian posenya. Pustaka pose bawaan **tidak** mencakup gerakan berguling menyamping.
+Cool Posing mencakup prasetel untuk **トネール**, **狛乃**, **士堂**, dan **真央**; ini adalah nama avatar asli yang digunakan dalam pemilih prasetel. Avatar Humanoid lain dapat disesuaikan secara manual. Penyesuaian anggota tubuh otomatis (IK) aktif secara default dan tersedia untuk 55 dari 69 pose. Ada 19 pose baru. Pada pose Tidur selonjor dan Tidur meringkuk, avatar dapat berguling ke samping.
 
 ### Prasetel dan penyesuaian kecocokan
 
@@ -118,7 +118,7 @@ Napas dapat diatur per kategori pose melalui **Fitur > Kemudahan > Animasikan na
 
 Berguling memerlukan pose berbaring yang didukung dan item menu **Berguling**. Aktifkan berguling untuk pose tersebut dan berikan animasi menyampingnya jika diperlukan. Di VRChat, pilih pose itu, aktifkan berguling, lalu lepas kunci kepala/leher. Kemiringan kepala ke samping kemudian mengatur gerakan berguling. Kontrol MotionTime biasa tidak tersedia untuk pose tersebut selama berguling digunakan.
 
-Pose bawaan Cool Posing tidak menyertakan gerakan berguling. Sediakan animasi yang sesuai untuk pose yang ingin digunakan dengan berguling.
+Ada 19 pose baru. Pada pose Tidur selonjor dan Tidur meringkuk, avatar dapat berguling ke samping.
 
 ## 5. Mengedit, menambah, dan melihat pratinjau pose
 
@@ -172,7 +172,7 @@ Peringatan prabuild usang berarti pengaturan telah berubah sejak data build cach
 | Tidak ada pose di VRChat | Tambahkan alat di bawah avatar Scene yang benar, aktifkan pose yang diinginkan, periksa peringatan Inspector, lalu unggah avatar tersebut. Periksa SDK dan alat perpindahan lainnya. |
 | Z tidak mencapai posisi berbaring | Naikkan ambang tinggi berbaring dalam pengaturan alat di permainan. |
 | Tangan atau lutut tidak sejajar | Coba prasetel avatar yang cocok, lalu gunakan IK yang didukung dan/atau Penyesuaian Animasi. Periksa deformasi pakaian dalam build akhir. |
-| Berguling tidak bekerja | Gunakan pose berbaring yang didukung, aktifkan pengaturan berguling pose dan item menunya, lalu lepas kunci kepala/leher. Cool Posing memerlukan animasi menyamping yang sesuai untuk disediakan secara terpisah. |
+| Berguling tidak bekerja | Berguling memerlukan pose berbaring yang didukung dan item menu **Berguling**. Aktifkan berguling untuk pose tersebut dan berikan animasi menyampingnya jika diperlukan. Di VRChat, pilih pose itu, aktifkan berguling, lalu lepas kunci kepala/leher. Kemiringan kepala ke samping kemudian mengatur gerakan berguling. Kontrol MotionTime biasa tidak tersedia untuk pose tersebut selama berguling digunakan. |
 | Teman tidak melihat gerakan foto | Aktifkan **Sinkronkan mode foto** di Unity, periksa penggunaan parameter, lalu unggah lagi. |
 | Bahasa berubah di Unity tetapi tidak di VRChat | Unggah ulang avatar. Periksa pemilih bahasa tunggal di bagian atas Inspector pada build yang mendukung pelokalan. |
 | Kesalahan build/prabuild | Baca kesalahan Console **pertama** yang relevan. Cadangkan Scene, perbarui/peroleh kembali produk dan sistem bersama melalui VCC/ALCOM, lalu hubungi dukungan jika masalah berlanjut. Pertahankan objek yang sudah disesuaikan dan GeneratedResources kecuali dukungan memberikan langkah pemulihan khusus. |

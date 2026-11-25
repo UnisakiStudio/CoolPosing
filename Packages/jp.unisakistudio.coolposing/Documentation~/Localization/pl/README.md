@@ -1,8 +1,8 @@
 # Cool Posing Tool
 
-Narzędzie blokowania poz dla VRChat, pozwalające przyjmować efektowne pozy także przy śledzeniu 3 punktów i w trybie pulpitu. Zawiera 50 poz: 11 stojących, 9 kucających, 14 siedzących, 9 na plecach i 7 na brzuchu.
+Narzędzie blokowania poz dla VRChat, pozwalające przyjmować efektowne pozy także przy śledzeniu 3 punktów i w trybie pulpitu. Zawiera 69 poz: 17 stojących, 16 kucających, 17 siedzących, 12 na plecach i 7 na brzuchu.
 
-Ten README dotyczy wersji v1.2.0. Zainstalowana wersja jest widoczna u góry Inspectora.
+Ten README dotyczy wersji v1.3.0. Zainstalowana wersja jest widoczna u góry Inspectora.
 
 - [Strona produktu w BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Historia zmian](CHANGELOG.md)
@@ -22,7 +22,7 @@ README, historię zmian i instrukcję można wybrać z dołączonej [listy języ
 - Tryb zdjęć: przesuń awatara do 3m do przodu i dopasuj kierunek. Tylko na własnym ekranie zużywa 0 bit, a pokazywanie pozycji i kierunku innym — 16 bit.
 - Widoczność głowy podczas zdjęć: zapobiega ukrywaniu głowy własnego awatara z bliska tylko w trybie zdjęć.
 - Wysokość ziemi: przesuwa całe ciało wraz z głową do 3m w górę lub w dół. Uzupełnia Wysokość stóp, która reguluje stronę nóg z zachowaniem głowy.
-- Obróć się: dostępne w pozach, którym samodzielnie przypiszesz odpowiedni ruch. Dołączone pozy nie zawierają ruchów obracania.
+- Dodano 19 póz. Pozy „Sen na wznak w wyproście” i „Sen w kłębek” pozwalają obrócić się na bok.
 - Oddech: dodaje ruch, np. klatki piersiowej. Dla każdej kategorii można wybrać Brak, Słabe, Średnie, Silne, Szybkie lub Własne.
 - Wyłącz kołysanie w spoczynku VRChat: ogranicza standardowe kołysanie, zachowując oddech narzędzia i inne własne ruchy.
 - Ogranicz deformację pozy przy obrocie głowy: zmniejsza deformację po zwolnieniu blokady, gdy kierunek głowy różni się od oryginalnej pozy.
@@ -36,7 +36,7 @@ README, historię zmian i instrukcję można wybrać z dołączonej [listy języ
 
 W Szczegółach odpowiedniej pozy leżącej wybierz Włącz obracanie i przypisz animację w polu Boczna poza obracania. Zwykłe MotionTime stanie się niedostępne. Włącz też „Funkcje > Funkcje menu > Obróć się” i prześlij awatara. W VRChat wybierz zgodną pozę i Obróć się. Zwolnij blokadę głowy przed użyciem.
 
-Dołączone pozy tej wersji nie zawierają ruchów obracania. Przypisz animację odpowiednią do pozy, której chcesz użyć.
+Dodano 19 póz. Pozy „Sen na wznak w wyproście” i „Sen w kłębek” pozwalają obrócić się na bok.
 
 ## Obsługiwane presety awatarów i dopasowanie
 
@@ -49,7 +49,7 @@ Dołączono dopasowane presety dla トネール, 狛乃, 士堂 i 真央.
 
 Można używać też innych awatarów. Dopasuj pozy w Dostosowywaniu animacji do budowy ciała i modyfikacji. W Konfiguracji awatara są również Zapobiegaj wyginaniu kolan do tyłu oraz Minimalne zgięcie kolana (stopnie) w Szczegółach.
 
-Automatyczna korekcja kończyn (IK) jest domyślnie włączona. Z 50 dołączonych poz 43 używają IK, a pozostałe 7 dotychczasowych indywidualnych korekcji.
+Automatyczne dopasowanie kończyn (IK) jest domyślnie włączone i obsługuje 55 z 69 póz.
 
 ## Instalacja
 

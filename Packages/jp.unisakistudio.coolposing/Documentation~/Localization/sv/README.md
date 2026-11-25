@@ -1,8 +1,8 @@
 # Cool Posing
 
-Ett poslåsverktyg för VRChat som ger coola poser även med 3-punktsspårning och i skrivbordsläge. Innehåller totalt 50 poser: 11 stående, 9 hukande, 14 sittande, 9 liggande på rygg och 7 liggande på mage.
+Ett poslåsverktyg för VRChat som ger coola poser även med 3-punktsspårning och i skrivbordsläge. Innehåller totalt 69 poser: 17 stående, 16 hukande, 17 sittande, 12 liggande på rygg och 7 liggande på mage.
 
-Denna README gäller v1.2.0. Installerad version visas högst upp i Inspector.
+Denna README gäller v1.3.0. Installerad version visas högst upp i Inspector.
 
 - [Produktsida på BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Ändringshistorik](CHANGELOG.md)
@@ -22,7 +22,7 @@ Välj språk för README, historik och handbok i medföljande [språklista](../i
 - Fotoläge: flytta avataren upp till 3m framåt och justera riktningen. Endast lokalt använder 0 bit; att visa position och riktning för andra använder 16 bit.
 - Visa huvudet under fotografering: förhindrar att ditt eget avatarhuvud nära kameran döljs under Fotoläge.
 - Golvhöjd: flyttar hela kroppen inklusive huvudet upp till 3m uppåt/nedåt, separat från Fothöjd som behåller huvudpositionen och flyttar fötternas sida.
-- Vänd dig: kan användas för poser där du själv anger lämpliga rörelser. Medföljande poser innehåller inga vändningsrörelser.
+- 19 nya poser har lagts till. I poserna Sova utsträckt och Sova hopkrupen kan du rulla över på sidan.
 - Andning: ger bland annat bröstkorgen andningsrörelser. Välj Ingen, Svag, Medel, Stark, Snabb eller Egen per kategori.
 - Stäng av VRChats stillastående svajning: minskar standardsvajningen och behåller verktygets andning och andra egna rörelser.
 - Minska förvrängning från huvudrotation: minskar förvrängning vid upplåst nacke när huvudriktningen skiljer sig från ursprungsposens.
@@ -36,7 +36,7 @@ Välj språk för README, historik och handbok i medföljande [språklista](../i
 
 Aktivera ”Aktivera Vänd dig” i posens ”Detaljer” och ange en animation i ”Sidopose för vändning”. Vanliga MotionTime-inställningar blir otillgängliga. Aktivera även ”Funktioner > Menyfunktioner > Vänd dig”, ladda upp och välj den stödda posen och Vänd dig i VRChat. Använd med upplåst nacke.
 
-De medföljande poserna innehåller inga vändningsrörelser. Ange lämpliga animationer för de poser du vill använda.
+19 nya poser har lagts till. I poserna Sova utsträckt och Sova hopkrupen kan du rulla över på sidan.
 
 ## Stödda avatarförinställningar och justering
 
@@ -49,7 +49,7 @@ Justerade förinställningar för トネール, 狛乃, 士堂 och 真央 medfö
 
 Andra avatarer kan också användas. Anpassa poserna efter kroppsbyggnad och ändringar med ”Animationsjustering”. Under ”Avatarinställningar” finns även ”Förhindra bakåtböjda knän” och detaljen ”Minsta knäböjning (grader)”.
 
-Automatisk lemanpassning (IK) är aktiverad som standard. 43 av de 50 poserna använder IK och de återstående 7 använder tidigare posejusteringar.
+Automatisk anpassning av armar och ben (IK) är aktiverad som standard och fungerar för 55 av 69 poser.
 
 ## Installation
 

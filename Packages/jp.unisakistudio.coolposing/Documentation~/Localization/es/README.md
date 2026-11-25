@@ -1,8 +1,8 @@
 # Cool Posing
 
-Herramienta para fijar poses con estilo en VRChat, también con seguimiento de 3 puntos o escritorio. Incluye 50 poses: 11 de pie, 9 agachadas, 14 sentadas, 9 boca arriba y 7 boca abajo.
+Herramienta para fijar poses con estilo en VRChat, también con seguimiento de 3 puntos o escritorio. Incluye 69 poses: 17 de pie, 16 agachadas, 17 sentadas, 12 boca arriba y 7 boca abajo.
 
-Este README corresponde a v1.2.0. La versión instalada aparece arriba del Inspector.
+Este README corresponde a v1.3.0. La versión instalada aparece arriba del Inspector.
 
 - [Página del producto en BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Historial de cambios](CHANGELOG.md)
@@ -22,7 +22,7 @@ Elige el idioma del README, historial y manual en la [lista de idiomas](../index
 - Modo foto: hasta 3m hacia delante y orientación ajustable. 0 bit solo local, 16 bit para mostrar posición y dirección a otros.
 - Cabeza visible en fotos: evita ocultar la cabeza cercana propia solo en Modo foto.
 - Altura suelo: mueve cuerpo y cabeza hasta 3m arriba/abajo, distinta de Altura pies con cabeza fija.
-- Darse vuelta: funciona en poses con movimientos compatibles que asignes. No se incluyen movimientos de giro.
+- Se han añadido 19 poses. Las poses Dormir estirado y Dormir acurrucado permiten girarse de lado.
 - Respiración: anima pecho y otras partes; Ninguno, Bajo, Medio, Alto, Rápido o Personalizado por categoría.
 - Desactivar el balanceo en reposo de VRChat: reduce el reposo estándar manteniendo respiración y movimientos propios.
 - Reducir deformaciones por la rotación de cabeza: limita deformaciones por cuello distinto de la pose al desbloquearlo.
@@ -36,7 +36,7 @@ Elige el idioma del README, historial y manual en la [lista de idiomas](../index
 
 Activa «Activar Darse vuelta» en los Detalles y asigna «Pose lateral para darse vuelta». MotionTime normal queda inhabilitado. Activa también «Funciones > Funciones del menú > Darse vuelta», sube y selecciona pose y función en VRChat. Libera el cuello.
 
-Las poses incluidas no tienen movimientos para darse vuelta. Asigna animaciones compatibles a las que quieras usar.
+Se han añadido 19 poses. Las poses Dormir estirado y Dormir acurrucado permiten girarse de lado.
 
 ## Preajustes compatibles y ajuste
 
@@ -49,7 +49,7 @@ Incluye preajustes ajustados para トネール, 狛乃, 士堂 y 真央.
 
 Otros avatares son utilizables. Adapta sus proporciones y modificaciones con Ajuste de animación. Configuración del avatar incluye Evitar la flexión inversa de rodillas y el detalle Flexión mínima de rodilla (grados).
 
-IK está activa inicialmente. De 50 poses, 43 la usan y las otras 7 usan los ajustes individuales anteriores.
+El ajuste automático de las extremidades (IK) está activado de forma predeterminada y admite 55 de las 69 poses.
 
 ## Instalación
 

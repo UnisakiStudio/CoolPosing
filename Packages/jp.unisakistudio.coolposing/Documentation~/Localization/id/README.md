@@ -1,8 +1,8 @@
 # Cool Posing Tool
 
-Alat pengunci pose untuk VRChat yang memungkinkan Anda beralih ke pose keren, termasuk dengan pelacakan 3 titik dan desktop. Berisi total 50 pose: 11 berdiri, 9 setengah jongkok, 14 duduk, 9 tidur telentang, dan 7 tidur tengkurap.
+Alat pengunci pose untuk VRChat yang memungkinkan Anda beralih ke pose keren, termasuk dengan pelacakan 3 titik dan desktop. Berisi total 69 pose: 17 berdiri, 16 setengah jongkok, 17 duduk, 12 tidur telentang, dan 7 tidur tengkurap.
 
-README ini ditujukan untuk v1.2.0. Versi terpasang dapat diperiksa di bagian atas Inspector.
+README ini ditujukan untuk v1.3.0. Versi terpasang dapat diperiksa di bagian atas Inspector.
 
 - [Halaman produk BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Riwayat perubahan](CHANGELOG.md)
@@ -22,7 +22,7 @@ README, riwayat perubahan, dan panduan dapat dipilih melalui [daftar bahasa](../
 - Mode foto: memindahkan avatar hingga 3m ke depan dan menyesuaikan arahnya. Hanya pada layar sendiri menggunakan 0 bit; memperlihatkan posisi dan arah kepada orang lain menggunakan 16 bit.
 - Tampilan kepala saat pemotretan: mencegah kepala avatar sendiri menghilang saat berada dekat, khusus selama Mode foto.
 - Tinggi lantai: menggerakkan seluruh tubuh termasuk kepala hingga 3m ke atas dan ke bawah. Dapat digunakan terpisah dari “Tinggi kaki”, yang menggerakkan bagian kaki sambil mempertahankan posisi kepala.
-- Berguling: tersedia untuk pose yang Anda beri gerakan pendukung sendiri. Pose bawaan tidak mencakup gerakan berguling.
+- Ada 19 pose baru. Pada pose Tidur selonjor dan Tidur meringkuk, avatar dapat berguling ke samping.
 - Napas: menambahkan animasi napas pada dada dan bagian lain. Pilih “Tidak ada, Lemah, Sedang, Kuat, Cepat, Khusus” untuk setiap kategori pose.
 - Nonaktifkan goyangan diam VRChat: mengurangi goyangan diam bawaan sambil tetap menggunakan animasi napas alat pose dan gerakan khusus lain.
 - Kurangi perubahan pose akibat rotasi kepala: mengurangi perubahan pose ketika kunci leher dilepas dan arah leher berbeda dari pose asli.
@@ -36,7 +36,7 @@ README, riwayat perubahan, dan panduan dapat dipilih melalui [daftar bahasa](../
 
 Buka “Rincian” pose berbaring yang diinginkan, aktifkan “Aktifkan berguling”, lalu tentukan animasi pada “Pose berguling samping”. Pengaturan MotionTime biasa tidak dapat digunakan. Aktifkan juga “Fitur > Fitur menu > Berguling” lalu unggah. Di VRChat, pilih pose yang didukung dan “Berguling”. Gunakan dengan kunci leher dilepas.
 
-Pose bawaan versi ini tidak mencakup gerakan untuk berguling. Tentukan animasi yang sesuai dengan pose yang ingin digunakan.
+Ada 19 pose baru. Pada pose Tidur selonjor dan Tidur meringkuk, avatar dapat berguling ke samping.
 
 ## Prasetel avatar yang didukung dan penyesuaian
 
@@ -49,7 +49,7 @@ Mencakup prasetel yang sudah disesuaikan untuk トネール, 狛乃, 士堂, dan
 
 Avatar lain juga dapat digunakan. Sesuaikan pose melalui “Penyesuaian Animasi” berdasarkan bentuk tubuh dan modifikasi. “Pengaturan Avatar” juga berisi “Cegah lutut menekuk terbalik” dan “Tekukan lutut minimum (derajat)” dalam rincian.
 
-Penyesuaian anggota tubuh otomatis (IK) aktif secara bawaan. Dari 50 pose bawaan, 43 menggunakan IK dan 7 sisanya menggunakan penyesuaian per pose yang sudah ada.
+Penyesuaian anggota tubuh otomatis (IK) aktif secara default dan tersedia untuk 55 dari 69 pose.
 
 ## Cara pemasangan
 

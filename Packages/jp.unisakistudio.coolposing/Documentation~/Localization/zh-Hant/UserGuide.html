@@ -11,7 +11,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 @media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
 <nav aria-label="Documentation"><a href="../index.html">繁體中文 · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">更新紀錄</a><a href="UserGuide.html">Cool Posing Tool — 繁體中文使用者指南</a></nav>
 <main><h1>Cool Posing Tool — 繁體中文使用者指南</h1>
-<p>Cool Posing為桌面和3點VR提供50種姿勢：11種站立/半蹲、9種椅子坐姿/倚坐、14種地面坐姿、9種仰臥和7種俯臥。</p>
+<p>Cool Posing為桌面和3點VR提供69種姿勢：17種站立/半蹲、16種椅子坐姿/倚坐、17種地面坐姿、12種仰臥和7種俯臥。</p>
 <p>本指南涵蓋安裝、虛擬化身設定、VRChat操作、姿勢編輯、更新和疑難排解。購買的ZIP內包含<code dir="ltr">START_HERE.html</code>，可快速進入安裝說明。</p>
 <h2>開始前</h2>
 <ul>
@@ -32,7 +32,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <li>若取消了確認，準備好後可重新匯入安裝程式。啟用程式仍在專案中時，也可使用<strong>Tools &gt; Unisaki Studio</strong>中的授權安裝命令。舊版中此子選單名為<strong>ゆにさきスタジオ</strong>。</li>
 </ol>
 <h3>此下載會安裝什麼</h3>
-<p><strong>Cool Posing Tool 1.2.0與Unisaki Posing System 3.2.0。</strong>此版本為安裝對話框、Unity Inspector與選單、標準姿勢名、遊戲內選單和離線文件新增30種語言。可通過Inspector頂部的語言選擇器切換工具語言。安裝程式會從VPM儲存庫下載這些版本及其相容的相依套件。</p>
+<p><strong>Cool Posing Tool 1.3.0與Unisaki Posing System 3.2.1。</strong>此版本為安裝對話框、Unity Inspector與選單、標準姿勢名、遊戲內選單和離線文件新增30種語言。可通過Inspector頂部的語言選擇器切換工具語言。安裝程式會從VPM儲存庫下載這些版本及其相容的相依套件。</p>
 <p>Cool Posing Tool包含姿勢庫、設定工具和虛擬化身調整預設。安裝程式會啟用商品現有的本機授權，不需要新增的Gumroad授權金鑰輸入欄。請勿在公開支援請求中上傳安裝程式檔案或授權資料。</p>
 <p>語言偏好通過Unity EditorPrefs按當前OS使用者儲存，同一臺電腦上的Unity專案共用。未儲存偏好時，安裝程式遵循OS語言；不支援時使用英語。商品授權保留原有儲存方式：Windows使用當前使用者的<code dir="ltr">Software/UnisakiStudio</code>登錄機碼，macOS/Linux使用按使用者儲存的授權檔案。更改語言不會刪除授權。 所有姿勢工具和虛擬化身都使用同一種語言。在任意工具的Inspector中變更語言，都會更新共用設定；不採用個別虛擬化身的語言選擇。 僅在尚未儲存語言時的首次安裝確認中顯示語言按鈕。之後請在Inspector中變更語言。</p>
 <h2>2. 向虛擬化身新增工具</h2>
@@ -69,7 +69,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td><strong>虛擬化身設定</strong></td><td>虛擬化身專屬修正與膝部修正、原始或自訂動作匯入及預設。</td></tr>
 </tbody></table></div>
 <p>僅啟用計劃使用的選單控制項。例如，向選單新增<strong>左右鏡像</strong>，可讓您在VRChat中切換鏡像，並不會強制所有姿勢始終保持鏡像。</p>
-<p>Cool Posing包含適用於<strong>トネール</strong>、<strong>狛乃</strong>、<strong>士堂</strong>和<strong>真央</strong>的預設，這些是預設選擇器使用的原始虛擬化身名稱。其他Humanoid虛擬化身可手動調整。收錄的50種姿勢中，43種提供手腳自動調整；其餘7種使用各姿勢的調整。附帶姿勢庫<strong>不</strong>包含側躺翻身動作。</p>
+<p>Cool Posing包含適用於<strong>トネール</strong>、<strong>狛乃</strong>、<strong>士堂</strong>和<strong>真央</strong>的預設，這些是預設選擇器使用的原始虛擬化身名稱。其他Humanoid虛擬化身可手動調整。 手腳自動調整（IK）預設開啟，支援全部69個姿勢中的55個。 新增19個姿勢。「舒展入睡」和「蜷縮入睡」支援翻身。</p>
 <h3>預設與適配</h3>
 <p>預設位於<strong>虛擬化身設定</strong>靠下方。按虛擬化身名稱搜尋，再套用預設以替換當前姿勢設定。更改預設前請儲存或備份調整。預設是初步適配：體型比例、服裝和虛擬化身修改仍可能需要手動修正。</p>
 <p>對姿勢使用<strong>動畫調整</strong>，即可預覽和編輯身體、手腳位置。完成後請從該視窗儲存調整動畫。對於支援的姿勢，可整體及按姿勢啟用手腳自動調整（IK）。將當前IK結果烘焙到調整中，會建立調整動畫並關閉該姿勢的IK，以便繼續手動細調；原始來源片段會保留。</p>
@@ -95,7 +95,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <h3>呼吸與翻身</h3>
 <p>可在<strong>功能 &gt; 便利功能 &gt; 啟用呼吸動畫</strong>中按姿勢分類設定呼吸。可選擇無、弱、中、強、急或自訂呼吸動畫。動作本身不消耗同步bit，呼吸選單開關使用1 bit。</p>
 <p>翻身需要支援的躺姿和<strong>翻身</strong>選單項。請對該姿勢啟用翻身，並按需提供側躺動畫。在VRChat中選擇該姿勢、啟用翻身並解除頭部/頸部固定，隨後頭部的側向傾斜會控制翻身。姿勢使用翻身時，無法再使用一般MotionTime控制。</p>
-<p>Cool Posing的附帶姿勢未提供翻身動作。請為想要翻身的姿勢準備合適的動畫。</p>
+<p>新增19個姿勢。「舒展入睡」和「蜷縮入睡」支援翻身。</p>
 <h2>5. 編輯、新增與預覽姿勢</h2>
 <p>在<strong>姿勢</strong>中選擇分類或使用搜尋頁籤。搜尋支援原始日語名稱及已有譯名。開啟姿勢的<strong>詳情</strong>，可編輯動畫、圖示、順序和時間設定。</p>
 <p>批次加入動畫時，可將片段拖放到新增區域，或在Project視窗選取片段後使用匯入所選片段的命令。同一片段的重複參照會被移除。可在詳情中更改目標順序，或使用上下移動控制項。</p>
@@ -135,7 +135,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td>VRChat中沒有姿勢</td><td>將工具新增到正確的場景虛擬化身下，啟用所需姿勢，檢查Inspector警告，並上傳該虛擬化身。檢查SDK及其他移動工具。</td></tr>
 <tr><td>Z無法進入躺姿</td><td>在工具遊戲內設定中提高躺姿高度閾值。</td></tr>
 <tr><td>手或膝蓋位置不對</td><td>嘗試適用的虛擬化身預設，再使用支援的IK和/或動畫調整。在最終建置中檢查服裝變形。</td></tr>
-<tr><td>翻身不起作用</td><td>使用支援的躺姿，同時啟用姿勢的翻身設定與選單項，並解除頭部/頸部固定。Cool Posing需要另行提供合適的側躺動畫。</td></tr>
+<tr><td>翻身不起作用</td><td>翻身需要支援的躺姿和<strong>翻身</strong>選單項。請對該姿勢啟用翻身，並按需提供側躺動畫。在VRChat中選擇該姿勢、啟用翻身並解除頭部/頸部固定，隨後頭部的側向傾斜會控制翻身。姿勢使用翻身時，無法再使用一般MotionTime控制。</td></tr>
 <tr><td>朋友看不到拍照移動</td><td>在Unity中啟用<strong>同步拍照模式</strong>，確認參數用量並重新上傳。</td></tr>
 <tr><td>Unity語言已更改，但VRChat未變化</td><td>重新上傳虛擬化身。在支援本機化的版本中，檢查Inspector頂部唯一的語言選擇器。</td></tr>
 <tr><td>建置/預先建置錯誤</td><td>閱讀Console中相關的<strong>第一條</strong>錯誤。備份場景，通過VCC/ALCOM更新或重新獲取商品與共用系統。如問題持續，請聯絡支援。除非支援提供具體恢復步驟，否則請保留已調整的物件和GeneratedResources。</td></tr>

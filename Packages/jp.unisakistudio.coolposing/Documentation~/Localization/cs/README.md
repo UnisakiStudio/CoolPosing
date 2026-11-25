@@ -1,8 +1,8 @@
 # Cool Posing Tool
 
-Nástroj pro zamykání póz ve VRChat, který umožňuje působivé pózy i se sledováním 3 bodů a v režimu plochy. Obsahuje celkem 50 póz: 11 ve stoje, 9 v podřepu, 14 vsedě, 9 na zádech a 7 na břiše.
+Nástroj pro zamykání póz ve VRChat, který umožňuje působivé pózy i se sledováním 3 bodů a v režimu plochy. Obsahuje celkem 69 póz: 17 ve stoje, 16 v podřepu, 17 vsedě, 12 na zádech a 7 na břiše.
 
-Tento README je určen pro verzi v1.2.0. Nainstalovaná verze se zobrazuje nahoře v Inspectoru.
+Tento README je určen pro verzi v1.3.0. Nainstalovaná verze se zobrazuje nahoře v Inspectoru.
 
 - [Stránka produktu na BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Historie změn](CHANGELOG.md)
@@ -22,7 +22,7 @@ README, historii změn a návod lze vybrat v přiloženém [seznamu jazyků](../
 - Režim focení: posune avatara až 3m dopředu a upraví směr. Jen na vlastní obrazovce spotřebuje 0 bit, zobrazení polohy a směru ostatním 16 bit.
 - Zobrazení hlavy při focení: zabrání skrytí hlavy vlastního avatara zblízka pouze během režimu focení.
 - Výška podlahy: posune celé tělo včetně hlavy až 3m nahoru či dolů. Doplňuje Výšku chodidel, která upravuje stranu nohou při zachování hlavy.
-- Přetočit se: lze použít u póz, kterým sami přiřadíte odpovídající pohyb. Přiložené pózy neobsahují pohyby přetočení.
+- Přidáno 19 póz. V pózách Spánek v natažení a Spánek v klubíčku se můžete převalit na bok.
 - Dýchání: přidává pohyb například hrudníku. Pro každou kategorii lze vybrat Žádné, Slabé, Střední, Silné, Rychlé nebo Vlastní.
 - Vypnout pohupování VRChat v klidu: omezuje výchozí pohupování a zachovává dýchání nástroje i další vlastní pohyby.
 - Omezit deformaci pózy při otočení hlavy: omezuje deformaci po odemknutí hlavy, pokud její směr neodpovídá původní póze.
@@ -36,7 +36,7 @@ README, historii změn a návod lze vybrat v přiloženém [seznamu jazyků](../
 
 V Podrobnostech požadované ležící pózy zapněte Zapnout přetočení a přiřaďte animaci do Boční pózy přetočení. Běžné MotionTime se stane nedostupné. Zapněte také „Funkce > Funkce nabídky > Přetočit se“ a nahrajte avatara. Ve VRChat vyberte podporovanou pózu a Přetočit se. Hlavu před použitím odemkněte.
 
-Přiložené pózy této verze neobsahují pohyby přetočení. Přiřaďte animaci odpovídající požadované póze.
+Přidáno 19 póz. V pózách Spánek v natažení a Spánek v klubíčku se můžete převalit na bok.
 
 ## Podporované předvolby avatarů a přizpůsobení
 
@@ -49,7 +49,7 @@ Přiloženy jsou upravené předvolby pro トネール, 狛乃, 士堂 a 真央.
 
 Lze používat i jiné avatary. Přizpůsobte pózy pomocí Úpravy animace podle proporcí a úprav. V Nastavení avatara jsou také Zabránit ohybu kolen dozadu a Minimální ohyb kolena (stupně) v podrobnostech.
 
-Automatická korekce končetin (IK) je ve výchozím stavu zapnutá. Z 50 přiložených póz používá IK 43 a zbývajících 7 dosavadní individuální korekce.
+Automatické přizpůsobení končetin (IK) je ve výchozím nastavení zapnuté a funguje u 55 z 69 póz.
 
 ## Instalace
 

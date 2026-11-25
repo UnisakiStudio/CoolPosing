@@ -1,5 +1,9 @@
 # Historie změn
 
+## [1.3.0] - 2026-11-25
+
+- Přidáno 19 póz. V pózách Spánek v natažení a Spánek v klubíčku se můžete převalit na bok.
+
 ## [1.2.0] - 2026-11-22
 
 ### Přidáno

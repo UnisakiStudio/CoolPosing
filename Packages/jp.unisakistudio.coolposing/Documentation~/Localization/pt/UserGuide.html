@@ -11,7 +11,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 @media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
 <nav aria-label="Documentation"><a href="../index.html">Português · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Histórico de alterações</a><a href="UserGuide.html">Cool Posing — Manual em português</a></nav>
 <main><h1>Cool Posing — Manual em português</h1>
-<p>Cool Posing tem 50 poses para desktop e VR de três pontos: 11 em pé/agachadas, 9 em cadeira/borda, 14 sentadas no chão, 9 de costas e 7 de bruços.</p>
+<p>Cool Posing tem 69 poses para desktop e VR de três pontos: 17 em pé/agachadas, 16 em cadeira/borda, 17 sentadas no chão, 12 de costas e 7 de bruços.</p>
 <p>Este manual cobre instalação, configuração do avatar, controlos VRChat, edição de poses, atualizações e resolução de problemas. O ZIP comprado inclui <code dir="ltr">START_HERE.html</code> para chegar mais depressa à instalação.</p>
 <h2>Antes de começar</h2>
 <ul>
@@ -32,7 +32,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <li>Se cancelou, importe novamente quando estiver preparado. Enquanto existir o ativador, também pode usar o comando de instalação de licença em <strong>Tools &gt; Unisaki Studio</strong>. Nas versões antigas chama-se <strong>ゆにさきスタジオ</strong>.</li>
 </ol>
 <h3>O que esta transferência instala</h3>
-<p><strong>Cool Posing 1.2.0 com Unisaki Posing System 3.2.0.</strong> Esta versão acrescenta diálogos de instalação, Inspector/menus Unity, nomes padrão, menus no jogo e documentação offline em trinta idiomas. Escolha o idioma no topo do Inspector. O instalador transfere essas versões e dependências compatíveis por VPM.</p>
+<p><strong>Cool Posing 1.3.0 com Unisaki Posing System 3.2.1.</strong> Esta versão acrescenta diálogos de instalação, Inspector/menus Unity, nomes padrão, menus no jogo e documentação offline em trinta idiomas. Escolha o idioma no topo do Inspector. O instalador transfere essas versões e dependências compatíveis por VPM.</p>
 <p>Cool Posing inclui biblioteca de poses, ferramentas de configuração e predefinições do avatar. O instalador ativa a licença local existente; não exige novo campo de chave Gumroad. Não publique ficheiros do instalador ou dados de licença em pedidos públicos de suporte.</p>
 <p>O idioma é guardado em Unity EditorPrefs para o utilizador atual e partilhado entre projetos deste computador. Sem preferência segue o sistema, usando inglês se não suportado. Licenças mantêm registo <code dir="ltr">Software/UnisakiStudio</code> do utilizador no Windows e ficheiros por utilizador no macOS/Linux. Mudar idioma não apaga licença. Todas as ferramentas de poses e todos os avatares usam o mesmo idioma. Alterá-lo no Inspector de qualquer ferramenta atualiza a preferência comum; as escolhas de idioma por avatar são ignoradas. O botão de idioma aparece apenas na confirmação inicial da instalação quando não há um idioma guardado. As alterações posteriores são feitas no Inspector.</p>
 <h2>2. Adicionar ao avatar</h2>
@@ -69,7 +69,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td><strong>Configuração do avatar</strong></td><td>Correções próprias/joelhos, movimentos originais ou próprios e predefinições.</td></tr>
 </tbody></table></div>
 <p>Ative só os controlos de menu que pretende usar. <strong>Espelhar</strong> no menu permite alternar o efeito em VRChat, sem obrigar todas as poses a ficarem espelhadas.</p>
-<p>Cool Posing inclui predefinições para <strong>トネール</strong>, <strong>狛乃</strong>, <strong>士堂</strong> e <strong>真央</strong>, os nomes originais no seletor. Outros Humanoid são ajustáveis manualmente. IK é fornecida em 43 das 50 poses; as outras sete usam ajustes próprios. A biblioteca <strong>não</strong> inclui movimentos laterais para Virar.</p>
+<p>Cool Posing inclui predefinições para <strong>トネール</strong>, <strong>狛乃</strong>, <strong>士堂</strong> e <strong>真央</strong>, os nomes originais no seletor. Outros Humanoid são ajustáveis manualmente. O ajuste automático dos membros (IK) está ativo por predefinição e funciona em 55 das 69 poses. Foram adicionadas 19 poses. As poses Dormir esticado e Dormir enroscado permitem virar de lado.</p>
 <h3>Predefinições e adaptação</h3>
 <p>As predefinições estão no fim de <strong>Configuração do avatar</strong>. Pesquise o nome do avatar e aplique uma para substituir as poses atuais. Guarde ou faça cópia dos ajustes primeiro. Uma predefinição é um ponto de partida: proporções, roupa e alterações podem exigir correções manuais.</p>
 <p><strong>Ajuste de animação</strong> mostra e edita corpo/membros. Guarde a animação na janela quando terminar. IK de mãos e pés é global ou por pose quando suportada. Incorporar o resultado cria animação de ajuste e desativa IK para aperfeiçoamento manual; o clip fonte permanece.</p>
@@ -95,7 +95,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <h3>Respiração e Virar</h3>
 <p>Configure respiração por categoria em <strong>Funções &gt; Funções práticas &gt; Animar respiração</strong>. Escolha Nenhum, Fraco, Médio, Forte, Rápido ou animação própria. Movimento só sem bits; interruptor de menu 1 bit.</p>
 <p>Virar exige pose deitada compatível e entrada <strong>Virar</strong>. Ative na pose e atribua animação lateral se necessário. Em VRChat escolha a pose, ative Virar e desbloqueie cabeça/pescoço. Inclinação lateral controla a rotação. MotionTime normal fica indisponível nessa pose.</p>
-<p>Cool Posing não inclui movimentos para Virar. Forneça animações adequadas para as poses desejadas.</p>
+<p>Foram adicionadas 19 poses. As poses Dormir esticado e Dormir enroscado permitem virar de lado.</p>
 <h2>5. Editar, adicionar e pré-visualizar</h2>
 <p>Em <strong>Poses</strong>, escolha categoria ou pesquisa. Aceita nomes japoneses originais e traduções disponíveis. <strong>Detalhes</strong> edita animação, ícone, ordem e tempo.</p>
 <p>Arraste vários clips para a área ou selecione-os no Project e importe os selecionados. Referências duplicadas são removidas. Altere a posição nos Detalhes ou botões cima/baixo.</p>
@@ -135,7 +135,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <tr><td>Sem poses em VRChat</td><td>Adicione ao avatar certo da cena, ative poses, veja avisos e envie esse avatar. Verifique SDK e outras ferramentas de locomoção.</td></tr>
 <tr><td>Z não deita</td><td>Aumente o limiar de altura para deitar.</td></tr>
 <tr><td>Mãos/joelhos desalinhados</td><td>Experimente predefinição certa, IK compatível ou Ajuste de animação. Verifique roupa na compilação final.</td></tr>
-<tr><td>Virar não funciona</td><td>Use pose compatível, ative opção e menu e desbloqueie cabeça/pescoço. Cool Posing exige animações laterais adequadas fornecidas separadamente.</td></tr>
+<tr><td>Virar não funciona</td><td>Virar exige pose deitada compatível e entrada <strong>Virar</strong>. Ative na pose e atribua animação lateral se necessário. Em VRChat escolha a pose, ative Virar e desbloqueie cabeça/pescoço. Inclinação lateral controla a rotação. MotionTime normal fica indisponível nessa pose.</td></tr>
 <tr><td>Amigos não veem movimento foto</td><td>Ative <strong>Sincronizar Modo foto</strong>, verifique consumo e envie novamente.</td></tr>
 <tr><td>Idioma muda só no Unity</td><td>Envie novamente e verifique o seletor único superior nas versões localizadas.</td></tr>
 <tr><td>Erros de compilação/pré-cálculo</td><td>Leia o <strong>primeiro</strong> erro relevante. Guarde cópia, atualize ou obtenha de novo produto/sistema em VCC/ALCOM e contacte assistência se persistir. Mantenha objetos ajustados e GeneratedResources salvo instrução específica.</td></tr>

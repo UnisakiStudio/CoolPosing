@@ -1,6 +1,6 @@
 # Cool Posing Tool — Dansk brugervejledning
 
-Cool Posing har 50 positurer til skrivebord og 3-punkts-VR: 11 stående/i hug, 9 på stol/kant, 14 gulvsiddende, 9 på ryggen og 7 på maven.
+Cool Posing har 69 positurer til skrivebord og 3-punkts-VR: 17 stående/i hug, 16 på stol/kant, 17 gulvsiddende, 12 på ryggen og 7 på maven.
 
 Vejledningen dækker installation, avataropsætning, VRChat-betjening, positurredigering, opdatering og fejlfinding. Den købte ZIP indeholder `START_HERE.html` til hurtig installation.
 
@@ -24,7 +24,7 @@ Vejledningen dækker installation, avataropsætning, VRChat-betjening, positurre
 
 ### Hvad denne download installerer
 
-**Cool Posing Tool 1.2.0 med Unisaki Posing System 3.2.0.** Versionen tilføjer installationsdialoger, Unity Inspector og menuer, standardnavne, spilmenuer og offlinedokumentation på tredive sprog. Brug sprogvalget øverst i Inspector til at skifte værktøjssprog. Installationen henter disse versioner og kompatible afhængigheder fra VPM-arkiver.
+**Cool Posing Tool 1.3.0 med Unisaki Posing System 3.2.1.** Versionen tilføjer installationsdialoger, Unity Inspector og menuer, standardnavne, spilmenuer og offlinedokumentation på tredive sprog. Brug sprogvalget øverst i Inspector til at skifte værktøjssprog. Installationen henter disse versioner og kompatible afhængigheder fra VPM-arkiver.
 
 Cool Posing Tool indeholder positurbibliotek, konfigurationsværktøjer og avatarjusteringsforudindstillinger. Installationen aktiverer produktets eksisterende lokale licens og kræver intet nyt Gumroad-licensnøglefelt. Del aldrig installationsfiler eller licensdata i offentlige supporthenvendelser.
 
@@ -74,7 +74,7 @@ Inspector har tre hovedfaner:
 
 Aktivér kun de menufunktioner, du vil bruge. **Spejlvend** i menuen gør det for eksempel muligt at skifte spejling i VRChat; det tvinger ikke alle positurer til at forblive spejlede.
 
-Cool Posing har forudindstillinger til **トネール**, **狛乃**, **士堂** og **真央**, de oprindelige navne i vælgeren. Andre Humanoid-avatarer kan tilpasses manuelt. Automatisk hånd-/fodjustering findes til 43 af 50 positurer; resten bruger individuelle justeringer. Biblioteket indeholder **ikke** sideliggende vendeanimationer.
+Cool Posing har forudindstillinger til **トネール**, **狛乃**, **士堂** og **真央**, de oprindelige navne i vælgeren. Andre Humanoid-avatarer kan tilpasses manuelt. Automatisk tilpasning af arme og ben (IK) er som standard slået til og understøtter 55 af de 69 positurer. Der er tilføjet 19 positurer. I positurerne Sove udstrakt og Sove sammenkrøbet kan du rulle om på siden.
 
 ### Forudindstillinger og pasform
 
@@ -118,7 +118,7 @@ Vejrtrækning konfigureres pr. kategori under **Funktioner > Praktiske funktione
 
 Vend dig kræver understøttet liggende positur og menupunktet **Vend dig**. Aktivér vending på posituren og angiv sideanimation efter behov. Vælg posituren i VRChat, aktivér Vend dig og frigiv hoved-/nakkelås. Hovedets sidehældning styrer vendingen. Normal MotionTime er utilgængelig for posituren, mens Vend dig bruges.
 
-Cool Posings medfølgende positurer har ingen vendeanimationer. Angiv passende animationer til de positurer, du vil bruge med Vend dig.
+Der er tilføjet 19 positurer. I positurerne Sove udstrakt og Sove sammenkrøbet kan du rulle om på siden.
 
 ## 5. Redigér, tilføj og forhåndsvis positurer
 
@@ -172,7 +172,7 @@ Advarsel om gammel forberegning betyder ændrede indstillinger siden generering 
 | Ingen positurer i VRChat | Tilføj under korrekt sceneavatar, aktivér positurer, læs Inspector-advarsler og upload avataren. Kontrollér SDK og andre bevægelsesværktøjer. |
 | Z når ikke liggende | Hæv liggehøjdetærsklen i spilindstillingerne. |
 | Hænder/knæ passer ikke | Prøv passende avatarforudindstilling og understøttet IK og/eller Animationsjustering. Kontrollér tøj i slutbuild. |
-| Vend dig virker ikke | Brug understøttet liggende positur, aktivér både positurens vendevalg og menupunkt og frigiv hoved/nakke. Cool Posing kræver passende sideanimationer tilføjet separat. |
+| Vend dig virker ikke | Vend dig kræver understøttet liggende positur og menupunktet **Vend dig**. Aktivér vending på posituren og angiv sideanimation efter behov. Vælg posituren i VRChat, aktivér Vend dig og frigiv hoved-/nakkelås. Hovedets sidehældning styrer vendingen. Normal MotionTime er utilgængelig for posituren, mens Vend dig bruges. |
 | Venner ser ikke fotobevægelse | Aktivér **Synkronisér Fototilstand** i Unity, kontrollér forbrug og upload igen. |
 | Sprog skifter i Unity, ikke VRChat | Upload igen. Kontrollér fælles sprogvalg øverst i Inspector i lokaliserede versioner. |
 | Build-/forberegningsfejl | Læs **første** relevante Console-fejl. Sikkerhedskopiér scenen, opdatér/genhent produkt og system via VCC/ALCOM, og kontakt support ved fortsat fejl. Bevar justerede objekter og GeneratedResources, medmindre support giver konkret gendannelsestrin. |

@@ -1,6 +1,6 @@
 # Cool Posing Tool — Türkçe kullanım kılavuzu
 
-Cool Posing, masaüstü ve üç noktalı VR için 50 poz sunar: 11 ayakta/çömelme, 9 sandalye/yüksekte oturma, 14 yerde oturma, 9 sırtüstü ve 7 yüzüstü.
+Cool Posing, masaüstü ve üç noktalı VR için 69 poz sunar: 17 ayakta/çömelme, 16 sandalye/yüksekte oturma, 17 yerde oturma, 12 sırtüstü ve 7 yüzüstü.
 
 Bu kılavuz kurulum, avatar ayarı, VRChat kontrolleri, poz düzenleme, güncelleme ve sorun gidermeyi kapsar. Satın aldığınız ZIP’te en hızlı kurulum yolu için `START_HERE.html` bulunur.
 
@@ -24,7 +24,7 @@ Bu kılavuz kurulum, avatar ayarı, VRChat kontrolleri, poz düzenleme, güncell
 
 ### Bu indirme neleri kurar?
 
-**Cool Posing Tool 1.2.0 ve Unisaki Posing System 3.2.0.** Bu sürüm otuz dilde kurulum iletişimleri, Unity Inspector ve menüleri, standart poz adları, oyun menüleri ve çevrimdışı belgeler ekler. Aracın dilini Inspector’ın üstündeki seçiciden değiştirin. Kurucu bu sürümleri ve uyumlu bağımlılıklarını VPM depolarından indirir.
+**Cool Posing Tool 1.3.0 ve Unisaki Posing System 3.2.1.** Bu sürüm otuz dilde kurulum iletişimleri, Unity Inspector ve menüleri, standart poz adları, oyun menüleri ve çevrimdışı belgeler ekler. Aracın dilini Inspector’ın üstündeki seçiciden değiştirin. Kurucu bu sürümleri ve uyumlu bağımlılıklarını VPM depolarından indirir.
 
 Cool Posing Tool; poz kitaplığı, ayar araçları ve avatar düzeltme ön ayarlarını içerir. Kurucu ürünün mevcut yerel lisansını etkinleştirir; yeni bir Gumroad lisans anahtarı alanı gerektirmez. Kurulum dosyalarını veya lisans verilerini hiçbir zaman herkese açık destek iletilerine koymayın.
 
@@ -74,7 +74,7 @@ Inspector’ın üç ana sekmesi vardır:
 
 Yalnız kullanacağınız menü kontrollerini açın. Örneğin **Aynala**yı eklemek VRChat’te aynalamayı değiştirmeyi sağlar; her pozu sürekli aynalı tutmaz.
 
-Cool Posing; **トネール**, **狛乃**, **士堂** ve **真央** ön ayarlarını içerir. Bunlar ön ayar seçicide kullanılan özgün avatar adlarıdır. Diğer Humanoid avatarlar elle ayarlanabilir. 50 pozun 43’ünde otomatik el/ayak düzeltmesi vardır; kalan yedisi poz başına düzeltmeleri kullanır. Kitaplık yan yatış dönüş hareketleri **içermez**.
+Cool Posing; **トネール**, **狛乃**, **士堂** ve **真央** ön ayarlarını içerir. Bunlar ön ayar seçicide kullanılan özgün avatar adlarıdır. Diğer Humanoid avatarlar elle ayarlanabilir. Otomatik uzuv ayarı (IK) varsayılan olarak açıktır ve 69 pozun 55’ünde çalışır. 19 poz eklendi. Uzanarak uyku ve Kıvrılarak uyku pozlarında yan tarafa dönülebilir.
 
 ### Ön ayarlar ve uyarlama
 
@@ -118,7 +118,7 @@ Nefes, poz kategorisi başına **Özellikler > Kolaylıklar > Nefes animasyonu e
 
 Dönüş için desteklenen yatış pozu ve **Dön** menü öğesi gerekir. Pozun dönüşünü açın ve gerektiğinde yan yatış animasyonunu atayın. VRChat’te pozu seçin, dönüşü açın ve baş/boyun kilidini kapatın. Başın yan eğimi dönüşü yönetir. Dönüş kullanılırken bu pozda normal MotionTime kontrolü kullanılamaz.
 
-Cool Posing’in hazır pozlarında dönüş hareketi bulunmaz. Dönüşle kullanmak istediğiniz pozlara uygun animasyonları kendiniz sağlayın.
+19 poz eklendi. Uzanarak uyku ve Kıvrılarak uyku pozlarında yan tarafa dönülebilir.
 
 ## 5. Poz düzenleme, ekleme ve önizleme
 
@@ -172,7 +172,7 @@ Eski ön oluşturma uyarısı, önbellekteki derleme verileri üretildiğinden b
 | VRChat’te pozlar yok | Aracı doğru sahne avatarının altına ekleyin, pozları açın, Inspector uyarılarını inceleyin ve o avatarı yükleyin. SDK ve diğer hareket araçlarını kontrol edin. |
 | Z yatışa geçmiyor | Aracın oyun ayarlarında yatış yüksekliği eşiğini artırın. |
 | Eller veya dizler hizalanmıyor | Uyumlu avatar ön ayarını, ardından desteklenen IK ve/veya Animasyon Düzeltmesi’ni deneyin. Son derlemede kıyafet deformasyonunu kontrol edin. |
-| Dönüş çalışmıyor | Desteklenen yatış pozu kullanın, pozun dönüş ayarı ve menü öğesini açın, baş/boyun kilidini kapatın. Cool Posing için uygun yan yatış animasyonları ayrıca sağlanmalıdır. |
+| Dönüş çalışmıyor | Dönüş için desteklenen yatış pozu ve **Dön** menü öğesi gerekir. Pozun dönüşünü açın ve gerektiğinde yan yatış animasyonunu atayın. VRChat’te pozu seçin, dönüşü açın ve baş/boyun kilidini kapatın. Başın yan eğimi dönüşü yönetir. Dönüş kullanılırken bu pozda normal MotionTime kontrolü kullanılamaz. |
 | Arkadaşlar fotoğraf hareketini görmüyor | Unity’de **Fotoğraf modunu eşitle**yi açın, parametre kullanımını kontrol edip yeniden yükleyin. |
 | Dil Unity’de değişiyor ama VRChat’te değişmiyor | Avatarı yeniden yükleyin. Çok dilli sürümde Inspector’ın üstündeki tek dil seçimini kontrol edin. |
 | Derleme/ön oluşturma hataları | İlgili **ilk** Console hatasını okuyun. Sahneyi yedekleyin, ürün ve ortak sistemi VCC/ALCOM ile güncelleyin veya yeniden alın; sorun sürerse destekle görüşün. Destek özel bir kurtarma adımı vermedikçe düzeltilmiş nesneleri ve GeneratedResources’ı koruyun. |

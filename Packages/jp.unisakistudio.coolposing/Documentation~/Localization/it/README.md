@@ -1,8 +1,8 @@
 # Cool Posing
 
-Strumento per bloccare pose eleganti in VRChat anche con tracciamento a 3 punti o in desktop. Include 50 pose: 11 in piedi, 9 accovacciate, 14 sedute, 9 supine e 7 prone.
+Strumento per bloccare pose eleganti in VRChat anche con tracciamento a 3 punti o in desktop. Include 69 pose: 17 in piedi, 16 accovacciate, 17 sedute, 12 supine e 7 prone.
 
-Questo README riguarda la versione v1.2.0. La versione installata compare in alto nell’Inspector.
+Questo README riguarda la versione v1.3.0. La versione installata compare in alto nell’Inspector.
 
 - [Pagina del prodotto su BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Cronologia delle modifiche](CHANGELOG.md)
@@ -22,7 +22,7 @@ Scegli la lingua di README, cronologia e guida dall’[elenco delle lingue](../i
 - Modalità foto: sposta l’avatar fino a 3m in avanti e cambia la direzione. 0 bit solo nella tua vista, 16 bit per mostrare posizione e direzione agli altri.
 - Testa visibile nelle foto: impedisce che la testa del tuo avatar vicino scompaia, solo in Modalità foto.
 - Altezza suolo: muove tutto il corpo, testa inclusa, fino a 3m sopra o sotto, separatamente da «Altezza piedi», che mantiene la testa ferma.
-- Girarsi: usabile nelle pose cui assegni personalmente movimenti compatibili. Le pose incluse non comprendono movimenti di rotolamento.
+- Aggiunte 19 pose. Le pose Sonno disteso e Sonno rannicchiato permettono di girarsi su un fianco.
 - Respiro: anima petto e altre parti. Scegli Nessuno, Debole, Medio, Forte, Rapido o Personalizzato per categoria.
 - Disattivare l'oscillazione da fermo di VRChat: riduce il movimento standard conservando il respiro e gli altri movimenti personali.
 - Ridurre le deformazioni dovute alla rotazione della testa: limita le deformazioni sbloccando il collo quando la sua direzione differisce dall’originale.
@@ -36,7 +36,7 @@ Scegli la lingua di README, cronologia e guida dall’[elenco delle lingue](../i
 
 Nei «Dettagli» della posa sdraiata attiva «Abilita Girarsi» e assegna un’animazione a «Posa laterale per girarsi». Il normale MotionTime non sarà disponibile. Attiva anche «Funzioni > Funzioni del menu > Girarsi» e carica; in VRChat scegli la posa compatibile e «Girarsi». Lascia il collo sbloccato.
 
-Le pose incluse in questa versione non comprendono movimenti per Girarsi. Assegna animazioni adatte alle pose desiderate.
+Aggiunte 19 pose. Le pose Sonno disteso e Sonno rannicchiato permettono di girarsi su un fianco.
 
 ## Preset avatar compatibili e regolazioni
 
@@ -49,7 +49,7 @@ Sono inclusi preset regolati per トネール, 狛乃, 士堂 e 真央.
 
 Puoi usare anche altri avatar. Adatta le pose a corporatura e modifiche con «Regolazione animazione». «Configurazione avatar» offre «Impedire la piegatura inversa delle ginocchia» e il dettaglio «Flessione minima del ginocchio (gradi)».
 
-La regolazione automatica degli arti (IK) è attiva inizialmente. Delle 50 pose, 43 usano IK e le altre 7 usano le regolazioni individuali precedenti.
+La regolazione automatica degli arti (IK) è attiva per impostazione predefinita e supporta 55 delle 69 pose.
 
 ## Installazione
 

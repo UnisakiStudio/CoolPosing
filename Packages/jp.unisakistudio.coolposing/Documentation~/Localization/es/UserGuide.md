@@ -1,6 +1,6 @@
 # Cool Posing — Manual de usuario en español
 
-Cool Posing incluye 50 poses para escritorio y VR de tres puntos: 11 de pie/agachadas, 9 en silla o borde, 14 sentadas en el suelo, 9 boca arriba y 7 boca abajo.
+Cool Posing incluye 69 poses para escritorio y VR de tres puntos: 17 de pie/agachadas, 16 en silla o borde, 17 sentadas en el suelo, 12 boca arriba y 7 boca abajo.
 
 Esta guía cubre instalación, configuración del avatar, controles VRChat, edición, actualizaciones y solución de problemas. El ZIP comprado incluye `START_HERE.html` para acceder rápidamente a la instalación.
 
@@ -24,7 +24,7 @@ Esta guía cubre instalación, configuración del avatar, controles VRChat, edic
 
 ### Qué instala esta descarga
 
-**Cool Posing 1.2.0 con Unisaki Posing System 3.2.0.** Esta versión añade diálogos, Inspector y menús Unity, nombres de poses, menús del juego y documentación sin conexión en treinta idiomas. Cambia el idioma arriba del Inspector. El instalador descarga estas versiones y dependencias compatibles desde VPM.
+**Cool Posing 1.3.0 con Unisaki Posing System 3.2.1.** Esta versión añade diálogos, Inspector y menús Unity, nombres de poses, menús del juego y documentación sin conexión en treinta idiomas. Cambia el idioma arriba del Inspector. El instalador descarga estas versiones y dependencias compatibles desde VPM.
 
 Cool Posing incluye biblioteca de poses, configuración y preajustes de avatar. El instalador activa la licencia local existente; no necesita un nuevo campo de clave Gumroad. Nunca publiques archivos del instalador ni datos de licencia en solicitudes públicas de ayuda.
 
@@ -74,7 +74,7 @@ El Inspector tiene tres pestañas principales:
 
 Activa solo los menús que pienses usar. Añadir **Reflejar** permite conmutarlo en VRChat; no obliga a mantener todas las poses reflejadas.
 
-Cool Posing incluye preajustes de **トネール**, **狛乃**, **士堂** y **真央**, nombres originales en el selector. Otros Humanoid se ajustan manualmente. Hay ajuste automático en 43 de las 50 poses; las otras siete usan sus ajustes. La biblioteca **no** incluye movimientos laterales para darse vuelta.
+Cool Posing incluye preajustes de **トネール**, **狛乃**, **士堂** y **真央**, nombres originales en el selector. Otros Humanoid se ajustan manualmente. El ajuste automático de las extremidades (IK) está activado de forma predeterminada y admite 55 de las 69 poses. Se han añadido 19 poses. Las poses Dormir estirado y Dormir acurrucado permiten girarse de lado.
 
 ### Preajustes y adaptación
 
@@ -118,7 +118,7 @@ Ajusta la respiración por categoría en **Funciones > Funciones prácticas > An
 
 Darse vuelta necesita una pose tumbada compatible y la entrada **Darse vuelta**. Actívalo en la pose y añade animación lateral cuando corresponda. En VRChat elige la pose, actívalo y libera cabeza/cuello. La inclinación lateral controla el giro. MotionTime normal no está disponible mientras se usa.
 
-Cool Posing no incluye movimientos para darse vuelta. Proporciona animaciones adecuadas para las poses que quieras usar.
+Se han añadido 19 poses. Las poses Dormir estirado y Dormir acurrucado permiten girarse de lado.
 
 ## 5. Editar, añadir y previsualizar
 
@@ -149,7 +149,7 @@ El Inspector muestra el consumo de herramientas de poses, no el avatar completo.
 | Desactivar el balanceo en reposo de VRChat | 0 |
 | Darse vuelta | 1 |
 
-Cada cliente calcula la inclinación de la cabeza. Solo se sincroniza si el giro está activo. Al desbloquear el cuello, se recupera el ajuste original.
+Cada cliente calcula la inclinación de la cabeza. Solo se sincroniza si está activa la opción «Darse vuelta». Al desbloquear el cuello, se recupera el ajuste original.
 
 ## 7. Actualizar y precalcular
 
@@ -172,7 +172,7 @@ Un aviso de precálculo obsoleto indica cambios desde que se generó la caché. 
 | No hay poses en VRChat | Añade bajo el avatar correcto de escena, activa poses, revisa avisos y sube ese avatar. Comprueba SDK y otras herramientas. |
 | Z no permite tumbarse | Aumenta el umbral de altura en ajustes del juego. |
 | Manos o rodillas desalineadas | Prueba el preajuste adecuado, IK compatible y/o Ajuste de animación. Revisa ropa en el resultado final. |
-| Darse vuelta no funciona | Usa pose compatible, activa ajuste y menú y libera cabeza/cuello. Cool Posing necesita animaciones laterales adecuadas proporcionadas por separado. |
+| Darse vuelta no funciona | Darse vuelta necesita una pose tumbada compatible y la entrada **Darse vuelta**. Actívalo en la pose y añade animación lateral cuando corresponda. En VRChat elige la pose, actívalo y libera cabeza/cuello. La inclinación lateral controla el giro. MotionTime normal no está disponible mientras se usa. |
 | Otros no ven movimiento foto | Activa **Sincronizar el Modo foto** en Unity, comprueba consumo y sube de nuevo. |
 | Idioma solo cambia en Unity | Vuelve a subir. Comprueba el selector único superior en versiones localizadas. |
 | Errores de compilación/precálculo | Lee el **primer** error relevante. Guarda copia de escena, actualiza o reinstala producto y sistema con VCC/ALCOM y contacta si persiste. Conserva objetos ajustados y GeneratedResources salvo instrucciones específicas de recuperación. |

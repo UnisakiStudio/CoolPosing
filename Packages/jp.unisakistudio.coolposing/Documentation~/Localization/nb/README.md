@@ -1,8 +1,8 @@
 # Cool Posing
 
-Positurlåsverktøy for VRChat med kule positurer, også med trepunktssporing og på skrivebordet. Inneholder 50 positurer: 11 stående, 9 i huk, 14 sittende, 9 i ryggleie og 7 i mageleie.
+Positurlåsverktøy for VRChat med kule positurer, også med trepunktssporing og på skrivebordet. Inneholder 69 positurer: 17 stående, 16 i huk, 17 sittende, 12 i ryggleie og 7 i mageleie.
 
-Denne README gjelder v1.2.0. Installert versjon vises øverst i Inspector.
+Denne README gjelder v1.3.0. Installert versjon vises øverst i Inspector.
 
 - [Produktside på BOOTH](https://yunisaki.booth.pm/items/8797334)
 - [Endringslogg](CHANGELOG.md)
@@ -22,7 +22,7 @@ Velg README, endringslogg og brukerveiledning fra medfølgende [språkliste](../
 - Fotomodus: flytt avataren opptil 3m frem og juster retningen. Bare lokalt 0 bit, synlig posisjon/retning for andre 16 bit.
 - Hodevisning ved foto: hindrer at eget hode nær kameraet skjules i Fotomodus.
 - Gulvhøyde: flytter hele kroppen inkludert hodet opptil 3m opp/ned, atskilt fra Fothøyde med fast hodeposisjon.
-- Snu deg: brukes med passende bevegelser du angir selv. Medfølgende positurer har ingen animasjoner for snuing.
+- 19 nye positurer er lagt til. I positurene Sove utstrakt og Sove sammenkrøpet kan du rulle over på siden.
 - Pust: bevegelse i blant annet brystkassen med Ingen, Svak, Middels, Sterk, Rask eller Egendefinert per kategori.
 - Deaktiver VRChats hvilebevegelse: demper standardbevegelsen og beholder verktøyets pust og andre egne bevegelser.
 - Reduser positurforvrengning fra hoderotasjon: demper forvrengning ved frigitt nakke når hodet peker annerledes enn originalposituren.
@@ -36,7 +36,7 @@ Velg README, endringslogg og brukerveiledning fra medfølgende [språkliste](../
 
 Slå på «Aktiver Snu deg» i positurens Detaljer og angi animasjon i «Sidepositur for Snu deg». Vanlig MotionTime blir utilgjengelig. Aktiver også «Funksjoner > Menyfunksjoner > Snu deg», last opp og velg posituren og Snu deg i VRChat med frigitt nakkelås.
 
-Medfølgende positurer inneholder ingen animasjoner for snuing. Angi passende animasjoner for positurene du ønsker å bruke.
+19 nye positurer er lagt til. I positurene Sove utstrakt og Sove sammenkrøpet kan du rulle over på siden.
 
 ## Støttede avatarforhåndsinnstillinger og tilpasning
 
@@ -49,7 +49,7 @@ Tilpassede forhåndsinnstillinger for トネール, 狛乃, 士堂 og 真央 fø
 
 Andre avatarer kan også brukes. Tilpass etter kroppsbygning og endringer med Animasjonsjustering. Avataroppsett har også Hindre bakoverbøyning av knær og detaljen Minste knebøyning (grader).
 
-Automatisk lemjustering (IK) er på som standard. 43 av 50 positurer bruker IK; de resterende 7 bruker tidligere individuelle justeringer.
+Automatisk tilpasning av armer og ben (IK) er på som standard og støtter 55 av de 69 positurene.
 
 ## Installasjon
 

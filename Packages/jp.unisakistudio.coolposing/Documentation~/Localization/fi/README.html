@@ -11,8 +11,8 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 @media print { nav { display: none; } body { max-width: none; padding: 0; } a { color: inherit; } }</style></head><body>
 <nav aria-label="Documentation"><a href="../index.html">Suomi · 🌐</a><a href="README.html">README</a><a href="CHANGELOG.html">Muutosloki</a><a href="UserGuide.html">Cool Posing Tool — suomenkielinen käyttöohje</a></nav>
 <main><h1>Cool Posing Tool</h1>
-<p>VRChatin asentojen lukitustyökalu, jolla voit vaihtaa tyylikkäisiin asentoihin myös 3 pisteen seurannassa ja työpöytätilassa. Mukana on yhteensä 50 asentoa: 11 seisoma-asentoa, 9 kyykkyasentoa, 14 istuma-asentoa, 9 selinmakuuasentoa ja 7 vatsamakuuasentoa.</p>
-<p>Tämä README koskee versiota v1.2.0. Asennetun version näet Inspectorin yläosasta.</p>
+<p>VRChatin asentojen lukitustyökalu, jolla voit vaihtaa tyylikkäisiin asentoihin myös 3 pisteen seurannassa ja työpöytätilassa. Mukana on yhteensä 69 asentoa: 17 seisoma-asentoa, 16 kyykkyasentoa, 17 istuma-asentoa, 12 selinmakuuasentoa ja 7 vatsamakuuasentoa.</p>
+<p>Tämä README koskee versiota v1.3.0. Asennetun version näet Inspectorin yläosasta.</p>
 <ul>
 <li><a href="https://yunisaki.booth.pm/items/8797334">BOOTH-tuotesivu</a></li>
 <li><a href="CHANGELOG.html">Muutosloki</a></li>
@@ -29,7 +29,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <li>Kuvatila: siirrä avataria enintään 3m eteenpäin ja säädä sen suuntaa. Käyttö vain omalla näytöllä kuluttaa 0 bit. Sijainnin ja suunnan näyttäminen muille kuluttaa 16 bit.</li>
 <li>Pään näkyvyys kuvauksessa: estää lähellä olevan oman avatarisi pään piilottamisen vain Kuvatilan ajaksi.</li>
 <li>Lattian kork.: siirtää koko kehoa pää mukaan lukien enintään 3m ylös tai alas. Se täydentää Jalkojen kork. -toimintoa, joka liikuttaa jalkojen puolta pitäen pään paikallaan.</li>
-<li>Käänny: käytettävissä asennoissa, joille määrität itse sopivan liikkeen. Mukana toimitetuissa asennoissa ei ole kääntymisliikkeitä.</li>
+<li>Lisätty 19 asentoa. Asennoissa Uni pitkällään ja Uni käpertyneenä voi kääntyä kyljelle.</li>
 <li>Hengitys: lisää hengitysliikettä esimerkiksi rintaan. Valitse asentoluokittain Ei mitään, Heikko, Keskivahva, Vahva, Nopea tai Oma.</li>
 <li>Poista VRChatin oletushuojunta: vähentää oletusarvoista joutokäyntihuojuntaa säilyttäen työkalun hengityksen ja muut omat liikkeet.</li>
 <li>Vähennä pään kierrosta aiheutuvaa asennon vääristymää: vähentää alkuperäisestä asennosta poikkeavan pään suunnan aiheuttamaa vääristymää pään lukituksen vapautuessa.</li>
@@ -42,7 +42,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 </ul>
 <h3>Käänny-toiminnon määrittäminen</h3>
 <p>Ota haluamasi makuuasennon Lisätiedoista ”Ota Käänny käyttöön” käyttöön ja määritä animaatio kohtaan ”Käänny-toiminnon sivuasento”. Tavallinen MotionTime-asetus ei ole käytettävissä. Ota myös ”Toiminnot &gt; Valikkotoiminnot &gt; Käänny” käyttöön ja lataa avatar palveluun. Valitse VRChatissa tuettu asento ja Käänny-toiminto. Vapauta pään lukitus ennen käyttöä.</p>
-<p>Tällä kertaa mukana toimitetuissa asennoissa ei ole kääntymisliikkeitä. Määritä haluamaasi asentoon sopiva animaatio.</p>
+<p>Lisätty 19 asentoa. Asennoissa Uni pitkällään ja Uni käpertyneenä voi kääntyä kyljelle.</p>
 <h2>Tuetut avatarien esiasetukset ja säätäminen</h2>
 <p>Mukana on valmiiksi säädetyt esiasetukset avatareille トネール, 狛乃, 士堂 ja 真央.</p>
 <ul>
@@ -52,7 +52,7 @@ a { color: #2269b8; } a:visited { color: #7952ad; } li { margin-block: .35rem; }
 <li><a href="https://booth.pm/ja/items/6846646">真央</a></li>
 </ul>
 <p>Työkalua voi käyttää myös muilla avatareilla. Säädä asennot mittasuhteisiin ja muutoksiin sopiviksi Animaatiosäädöllä. Avatarin asetuksissa ovat myös ”Estä polvien taittuminen taakse” ja sen lisätietojen ”Polven vähimmäistaivutus (asteina)”.</p>
-<p>Raajojen automaattinen säätö (IK) on oletuksena käytössä. Mukana olevista 50 asennosta 43 käyttää IK:ta. Loput 7 käyttävät aiempia asentokohtaisia säätöjä.</p>
+<p>Raajojen automaattinen säätö (IK) on oletuksena käytössä ja toimii 55 asennossa yhteensä 69 asennosta.</p>
 <h2>Asennus</h2>
 <ol>
 <li>Lataa tiedostot ostamasi kaupan tuotesivulta.</li>

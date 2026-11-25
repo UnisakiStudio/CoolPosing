@@ -2123,6 +2123,25 @@ MonoBehaviour:
       rotate: 0
       isMotionTime: 0
       motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: d0cb02140b7e4e3c8270930194e7ec75, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u57f7\u4e8b"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 14
+      syncdParameterValue: 48
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
       animationClip: {fileID: 7400000, guid: afe6926d6f61ecc49b79b9d04429def0, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
@@ -2213,6 +2232,101 @@ MonoBehaviour:
       icon: {fileID: 0}
       typeParameterValue: 9
       syncdParameterValue: 11
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: efedfdc1027a48c2a51c5869c4fad5df, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u30e9\u30f3\u30a6\u30a7\u30a4"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 11
+      syncdParameterValue: 45
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 8b549a033d6944c1aff809d46b4932f7, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u968e\u6bb5"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 12
+      syncdParameterValue: 46
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 8738fe4ef33f4085957a7c76a996629f, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u9580\u756a"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 13
+      syncdParameterValue: 47
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 9b2d58764ea54ce4ab64c8d33a79d1d1, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u4fb5\u5165"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 15
+      syncdParameterValue: 49
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 0f9ca3ed7c6549c8b0d238dc544e802e, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u81e8\u6226\u614b\u52e2"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 10
+      syncdParameterValue: 44
   - menuName: "\u4E2D\u8170\u59FF\u52E2"
     description: "\uFF08\u6905\u5B50\u306B\u5EA7\u3063\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
     stateMachineName: SitShallow
@@ -2391,6 +2505,139 @@ MonoBehaviour:
       icon: {fileID: 0}
       typeParameterValue: 9
       syncdParameterValue: 19
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: b37626f7f7134adeabb946aca82fc5a2, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u304a\u3082\u3057\u308c\u30fc"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 13
+      syncdParameterValue: 52
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 9c475b3330f44d1b9f37d4e0c418a2b4, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u5f85\u6a5f\u4e2d"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 12
+      syncdParameterValue: 51
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 354debd482a44029aab450eada590205, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u80cc\u3082\u305f\u308c"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 15
+      syncdParameterValue: 54
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 114a96a7a8b94613b93c2a9620544806, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u8098\u639b\u3051"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 17
+      syncdParameterValue: 56
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 384f85d9373c4d6a8f15f52b0419e49c, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u30ab\u30a6\u30f3\u30bf\u30fc"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 16
+      syncdParameterValue: 55
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 1d15bf84d1334cfbbdd4aaabbb841860, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u606f\u5207\u308c"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 11
+      syncdParameterValue: 50
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: b4df445cf1dc4ac89db9e91aaf773ab4, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u968e\u6bb5\u8170\u639b\u3051"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 18
+      syncdParameterValue: 57
   - menuName: "\u5EA7\u308A\u59FF\u52E2"
     description: "\uFF08\u5E8A\u306B\u5EA7\u3063\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
     stateMachineName: SitDeep
@@ -2664,6 +2911,63 @@ MonoBehaviour:
       icon: {fileID: 0}
       typeParameterValue: 11
       syncdParameterValue: 29
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 49c59bf7ef91496f8890322d42dd0da8, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u819d\u7acb\u3061"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 14
+      syncdParameterValue: 53
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 110c815c6f374ea786326cbbc7e4e409, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u5207\u308a\u8fd4\u3057"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 13
+      syncdParameterValue: 59
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: cd5fdd0b13364e2f8b12cdd140be9a83, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u30ad\u30e3\u30c3\u30c1\u30e3\u30fc"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 12
+      syncdParameterValue: 58
   - menuName: "\u4EF0\u5411\u3051\u5BDD"
     description: "\uFF08\u4E0A\u3092\u5411\u3044\u3066\u5BDD\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
     stateMachineName: SitSleepUp
@@ -2671,6 +2975,44 @@ MonoBehaviour:
     icon: {fileID: 2800000, guid: dbeb20037edd405b8b4c70499ac3f14e, type: 3}
     locomotionTypeValue: 32
     animations:
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 2bfeef59b985499295de0c3e7cc7ff6f, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 1
+      rolloverSideAnimation: {fileID: 7400000, guid: ef6d3bc3482448a6a01076501fba9a82, type: 2}
+      rolloverContactStrength: 0.25
+      displayName: "\u306e\u3073\u5bdd"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 12
+      syncdParameterValue: 61
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 08be8df05db446bb933f801c8f3cc2a2, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 1
+      rolloverSideAnimation: {fileID: 7400000, guid: fa915d890d8f473ab9569cb927cb18c9, type: 2}
+      rolloverContactStrength: 0.25
+      displayName: "\u4e38\u307e\u308a\u5bdd"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 13
+      syncdParameterValue: 62
     - enabled: 1
       isRotate: 0
       rotate: 0
@@ -2690,25 +3032,6 @@ MonoBehaviour:
       icon: {fileID: 0}
       typeParameterValue: 2
       syncdParameterValue: 30
-    - enabled: 1
-      isRotate: 0
-      rotate: 0
-      isMotionTime: 0
-      motionTimeParamName: 
-      animationClip: {fileID: 7400000, guid: e0aa2fba05fdfe74e96e7c83789ad235, type: 2}
-      previewImage: {fileID: 0}
-      adjustmentClip: {fileID: 0}
-      disablePoseIk: 0
-      isRollover: 0
-      rolloverSideAnimation: {fileID: 0}
-      rolloverContactStrength: 0.25
-      displayName: "\u5012\u3055\u308C\u5BDD"
-      initial: 0
-      initialSet: 0
-      isCustomIcon: 0
-      icon: {fileID: 0}
-      typeParameterValue: 3
-      syncdParameterValue: 31
     - enabled: 1
       isRotate: 0
       rotate: 0
@@ -2790,6 +3113,44 @@ MonoBehaviour:
       rotate: 0
       isMotionTime: 0
       motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: e0aa2fba05fdfe74e96e7c83789ad235, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u5012\u3055\u308C\u5BDD"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 3
+      syncdParameterValue: 31
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: 91049b02f75d42d7b74e0a536b376a4f, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u7247\u819d\u62b1\u304d"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 11
+      syncdParameterValue: 60
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
       animationClip: {fileID: 7400000, guid: 72493597981c3544ba232ce9facb8b7c, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
@@ -2809,25 +3170,6 @@ MonoBehaviour:
       rotate: 0
       isMotionTime: 0
       motionTimeParamName: 
-      animationClip: {fileID: 7400000, guid: a73f388fc230a774593377baa03a932a, type: 2}
-      previewImage: {fileID: 0}
-      adjustmentClip: {fileID: 0}
-      disablePoseIk: 0
-      isRollover: 0
-      rolloverSideAnimation: {fileID: 0}
-      rolloverContactStrength: 0.25
-      displayName: "\u3044\u3058\u3051"
-      initial: 0
-      initialSet: 0
-      isCustomIcon: 0
-      icon: {fileID: 0}
-      typeParameterValue: 9
-      syncdParameterValue: 37
-    - enabled: 1
-      isRotate: 0
-      rotate: 0
-      isMotionTime: 0
-      motionTimeParamName: 
       animationClip: {fileID: 7400000, guid: 654935c84cb9e344ea2bf2207a55fc59, type: 2}
       previewImage: {fileID: 0}
       adjustmentClip: {fileID: 0}
@@ -2842,6 +3184,25 @@ MonoBehaviour:
       icon: {fileID: 0}
       typeParameterValue: 10
       syncdParameterValue: 38
+    - enabled: 1
+      isRotate: 0
+      rotate: 0
+      isMotionTime: 0
+      motionTimeParamName: 
+      animationClip: {fileID: 7400000, guid: a73f388fc230a774593377baa03a932a, type: 2}
+      previewImage: {fileID: 0}
+      adjustmentClip: {fileID: 0}
+      disablePoseIk: 0
+      isRollover: 0
+      rolloverSideAnimation: {fileID: 0}
+      rolloverContactStrength: 0.25
+      displayName: "\u3044\u3058\u3051"
+      initial: 0
+      initialSet: 0
+      isCustomIcon: 0
+      icon: {fileID: 0}
+      typeParameterValue: 9
+      syncdParameterValue: 37
   - menuName: "\u3046\u3064\u4F0F\u305B\u5BDD"
     description: "\uFF08\u4E0B\u3084\u6A2A\u3092\u5411\u3044\u3066\u5BDD\u3066\u3044\u308B\u6642\u304F\u3089\u3044\u306E\u9AD8\u3055\uFF09"
     stateMachineName: SitSleepDown

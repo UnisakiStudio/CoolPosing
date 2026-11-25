@@ -1,6 +1,6 @@
 # Cool Posing Tool — suomenkielinen käyttöohje
 
-Cool Posing sisältää 50 asentoa työpöytätilaan ja kolmen pisteen VR-seurantaan: 11 seisoma-/kyykkyasentoa, 9 tuoli-istuntaa/korkealla istumista, 14 lattiaistuntaa, 9 selinmakuuasentoa ja 7 vatsamakuuasentoa.
+Cool Posing sisältää 69 asentoa työpöytätilaan ja kolmen pisteen VR-seurantaan: 17 seisoma-/kyykkyasentoa, 16 tuoli-istuntaa/korkealla istumista, 17 lattiaistuntaa, 12 selinmakuuasentoa ja 7 vatsamakuuasentoa.
 
 Tämä ohje kattaa asennuksen, avatarin asetukset, VRChat-ohjaimet, asentojen muokkauksen, päivitykset ja vianmäärityksen. Ostetun ZIP-paketin `START_HERE.html` opastaa nopeimmin asennukseen.
 
@@ -24,7 +24,7 @@ Tämä ohje kattaa asennuksen, avatarin asetukset, VRChat-ohjaimet, asentojen mu
 
 ### Tämän latauksen asentama sisältö
 
-**Cool Posing Tool 1.2.0 ja Unisaki Posing System 3.2.0.** Tämä versio lisää 30 kielen asennusikkunat, Unityn Inspectorin ja valikot, vakioasentojen nimet, pelivalikot sekä offline-ohjeet. Vaihda työkalun kieltä Inspectorin yläosan kielivalitsimesta. Asennusohjelma lataa nämä versiot ja niiden yhteensopivat riippuvuudet VPM-repositorioista.
+**Cool Posing Tool 1.3.0 ja Unisaki Posing System 3.2.1.** Tämä versio lisää 30 kielen asennusikkunat, Unityn Inspectorin ja valikot, vakioasentojen nimet, pelivalikot sekä offline-ohjeet. Vaihda työkalun kieltä Inspectorin yläosan kielivalitsimesta. Asennusohjelma lataa nämä versiot ja niiden yhteensopivat riippuvuudet VPM-repositorioista.
 
 Cool Posing Tool sisältää asentokirjaston, asetustyökalut ja avatarin säätöesiasetukset. Asennusohjelma aktivoi tuotteen nykyisen paikallisen lisenssin. Uutta Gumroad-lisenssiavaimen kenttää ei tarvita. Älä koskaan julkaise asennustiedostoja tai lisenssitietoja julkisessa tukipyynnössä.
 
@@ -74,7 +74,7 @@ Inspectorissa on kolme päävälilehteä:
 
 Ota käyttöön vain tarvitsemasi valikko-ohjaimet. Esimerkiksi **Peilaa**-toiminnon lisääminen valikkoon antaa vaihtaa peilauksen VRChatissa. Se ei pakota kaikkia asentoja pysymään peilattuina.
 
-Cool Posing sisältää esiasetukset avatareille **トネール**, **狛乃**, **士堂** ja **真央**. Nämä ovat esiasetusvalitsimessa käytetyt alkuperäiset avatarien nimet. Muita Humanoid-avatareja voi säätää käsin. Käsien ja jalkojen automaattisäätö on saatavilla 43 asennolle mukana olevista 50:stä. Loput seitsemän käyttävät asentokohtaisia säätöjä. Asentokirjasto **ei** sisällä sivuttaisia kääntymisliikkeitä.
+Cool Posing sisältää esiasetukset avatareille **トネール**, **狛乃**, **士堂** ja **真央**. Nämä ovat esiasetusvalitsimessa käytetyt alkuperäiset avatarien nimet. Muita Humanoid-avatareja voi säätää käsin. Raajojen automaattinen säätö (IK) on oletuksena käytössä ja toimii 55 asennossa yhteensä 69 asennosta. Lisätty 19 asentoa. Asennoissa Uni pitkällään ja Uni käpertyneenä voi kääntyä kyljelle.
 
 ### Esiasetukset ja sovittaminen
 
@@ -118,7 +118,7 @@ Hengitys voidaan asettaa asentoluokittain kohdasta **Toiminnot > Lisätoiminnot 
 
 Käänny-toiminto vaatii tuetun makuuasennon ja **Käänny**-valikkokohteen. Ota toiminto asennolle käyttöön ja määritä tarvittaessa sen sivuttaisanimaatio. Valitse asento VRChatissa, ota kääntyminen käyttöön ja vapauta pään/kaulan lukitus. Pään sivuttaiskallistus ohjaa kääntymistä. Tavallinen MotionTime-ohjaus ei ole käytettävissä kyseiselle asennolle Käänny-toimintoa käytettäessä.
 
-Cool Posingin mukana toimitetuissa asennoissa ei ole kääntymisliikkeitä. Määritä sopivat animaatiot asennoille, joilla haluat käyttää Käänny-toimintoa.
+Lisätty 19 asentoa. Asennoissa Uni pitkällään ja Uni käpertyneenä voi kääntyä kyljelle.
 
 ## 5. Asentojen muokkaus, lisääminen ja esikatselu
 
@@ -172,7 +172,7 @@ Vanhentuneen esikoonnin varoitus tarkoittaa, että asetukset ovat muuttuneet vä
 | Asennot puuttuvat VRChatista | Lisää työkalu oikean kohtausavatarin alle, ota halutut asennot käyttöön, tarkista Inspectorin varoitukset ja lataa kyseinen avatar. Tarkista SDK ja muut liikkumistyökalut. |
 | Z ei vaihda makuuasentoon | Nosta makuuasennon korkeusrajaa työkalun peliasetuksissa. |
 | Kädet tai polvet eivät osu kohdalleen | Kokeile sopivaa avatarin esiasetusta ja käytä sitten tuettua IK:ta ja/tai Animaatiosäätöä. Tarkista asun muodonmuutos lopullisessa koonnissa. |
-| Kääntyminen ei toimi | Käytä tuettua makuuasentoa, ota käyttöön asennon kääntymisasetus ja valikkokohde sekä vapauta pään/kaulan lukitus. Cool Posing vaatii erikseen määritetyt sopivat sivuttaisanimaatiot. |
+| Kääntyminen ei toimi | Käänny-toiminto vaatii tuetun makuuasennon ja **Käänny**-valikkokohteen. Ota toiminto asennolle käyttöön ja määritä tarvittaessa sen sivuttaisanimaatio. Valitse asento VRChatissa, ota kääntyminen käyttöön ja vapauta pään/kaulan lukitus. Pään sivuttaiskallistus ohjaa kääntymistä. Tavallinen MotionTime-ohjaus ei ole käytettävissä kyseiselle asennolle Käänny-toimintoa käytettäessä. |
 | Kaverit eivät näe Kuvatilan liikettä | Ota **Synkronoi Kuvatila** käyttöön Unityssa, tarkista parametrikulutus ja lataa uudelleen. |
 | Kieli vaihtuu Unityssa mutta ei VRChatissa | Lataa avatar uudelleen. Tarkista monikielisen koonnin yhteinen kielivalitsin Inspectorin yläosasta. |
 | Koonnin tai esikoonnin virheet | Lue **ensimmäinen** asiaan liittyvä Console-virhe. Varmuuskopioi kohtaus, päivitä tai lataa tuote ja yhteinen järjestelmä uudelleen VCC:llä/ALCOMilla ja ota yhteyttä tukeen, jos ongelma jatkuu. Säilytä säädetyt objektit ja GeneratedResources, ellei tuki anna tarkkaa palautusohjetta. |

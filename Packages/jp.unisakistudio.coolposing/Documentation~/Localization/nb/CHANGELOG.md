@@ -1,5 +1,9 @@
 # Endringslogg
 
+## [1.3.0] - 2026-11-25
+
+- 19 nye positurer er lagt til. I positurene Sove utstrakt og Sove sammenkrøpet kan du rulle over på siden.
+
 ## [1.2.0] - 2026-11-22
 
 ### Lagt til

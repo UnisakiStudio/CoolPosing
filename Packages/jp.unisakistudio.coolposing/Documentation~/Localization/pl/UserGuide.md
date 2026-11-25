@@ -1,6 +1,6 @@
 # Cool Posing Tool — polska instrukcja użytkownika
 
-Cool Posing zawiera 50 poz dla trybu pulpitu i trzypunktowego VR: 11 stojących/kucających, 9 siedzących na krześle/podwyższeniu, 14 siedzących na podłodze, 9 na plecach i 7 na brzuchu.
+Cool Posing zawiera 69 poz dla trybu pulpitu i trzypunktowego VR: 17 stojących/kucających, 16 siedzących na krześle/podwyższeniu, 17 siedzących na podłodze, 12 na plecach i 7 na brzuchu.
 
 Ta instrukcja opisuje instalację, konfigurację awatara, sterowanie VRChat, edycję poz, aktualizacje i rozwiązywanie problemów. `START_HERE.html` w zakupionym ZIP prowadzi najkrótszą drogą do instalacji.
 
@@ -24,7 +24,7 @@ Ta instrukcja opisuje instalację, konfigurację awatara, sterowanie VRChat, edy
 
 ### Co instaluje ten plik do pobrania
 
-**Cool Posing Tool 1.2.0 z Unisaki Posing System 3.2.0.** Ta wersja dodaje okna instalacji, Inspector i menu Unity, standardowe nazwy poz, menu gry oraz dokumentację offline w 30 językach. Użyj selektora u góry Inspectora, aby zmienić język narzędzia. Instalator pobiera te wersje i zgodne zależności z repozytoriów VPM.
+**Cool Posing Tool 1.3.0 z Unisaki Posing System 3.2.1.** Ta wersja dodaje okna instalacji, Inspector i menu Unity, standardowe nazwy poz, menu gry oraz dokumentację offline w 30 językach. Użyj selektora u góry Inspectora, aby zmienić język narzędzia. Instalator pobiera te wersje i zgodne zależności z repozytoriów VPM.
 
 Cool Posing Tool zawiera bibliotekę poz, narzędzia konfiguracji i presety dopasowania awatarów. Instalator aktywuje dotychczasową lokalną licencję produktu i nie wymaga nowego pola klucza licencyjnego Gumroad. Nigdy nie publikuj plików instalatora ani danych licencji w otwartym zgłoszeniu wsparcia.
 
@@ -74,7 +74,7 @@ Inspector ma trzy główne karty:
 
 Włączaj tylko potrzebne elementy menu. Na przykład dodanie **Odbicia** pozwala przełączać je w VRChat, ale nie wymusza stałego odbicia każdej pozy.
 
-Cool Posing zawiera presety dla **トネール**, **狛乃**, **士堂** i **真央**. To oryginalne nazwy awatarów używane w wyborze presetów. Inne awatary Humanoid można dostosować ręcznie. Automatyczna korekcja rąk i stóp jest dostępna dla 43 z 50 poz, a pozostałe siedem korzysta z indywidualnych korekcji. Dołączona biblioteka **nie** zawiera bocznych ruchów obracania.
+Cool Posing zawiera presety dla **トネール**, **狛乃**, **士堂** i **真央**. To oryginalne nazwy awatarów używane w wyborze presetów. Inne awatary Humanoid można dostosować ręcznie. Automatyczne dopasowanie kończyn (IK) jest domyślnie włączone i obsługuje 55 z 69 póz. Dodano 19 póz. Pozy „Sen na wznak w wyproście” i „Sen w kłębek” pozwalają obrócić się na bok.
 
 ### Presety i dopasowanie
 
@@ -118,7 +118,7 @@ Oddech ustawia się dla każdej kategorii poz w **Funkcje > Udogodnienia > Animu
 
 Obracanie wymaga obsługiwanej pozy leżącej i pozycji menu **Obróć się**. Włącz obracanie dla pozy i w razie potrzeby przypisz jej animację boczną. W VRChat wybierz tę pozę, włącz obracanie i zwolnij blokadę głowy/szyi. Przechylenie głowy na bok steruje obrotem. Zwykłe sterowanie MotionTime jest niedostępne dla tej pozy przy obracaniu.
 
-Dołączone pozy Cool Posing nie mają ruchów obracania. Dostarcz odpowiednie animacje dla poz, których chcesz używać z obracaniem.
+Dodano 19 póz. Pozy „Sen na wznak w wyproście” i „Sen w kłębek” pozwalają obrócić się na bok.
 
 ## 5. Edycja, dodawanie i podgląd poz
 
@@ -149,7 +149,7 @@ Inspector pokazuje wkład narzędzi póz, a nie sumę całego awatara. Ubrania i
 | Wyłącz standardowe kołysanie VRChat | 0 |
 | Obróć się | 1 |
 
-Każdy klient oblicza nachylenie głowy. Synchronizowany jest tylko stan aktywności obrotu na bok. Odblokowanie szyi przywraca poprzednie ustawienie.
+Każdy klient oblicza nachylenie głowy. Synchronizowany jest tylko stan funkcji obracania się na bok. Odblokowanie szyi przywraca poprzednie ustawienie.
 
 ## 7. Aktualizacja i budowanie wstępne
 
@@ -172,7 +172,7 @@ Ostrzeżenie o nieaktualnym budowaniu wstępnym oznacza zmianę ustawień po utw
 | Brak poz w VRChat | Dodaj narzędzie do właściwego awatara sceny, włącz pozy, przejrzyj ostrzeżenia Inspectora i prześlij tego awatara. Sprawdź SDK i inne systemy ruchu. |
 | Z nie przełącza do leżenia | Podnieś próg wysokości leżenia w ustawieniach narzędzia w grze. |
 | Dłonie lub kolana nie pasują | Spróbuj zgodnego presetu awatara, potem obsługiwanego IK i/lub Dostosowywania animacji. Sprawdź deformację ubrania w ostatecznej kompilacji. |
-| Obracanie nie działa | Użyj obsługiwanej pozy leżącej, włącz jej obracanie i pozycję menu oraz zwolnij blokadę głowy/szyi. Cool Posing wymaga osobnego dostarczenia odpowiednich animacji bocznych. |
+| Obracanie nie działa | Obracanie wymaga obsługiwanej pozy leżącej i pozycji menu **Obróć się**. Włącz obracanie dla pozy i w razie potrzeby przypisz jej animację boczną. W VRChat wybierz tę pozę, włącz obracanie i zwolnij blokadę głowy/szyi. Przechylenie głowy na bok steruje obrotem. Zwykłe sterowanie MotionTime jest niedostępne dla tej pozy przy obracaniu. |
 | Znajomi nie widzą ruchu zdjęć | Włącz **Synchronizuj tryb zdjęć** w Unity, sprawdź zużycie parametrów i prześlij ponownie. |
 | Język zmienia się w Unity, lecz nie w VRChat | Prześlij awatara ponownie. Sprawdź jeden górny selektor języka Inspectora w wersji obsługującej lokalizację. |
 | Błędy budowania zwykłego/wstępnego | Przeczytaj **pierwszy** istotny błąd Console. Wykonaj kopię sceny, zaktualizuj lub ponownie pobierz produkt i wspólny system przez VCC/ALCOM i skontaktuj się ze wsparciem, jeśli problem trwa. Zachowaj dopasowane obiekty i GeneratedResources, chyba że wsparcie poda konkretny krok naprawy. |

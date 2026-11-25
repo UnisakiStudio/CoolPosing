@@ -1,5 +1,9 @@
 # Änderungsverlauf
 
+## [1.3.0] - 2026-11-25
+
+- 19 neue Posen. In den Posen Ausgestreckt schlafen und Eingerollt schlafen kannst du dich auf die Seite drehen.
+
 ## [1.2.0] - 2026-11-22
 
 ### Hinzugefügt

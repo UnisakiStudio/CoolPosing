@@ -1,6 +1,6 @@
 # Cool Posing — Guide d’utilisation en français
 
-Cool Posing propose 50 poses pour le mode bureau et la VR à trois points : 11 debout ou accroupies, 9 assises sur chaise ou sur un bord, 14 assises au sol, 9 couchées sur le dos et 7 sur le ventre.
+Cool Posing propose 69 poses pour le mode bureau et la VR à trois points : 17 debout ou accroupies, 16 assises sur chaise ou sur un bord, 17 assises au sol, 12 couchées sur le dos et 7 sur le ventre.
 
 Ce guide décrit l’installation, la configuration de l’avatar, les commandes VRChat, l’édition des poses, les mises à jour et le dépannage. Le ZIP acheté contient `START_HERE.html`, le chemin le plus rapide vers l’installation.
 
@@ -24,7 +24,7 @@ Ce guide décrit l’installation, la configuration de l’avatar, les commandes
 
 ### Contenu installé par ce téléchargement
 
-**Cool Posing 1.2.0 avec Unisaki Posing System 3.2.0.** Cette version ajoute les dialogues d’installation, l’Inspector et les menus Unity, les noms de poses standards, les menus du jeu et la documentation hors ligne en trente langues. Changez la langue avec le sélecteur en haut de l’Inspector. L’installateur télécharge ces versions et leurs dépendances compatibles depuis les dépôts VPM.
+**Cool Posing 1.3.0 avec Unisaki Posing System 3.2.1.** Cette version ajoute les dialogues d’installation, l’Inspector et les menus Unity, les noms de poses standards, les menus du jeu et la documentation hors ligne en trente langues. Changez la langue avec le sélecteur en haut de l’Inspector. L’installateur télécharge ces versions et leurs dépendances compatibles depuis les dépôts VPM.
 
 Cool Posing comprend la bibliothèque de poses, les outils de configuration et les préréglages d’ajustement d’avatar. L’installateur active la licence locale existante du produit, sans nouveau champ de clé de licence Gumroad. Ne publiez jamais les fichiers de l’installateur ou les données de licence dans une demande d’assistance publique.
 
@@ -74,7 +74,7 @@ L’Inspector comporte trois onglets principaux :
 
 Activez uniquement les commandes de menu que vous comptez utiliser. Par exemple, ajouter **Miroir** permet d’activer ou désactiver le miroir dans VRChat ; toutes les poses ne sont pas forcées en miroir.
 
-Cool Posing comprend des préréglages pour **トネール**, **狛乃**, **士堂** et **真央** ; ce sont les noms d’avatars d’origine utilisés dans le sélecteur. Les autres avatars Humanoid peuvent être ajustés manuellement. L’ajustement automatique des mains et des pieds est fourni pour 43 des 50 poses ; les sept autres utilisent leurs ajustements individuels. La bibliothèque fournie **ne comprend pas** de mouvements latéraux de retournement.
+Cool Posing comprend des préréglages pour **トネール**, **狛乃**, **士堂** et **真央** ; ce sont les noms d’avatars d’origine utilisés dans le sélecteur. Les autres avatars Humanoid peuvent être ajustés manuellement. L’ajustement automatique des membres (IK) est activé par défaut et prend en charge 55 des 69 poses. Ajout de 19 poses. Les poses Sommeil étiré et Sommeil en boule permettent de se retourner.
 
 ### Préréglages et adaptation
 
@@ -118,7 +118,7 @@ La respiration se règle par catégorie dans **Fonctions > Fonctions pratiques >
 
 Le retournement nécessite une pose allongée compatible et l’entrée de menu **Se retourner**. Activez-le pour la pose et définissez son animation latérale si nécessaire. Dans VRChat, choisissez cette pose, activez le retournement et libérez la tête ou le cou. L’inclinaison latérale de la tête contrôle alors le retournement. Le réglage MotionTime ordinaire n’est plus disponible pour cette pose pendant son utilisation.
 
-Les poses incluses dans Cool Posing ne comprennent pas de mouvements de retournement. Fournissez des animations adaptées aux poses que vous souhaitez utiliser avec cette fonction.
+Ajout de 19 poses. Les poses Sommeil étiré et Sommeil en boule permettent de se retourner.
 
 ## 5. Modifier, ajouter et prévisualiser les poses
 
@@ -172,7 +172,7 @@ Un avertissement de précalcul périmé signifie que les réglages ont changé d
 | Aucune pose dans VRChat | Ajoutez l’outil sous le bon avatar de la scène, activez les poses voulues, consultez les avertissements et envoyez cet avatar. Vérifiez le SDK et les autres outils de locomotion. |
 | Z n’atteint pas la position allongée | Augmentez le seuil de hauteur allongée dans les réglages de l’outil dans le jeu. |
 | Mains ou genoux mal alignés | Essayez le préréglage d’avatar adapté, puis l’IK compatible et/ou l’ajustement de l’animation. Vérifiez la déformation de la tenue dans le build final. |
-| Retournement inactif | Utilisez une pose allongée compatible, activez le retournement dans ses réglages et dans le menu, puis libérez la tête ou le cou. Cool Posing nécessite de fournir séparément des animations latérales adaptées. |
+| Retournement inactif | Le retournement nécessite une pose allongée compatible et l’entrée de menu **Se retourner**. Activez-le pour la pose et définissez son animation latérale si nécessaire. Dans VRChat, choisissez cette pose, activez le retournement et libérez la tête ou le cou. L’inclinaison latérale de la tête contrôle alors le retournement. Le réglage MotionTime ordinaire n’est plus disponible pour cette pose pendant son utilisation. |
 | Déplacement photo invisible pour vos amis | Activez **Synchroniser le Mode photo** dans Unity, vérifiez les paramètres et renvoyez l’avatar. |
 | Langue modifiée dans Unity mais pas dans VRChat | Renvoyez l’avatar. Vérifiez le sélecteur unique en haut de l’Inspector dans les versions multilingues. |
 | Erreurs de build ou précalcul | Lisez la **première** erreur pertinente de la Console. Sauvegardez la scène, mettez à jour ou réinstallez le produit et le système commun avec VCC/ALCOM, puis contactez l’assistance si le problème persiste. Conservez les objets ajustés et GeneratedResources sauf consigne précise de récupération donnée par l’assistance. |

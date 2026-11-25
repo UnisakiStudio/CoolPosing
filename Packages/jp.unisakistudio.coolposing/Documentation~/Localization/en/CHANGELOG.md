@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.3.0] - 2026-11-25
+
+- Added 19 poses. Stretched Out and Curled Up support rolling over.
+
 ## [1.2.0] - 2026-11-22
 
 ### Added

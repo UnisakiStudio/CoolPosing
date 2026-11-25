@@ -1,6 +1,6 @@
 # Cool Posing — Deutsche Bedienungsanleitung
 
-Cool Posing bietet 50 Posen für Desktop und Dreipunkt-VR: 11 Steh-/Hock-, 9 Stuhl-/Kantensitz-, 14 Bodensitz-, 9 Rücken- und 7 Bauchlagen.
+Cool Posing bietet 69 Posen für Desktop und Dreipunkt-VR: 17 Steh-/Hock-, 16 Stuhl-/Kantensitz-, 17 Bodensitz-, 12 Rücken- und 7 Bauchlagen.
 
 Diese Anleitung beschreibt Installation, Avatareinrichtung, VRChat-Steuerung, Posenbearbeitung, Updates und Fehlerbehebung. Im gekauften ZIP führt `START_HERE.html` am schnellsten zur Installation.
 
@@ -24,7 +24,7 @@ Diese Anleitung beschreibt Installation, Avatareinrichtung, VRChat-Steuerung, Po
 
 ### Was dieser Download installiert
 
-**Cool Posing 1.2.0 mit Unisaki Posing System 3.2.0.** Diese Version ergänzt Installationsdialoge, Unity-Inspector und -Menüs, Standardposennamen, Spielmenüs und Offline-Dokumentation in dreißig Sprachen. Die Sprache wird oben im Inspector gewählt. Der Installer lädt diese Versionen und passende Abhängigkeiten aus VPM-Quellen.
+**Cool Posing 1.3.0 mit Unisaki Posing System 3.2.1.** Diese Version ergänzt Installationsdialoge, Unity-Inspector und -Menüs, Standardposennamen, Spielmenüs und Offline-Dokumentation in dreißig Sprachen. Die Sprache wird oben im Inspector gewählt. Der Installer lädt diese Versionen und passende Abhängigkeiten aus VPM-Quellen.
 
 Cool Posing enthält Posenbibliothek, Einstellungswerkzeuge und Avataranpassungsvoreinstellungen. Der Installer aktiviert die bestehende lokale Produktlizenz; es gibt kein neues Feld für Gumroad-Lizenzschlüssel. Veröffentliche niemals Installerdateien oder Lizenzdaten in öffentlichen Supportanfragen.
 
@@ -74,7 +74,7 @@ Der Inspector hat drei Hauptregister:
 
 Aktiviere nur benötigte Menüfunktionen. **Spiegeln** als Menüeintrag macht den Effekt in VRChat schaltbar; es zwingt nicht alle Posen dauerhaft in die gespiegelte Darstellung.
 
-Cool Posing enthält Voreinstellungen für **トネール**, **狛乃**, **士堂** und **真央**; dies sind die ursprünglichen Namen in der Auswahl. Andere Humanoid-Avatare können manuell angepasst werden. Automatische Hand-/Fußanpassung ist für 43 der 50 Posen vorhanden, die übrigen sieben verwenden ihre eigenen Anpassungen. Die Bibliothek enthält **keine** seitlichen Bewegungen zum Umdrehen.
+Cool Posing enthält Voreinstellungen für **トネール**, **狛乃**, **士堂** und **真央**; dies sind die ursprünglichen Namen in der Auswahl. Andere Humanoid-Avatare können manuell angepasst werden. Die automatische Gliedmaßenanpassung (IK) ist standardmäßig aktiviert und unterstützt 55 der 69 Posen. 19 neue Posen. In den Posen Ausgestreckt schlafen und Eingerollt schlafen kannst du dich auf die Seite drehen.
 
 ### Voreinstellungen und Anpassung
 
@@ -118,7 +118,7 @@ Atmung ist je Kategorie unter **Funktionen > Komfortfunktionen > Atmung animiere
 
 Umdrehen benötigt eine unterstützte Liegepose und den Menüeintrag **Umdrehen**. Aktiviere es für die Pose und weise bei Bedarf eine Seitenanimation zu. Wähle sie in VRChat, aktiviere Umdrehen und löse Kopf-/Halsfixierung. Seitliche Kopfneigung steuert die Bewegung. Normales MotionTime ist für diese Pose währenddessen nicht verfügbar.
 
-Die Posen von Cool Posing enthalten keine Bewegungen zum Umdrehen. Weise gewünschten Posen passende Animationen zu.
+19 neue Posen. In den Posen Ausgestreckt schlafen und Eingerollt schlafen kannst du dich auf die Seite drehen.
 
 ## 5. Posen bearbeiten, hinzufügen und ansehen
 
@@ -149,7 +149,7 @@ Der Inspector zeigt nur den Anteil der Posenwerkzeuge, nicht den Gesamtverbrauch
 | VRChat-Schwanken im Stand deaktivieren | 0 |
 | Umdrehen | 1 |
 
-Jeder Client berechnet die Kopfneigung selbst. Nur der wirksame Ein/Aus-Zustand der Drehung auf die Seite wird synchronisiert. Nach dem Lösen der Halssperre gilt wieder die ursprüngliche Einstellung.
+Jeder Client berechnet die Kopfneigung selbst. Nur der wirksame Ein/Aus-Zustand der Funktion „Umdrehen“ wird synchronisiert. Nach dem Lösen der Halssperre gilt wieder die ursprüngliche Einstellung.
 
 ## 7. Aktualisierung und Vorberechnung
 
@@ -172,7 +172,7 @@ Eine Warnung zu veralteter Vorberechnung bedeutet geänderte Einstellungen seit 
 | Keine Posen in VRChat | Werkzeug unter dem richtigen Szenenavatar hinzufügen, Posen aktivieren, Warnungen prüfen und diesen Avatar hochladen. SDK und andere Fortbewegungswerkzeuge prüfen. |
 | Z erreicht keine Liegehaltung | Liegehöhenschwelle im Spiel erhöhen. |
 | Hände/Knie passen nicht | Passende Voreinstellung testen, dann unterstützte IK und/oder Animationsanpassung. Kleidung im endgültigen Build prüfen. |
-| Umdrehen funktioniert nicht | Unterstützte Liegepose wählen, Posenoption und Menü aktivieren, Kopf/Hals lösen. Für Cool Posing müssen passende Seitenanimationen separat bereitgestellt werden. |
+| Umdrehen funktioniert nicht | Umdrehen benötigt eine unterstützte Liegepose und den Menüeintrag **Umdrehen**. Aktiviere es für die Pose und weise bei Bedarf eine Seitenanimation zu. Wähle sie in VRChat, aktiviere Umdrehen und löse Kopf-/Halsfixierung. Seitliche Kopfneigung steuert die Bewegung. Normales MotionTime ist für diese Pose währenddessen nicht verfügbar. |
 | Freunde sehen Fotobewegung nicht | **Fotomodus synchronisieren** in Unity aktivieren, Verbrauch prüfen und erneut hochladen. |
 | Sprache nur in Unity geändert | Avatar erneut hochladen und in mehrsprachigen Builds den einzigen Sprachwähler oben prüfen. |
 | Build-/Vorberechnungsfehler | **Ersten** relevanten Console-Fehler lesen. Szene sichern, Produkt und System mit VCC/ALCOM aktualisieren oder erneut beziehen und bei Fortbestehen Support kontaktieren. Angepasste Objekte und GeneratedResources behalten, außer Support nennt einen konkreten Wiederherstellungsschritt. |

@@ -1,6 +1,6 @@
 # Cool Posing Tool — Norsk brukerveiledning
 
-Cool Posing har 50 positurer for skrivebord og trepunkts-VR: 11 stående/i huk, 9 på stol/kant, 14 gulvsittende, 9 i ryggleie og 7 i mageleie.
+Cool Posing har 69 positurer for skrivebord og trepunkts-VR: 17 stående/i huk, 16 på stol/kant, 17 gulvsittende, 12 i ryggleie og 7 i mageleie.
 
 Veiledningen dekker installasjon, avataroppsett, VRChat-betjening, positurredigering, oppdatering og feilsøking. Kjøpt ZIP inneholder `START_HERE.html` for raskeste vei til installasjon.
 
@@ -24,7 +24,7 @@ Veiledningen dekker installasjon, avataroppsett, VRChat-betjening, positurredige
 
 ### Hva denne nedlastingen installerer
 
-**Cool Posing Tool 1.2.0 med Unisaki Posing System 3.2.0.** Versjonen legger til installasjonsdialoger, Unity Inspector og menyer, standardnavn, spillmenyer og offlinedokumentasjon på tretti språk. Bruk språkvelgeren øverst i Inspector. Installasjonen laster ned disse versjonene og kompatible avhengigheter fra VPM-repositorier.
+**Cool Posing Tool 1.3.0 med Unisaki Posing System 3.2.1.** Versjonen legger til installasjonsdialoger, Unity Inspector og menyer, standardnavn, spillmenyer og offlinedokumentasjon på tretti språk. Bruk språkvelgeren øverst i Inspector. Installasjonen laster ned disse versjonene og kompatible avhengigheter fra VPM-repositorier.
 
 Cool Posing Tool inkluderer positurbibliotek, oppsettverktøy og avatarjusteringsforhåndsinnstillinger. Installasjonen aktiverer eksisterende lokal produktlisens, uten nytt Gumroad-lisensnøkkelfelt. Del aldri installasjonsfiler eller lisensdata i offentlig støtteforespørsel.
 
@@ -74,7 +74,7 @@ Inspector har tre hovedfaner:
 
 Aktiver bare menyvalg du vil bruke. **Speilvend** i menyen lar deg for eksempel bytte speiling i VRChat; det tvinger ikke alle positurer til å være speilvendt.
 
-Cool Posing har forhåndsinnstillinger for **トネール**, **狛乃**, **士堂** og **真央**, originalnavnene i velgeren. Andre Humanoid-avatarer kan tilpasses manuelt. Automatisk hånd-/fotjustering finnes for 43 av 50 positurer; resten bruker sine justeringer. Biblioteket inkluderer **ikke** sideliggende animasjoner for snuing.
+Cool Posing har forhåndsinnstillinger for **トネール**, **狛乃**, **士堂** og **真央**, originalnavnene i velgeren. Andre Humanoid-avatarer kan tilpasses manuelt. Automatisk tilpasning av armer og ben (IK) er på som standard og støtter 55 av de 69 positurene. 19 nye positurer er lagt til. I positurene Sove utstrakt og Sove sammenkrøpet kan du rulle over på siden.
 
 ### Forhåndsinnstillinger og tilpasning
 
@@ -118,7 +118,7 @@ Pust settes per kategori under **Funksjoner > Praktiske funksjoner > Animer pust
 
 Snu deg krever støttet liggende positur og menyvalget **Snu deg**. Aktiver snuing på posituren og angi sideanimasjon ved behov. Velg posituren i VRChat, aktiver Snu deg og frigi hode-/nakkelås. Hodets sidehelling styrer snuingen. Vanlig MotionTime er utilgjengelig mens Snu deg brukes på posituren.
 
-Cool Posings medfølgende positurer har ingen animasjoner for snuing. Angi passende animasjoner for positurene du vil bruke med Snu deg.
+19 nye positurer er lagt til. I positurene Sove utstrakt og Sove sammenkrøpet kan du rulle over på siden.
 
 ## 5. Rediger, legg til og forhåndsvis positurer
 
@@ -149,7 +149,7 @@ Inspector viser positurverktøyenes bidrag, ikke hele avataren. Klær og andre s
 | Deaktiver VRChats hvilebevegelse | 0 |
 | Snu deg | 1 |
 
-Hver klient beregner hodets helning. Bare hvorvidt vendingen faktisk er aktiv, synkroniseres. Når nakken låses opp, gjenopprettes den opprinnelige innstillingen.
+Hver klient beregner hodets helning. Bare hvorvidt «Snu deg» faktisk er aktivert, synkroniseres. Når nakken låses opp, gjenopprettes den opprinnelige innstillingen.
 
 ## 7. Oppdatering og forhåndsbygg
 
@@ -172,7 +172,7 @@ En advarsel om gammelt forhåndsbygg betyr endrede innstillinger siden cachedata
 | Ingen positurer i VRChat | Legg til under riktig sceneavatar, aktiver positurer, les Inspector-advarsler og last opp denne avataren. Kontroller SDK og andre forflytningsverktøy. |
 | Z når ikke liggende | Øk liggehøydeterskelen i spillinnstillingene. |
 | Hender/knær passer ikke | Prøv passende avatarforhåndsinnstilling og støttet IK og/eller Animasjonsjustering. Kontroller klesdeformasjon i sluttbygget. |
-| Snu deg virker ikke | Bruk støttet liggende positur, aktiver positurens innstillinger for snuing og menyvalget og frigi hode/nakke. Cool Posing krever egnede sideanimasjoner tilført separat. |
+| Snu deg virker ikke | Snu deg krever støttet liggende positur og menyvalget **Snu deg**. Aktiver snuing på posituren og angi sideanimasjon ved behov. Velg posituren i VRChat, aktiver Snu deg og frigi hode-/nakkelås. Hodets sidehelling styrer snuingen. Vanlig MotionTime er utilgjengelig mens Snu deg brukes på posituren. |
 | Venner ser ikke fotobevegelse | Aktiver **Synkroniser Fotomodus** i Unity, kontroller forbruk og last opp igjen. |
 | Språk endres i Unity, ikke VRChat | Last opp igjen. Kontroller felles språkvelger øverst i Inspector i lokaliserte versjoner. |
 | Bygg-/forhåndsbyggfeil | Les **første** relevante Console-feil. Sikkerhetskopier scenen, oppdater/hent produkt og system via VCC/ALCOM og kontakt støtte ved vedvarende feil. Behold justerte objekter og GeneratedResources med mindre støtte gir et konkret gjenopprettingstrinn. |
